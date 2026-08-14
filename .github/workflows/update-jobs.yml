@@ -37,6 +37,7 @@ jobs:
           node scripts/supplement-sources.mjs
           node scripts/remote-jobs.mjs
           node scripts/scope-jobs.mjs
+          node scripts/exclude-unwanted.mjs
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
