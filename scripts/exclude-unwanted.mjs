@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 
 const OUT='public/data/jobs.json';
+// Endgültiger Ausschlussfilter: keine Werkstudentenstellen und keine Praktika.
 
 function norm(v=''){
   return String(v??'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9äöüß%]+/g,' ').replace(/\s+/g,' ').trim();
