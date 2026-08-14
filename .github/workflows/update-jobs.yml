@@ -44,6 +44,7 @@ jobs:
           node scripts/small-local-office-fix.mjs
           node scripts/tegel-office-direct.mjs
           node scripts/fresh-local-office.mjs
+          node scripts/micro-local-office.mjs
           node scripts/exclude-unwanted.mjs
           node scripts/office-profile.mjs
           node scripts/scope-jobs.mjs
