@@ -338,5 +338,71 @@
     "lat": 52.6169703,
     "lon": 13.0906594,
     "display_name": "1, Klärwerksweg, Wansdorf, Schönwalde-Glien, Havelland, Brandenburg, 14621, Deutschland"
+  },
+  "extra:klosterstr 59 publizierung bis 28 08 2026 10179 berlin": null,
+  "small-office:rudolf breitscheid str 41 14612 falkensee": {
+    "lat": 52.5634774,
+    "lon": 13.0503647,
+    "display_name": "41, Rudolf-Breitscheid-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office:poststraße 20 14612 falkensee": {
+    "lat": 52.5599395,
+    "lon": 13.0914663,
+    "display_name": "20, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office:schwarzburger straße 63 14612 falkensee": {
+    "lat": 52.5610142,
+    "lon": 13.0665495,
+    "display_name": "63, Schwarzburger Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office:krummer luchweg 29 14612 falkensee": {
+    "lat": 52.5751594,
+    "lon": 13.0893679,
+    "display_name": "29, Krummer Luchweg, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office-fix:rudolf breitscheid str 41 14612 falkensee": {
+    "lat": 52.5634774,
+    "lon": 13.0503647,
+    "display_name": "41, Rudolf-Breitscheid-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office-fix:poststraße 20 14612 falkensee": {
+    "lat": 52.5599395,
+    "lon": 13.0914663,
+    "display_name": "20, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office-fix:schwarzburger straße 63 14612 falkensee": {
+    "lat": 52.5610142,
+    "lon": 13.0665495,
+    "display_name": "63, Schwarzburger Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office-fix:krummer luchweg 29 14612 falkensee": {
+    "lat": 52.5751594,
+    "lon": 13.0893679,
+    "display_name": "29, Krummer Luchweg, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "small-office-fix:siemensdamm 50 13629 berlin": {
+    "lat": 52.5350366,
+    "lon": 13.2742541,
+    "display_name": "Siemens Wernerwerk-Hochhaus, 50, Siemensdamm, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland"
+  },
+  "small-office-fix:stadtrandstraße 555 13589 berlin": {
+    "lat": 52.5629991,
+    "lon": 13.1569429,
+    "display_name": "555, Stadtrandstraße, Falkenhagener Feld, Spandau, Berlin, 13589, Deutschland"
+  },
+  "small-office-fix:rathausplatz 1 16761 hennigsdorf": {
+    "lat": 52.6373961,
+    "lon": 13.2070305,
+    "display_name": "Stadtverwaltung Hennigsdorf, 1, Rathausplatz, Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
+  },
+  "tegel-office:am borsigturm 13 13507 berlin": {
+    "lat": 52.5835879,
+    "lon": 13.2852127,
+    "display_name": "13, Am Borsigturm, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "tegel-office:berliner straße 36 37 13507 berlin": {
+    "lat": 52.5897607,
+    "lon": 13.2835379,
+    "display_name": "Berliner Straße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
   }
 }
