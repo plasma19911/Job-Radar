@@ -1,52 +1,52 @@
 {
   "meta": {
-    "generatedAt": "2026-08-14T10:52:55.471Z",
-    "total": 267,
-    "mapped": 332,
-    "deduplicated": 30,
+    "generatedAt": "2026-08-14T11:10:46.477Z",
+    "total": 280,
+    "mapped": 337,
+    "deduplicated": 24,
     "excludedTraining": 5,
     "sources": [
       {
         "name": "Bundesagentur für Arbeit",
         "count": 0,
         "status": "ok",
-        "ms": 3166
+        "ms": 2542
       },
       {
         "name": "Arbeitnow",
-        "count": 256,
+        "count": 255,
         "status": "ok",
-        "ms": 3950
+        "ms": 4100
       },
       {
         "name": "Tagesspiegel Jobs",
-        "count": 70,
+        "count": 71,
         "status": "ok",
-        "ms": 3111
+        "ms": 3185
       },
       {
         "name": "Berliner Morgenpost Jobs",
-        "count": 10,
+        "count": 11,
         "status": "ok",
-        "ms": 5424
+        "ms": 5081
       },
       {
         "name": "MAZ Job",
         "count": 44,
         "status": "ok",
-        "ms": 6471
+        "ms": 6263
       },
       {
         "name": "bluum Brandenburg",
         "count": 30,
         "status": "ok",
-        "ms": 5945
+        "ms": 5847
       },
       {
         "name": "Berliner Zeitung Jobmarkt",
         "count": 12,
         "status": "ok",
-        "ms": 8840
+        "ms": 8818
       },
       {
         "name": "Adzuna",
@@ -181,7 +181,7 @@
       },
       {
         "name": "Steuerkanzlei Grotstabel direkt",
-        "count": 0,
+        "count": 3,
         "status": "ok"
       },
       {
@@ -211,7 +211,7 @@
       },
       {
         "name": "FIX Steuerkanzlei Grotstabel direkt",
-        "count": 0,
+        "count": 3,
         "status": "ok"
       },
       {
@@ -231,12 +231,12 @@
       },
       {
         "name": "FIX Johannesstift/Stadt Hennigsdorf Büro direkt",
-        "count": 1,
+        "count": 5,
         "status": "ok"
       },
       {
         "name": "FIX Johannesstift Büro-Liste direkt",
-        "count": 0,
+        "count": 2,
         "status": "ok"
       },
       {
@@ -368,9 +368,69 @@
         "name": "Zahnarztpraxis Bekci Tegel direkt",
         "count": 0,
         "status": "ok"
+      },
+      {
+        "name": "StepStone",
+        "count": 10,
+        "status": "ok"
+      },
+      {
+        "name": "Indeed",
+        "count": 0,
+        "status": "blocked",
+        "note": "403 Forbidden"
+      },
+      {
+        "name": "XING Jobs",
+        "count": 10,
+        "status": "ok"
+      },
+      {
+        "name": "LinkedIn Jobs",
+        "count": 9,
+        "status": "ok"
+      },
+      {
+        "name": "Monster",
+        "count": 0,
+        "status": "blocked",
+        "note": "403 HTTP Forbidden"
+      },
+      {
+        "name": "Jobware",
+        "count": 0,
+        "status": "ok"
+      },
+      {
+        "name": "meinestadt.de",
+        "count": 0,
+        "status": "blocked",
+        "note": "403 Forbidden"
+      },
+      {
+        "name": "stellenanzeigen.de",
+        "count": 10,
+        "status": "ok"
+      },
+      {
+        "name": "Jooble",
+        "count": 0,
+        "status": "blocked",
+        "note": "403 Forbidden"
+      },
+      {
+        "name": "Glassdoor",
+        "count": 0,
+        "status": "blocked",
+        "note": "403 Forbidden"
+      },
+      {
+        "name": "Talent.com",
+        "count": 3,
+        "status": "ok"
       }
     ],
-    "geocodedThisRun": 1,
+    "geocodedThisRun": 0,
     "region": "Berlin & Brandenburg",
     "trainingOffers": false,
     "remoteFull": 221,
@@ -383,9 +443,12 @@
     "freshLocalOffice": true,
     "extraLocalOffice2": true,
     "microLocalOffice": true,
+    "majorJobPortals": true,
+    "majorJobPortalsCount": 11,
     "excludedWorkingStudent": true,
     "excludedInternships": true,
-    "excludedUnwantedThisRun": 55,
+    "excludedTemporaryWork": true,
+    "excludedUnwantedThisRun": 60,
     "officePcProfile": true,
     "excludedPhysicalHeavy": true,
     "officeProfileRemoved": 63,
@@ -398,12 +461,12 @@
         "lon": 13.1833278
       }
     },
-    "localWithin10km": 46,
+    "localWithin10km": 59,
     "newJobsTracking": {
       "windowDays": 7,
-      "addedThisScan": 5,
+      "addedThisScan": 13,
       "seededFromPreviousScan": 0,
-      "trackedAt": "2026-08-14T10:52:55.693Z"
+      "trackedAt": "2026-08-14T11:10:46.708Z"
     }
   },
   "jobs": [
@@ -776,6 +839,33 @@
       "description": "Who we are We’re a global, midsize CRO that pushes boundaries, innovates and invents because the path to a cure for the world’s most persistent diseases is not paved by those who play it safe. It is built by those who take pioneering, creative approaches and implement them with quality and excellence. We are Worldwide Clinical Trials, and we are a global team of over 3,500+ experts, bright thinkers, dreamers and doers and, together, we are changing the way the world experiences CROs – in the best possible way. Our mission is to work with passion and purpose every day to improve lives and we are looking for others who value this same pursuit. Why Worldwide We believe everyone plays an important role in making a world of difference for patients and their caregivers. From our hands-on, accessible leaders, to our cohesive and supportive teams, we are committed to enabling professionals from all backgrounds and experiences to succeed. We prioritize cultivating a diverse and inclusive environment that continues to promote collaboration and creativity. We are proud to be a workplace where people thrive by being themselves and are inspired to do their best work every day. Join us! What the Senior Statistician does at Worldwide Independently manages statistical project support and provides expert statistical consultancy across the stats function. What you will do Manage the statistics support to one or more projects/sponsor programs of work, ensuring that needs are met by expert and timely statistical consultancy and support Provides expert review of study designs, analysis plans, and reports Assist sponsors in the design of clinical trials, including statistical sections of the study protocol, randomization methodology, and writing statistical analysis plans Consult with internal departments, sponsors, and other third parties regarding statistical issues and reporting requirements Provide project support to the statistics reporting process through the specification/review of tables, figures, and listings shells, writing/review of derived dataset specifications, and the formatting of report documents and tabulations Undertake the preparation of final reports, including the production of tables, listings, and figures, and report writing Develop, evaluate, and run Statistical Analysis System (SAS) programs for the statistical analysis and reporting of clinical study data. This includes programs for derived datasets, Clinical Data Interchange Standards Consortium (CDISC), Study Data Tabulation Model (SDTM), and Analysis Data Model (ADaM) datasets, tables, figures, and listings, and their validation Ensure the maintenance of documentation, e.g., the description of programs and validation Produce ad hoc data summaries when requested during a trial. Extract information from the system during a trial, e.g., summaries, data listings, study data sets. Validate software, in the role of system owner or tester, and test SAS Macros, maintaining the required validation and testing documentation Make statistical contributions to manuscripts for publication/presentation Provide support for the bidding process, including contribution to budget review, proposals, and bid defense meetings Lead the identification of system and process improvements, and develop and implement solutions to improve the efficiency and quality of clinical study data processing and reporting Support the development of statistical design and analysis policies Maintain knowledge in design consultancy and analysis methodology, statistical software packages (e.g., SAS and nQuery), and regulatory guidance documents, e.g. International Council for Harmonization (ICH), Food and Drug Administration (FDA), and Committee for Medicinal Products (CPMP) points to consider Assist with Quality Assurance and Audit requirements Assist the Director of Biostatistics with all other aspects of the job as required Perform all activities in compliance with Worldwide Clinical Trials and agreed sponsor quality system standards, relevant ICH standards, and specifically with FDA Quality System Regulation (including 21CFR Part 11) Perform other duties as assigned. The duties and responsibilities listed above are representative of the nature and level of work assigned and are not necessarily all-inclusive. What you bring to the role: Computer literate and numerate with a proven ability to adapt to various computer systems Expert-level project statistician experienced in providing statistical leadership to projects Design and analysis consultancy skills and knowledge across a broad range of applications, together with key competencies in customer focus, delivering on commitments, building strong relationships, communicating, influencing, and embracing innovation and change Your experience Master's level in mathematics, statistics, or another subject required with a strong statistical component Minimum 3 years of statistical experience leading clinical trial projects and data analysis At Worldwide Clinical Trials, we are committed to fostering an inclusive and equitable workplace by providing transparent compensation. The salary range for this position is annually (For hourly paid positions, the stated salary range reflects hourly rates): United States of America - $87,500.00 - $173,500.00 The salary range provided is intended to give candidates an understanding of potential earnings. Compensation will fall within the provided range, and it not a guarantee of exact salary. The final salary will be determined based on relevant experience, performance, education, and internal equity. In addition to base salary, we offer a competitive benefits package depending on location. We ensure pay equity and transparency and comply with all applicable labor laws. Salary information will be discussed during the interview process, and we encourage candidates to inquire about compensation at any stage. We love knowing that someone is going to have a better life because of the work we do. To view our other roles, check out our careers page at Discover a world of difference at Worldwide ! For more information on Worldwide, visit www.Worldwide.com or connect with us on LinkedIn .",
       "salary": "87500-173500 USD yearly",
       "firstSeenAt": "2026-08-14T10:03:12.726Z"
+    },
+    {
+      "title": "Assistenz der Geschäftsführung (m/w/d)",
+      "company": "Autohaus Berolina GmbH",
+      "location": "13581 Berlin",
+      "address": "Brunsbütteler Damm 40-50, 13581, Berlin",
+      "lat": 52.53425,
+      "lon": 13.19529,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [
+        "FULL_TIME"
+      ],
+      "publishedAt": "2026-08-14T03:03:35.863Z",
+      "validThrough": "2026-08-29T02:57:03.343Z",
+      "url": "https://www.stepstone.de/stellenangebote--Assistenz-der-Geschaeftsfuehrung-m-w-d-Berlin-Autohaus-Berolina-GmbH--13813653-inline.html",
+      "source": "StepStone",
+      "sources": [
+        {
+          "name": "StepStone",
+          "url": "https://www.stepstone.de/stellenangebote--Assistenz-der-Geschaeftsfuehrung-m-w-d-Berlin-Autohaus-Berolina-GmbH--13813653-inline.html"
+        }
+      ],
+      "description": "Wir sind die Berolina-Gruppe: Als etabliertes Traditionsunternehmen in Familienhand vertreten wir die Marken Volkswagen, Volkswagen Nutzfahrzeuge, Audi, Skoda, SEAT und CUPRA an sieben Standorten in und um Berlin mit mehr als 500 Mitarbeitern. Dabei verstehen wir uns als innovativer Pionier der Transformation unserer Branche und investieren in Digitalisierung, E-Mobilität und modernste Ausstattung unserer Standorte. Die Kundenbedürfnisse stellen wir dabei stets in den Mittelpunkt unseres Handelns. Wir bieten Ihnen eine verantwortungsvolle Tätigkeit als: Assistenz der Geschäftsführung (m/w/d) Beginn: nach Absprache | Ort: Berlin - Spandau | Anstellungsart: Vollzeit, unbefristet Zur Unterstützung des Geschäftsführers suchen wir eine zuverlässige, engagierte und loyale Assistenz der Geschäftsführung (m/w/d). So sieht Ihr Arbeitsalltag bei uns aus: Allgemeine Assistenz- und Sekretariatstätigkeiten wie Terminkoordination, Eingangspost, Schriftverkehr, Dienstleisterbeauftragungen, Rechnungsprüfung etc. Unterstützung der Geschäftsführung im operativen und strategischen Tagesgeschäft Organisation, Koordination und Nachbereitung von Terminen, Meetings und Konferenzen Planung und Buchung von Geschäftsreisen Betriebsübergreifende Koordination des Vertragswesen (Herstellerverträge, Dienstleisterverträge) Ansprechpartner für den Sicherheitsdienst sowie weiterer Dienstleister Planung und Umsetzung von Unternehmens-/Teamevents Empfang und Betreuung von Gästen und Geschäftspartnern Erledigung sonstiger organisatorischer und administrativer Tätigkeiten, wie Büromaterialverwaltung und -bestellung, Unterstützung beim On- und Offboarding von Mitarbeitern Ihr Profil Abgeschlossene kaufmännische Ausbildung (z. B. Bürokauffrau, Automobilkauffrau (m/w/x) oder vergleichbar) Mehrjährige Erfahrung im Assistenzbereich, idealerweise auf Geschäftsführungs- oder Vorstandsebene Organisationsstärke und strukturierte, zuverlässige Arbeitsweise Diskretion und Loyalität Freundliches und professionelles Auftreten im Kundenkontakt Sicherer Umgang mit MS Office (Word, Excel, Outlook) Was für Berolina spricht: Ein Arbeitsplatz: zukunftssicher und bereit für Ihre Ideen unbefristeter Arbeitsvertrag 28 Tage Urlaub und transparente minutengenaue Zeiterfassung Zuschuss zur Betrieblichen Altersvorsorge Betriebliche Krankenzusatzversicherung: 500 Euro pro Kalenderjahr für Gesundheitsleistungen Attraktive Mitarbeiterangebote, wie z.B. Bike-Leasing, Berolina-Joycard sowie vergünstigte Konditionen auf unsere Produkte und Dienstleistungen Weitere Informationen Bereit, die Berolina-Atmosphäre zu leben? Geben Sie uns die Chance, Sie kennenzulernen. Ansprechpartner/-in: Yvonne Lieschke Brunsbütteler Damm 40-50 13581 Berlin Tel.: +49 30 338009-359 Jetzt bewerben !",
+      "salary": null,
+      "id": "portal-68fa991a99bf53ceb3",
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
     },
     {
       "id": "remote-remote-senior-project-manager-koln-16593",
@@ -3636,6 +3726,34 @@
       "firstSeenAt": "2026-08-06T10:03:12.726Z"
     },
     {
+      "title": "Sachbearbeiter:in für Sonderformen der Abrechnung",
+      "company": "Kassenärztliche Vereinigung Berlin",
+      "location": "14057 Berlin",
+      "address": "14057, Berlin",
+      "lat": 52.507254,
+      "lon": 13.2879423,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [
+        "FULL_TIME",
+        "PART_TIME"
+      ],
+      "publishedAt": "2026-08-12T00:00:01+00:00",
+      "validThrough": "2026-10-12T21:59:00+00:00",
+      "url": "https://www.stellenanzeigen.de/job/sachbearbeiter-in-fuer-sonderformen-der-abrechnung-berlin-sde-114833/",
+      "source": "stellenanzeigen.de",
+      "sources": [
+        {
+          "name": "stellenanzeigen.de",
+          "url": "https://www.stellenanzeigen.de/job/sachbearbeiter-in-fuer-sonderformen-der-abrechnung-berlin-sde-114833/"
+        }
+      ],
+      "description": "Die Kassenärztliche Vereinigung (KV) Berlin ist eine Körperschaft des öffentlichen Rechts und eine wichtige Schlüsselfunktion im Gesundheitswesen. Wir sind für die Sicherstellung der ambulanten medizinischen und psychotherapeutischen Versorgung der gesetzlich Versicherten in der Hauptstadt zuständig. Wir gewährleisten diese in Zusammenarbeit mit der Ärzteschaft auf einem hohen Qualitätsniveau – rund um die Uhr. Unser Hauptsitz befindet sich in einem modernen Bürogebäude in zentraler Lage mit sehr guter Verkehrsanbindung durch Bus und Bahn. Die Kassenärztliche Vereinigung Berlin (Körperschaft des öffentlichen Rechts) sucht für ihre Abteilung Abrechnung 1 zum nächstmöglichen Zeitpunkt auf Vollzeitbasis (Teilzeit möglich) unbefristet eine:n Sachbearbeiter:in für Sonderformen der Abrechnung Ihr Aufgabengebiet Selbstständige und eigenverantwortliche Bearbeitung von Sonderformen der ärztlichen/psychotherapeutischen Abrechnung, wie die ambulante spezialfachärztliche Versorgung (ASV) oder die Hybrid-DRG-Abrechnung Implementierung von gesetzlichen Vorgaben in die Abrechnungsprozesse Bearbeitung und Richtigstellung von Fehlerrückläufen der Krankenkassen und ggf. von Widersprüchen/ Beanstandungen von Ärzt:innen Ermittlung und Prüfung der Leistungserbringungsberechtigten/Abrechnungsteilnehmer:innen und Prüfung der Abrechnungsvoraussetzungen Veranlassung der Weiterverarbeitung der Abrechnung in anderen Abteilungen Prüfung der Ergebnisse und Veranlassung der Honorarzahlung Fachliche Prüfung von Anträgen und Erstellung von Stellungnahmen Ihr Profil Abgeschlossene Berufsausbildung mit einem Schwerpunkt im Gesundheitswesen (z.B. Kauffrau:mann im Gesundheitswesen, Medizinische:r Fachangestellte:r oder vergleichbar) oder eine gleichwertige Berufsausbildung mit mehrjähriger Berufserfahrung in der Abrechnung von Leistungen von Ärzt:innen und Psychotherapeut:innen Wünschenswert sind weitreichende Kenntnisse in der Quartalsabrechnung und fundierte Kenntnisse in der ASV- oder Hybrid-DRG-Abrechnung Sicherheit in der Anwendung der MS-Office-Produkte Affinität zu Prozess- und IT-Themen sowie analytisches Handeln und Freude an Zahlen und logischen Zusammenhängen Selbstständige, strukturierte, eigenverantwortliche sowie lösungsorientierte Arbeitsweise Kommunikative Kompetenz sowohl in mündlicher als auch schriftlicher Form Wir bieten Ihnen Vergütung nach TV-L Berlin, inklusive einer Jahressonderzahlung und 30 Tage Urlaub 38,5 Stunden/Woche (Vollzeit) und flexible Arbeitszeiten/Teilzeitmodelle Bis zu 11 Tage mobiles Arbeiten monatlich (nach Ende der Probezeit) KV-Card (50 € monatlicher Sachbezug) zum Einkaufen in der Region Zahlreiche Angebote zur Gesundheitsförderung und unternehmenseigene Fitnessräume Sehr gute ÖPNV-Verkehrsanbindung, gesicherte Fahrradabstellplätze und kostenlose öffentliche Parkplätze Weitere attraktive Benefits und Informationen über die KV Berlin finden Sie auf unserer Karriereseite Eingruppierung: E9a TV-L 47.000 EUR bis 52.400 EUR Wir stehen für Chancengleichheit und fördern die beruﬂiche Gleichstellung der Geschlechter. Ebenso begrüßen wir auch die Bewerbung von Menschen mit Migrationshintergrund. Schwerbehinderte Bewerber:innen werden bei gleicher Eignung bevorzugt berücksichtigt. Die Bewerbung von Frauen ist ausdrücklich erwünscht. Wir freuen uns auf Ihre vollständige Online-Bewerbung bis zum 08.09.2026 unter Angabe der Kennziffer 2026_45. Diskretion und die vertrauliche Behandlung Ihrer Bewerbung sind selbstverständlich. Hinweise zur Verarbeitung Ihrer Daten finden Sie in unseren Datenschutzhinweisen.",
+      "salary": null,
+      "id": "portal-03399b47fe10a3caa5",
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
       "id": "remote-customer-success-manager-remote-portugal-17052",
       "title": "Customer Success Manager (Remote, Portugal)",
       "company": "Easygenerator",
@@ -5985,6 +6103,33 @@
       "firstSeenAt": "2026-08-06T10:03:12.726Z"
     },
     {
+      "title": "Project and Office Coordinator (m/f/d)",
+      "company": "ATCP Management GmbH",
+      "location": "13509 Berlin",
+      "address": "Wittestraße 30, 13509, Berlin",
+      "lat": 52.580933,
+      "lon": 13.29261,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [
+        "FULL_TIME"
+      ],
+      "publishedAt": "2026-08-05T13:40:57.93Z",
+      "validThrough": "2026-09-04T13:40:57.93Z",
+      "url": "https://www.stepstone.de/stellenangebote--Project-and-Office-Coordinator-m-f-d-Berlin-ATCP-Management-GmbH--14369082-inline.html",
+      "source": "StepStone",
+      "sources": [
+        {
+          "name": "StepStone",
+          "url": "https://www.stepstone.de/stellenangebote--Project-and-Office-Coordinator-m-f-d-Berlin-ATCP-Management-GmbH--14369082-inline.html"
+        }
+      ],
+      "description": "AROUNDTOWN Commercial Properties (ATCP) is the asset management platform for Aroundtown SA, the largest listed commercial real estate company in Germany. ATCP acts as owner representative thus managing, leasing and optimising the commercial real estate portfolio, which, in addition to typical office properties, also includes industrial, logistics and retail properties. In addition to our company headquarters in Berlin, Aroundtown Commercial Properties holds branch offices in Munich, Düsseldorf, Frankfurt, Hanover and Leipzig. Our employees of various nationalities and their performance stand for the success of our company. Your tasks Project Coordination Support project managers in planning, tracking, and monitoring project progress. Prepare project documentation, meeting agendas, minutes, and reports. Assist in coordinating deadlines, deliverables, and communication between internal and external stakeholders. Ensure projects remain on schedule by following up on action items. Office Administration Manage the day-to-day administrative tasks of the office. Serve as the first point of contact for general inquiries and correspondence. Maintain filing systems (digital and physical) and ensure accurate record-keeping Oversee office supplies and liaise with vendors for procurement and services. Travel & Events Management Arrange and coordinate travel logistics, including flights, hotels, and transportation for executives. Organize conferences, meetings, and company events, ensuring all details (venue, catering, materials, itineraries) are in place. Administrative Support Manage calendars, schedule meetings, and support executives with organizational tasks Draft and format correspondence, presentations, and reports. Support onboarding of new team members and coordinate internal communications. Your profile Proven experience in office coordination, administration, or project support roles. Strong organizational and multitasking skills with excellent attention to detail. Proficiency in MS Office Suite (Word, Excel, PowerPoint, Outlook) or similar tools. Strong written and verbal communication skills. Ability to work independently while supporting multiple stakeholders. Discretion and professionalism in handling sensitive information. Proactive and solution-oriented mindset. Excellent time management and prioritization abilities. Strong interpersonal skills and team spirit. Flexibility and adaptability in a dynamic work environment. Your perspective Interesting, varied and broad range of tasks in one of the largest real estate companies in Germany and Europe Good working atmosphere, communication culture “on a first-name basis” and a pleasant working atmosphere in an environment with flat hierarchies Individual training and coaching for professional and personal development in our Academy and with our in-house business coach Professionally equipped, in-house gym with trainers and courses at the headquarters in Berlin as well as fitness and health offers through the Wellhub platform at all external locations Comprehensive company health management and company pension scheme Support on the way to work through a subsidy for the use of public transport and the option of leasing a bicycle through Eurorad Modern IT equipment Mobility and flexibility through the use of pool cars Flexible working hours and mobile working for an even better work-life balance Exciting virtual range of family-friendly benefits, including vacation programs, leisure and sports activities and consulting services with our partner company Voiio Opportunity to attend Bundesliga matches of FC Union Berlin, our favorite club Discounts in selected hotels worldwide with up to 30% on overnight stays and special conditions on food and drinks Employee discounts for special conditions in the areas of media, fashion, leisure, facilities and much more via a partner company Drinks and a selection of fruit Additional days off on Christmas Eve & New Year's Eve Have we sparked your interest? Then click on \" Apply now \" and Max Boikov looks forward to receiving your compelling application documents, including your earliest possible start date and salary expectations. Aroundtown, Personalabteilung, Wittestraße 30, Haus F, 13509 Berlin",
+      "salary": null,
+      "id": "portal-f13ca5f75eb7f749f1",
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
       "id": "jobicy-149088",
       "title": "VP, Multinational/Traditional Corp Sales",
       "company": "BCD Travel",
@@ -6305,6 +6450,33 @@
       "description": "## About Outsite Outsite is a global coliving company for remote workers — hotel-quality service, extended-stay flexibility, and a built-in community, at the intersection of hospitality and lifestyle. We operate 40+ properties across 21+ cities on 5 continents, with 6,000+ verified members and an NPS of 65. ## About Outsite for Teams Outsite for Teams is Outsite's B2B expansion — giving companies, teams, and communities access to our global network of coliving and coworking spaces for their employees. Rather than a bulk discount, we position it as a meaningful perk: founders and leaders purchase memberships on behalf of their team, and a dedicated account manager keeps them active and engaged. This is a genuine growth priority for the business, and you'll be one of the first dedicated sales hires driving it. ## Role Overview We're hiring a Business Development Representative to build and run outbound sales for Outsite for Teams. You'll identify and prospect the right companies, run discovery calls, and close new business — turning remote-first startups, distributed teams, and growth-stage companies into long-term Outsite for Teams accounts. This is a highly autonomous, build-it-yourself role. You'll help shape the outbound playbook, not just execute someone else's. ## Key Responsibilities ### 1. Prospecting & Outbound - Build and work target lists of remote-first and hybrid companies, using signals like team size (50–500), remote/hybrid language in company descriptions, and titles such as Head of People, Chief of Staff, VP of Operations, or Founder - Source leads via LinkedIn Sales Navigator, Wellfound/AngelList, Crunchbase, remote job boards (We Work Remotely, Remote.co), and Outsite's own member base - Run cold outbound via email, LinkedIn, and calls, and continuously test and refine messaging - Reach out to local companies near Outsite locations to sell business travel and corporate stay packages - Build partnerships with travel agencies and tour operators to generate referral and bundled-stay opportunities ### 2. Sales & Pipeline Management - Run discovery calls to understand a prospect's team, travel patterns, and remote work culture - Own the full sales cycle from first touch to close - Keep the CRM clean and current — every deal staged, every next step logged - Forecast pipeline accurately and hit monthly/quarterly new business targets ### 3. Collaboration & Handoff - Partner with the Head of Marketing on positioning, collateral, and campaigns that support outbound - Hand off closed accounts cleanly to the account management side, with full context on the client's goals - Share market feedback — what's resonating, what isn't — to sharpen Outsite for Teams' pitch and ICP over time ### 4. Reporting - Report weekly on pipeline: volume, stage, conversion, and blockers - Track and share what's working in outbound so it can be systematized ## Required Skills & Experience - 1+ years of B2B sales or business development experience (SDR/BDR background a plus) - Confident, consultative communicator — comfortable running discovery calls with founders and People leaders - Self-starter who's built pipeline from scratch, not just worked warm leads - Able to work autonomously and independently - Comfortable with taking initiative and being proactive - Comfortable working European timezone hours - Strong written communication — outbound copy is part of the job - Organized; keeps a CRM honest without being told to - Comfortable using AI in workflow ## Nice to Have - Experience selling to remote-first or distributed teams - Familiarity with Pipedrive or HubSpot - Existing network in the startup, remote work, or travel/hospitality space - Experience selling a membership, subscription, or perk-style product ## What Success Looks Like (First 90 Days) - A working, documented outbound playbook (lists, messaging, cadence) - A full and accurately-staged pipeline in the CRM - First qualified meetings booked and first deals in late-stage or closed - Clear, weekly reporting rhythm established with Marketing - Sharpened point of view on which ICPs convert fastest ## Benefits - Remote, travel encouraged - Credits for Outsite locations - Salary - $45,000 - $50,000 USD + commission",
       "salary": "$45,000 - $50,000",
       "firstSeenAt": "2026-08-06T10:03:12.726Z"
+    },
+    {
+      "title": "Mitarbeiter im Telefonvertrieb (m/w/d)",
+      "company": "Talente gewinnen",
+      "location": "13581 Berlin",
+      "address": "Brunsbütteler Damm 190, 13581, Berlin",
+      "lat": 52.5338057,
+      "lon": 13.1702511,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [
+        "Vollzeit"
+      ],
+      "publishedAt": "2026-07-16T13:25:14Z",
+      "validThrough": "2026-09-14T13:25:16Z",
+      "url": "https://www.xing.com/jobs/berlin-mitarbeiter-telefonvertrieb-156405947",
+      "source": "XING Jobs",
+      "sources": [
+        {
+          "name": "XING Jobs",
+          "url": "https://www.xing.com/jobs/berlin-mitarbeiter-telefonvertrieb-156405947"
+        }
+      ],
+      "description": "Wir sind ein auf Digitale Mitarbeitergewinnung spezialisiertes Unternehmen mit Sitz in Berlin-Spandau. Mit unseren Strategien helfen wir Handwerksbetrieben dabei, die richtigen Fachkräfte zu gewinnen. Über 200 Betriebe in mehr als 20 Gewerken deutschlandweit arbeiten mit uns zusammen. Zur weiteren Verstärkung unseres Teams suchen wir dynamische Mitarbeiter, die mit unseren bewährten Strategien und digitalen Prozessen Unternehmen bei der Suche nach dem richtigen Personal unterstützen wollen. Aufgaben Du bist der erste Kontaktpunkt zwischen uns und potenziellen Kunden. Im Rahmen deiner Tätigkeit führst du Erstgespräche mit Geschäftsführern deutscher Handwerksbetriebe. Auch als Quereinsteiger bist du bei uns herzlich willkommen. Mit unserer digitalen Einarbeitung auf unserer Schulungsplattform erlernst du alles, was du für diesen Job brauchst – ganz ohne Vorkenntnisse im Vertrieb. Telefonische Akquise potenzieller Neukunden nach klarem Prozess Strukturierte Erstgespräche zur Bedarfsanalyse Pflege und Reaktivierung bestehender Kontakte Zuverlässige Vor- und Nachbereitung der Termine unserer Strategieberater Qualifikation Überzeugungskraft und eine klare, angenehme Ausdrucksweise Motivation, das Verkaufen von der Pike auf zu lernen Fähigkeit, bestehenden Prozessen zu folgen und diese konsequent umzusetzen Schnelle Auffassungsgabe und Disziplin Starke Kommunikationsfähigkeiten und ein gutes Gespür für präzise Gesprächsführung Belastbarkeit und ein souveräner Umgang mit Leistungsdruck Eine angenehme, ruhige und vertrauensvolle Stimme Saubere und fehlerfreie schriftliche Ausdrucksform in Deutsch Benefits Ein sicheres Gehalt von 4.000 € brutto/Monat in einem wachsenden Betrieb Digitale Schulungsplattform mit intensiver Einarbeitung und klaren Prozessen Sicherer Arbeitsplatz: Wir setzen auf langfristige Zusammenarbeit, die Übernahmequote liegt bei 98% Angenehme Arbeitsatmosphäre: Bei uns steht ein positiver und familiärer Umgang im Vordergrund damit du gut gelaunt arbeiten kannst und gute Leistungen erbringst Attraktive Vergütung und Karrierechancen: Mit unserem stetigen Wachstum bieten sich spannende Perspektiven ob als Experte oder Führungskraft Wenn du Lust auf eine spannende Tätigkeit im Vertrieb hast, freuen wir uns auf deine Bewerbung! null null null null null null null null null null",
+      "salary": null,
+      "id": "portal-50fac59ddee0f3a809",
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
     },
     {
       "id": "remotive-1919265",
@@ -6715,6 +6887,81 @@
       "firstSeenAt": "2026-08-06T10:03:12.726Z"
     },
     {
+      "id": "small-office-c47f7911d0aea90fc9",
+      "title": "Steuerassistent:in (m/w/d)",
+      "company": "Steuerkanzlei Grotstabel",
+      "location": "Falkensee",
+      "address": "41, Rudolf-Breitscheid-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "lat": 52.5634774,
+      "lon": 13.0503647,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://steuerberatung-falkensee.com/karriere-steuerberatung-in-falkensee.html",
+      "source": "Steuerkanzlei Grotstabel direkt",
+      "sources": [
+        {
+          "name": "Steuerkanzlei Grotstabel direkt",
+          "url": "https://steuerberatung-falkensee.com/karriere-steuerberatung-in-falkensee.html"
+        }
+      ],
+      "description": "Karriere - Steuerberatung in Falkensee Unternehmen Unternehmen Zusammenarbeit Branchen Mandantenkreis Leistungen Digital Information Team Karriere Unternehmen Zusammenarbeit Branchen Mandantenkreis Leistungen Digital Information Team Karriere Deine Karriere Transparent | Zuverlässig | Freundlich Wir wollen deine Expertise Lust auf ein wirklich tolles Team - dynamisch, offen, kommunikativ? Dann sollten wir uns unterhalten.... Steuerassistent:in (m/w/d) Steuerfachangestellte:r (m/w/d) Steuerfachwirt:in Bilanzbuchhalter:in Finanzwirt:in (m/w/d) Werde Teil unseres Teams und sprich uns an! Unsere Galerie Unser KONTAKT Steuerkanzlei Grotstabel Rudolf-Breitscheid-Str. 41 14612 Falkensee Anfahrt: Falkensee, Parkstr. 653, 654, 656 Falkensee, Finkenkrug Bhf. kanzlei@loesungen-steuerberatung.de +49 (0) 3322 42 87 60 Die interaktive Karte von Google Maps ist aufgrund ihrer Cookie Einstellungen auf dieser Seite gesperrt. Um die Karte anzuzeigen, ändern sie bitte die Cookie Einstellungen. Copyright © Steuerkanzlei Petra Grotstabel | Alle Rechte vorbehalten. Im Interesse der Lesbarkeit haben wir in Einzelfällen auf geschlechtsbezogene Formulierungen verzichtet. Selbstverständlich sind immer alle Geschlechter (m/w/d) gemeint. Impressum | Datenschutz Wenn Sie auf „Akzeptieren\" klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät zu, um die Navigation auf der Website zu verbessern und externe Dienste für Sie bereitzustellen. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie . Einstellungen Ablehnen Akzeptieren Datenschutz - Einstellungen Wenn Sie Websites besuchen, können diese Daten in Ihrem Browser speichern oder abrufen. Diese Speicherung ist häufig für die Grundfunktionen der Website erforderlich. Die Speicherung kann für Marketing, Analysen und die Personalisierung der Website verwendet werden, z. B. für die Speicherung Ihrer Präferenzen. Der Datenschutz ist uns wichtig, daher haben Sie die Möglichkeit, bestimmte Arten der Speicherung zu deaktivieren, die für die grundlegende Funktion der Website nicht erforderlich sind. Das Blockieren von Kategorien kann Ihre Erfahrung auf der Website beeinträchtigen. Alle cookies ablehnen Alle Cookies akzeptieren Zustimmungspräferenzen nach Kategorie verwalten Notwendig Immer Aktiv Diese Elemente sind erforderlich, um die Grundfunktionen der Website zu ermöglichen. Funktional Essential Diese Elemente werden verwendet, um Externe Inhalte zu liefern, die für Sie und Ihre Interessen relevanter sind. Dazu gehört die Einbindung externer Steuervideos. Einstellungen speichern und schliessen",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
+      "id": "small-office-4720a3c42d2b23bc0f",
+      "title": "Steuerfachangestellte:r (m/w/d)",
+      "company": "Steuerkanzlei Grotstabel",
+      "location": "Falkensee",
+      "address": "41, Rudolf-Breitscheid-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "lat": 52.5634774,
+      "lon": 13.0503647,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://steuerberatung-falkensee.com/karriere-steuerberatung-in-falkensee.html",
+      "source": "Steuerkanzlei Grotstabel direkt",
+      "sources": [
+        {
+          "name": "Steuerkanzlei Grotstabel direkt",
+          "url": "https://steuerberatung-falkensee.com/karriere-steuerberatung-in-falkensee.html"
+        }
+      ],
+      "description": "Karriere - Steuerberatung in Falkensee Unternehmen Unternehmen Zusammenarbeit Branchen Mandantenkreis Leistungen Digital Information Team Karriere Unternehmen Zusammenarbeit Branchen Mandantenkreis Leistungen Digital Information Team Karriere Deine Karriere Transparent | Zuverlässig | Freundlich Wir wollen deine Expertise Lust auf ein wirklich tolles Team - dynamisch, offen, kommunikativ? Dann sollten wir uns unterhalten.... Steuerassistent:in (m/w/d) Steuerfachangestellte:r (m/w/d) Steuerfachwirt:in Bilanzbuchhalter:in Finanzwirt:in (m/w/d) Werde Teil unseres Teams und sprich uns an! Unsere Galerie Unser KONTAKT Steuerkanzlei Grotstabel Rudolf-Breitscheid-Str. 41 14612 Falkensee Anfahrt: Falkensee, Parkstr. 653, 654, 656 Falkensee, Finkenkrug Bhf. kanzlei@loesungen-steuerberatung.de +49 (0) 3322 42 87 60 Die interaktive Karte von Google Maps ist aufgrund ihrer Cookie Einstellungen auf dieser Seite gesperrt. Um die Karte anzuzeigen, ändern sie bitte die Cookie Einstellungen. Copyright © Steuerkanzlei Petra Grotstabel | Alle Rechte vorbehalten. Im Interesse der Lesbarkeit haben wir in Einzelfällen auf geschlechtsbezogene Formulierungen verzichtet. Selbstverständlich sind immer alle Geschlechter (m/w/d) gemeint. Impressum | Datenschutz Wenn Sie auf „Akzeptieren\" klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät zu, um die Navigation auf der Website zu verbessern und externe Dienste für Sie bereitzustellen. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie . Einstellungen Ablehnen Akzeptieren Datenschutz - Einstellungen Wenn Sie Websites besuchen, können diese Daten in Ihrem Browser speichern oder abrufen. Diese Speicherung ist häufig für die Grundfunktionen der Website erforderlich. Die Speicherung kann für Marketing, Analysen und die Personalisierung der Website verwendet werden, z. B. für die Speicherung Ihrer Präferenzen. Der Datenschutz ist uns wichtig, daher haben Sie die Möglichkeit, bestimmte Arten der Speicherung zu deaktivieren, die für die grundlegende Funktion der Website nicht erforderlich sind. Das Blockieren von Kategorien kann Ihre Erfahrung auf der Website beeinträchtigen. Alle cookies ablehnen Alle Cookies akzeptieren Zustimmungspräferenzen nach Kategorie verwalten Notwendig Immer Aktiv Diese Elemente sind erforderlich, um die Grundfunktionen der Website zu ermöglichen. Funktional Essential Diese Elemente werden verwendet, um Externe Inhalte zu liefern, die für Sie und Ihre Interessen relevanter sind. Dazu gehört die Einbindung externer Steuervideos. Einstellungen speichern und schliessen",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
+      "id": "small-office-50c2edd3dc5eb1a755",
+      "title": "Steuerfachwirt:in / Bilanzbuchhalter:in / Finanzwirt:in (m/w/d)",
+      "company": "Steuerkanzlei Grotstabel",
+      "location": "Falkensee",
+      "address": "41, Rudolf-Breitscheid-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "lat": 52.5634774,
+      "lon": 13.0503647,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://steuerberatung-falkensee.com/karriere-steuerberatung-in-falkensee.html",
+      "source": "Steuerkanzlei Grotstabel direkt",
+      "sources": [
+        {
+          "name": "Steuerkanzlei Grotstabel direkt",
+          "url": "https://steuerberatung-falkensee.com/karriere-steuerberatung-in-falkensee.html"
+        }
+      ],
+      "description": "Karriere - Steuerberatung in Falkensee Unternehmen Unternehmen Zusammenarbeit Branchen Mandantenkreis Leistungen Digital Information Team Karriere Unternehmen Zusammenarbeit Branchen Mandantenkreis Leistungen Digital Information Team Karriere Deine Karriere Transparent | Zuverlässig | Freundlich Wir wollen deine Expertise Lust auf ein wirklich tolles Team - dynamisch, offen, kommunikativ? Dann sollten wir uns unterhalten.... Steuerassistent:in (m/w/d) Steuerfachangestellte:r (m/w/d) Steuerfachwirt:in Bilanzbuchhalter:in Finanzwirt:in (m/w/d) Werde Teil unseres Teams und sprich uns an! Unsere Galerie Unser KONTAKT Steuerkanzlei Grotstabel Rudolf-Breitscheid-Str. 41 14612 Falkensee Anfahrt: Falkensee, Parkstr. 653, 654, 656 Falkensee, Finkenkrug Bhf. kanzlei@loesungen-steuerberatung.de +49 (0) 3322 42 87 60 Die interaktive Karte von Google Maps ist aufgrund ihrer Cookie Einstellungen auf dieser Seite gesperrt. Um die Karte anzuzeigen, ändern sie bitte die Cookie Einstellungen. Copyright © Steuerkanzlei Petra Grotstabel | Alle Rechte vorbehalten. Im Interesse der Lesbarkeit haben wir in Einzelfällen auf geschlechtsbezogene Formulierungen verzichtet. Selbstverständlich sind immer alle Geschlechter (m/w/d) gemeint. Impressum | Datenschutz Wenn Sie auf „Akzeptieren\" klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät zu, um die Navigation auf der Website zu verbessern und externe Dienste für Sie bereitzustellen. Weitere Informationen finden Sie in unserer Datenschutzrichtlinie . Einstellungen Ablehnen Akzeptieren Datenschutz - Einstellungen Wenn Sie Websites besuchen, können diese Daten in Ihrem Browser speichern oder abrufen. Diese Speicherung ist häufig für die Grundfunktionen der Website erforderlich. Die Speicherung kann für Marketing, Analysen und die Personalisierung der Website verwendet werden, z. B. für die Speicherung Ihrer Präferenzen. Der Datenschutz ist uns wichtig, daher haben Sie die Möglichkeit, bestimmte Arten der Speicherung zu deaktivieren, die für die grundlegende Funktion der Website nicht erforderlich sind. Das Blockieren von Kategorien kann Ihre Erfahrung auf der Website beeinträchtigen. Alle cookies ablehnen Alle Cookies akzeptieren Zustimmungspräferenzen nach Kategorie verwalten Notwendig Immer Aktiv Diese Elemente sind erforderlich, um die Grundfunktionen der Website zu ermöglichen. Funktional Essential Diese Elemente werden verwendet, um Externe Inhalte zu liefern, die für Sie und Ihre Interessen relevanter sind. Dazu gehört die Einbindung externer Steuervideos. Einstellungen speichern und schliessen",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
       "id": "small-office-fix-3a2f7a0ef832982e5c",
       "title": "Steuerfachangestellte:r (m/w/d)",
       "company": "Pluta Steuerberatung",
@@ -6790,6 +7037,106 @@
       "firstSeenAt": "2026-08-06T10:03:12.726Z"
     },
     {
+      "id": "small-office-fix-71c7f7466e2d39fe42",
+      "title": "Immobilienkauffrau *mann als Objektmanager*in kaufmännischer Bereich",
+      "company": "Johannesstift Diakonie Services",
+      "location": "Berlin-Siemensstadt",
+      "address": "Siemens Wernerwerk-Hochhaus, 50, Siemensdamm, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland",
+      "lat": 52.5350366,
+      "lon": 13.2742541,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": "2026-09-30T23:59:59.000Z",
+      "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6185-immobilienkauffrau-mann-als-objektmanagerin-kaufmaennischer-bereich",
+      "source": "Johannesstift Büro direkt",
+      "sources": [
+        {
+          "name": "Johannesstift Büro direkt",
+          "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6185-immobilienkauffrau-mann-als-objektmanagerin-kaufmaennischer-bereich"
+        }
+      ],
+      "description": "Immobilienkauffrau *mann als Objektmanager*in kaufmännischer Bereich - Johannesstift Diakonie Navigation überspringen Schließen Suchen & Finden Suchen auf allen Seiten Ansprechpartner*in Stellenangebote Einrichtungen Medizinische Versorgung Pflege & Wohnen Teilhabe & Pädagogik Kontrast Suche Menü Schließen Medizinische Versorgung Zur Übersicht Ratgeber Gesundheit & Medizin Zur Übersicht Ratgeber Arthrose Ratgeber Geburtshilfe Ratgeber Gefäßerkrankungen Ratgeber Gelenkverschleiß Ratgeber Gynäkologie Ratgeber Kardiologie Behandlungsbereiche Zur Übersicht Notaufnahmen Allergologie Allgemein- und Viszeralchirurgie Anästhesie und Intensivmedizin Angiologie Beatmungsmedizin BG-Ambulanz/D-Arzt Geburtshilfe Beckenendlage Fetalchirurgie Fetofetales Transfusionssyndrom Frühgeburt Geburtsvorbereitungskurs Berlin Geplanter Kaiserschnitt Mehrlingsschwangerschaft Pränataldiagnostik Berlin Risikoschwangerschaft Rückbildungskurs Berlin Spontangeburt Stillberatung Schwangerschaftsdiabetes Gefäßchirurgie Geriatrie Gynäkologie Behandlung Eierstockkrebs Dysplasiesprechstunde Eileiterschwangerschaft OP Gebärmutterkrebs-OP Geschlechtsangleichende Operation Genetische Beratung Urogynäkologie Handchirurgie Innere Medizin Kardiologie Bypass-OP Herzinsuffizienz Therapie Herzklappenerkrankung Herzklappen-OP Herzrhythmusstörungen-Therapie Herzschrittmacher OP KHK Therapie Kinder- und Jugendmedizin Lasermedizin Onkologie Orthopädie und Unfallchirurgie Palliativversorgung Plastische Chirurgie Pneumologie Radiologie Reisemedizin Schlafmedizin Sportmedizin Thoraxchirurgie Urologie Krankenhäuser Zur Übersicht EGZB Evangelische Elisabeth Klinik Evangelische Lungenklinik Evangelisches Herzzentrum Coswig Evangelisches Krankenhaus Hubertus Evangelisches Krankenhaus Paul Gerhardt Stift Evangelisches Waldkrankenhaus Spandau Klinik Amsee Klinik für MIC Martin Luther Krankenhaus Wichernkrankenhaus Ambulante Versorgung Karriere & Bildung Helfen & Spenden Einrichtungen finden Pflege & Wohnen Zur Übersicht Betreuung & Pflegeangebote Zur Übersicht Ambulante & stationäre Palliativversorgung Ambulante Pflege Ambulante Pflege Berlin Außerklinische Intensivpflege Beratungsangebote & Pflegestützpunkte Besuchsdienst (Lebendige Nachbarschaft) Hausgemeinschaften Hospize & Hospizdienste Kurzzeitpflege Pflegeberatung Berlin Pflege & Wohnen Servicecenter Pflegewohnen (Langzeitpflege) Servicewohnen Tagespflege Wohnbereich für Menschen mit Demenz Wohnen für Menschen mit Teilhabe-Barrieren Karriere & Bildung Helfen & Spenden Einrichtungen finden Teilhabe & Pädagogik Zur Übersicht Angebote für Menschen mit Teilhabebarrieren Zur Übersicht August Hermann Francke Schule DiaLOG-IN (Migration & Beeinträchtigung) Die Macherei (Bildung & Beschäftigung) Proclusio Proclusio Services (Inklusionsbetriebe) Wohnen & Teilhabe Arbeitsförderung & Coaching Zur Übersicht GesBiT (Bildung & Teilhabe) Jugendhilfe Karriere & Bildung Helfen & Spenden Unterstützung finden Unsere Services Zur Übersicht Bau- & Energiemanagement Einkauf & Logistik Eventmanagement & -catering Zur Übersicht PAULS Events PAULS Catering Gastronomie Zur Übersicht CaféIN PAULS Delis & Cafés Marie. Das Bistro im Bundestag Gebäudereinigung Handwerk & Gärtnerei Haushaltsnahe Dienstleistungen Hotel & Appartements Immobilienverwaltung IT-Service Medizintechnik Möbelpolsterei Second-Hand-Laden Speisenversorgung der Einrichtungen Umzugshilfe & Malerarbeiten Veranstaltungs- & Konferenzräume Zentralsterilisation Karriere & Bildung Zur Übersicht Darum Johannesstift Diakonie Zur Übersicht Benefits für Pflegekräfte Karriereblog Wir sind die Johannesstift Diakonie Karriere & Jobs im Gesundheitswesen Karriere & Jobs in der IT Karriere & Jobs in der Pflege Karriere & Jobs im sozialen Bereich Stellenangebote & Bewerbung Initiativbewerbung & Kontakt Erfolgreich bewerben Ausbildungsberufe & Schulen Zur Übersicht Bachelor of Nursing Ausbildung Ergotherapeut*in Ausbildung Erzieher*in Ausbildung Fachinformatiker*in für Systemintegration Ausbildung Fachkraft für Küchen, Möbel und Umzugsservice Ausbildung Fachkraft im Gastgewerbe Ausbildung Gärtner*in im Garten- und Landschaftsbau Studium Hebammenwissenschaft Ausbildung Heilerziehungspfleger*in Ausbildung Hotelfachmann*frau Ausbildung Kauffrau*mann für Büromanagement Ausbildung Koch*Köchin Ausbildung Maler*in und Lackierer*in Ausbildung Medizinische*r Fachangestellte*r Ausbildung Operationstechnische*r Assistent*in Ausbildung Pflegefachassistent*in Ausbildung Pflegefachfrau*mann Ausbildung Physiotherapeut*in Ausbildung Restaurantfachmann*frau Ausbildung Sozialassistent*in Studium Therapie- und Pflegewissenschaften (B.Sc.) Ausbildung Verkäufer*in (Bekleidung/Möbel) Erfolgreich bewerben Famulatur & Praktisches Jahr (PJ) Ehrenamt Freiwilligendienste (FSJ, BFD) Fachveranstaltungen Fort- und Weiterbildungen Die Johannesstift Diakonie Zur Übersicht Im Porträt Organisation & Aufgaben Unser Anspruch an Qualität Diakonisches Handeln Zur Übersicht Ethikarbeit Seelsorge Palliativversorgung Gesundheitsförderung & Frühe Hilfen Helfen & Spenden Zur Übersicht Stiftung Evangelisches Johannesstift Paul Gerhardt Förderverein Ehrenamt Compliance & Hinweisabgabe Ansprechpartner*innen Podcasts Zur Übersicht Gut Durchblutet Warum ich? Der andere Gesundheitspodcast Warum nicht?! Karriere mal anders Hosts Moderatorin Martina Conradt Moderator Maxime Miossec Presse & Aktuelles Zur Übersicht Aktuelle Meldungen Blick in die Presse Veranstaltungen Fachveranstaltungen Alle Einrichtungen Leichte Sprache Mitarbeitenden-Login Ja, ich will! Gutes tun. Jeden Tag. Jetzt hier bewerben Immobilienkauffrau *mann als Objektmanager*in kaufmännischer Bereich Job in Berlin Spandau | Vollzeitjob in Berlin | Job im Bereich Immobilienmanagement | Job als Immobilienkauffrau *Immobilienkaufmann | Objektmanager *in | Immobilienmanager *in | Nebenkostenabrechnungen | Job als Immobilienkaufmann *frau Berlin | Mietverwaltung | Mietrecht | FlexWork | Fort- und Weiterbildungen | mobiles Arbeiten | JobRad/E-Bike | Sachbearbeiter *in Immobilien Startseite › Karriere & Bildung › Stellenangebote & Bewerbung Arbeitsfeld Verwaltung/Leitung/IT Stelle für Fachkräfte Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Ihr neues Team Sie begeistern sich für Immobilien? Perfekt – dann sind Sie der fehlende Schlüssel zu unseren gemanagten Objekten! Zunächst befristet als Elternzeitvertretung verstärken Sie unser Team im Immobilienmanagement an unserem Standort in Berlin-Spandau. Bei uns zählt Teamgeist: Wir arbeiten auf Augenhöhe, unterstützen uns im Alltag und fördern individuelle Stärken. Fachlicher Austausch und persönlicher Zusammenhalt stehen bei uns im Mittelpunkt. Ihr neues Tätigkeitsumfeld Sie übernehmen die Abnahmen und Übergaben von Mieteinheiten und pflegen alle relevanten kaufmännischen Objekt-, Mieter- und Vertragsdaten sowie Mieterakten. Sie schließen Miet- und Pachtverträge für Wohn- und Gewerbeeinheiten ab und sorgen für die Durchsetzun",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
+      "id": "small-office-fix-92c07f9edaa4a6f70b",
+      "title": "Sachbearbeiter *in Informationssicherheit und Datenschutz",
+      "company": "Johannesstift Diakonie Services",
+      "location": "Berlin-Siemensstadt",
+      "address": "Siemens Wernerwerk-Hochhaus, 50, Siemensdamm, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland",
+      "lat": 52.5350366,
+      "lon": 13.2742541,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": "2026-09-30T23:59:59.000Z",
+      "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6297-sachbearbeiter-in-informationssicherheit-und-datenschutz-berlin-spandau",
+      "source": "Johannesstift Büro direkt",
+      "sources": [
+        {
+          "name": "Johannesstift Büro direkt",
+          "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6297-sachbearbeiter-in-informationssicherheit-und-datenschutz-berlin-spandau"
+        }
+      ],
+      "description": "Sachbearbeiter *in Informationssicherheit und Datenschutz Berlin- Spandau - Johannesstift Diakonie Navigation überspringen Schließen Suchen & Finden Suchen auf allen Seiten Ansprechpartner*in Stellenangebote Einrichtungen Medizinische Versorgung Pflege & Wohnen Teilhabe & Pädagogik Kontrast Suche Menü Schließen Medizinische Versorgung Zur Übersicht Ratgeber Gesundheit & Medizin Zur Übersicht Ratgeber Arthrose Ratgeber Geburtshilfe Ratgeber Gefäßerkrankungen Ratgeber Gelenkverschleiß Ratgeber Gynäkologie Ratgeber Kardiologie Behandlungsbereiche Zur Übersicht Notaufnahmen Allergologie Allgemein- und Viszeralchirurgie Anästhesie und Intensivmedizin Angiologie Beatmungsmedizin BG-Ambulanz/D-Arzt Geburtshilfe Beckenendlage Fetalchirurgie Fetofetales Transfusionssyndrom Frühgeburt Geburtsvorbereitungskurs Berlin Geplanter Kaiserschnitt Mehrlingsschwangerschaft Pränataldiagnostik Berlin Risikoschwangerschaft Rückbildungskurs Berlin Spontangeburt Stillberatung Schwangerschaftsdiabetes Gefäßchirurgie Geriatrie Gynäkologie Behandlung Eierstockkrebs Dysplasiesprechstunde Eileiterschwangerschaft OP Gebärmutterkrebs-OP Geschlechtsangleichende Operation Genetische Beratung Urogynäkologie Handchirurgie Innere Medizin Kardiologie Bypass-OP Herzinsuffizienz Therapie Herzklappenerkrankung Herzklappen-OP Herzrhythmusstörungen-Therapie Herzschrittmacher OP KHK Therapie Kinder- und Jugendmedizin Lasermedizin Onkologie Orthopädie und Unfallchirurgie Palliativversorgung Plastische Chirurgie Pneumologie Radiologie Reisemedizin Schlafmedizin Sportmedizin Thoraxchirurgie Urologie Krankenhäuser Zur Übersicht EGZB Evangelische Elisabeth Klinik Evangelische Lungenklinik Evangelisches Herzzentrum Coswig Evangelisches Krankenhaus Hubertus Evangelisches Krankenhaus Paul Gerhardt Stift Evangelisches Waldkrankenhaus Spandau Klinik Amsee Klinik für MIC Martin Luther Krankenhaus Wichernkrankenhaus Ambulante Versorgung Karriere & Bildung Helfen & Spenden Einrichtungen finden Pflege & Wohnen Zur Übersicht Betreuung & Pflegeangebote Zur Übersicht Ambulante & stationäre Palliativversorgung Ambulante Pflege Ambulante Pflege Berlin Außerklinische Intensivpflege Beratungsangebote & Pflegestützpunkte Besuchsdienst (Lebendige Nachbarschaft) Hausgemeinschaften Hospize & Hospizdienste Kurzzeitpflege Pflegeberatung Berlin Pflege & Wohnen Servicecenter Pflegewohnen (Langzeitpflege) Servicewohnen Tagespflege Wohnbereich für Menschen mit Demenz Wohnen für Menschen mit Teilhabe-Barrieren Karriere & Bildung Helfen & Spenden Einrichtungen finden Teilhabe & Pädagogik Zur Übersicht Angebote für Menschen mit Teilhabebarrieren Zur Übersicht August Hermann Francke Schule DiaLOG-IN (Migration & Beeinträchtigung) Die Macherei (Bildung & Beschäftigung) Proclusio Proclusio Services (Inklusionsbetriebe) Wohnen & Teilhabe Arbeitsförderung & Coaching Zur Übersicht GesBiT (Bildung & Teilhabe) Jugendhilfe Karriere & Bildung Helfen & Spenden Unterstützung finden Unsere Services Zur Übersicht Bau- & Energiemanagement Einkauf & Logistik Eventmanagement & -catering Zur Übersicht PAULS Events PAULS Catering Gastronomie Zur Übersicht CaféIN PAULS Delis & Cafés Marie. Das Bistro im Bundestag Gebäudereinigung Handwerk & Gärtnerei Haushaltsnahe Dienstleistungen Hotel & Appartements Immobilienverwaltung IT-Service Medizintechnik Möbelpolsterei Second-Hand-Laden Speisenversorgung der Einrichtungen Umzugshilfe & Malerarbeiten Veranstaltungs- & Konferenzräume Zentralsterilisation Karriere & Bildung Zur Übersicht Darum Johannesstift Diakonie Zur Übersicht Benefits für Pflegekräfte Karriereblog Wir sind die Johannesstift Diakonie Karriere & Jobs im Gesundheitswesen Karriere & Jobs in der IT Karriere & Jobs in der Pflege Karriere & Jobs im sozialen Bereich Stellenangebote & Bewerbung Initiativbewerbung & Kontakt Erfolgreich bewerben Ausbildungsberufe & Schulen Zur Übersicht Bachelor of Nursing Ausbildung Ergotherapeut*in Ausbildung Erzieher*in Ausbildung Fachinformatiker*in für Systemintegration Ausbildung Fachkraft für Küchen, Möbel und Umzugsservice Ausbildung Fachkraft im Gastgewerbe Ausbildung Gärtner*in im Garten- und Landschaftsbau Studium Hebammenwissenschaft Ausbildung Heilerziehungspfleger*in Ausbildung Hotelfachmann*frau Ausbildung Kauffrau*mann für Büromanagement Ausbildung Koch*Köchin Ausbildung Maler*in und Lackierer*in Ausbildung Medizinische*r Fachangestellte*r Ausbildung Operationstechnische*r Assistent*in Ausbildung Pflegefachassistent*in Ausbildung Pflegefachfrau*mann Ausbildung Physiotherapeut*in Ausbildung Restaurantfachmann*frau Ausbildung Sozialassistent*in Studium Therapie- und Pflegewissenschaften (B.Sc.) Ausbildung Verkäufer*in (Bekleidung/Möbel) Erfolgreich bewerben Famulatur & Praktisches Jahr (PJ) Ehrenamt Freiwilligendienste (FSJ, BFD) Fachveranstaltungen Fort- und Weiterbildungen Die Johannesstift Diakonie Zur Übersicht Im Porträt Organisation & Aufgaben Unser Anspruch an Qualität Diakonisches Handeln Zur Übersicht Ethikarbeit Seelsorge Palliativversorgung Gesundheitsförderung & Frühe Hilfen Helfen & Spenden Zur Übersicht Stiftung Evangelisches Johannesstift Paul Gerhardt Förderverein Ehrenamt Compliance & Hinweisabgabe Ansprechpartner*innen Podcasts Zur Übersicht Gut Durchblutet Warum ich? Der andere Gesundheitspodcast Warum nicht?! Karriere mal anders Hosts Moderatorin Martina Conradt Moderator Maxime Miossec Presse & Aktuelles Zur Übersicht Aktuelle Meldungen Blick in die Presse Veranstaltungen Fachveranstaltungen Alle Einrichtungen Leichte Sprache Mitarbeitenden-Login Ja, ich will! Gutes tun. Jeden Tag. Jetzt hier bewerben Sachbearbeiter *in Informationssicherheit und Datenschutz Berlin- Spandau Arbeiten in Berlin | Unbefristeter Arbeitsvertrag | Fort- und Weiterbildung | Teilzeit (20 Std./ Woche)| Gleitzeit | JobRad | Job als Informationssicherheitskoordinator*in Berlin | Sachbearbeiter*in Informationssicherheit und Datenschutz | Informationssicherheit Gesundheitswesen | Johannesstift Diakonie Services (JDS) | Medizintechnik Klinikbetreuung Startseite › Karriere & Bildung › Stellenangebote & Bewerbung Arbeitsfeld Verwaltung/Leitung/IT Stelle für Fachkräfte Eintrittsdatum nächstmöglich Stellenumfang Teilzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Ihr neues Team Willkommen in der Johannesstift Diakonie Services! Sie werden Teil eines engagierten Teams das von Offenheit, Hilfsbereitschaft und echtem Teamgeist lebt. Erfahrung trifft hier auf frische Perspektiven – Wissen wird geteilt, Erfolge gemeinsam gefeiert. Unterstützen Sie unser Team in Teilzeit als Sachbearbeiter*in Informationssicherheit und Datenschutz. Ihr neues Tätigkeitsumfeld Sie unterstützen die lokale Umsetzung der konzernweiten Sicherheits- und Datenschutzrichtlinien und arbeiten eng mit ISB, DSB und unseren neun Geschäftsbereichen zusammen. Zu Ihren Hauptaufgaben gehören Risikoanalysen im Bereich Medizintechnik, die Erhebung von Geschäftsprozessen und Schutzbedarfen mit Fokus auf bauliche Anforderungen für IT-Infrastrukturräume so",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
+      "id": "small-office-fix-7ac729b793c5527a5f",
+      "title": "IT-Administrator *in",
+      "company": "Evangelisches Waldkrankenhaus Spandau",
+      "location": "Berlin-Spandau",
+      "address": "555, Stadtrandstraße, Falkenhagener Feld, Spandau, Berlin, 13589, Deutschland",
+      "lat": 52.5629991,
+      "lon": 13.1569429,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": "2026-08-31T23:59:59.000Z",
+      "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6186-it-administrator-in",
+      "source": "Johannesstift Büro direkt",
+      "sources": [
+        {
+          "name": "Johannesstift Büro direkt",
+          "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6186-it-administrator-in"
+        }
+      ],
+      "description": "IT-Administrator *in - Johannesstift Diakonie Navigation überspringen Schließen Suchen & Finden Suchen auf allen Seiten Ansprechpartner*in Stellenangebote Einrichtungen Medizinische Versorgung Pflege & Wohnen Teilhabe & Pädagogik Kontrast Suche Menü Schließen Medizinische Versorgung Zur Übersicht Ratgeber Gesundheit & Medizin Zur Übersicht Ratgeber Arthrose Ratgeber Geburtshilfe Ratgeber Gefäßerkrankungen Ratgeber Gelenkverschleiß Ratgeber Gynäkologie Ratgeber Kardiologie Behandlungsbereiche Zur Übersicht Notaufnahmen Allergologie Allgemein- und Viszeralchirurgie Anästhesie und Intensivmedizin Angiologie Beatmungsmedizin BG-Ambulanz/D-Arzt Geburtshilfe Beckenendlage Fetalchirurgie Fetofetales Transfusionssyndrom Frühgeburt Geburtsvorbereitungskurs Berlin Geplanter Kaiserschnitt Mehrlingsschwangerschaft Pränataldiagnostik Berlin Risikoschwangerschaft Rückbildungskurs Berlin Spontangeburt Stillberatung Schwangerschaftsdiabetes Gefäßchirurgie Geriatrie Gynäkologie Behandlung Eierstockkrebs Dysplasiesprechstunde Eileiterschwangerschaft OP Gebärmutterkrebs-OP Geschlechtsangleichende Operation Genetische Beratung Urogynäkologie Handchirurgie Innere Medizin Kardiologie Bypass-OP Herzinsuffizienz Therapie Herzklappenerkrankung Herzklappen-OP Herzrhythmusstörungen-Therapie Herzschrittmacher OP KHK Therapie Kinder- und Jugendmedizin Lasermedizin Onkologie Orthopädie und Unfallchirurgie Palliativversorgung Plastische Chirurgie Pneumologie Radiologie Reisemedizin Schlafmedizin Sportmedizin Thoraxchirurgie Urologie Krankenhäuser Zur Übersicht EGZB Evangelische Elisabeth Klinik Evangelische Lungenklinik Evangelisches Herzzentrum Coswig Evangelisches Krankenhaus Hubertus Evangelisches Krankenhaus Paul Gerhardt Stift Evangelisches Waldkrankenhaus Spandau Klinik Amsee Klinik für MIC Martin Luther Krankenhaus Wichernkrankenhaus Ambulante Versorgung Karriere & Bildung Helfen & Spenden Einrichtungen finden Pflege & Wohnen Zur Übersicht Betreuung & Pflegeangebote Zur Übersicht Ambulante & stationäre Palliativversorgung Ambulante Pflege Ambulante Pflege Berlin Außerklinische Intensivpflege Beratungsangebote & Pflegestützpunkte Besuchsdienst (Lebendige Nachbarschaft) Hausgemeinschaften Hospize & Hospizdienste Kurzzeitpflege Pflegeberatung Berlin Pflege & Wohnen Servicecenter Pflegewohnen (Langzeitpflege) Servicewohnen Tagespflege Wohnbereich für Menschen mit Demenz Wohnen für Menschen mit Teilhabe-Barrieren Karriere & Bildung Helfen & Spenden Einrichtungen finden Teilhabe & Pädagogik Zur Übersicht Angebote für Menschen mit Teilhabebarrieren Zur Übersicht August Hermann Francke Schule DiaLOG-IN (Migration & Beeinträchtigung) Die Macherei (Bildung & Beschäftigung) Proclusio Proclusio Services (Inklusionsbetriebe) Wohnen & Teilhabe Arbeitsförderung & Coaching Zur Übersicht GesBiT (Bildung & Teilhabe) Jugendhilfe Karriere & Bildung Helfen & Spenden Unterstützung finden Unsere Services Zur Übersicht Bau- & Energiemanagement Einkauf & Logistik Eventmanagement & -catering Zur Übersicht PAULS Events PAULS Catering Gastronomie Zur Übersicht CaféIN PAULS Delis & Cafés Marie. Das Bistro im Bundestag Gebäudereinigung Handwerk & Gärtnerei Haushaltsnahe Dienstleistungen Hotel & Appartements Immobilienverwaltung IT-Service Medizintechnik Möbelpolsterei Second-Hand-Laden Speisenversorgung der Einrichtungen Umzugshilfe & Malerarbeiten Veranstaltungs- & Konferenzräume Zentralsterilisation Karriere & Bildung Zur Übersicht Darum Johannesstift Diakonie Zur Übersicht Benefits für Pflegekräfte Karriereblog Wir sind die Johannesstift Diakonie Karriere & Jobs im Gesundheitswesen Karriere & Jobs in der IT Karriere & Jobs in der Pflege Karriere & Jobs im sozialen Bereich Stellenangebote & Bewerbung Initiativbewerbung & Kontakt Erfolgreich bewerben Ausbildungsberufe & Schulen Zur Übersicht Bachelor of Nursing Ausbildung Ergotherapeut*in Ausbildung Erzieher*in Ausbildung Fachinformatiker*in für Systemintegration Ausbildung Fachkraft für Küchen, Möbel und Umzugsservice Ausbildung Fachkraft im Gastgewerbe Ausbildung Gärtner*in im Garten- und Landschaftsbau Studium Hebammenwissenschaft Ausbildung Heilerziehungspfleger*in Ausbildung Hotelfachmann*frau Ausbildung Kauffrau*mann für Büromanagement Ausbildung Koch*Köchin Ausbildung Maler*in und Lackierer*in Ausbildung Medizinische*r Fachangestellte*r Ausbildung Operationstechnische*r Assistent*in Ausbildung Pflegefachassistent*in Ausbildung Pflegefachfrau*mann Ausbildung Physiotherapeut*in Ausbildung Restaurantfachmann*frau Ausbildung Sozialassistent*in Studium Therapie- und Pflegewissenschaften (B.Sc.) Ausbildung Verkäufer*in (Bekleidung/Möbel) Erfolgreich bewerben Famulatur & Praktisches Jahr (PJ) Ehrenamt Freiwilligendienste (FSJ, BFD) Fachveranstaltungen Fort- und Weiterbildungen Die Johannesstift Diakonie Zur Übersicht Im Porträt Organisation & Aufgaben Unser Anspruch an Qualität Diakonisches Handeln Zur Übersicht Ethikarbeit Seelsorge Palliativversorgung Gesundheitsförderung & Frühe Hilfen Helfen & Spenden Zur Übersicht Stiftung Evangelisches Johannesstift Paul Gerhardt Förderverein Ehrenamt Compliance & Hinweisabgabe Ansprechpartner*innen Podcasts Zur Übersicht Gut Durchblutet Warum ich? Der andere Gesundheitspodcast Warum nicht?! Karriere mal anders Hosts Moderatorin Martina Conradt Moderator Maxime Miossec Presse & Aktuelles Zur Übersicht Aktuelle Meldungen Blick in die Presse Veranstaltungen Fachveranstaltungen Alle Einrichtungen Leichte Sprache Mitarbeitenden-Login Ja, ich will! Gutes tun. Jeden Tag. Jetzt hier bewerben IT-Administrator *in IT Administrator | Ev. Waldkrankenhaus Spandau| | Strategische Neuausrichtung | IT-Dienstleistungen für Sport- und Rehazentrum / MVZ / Physiotherapiepraxis/ Ausbildungsstätten| Job in Berlin-Spandau | 31 Tage Urlaub | Deutschlandticket | Jobrad | 13. Gehalt | Startseite › Karriere & Bildung › Stellenangebote & Bewerbung Arbeitsfeld Verwaltung/Leitung/IT Stelle für Führungskräfte Eintrittsdatum nächstmöglich Stellenumfang Vollzeit oder Teilzeit Arbeitsort Berlin-Spandau Einrichtung Evangelisches Waldkrankenhaus Spandau Ihr neues Team Sie werden Teil der „Eigenständigen IT-Abteilung“ im größten JSD-Krankenhaus. Im Zuge der Neuausrichtung der IT verstärken Sie das Team vor Ort und leisten den IT-Support für die von uns betreuten Gesundheitseinrichtungen. Gemeinsam mit erfahrenen Kolleg*Innen bauen Sie eine professionelle, skalierbare und zukunftssichere IT-Abteilung auf, welche sowohl operative Dienstleistungen als auch strategische Weiterentwicklung übernimmt. Ihr neues Tätigkeitsumfeld Der Schwerpunkt Ihrer Tätigkeit liegt in der Unterstützung beim Aufbau und der Etablierung einer „Eigenständigen IT-Abteilung“ zur Betreuung von Physiotherapieeinrichtungen, Medizinischen Versorgungszentren (MVZs) und Schulen. Sie installieren neue Netzwerkinfrastrukturen in den verschiedenen Standorten und migrieren die bestehenden heterogenen Lösungen in eine neue konsolidierte und skalierbare IT-Landschaft. Mehr über Ihre neue Wirkungsstätte Weit",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
+      "id": "small-office-fix-694efd47ed3c91ef75",
+      "title": "Facheinkäufer *in",
+      "company": "Johannesstift Diakonie Services",
+      "location": "Berlin-Siemensstadt",
+      "address": "Siemens Wernerwerk-Hochhaus, 50, Siemensdamm, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland",
+      "lat": 52.5350366,
+      "lon": 13.2742541,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": "2026-09-30T23:59:59.000Z",
+      "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6176-facheinkaeufer-in-berlin-spandau",
+      "source": "Johannesstift Büro direkt",
+      "sources": [
+        {
+          "name": "Johannesstift Büro direkt",
+          "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/6176-facheinkaeufer-in-berlin-spandau"
+        }
+      ],
+      "description": "Facheinkäufer *in Berlin -Spandau - Johannesstift Diakonie Navigation überspringen Schließen Suchen & Finden Suchen auf allen Seiten Ansprechpartner*in Stellenangebote Einrichtungen Medizinische Versorgung Pflege & Wohnen Teilhabe & Pädagogik Kontrast Suche Menü Schließen Medizinische Versorgung Zur Übersicht Ratgeber Gesundheit & Medizin Zur Übersicht Ratgeber Arthrose Ratgeber Geburtshilfe Ratgeber Gefäßerkrankungen Ratgeber Gelenkverschleiß Ratgeber Gynäkologie Ratgeber Kardiologie Behandlungsbereiche Zur Übersicht Notaufnahmen Allergologie Allgemein- und Viszeralchirurgie Anästhesie und Intensivmedizin Angiologie Beatmungsmedizin BG-Ambulanz/D-Arzt Geburtshilfe Beckenendlage Fetalchirurgie Fetofetales Transfusionssyndrom Frühgeburt Geburtsvorbereitungskurs Berlin Geplanter Kaiserschnitt Mehrlingsschwangerschaft Pränataldiagnostik Berlin Risikoschwangerschaft Rückbildungskurs Berlin Spontangeburt Stillberatung Schwangerschaftsdiabetes Gefäßchirurgie Geriatrie Gynäkologie Behandlung Eierstockkrebs Dysplasiesprechstunde Eileiterschwangerschaft OP Gebärmutterkrebs-OP Geschlechtsangleichende Operation Genetische Beratung Urogynäkologie Handchirurgie Innere Medizin Kardiologie Bypass-OP Herzinsuffizienz Therapie Herzklappenerkrankung Herzklappen-OP Herzrhythmusstörungen-Therapie Herzschrittmacher OP KHK Therapie Kinder- und Jugendmedizin Lasermedizin Onkologie Orthopädie und Unfallchirurgie Palliativversorgung Plastische Chirurgie Pneumologie Radiologie Reisemedizin Schlafmedizin Sportmedizin Thoraxchirurgie Urologie Krankenhäuser Zur Übersicht EGZB Evangelische Elisabeth Klinik Evangelische Lungenklinik Evangelisches Herzzentrum Coswig Evangelisches Krankenhaus Hubertus Evangelisches Krankenhaus Paul Gerhardt Stift Evangelisches Waldkrankenhaus Spandau Klinik Amsee Klinik für MIC Martin Luther Krankenhaus Wichernkrankenhaus Ambulante Versorgung Karriere & Bildung Helfen & Spenden Einrichtungen finden Pflege & Wohnen Zur Übersicht Betreuung & Pflegeangebote Zur Übersicht Ambulante & stationäre Palliativversorgung Ambulante Pflege Ambulante Pflege Berlin Außerklinische Intensivpflege Beratungsangebote & Pflegestützpunkte Besuchsdienst (Lebendige Nachbarschaft) Hausgemeinschaften Hospize & Hospizdienste Kurzzeitpflege Pflegeberatung Berlin Pflege & Wohnen Servicecenter Pflegewohnen (Langzeitpflege) Servicewohnen Tagespflege Wohnbereich für Menschen mit Demenz Wohnen für Menschen mit Teilhabe-Barrieren Karriere & Bildung Helfen & Spenden Einrichtungen finden Teilhabe & Pädagogik Zur Übersicht Angebote für Menschen mit Teilhabebarrieren Zur Übersicht August Hermann Francke Schule DiaLOG-IN (Migration & Beeinträchtigung) Die Macherei (Bildung & Beschäftigung) Proclusio Proclusio Services (Inklusionsbetriebe) Wohnen & Teilhabe Arbeitsförderung & Coaching Zur Übersicht GesBiT (Bildung & Teilhabe) Jugendhilfe Karriere & Bildung Helfen & Spenden Unterstützung finden Unsere Services Zur Übersicht Bau- & Energiemanagement Einkauf & Logistik Eventmanagement & -catering Zur Übersicht PAULS Events PAULS Catering Gastronomie Zur Übersicht CaféIN PAULS Delis & Cafés Marie. Das Bistro im Bundestag Gebäudereinigung Handwerk & Gärtnerei Haushaltsnahe Dienstleistungen Hotel & Appartements Immobilienverwaltung IT-Service Medizintechnik Möbelpolsterei Second-Hand-Laden Speisenversorgung der Einrichtungen Umzugshilfe & Malerarbeiten Veranstaltungs- & Konferenzräume Zentralsterilisation Karriere & Bildung Zur Übersicht Darum Johannesstift Diakonie Zur Übersicht Benefits für Pflegekräfte Karriereblog Wir sind die Johannesstift Diakonie Karriere & Jobs im Gesundheitswesen Karriere & Jobs in der IT Karriere & Jobs in der Pflege Karriere & Jobs im sozialen Bereich Stellenangebote & Bewerbung Initiativbewerbung & Kontakt Erfolgreich bewerben Ausbildungsberufe & Schulen Zur Übersicht Bachelor of Nursing Ausbildung Ergotherapeut*in Ausbildung Erzieher*in Ausbildung Fachinformatiker*in für Systemintegration Ausbildung Fachkraft für Küchen, Möbel und Umzugsservice Ausbildung Fachkraft im Gastgewerbe Ausbildung Gärtner*in im Garten- und Landschaftsbau Studium Hebammenwissenschaft Ausbildung Heilerziehungspfleger*in Ausbildung Hotelfachmann*frau Ausbildung Kauffrau*mann für Büromanagement Ausbildung Koch*Köchin Ausbildung Maler*in und Lackierer*in Ausbildung Medizinische*r Fachangestellte*r Ausbildung Operationstechnische*r Assistent*in Ausbildung Pflegefachassistent*in Ausbildung Pflegefachfrau*mann Ausbildung Physiotherapeut*in Ausbildung Restaurantfachmann*frau Ausbildung Sozialassistent*in Studium Therapie- und Pflegewissenschaften (B.Sc.) Ausbildung Verkäufer*in (Bekleidung/Möbel) Erfolgreich bewerben Famulatur & Praktisches Jahr (PJ) Ehrenamt Freiwilligendienste (FSJ, BFD) Fachveranstaltungen Fort- und Weiterbildungen Die Johannesstift Diakonie Zur Übersicht Im Porträt Organisation & Aufgaben Unser Anspruch an Qualität Diakonisches Handeln Zur Übersicht Ethikarbeit Seelsorge Palliativversorgung Gesundheitsförderung & Frühe Hilfen Helfen & Spenden Zur Übersicht Stiftung Evangelisches Johannesstift Paul Gerhardt Förderverein Ehrenamt Compliance & Hinweisabgabe Ansprechpartner*innen Podcasts Zur Übersicht Gut Durchblutet Warum ich? Der andere Gesundheitspodcast Warum nicht?! Karriere mal anders Hosts Moderatorin Martina Conradt Moderator Maxime Miossec Presse & Aktuelles Zur Übersicht Aktuelle Meldungen Blick in die Presse Veranstaltungen Fachveranstaltungen Alle Einrichtungen Leichte Sprache Mitarbeitenden-Login Ja, ich will! Gutes tun. Jeden Tag. Jetzt hier bewerben Facheinkäufer *in Berlin -Spandau Einkauf mit Sinn | Büro statt Schicht | Job als Einkäufer *in Berlin | Gesundheitswesen | Karriere im Einkauf | Quereinstieg möglich | Vollzeit | Berlin | Johannesstift Diakonie Services | Einkauf im Krankenhausbereich | Entwicklungschancen | SAP MM | Mobiles Arbeiten | Teamwork | Klinikfacheinkauf | Kostenanalysen | Medizinprodukte | Kostenoptimierung Startseite › Karriere & Bildung › Stellenangebote & Bewerbung Arbeitsfeld Einkauf/Logistik Stelle für Fachkräfte Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Ihr neues Team Wir sind ein modernes Einkaufsteam in einem starken Unternehmen im Gesundheitswesen. Bei uns trifft Fachwissen auf Kollegialität, und jeder bringt seine Stärken ein – egal ob aus der Pflege, Logistik oder Verwaltung. Unser Ziel: effiziente Versorgung für alle Bereiche und Freude an der Zusammenarbeit. Willkommen bei uns, wo neue Perspektiven entstehen. Ihr neues Tätigkeitsumfeld Als Facheinkäufer*in im Gesundheitswesen steuern Sie die Beschaffung von Medizinprodukten und Sachmitteln effizient und rechtskonform. Sie koordinieren Bedarfe mit Fachabteilungen, führen Kostenanalysen durch und unterstützen Projekte. Dabei optimieren Sie Prozesse, sichern die Versorgung und bringen Ihre Expertise in Warengruppenmanagement und Lieferantenbewertungen ein.. Mehr über Ihre neue Wirkungsstätte Weitere Vorteile Außertarifliche Verg",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
       "id": "small-office-fix-b74facf5c20c55c468",
       "title": "Sachbearbeiter/in (m/w/d) für schulische Angelegenheiten",
       "company": "Stadt Hennigsdorf",
@@ -6813,6 +7160,56 @@
       "description": "Wir suchen Sie für den Fachbereich Soziales und Gebäudemanagement / Stadt Hennigsdorf Diese Website verwendet Cookies, die für den technischen Betrieb der Website notwendig sind und stets gesetzt werden. Weitere Cookies werden nur mit Ihrer Zustimmung gesetzt, um statistische Daten zur Nutzung der Website in anonymisierter Form zu sammeln. Mehr dazu in unserer Datenschutzerklärung. Ablehnen Zustimmen zum Inhalt zum Untermenü zum Fu�bereich zur Volltextsuche Startseite schließen Menü STADTPLAN STADTPLAN Hauptmenü Rathaus Aktuelles B�rgerservice Online Serviceportal B�rgerb�ro Standesamt Ordnungsangelegenheiten B�rgerhaushalt Startseite Ideen einreichen Gewinnerliste Projekte in Umsetzung R�ckblick Downloads Kontakt Angemerkt Aktuelle Baustellen Politik Ratsinformationssystem Live-Stream aus dem SVV-Saal Wahlen Erhalt Klinikstandort Hennigsdorf Wahlen Verwaltung Struktur Ortsrecht Finanzen Arbeitgeber Stadt Amtliche Bekanntmachungen �ffentliche Ausschreibungen Kommunale Unternehmen Freiwillige Feuerwehr Stadtplanung Aktuelle Projekte Stadtentwicklungskonzept Kommunale W�rmeplanung Citymanagement Aktuelle Baustellen Bauantr�ge und Genehmigungen Werbeanlagen Grundst�cke Stadtleben Die Stadt Zahlen und Fakten Geschichte Partnerst�dte Digitales Schaufenster Freiwillige Feuerwehr Kirchen Friedh�fe Kinder, Jugend und Familie Kindertagesbetreuung Schulen Gemeinschaftszentrum Conradsberg Jugend Musikschule Senioren Soziales und Gesundheit Ehrenamt Pflegenetzwerk Behindertenarbeit Integration Wohnen Vermieter in Hennigsdorf Umwelt- und Klimaschutz St�dtisches Engagement Klimaneutrale Fernw�rme Weitere Aktivit�ten & Projekte Kunst und Kultur Stadtklubhaus B�rgerhaus \"Alte Feuerwache\" Musikschule Hennigsdorf Startseite Unterrichtsangebot Orchester & Ensembles Kooperationen & Projekte Konzerte & Veranstaltungen Kontakt & Anmeldung Stadtarchiv Grenzturm Nieder Neuendorf Stadtgeschichtliche Ausstellung Stadtbibliothek Startseite �ber uns Angebot Mitgliederbereich Veranstaltungen Kontakt Sport und Freizeit Sportangebote Freizeitaktivit�ten Tourismus Stadtinformation Digitales Schaufenster Veranstaltungen Wirtschaft Standort Hennigsdorf Citymanagement KreativWerkR6 Life Science Cluster Management Unternehmensportr�ts Wirtschafts&shy;f�rderung Gewerbestandorte Gewerbegebiet Nord Gewerbegebiet S�d Innovationsforum Startseite Standort Ansiedlung Unternehmen & Netzwerke Gewerbehof-Nord KreativWerkR6 Kommunale Unternehmen HWB Stadtwerke BBG mbH PuR LSO Umwelt- & Klimaschutz St�dtisches Engagement Klimaneutrale Fernw�rme Weitere Aktivit�ten & Projekte Volltextsuche Suchen auf hennigsdorf.de Suchen Rathaus > Aktuelles --> Rathaus > Aktuelles Untermenü Aktuelles B�rgerservice Online Serviceportal B�rgerb�ro Standesamt Ordnungsangelegenheiten B�rgerhaushalt Angemerkt Aktuelle Baustellen Politik Ratsinformationssystem Live-Stream aus dem SVV-Saal Wahlen Erhalt Klinikstandort Hennigsdorf Wahlen Verwaltung Struktur Ortsrecht Finanzen Arbeitgeber Stadt Amtliche Bekanntmachungen �ffentliche Ausschreibungen Kommunale Unternehmen Freiwillige Feuerwehr Stadtplanung Aktuelle Projekte Stadtentwicklungskonzept Kommunale W�rmeplanung Citymanagement Aktuelle Baustellen Bauantr�ge und Genehmigungen Werbeanlagen Grundst�cke Inhalt Wir suchen Sie für den Fachbereich Soziales und Gebäudemanagement Datum: 10.07.2026 Die Stadt Hennigsdorf ist mit ca. 27.000 Einwohnern Mittelzentrum und wichtiger Wohn- und Wirtschaftsstandort im Land Brandenburg. Die Stadt verfügt über eine hohe Lebensqualität, befindet sich unmittelbar am nord-westlichen Rand der Bundeshauptstadt und bietet unter anderem mit der S-Bahn eine günstige Verkehrsanbindung nach Berlin. Im Fachbereich Soziales und Gebäudemanagement ist zum nächstmöglichen Zeitpunkt eine vorerst auf zwei Jahre befristete, auf Dauer angelegte, Stelle als Sachbearbeiter/in (m, w, d) für schulische Angelegenheiten zu besetzen. Die wöchentliche Arbeitszeit beträgt 100% (= 39 Stunden) . Die Tätigkeit wird nach dem TVöD &ndash; VKA in der Entgeltgruppe 9a vergütet. Jetzt bewerben Wir bieten Bedeutungsvolle Arbeit: Wir setzen uns für die Belange der Bürgerinnen und Bürger ein, sorgen dafür, dass sich die Menschen der Stadt wohlfühlen und bearbeiten ein vielfältiges Spektrum an Dienstleistungen. Mobiles und flexibles Arbeiten: Nutzen Sie die Möglichkeit, bis zu 100 Tage im Kalenderjahr mobil und ortsunabhängig zu gestalten. Zudem bieten wir eine Gleitzeitregelung, die es Ihnen ermöglicht, Ihre Arbeitszeiten innerhalb bestimmter Rahmenbedingungen flexibel zu gestalten. Urlaub: Genießen Sie 30 Tage Erholungsurlaub im Jahr bei einer 5-Tage-Woche. Weiterbildung: Wir bieten sehr gute Fortbildungsmöglichkeiten, um Sie nach Ihren Bedürfnissen und Talenten voranzubringen. Vergütung: Durch den TVöD erwartet Sie eine transparente und faire Gehaltsstruktur mit einer Jahressonderzahlung. Zentrale Lage: Unser Rathaus liegt im Herzen von Hennigsdorf und hat eine sehr gute Anbindung (S Hennigsdorf). Ihre Aufgaben Zusammenarbeit mit Schulen, insbesondere mit Schulleitungen fachliche und organisatorische Anleitung des Verwaltungspersonals in den Schulsekretariaten Bearbeitung schulischer Angelegenheiten, insbesondere im Bereich Schulpflicht, Schulkostenbeiträge, Schulschwimmen, Schulspeisung, Schulwegsicherung, Schulbuchbeschaffung sowie Zuschusszahlungen aus Unterstützungsfonds Bearbeitung von Anträgen, beispielsweise zu schulergänzenden Projekten und Raumnutzungen Planung und überwachung der Haushaltsmittel für Schulen Durchführung des Einschulungsverfahrens sowie Mitwirkung am ü7-Verfahren, insbesondere bei der Kapazitätsfestlegung Erstellung von Statistiken und Durchführung sonstiger Erhebungen Ausschreibung, Vergabe und Beauftragung von Liefer- und Dienstleistungen Erstellung von Vorlagen für den kommunalen Sitzungsdienst Vertretung des Schulträgers in Schulkonferenzen und Kolloquien enge Zusammenarbeit mit dem staatlichen Schulamt übernahme von Sprechzeiten zu den regulären öffnungszeiten der Verwaltung Bereitschaft zur Teilnahme an Ausschusssitzungen und Konferenzen auch im Nachmittags- und Abendbereich Wir erwarten eine Ausbildung als Verwaltungsfachangestellte/r oder vergleichbar sichere Kenntnisse im brandenburgischen Schulgesetz, VwVfGBbg, SGB VIII, SGB IX sicheren Umgang mit den Standard&ndash;Office Programmen eigenständiges Arbeiten, Flexibilität und Belastbarkeit, gutes Zeitmanagement sehr gute Ausdrucksfähigkeit in Wort und Schrift Motivation und Durchsetzungsvermögen Team-, Kommunikations- und Kooperationsfähigkeit Bereitschaft zu Arbeitszeiten, die teilweise in den Abendstunden liegen (Schulkonferenzen, Ausschüsse) den Besitz des Führerscheins der Klasse B mind. Sprachniveau C1 gem. &bdquo;Gemeinsamer Europäischer Referenzrahmen für Sprachen&ldquo; (GER) Bitte bewerben Sie sich bis zum 14.08.2026 über das Bewerbungsformular unter Angabe der Kennziffer 24301.0006 . Jetzt bewerben Wir freuen uns auf Ihre Bewerbung! Weitere Informationen Adresse Stadt Hennigsdorf Rathausplatz 1 16",
       "salary": null,
       "firstSeenAt": "2026-08-06T10:03:12.726Z"
+    },
+    {
+      "id": "small-office-fix-2a6dee214b0cd59252",
+      "title": "Sekretär *in Ergotherapieschule als Schwangerschaftsvertretung",
+      "company": "Evangelisches Waldkrankenhaus Spandau",
+      "location": "Berlin-Spandau",
+      "address": "555, Stadtrandstraße, Falkenhagener Feld, Spandau, Berlin, 13589, Deutschland",
+      "lat": 52.5629991,
+      "lon": 13.1569429,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/online-bewerbung",
+      "source": "Johannesstift Büro-Liste direkt",
+      "sources": [
+        {
+          "name": "Johannesstift Büro-Liste direkt",
+          "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/online-bewerbung"
+        }
+      ],
+      "description": "Online-Bewerbung - Johannesstift Diakonie Navigation überspringen Schließen Suchen & Finden Suchen auf allen Seiten Ansprechpartner*in Stellenangebote Einrichtungen Medizinische Versorgung Pflege & Wohnen Teilhabe & Pädagogik Kontrast Suche Menü Schließen Medizinische Versorgung Zur Übersicht Ratgeber Gesundheit & Medizin Zur Übersicht Ratgeber Arthrose Ratgeber Geburtshilfe Ratgeber Gefäßerkrankungen Ratgeber Gelenkverschleiß Ratgeber Gynäkologie Ratgeber Kardiologie Behandlungsbereiche Zur Übersicht Notaufnahmen Allergologie Allgemein- und Viszeralchirurgie Anästhesie und Intensivmedizin Angiologie Beatmungsmedizin BG-Ambulanz/D-Arzt Geburtshilfe Beckenendlage Fetalchirurgie Fetofetales Transfusionssyndrom Frühgeburt Geburtsvorbereitungskurs Berlin Geplanter Kaiserschnitt Mehrlingsschwangerschaft Pränataldiagnostik Berlin Risikoschwangerschaft Rückbildungskurs Berlin Spontangeburt Stillberatung Schwangerschaftsdiabetes Gefäßchirurgie Geriatrie Gynäkologie Behandlung Eierstockkrebs Dysplasiesprechstunde Eileiterschwangerschaft OP Gebärmutterkrebs-OP Geschlechtsangleichende Operation Genetische Beratung Urogynäkologie Handchirurgie Innere Medizin Kardiologie Bypass-OP Herzinsuffizienz Therapie Herzklappenerkrankung Herzklappen-OP Herzrhythmusstörungen-Therapie Herzschrittmacher OP KHK Therapie Kinder- und Jugendmedizin Lasermedizin Onkologie Orthopädie und Unfallchirurgie Palliativversorgung Plastische Chirurgie Pneumologie Radiologie Reisemedizin Schlafmedizin Sportmedizin Thoraxchirurgie Urologie Krankenhäuser Zur Übersicht EGZB Evangelische Elisabeth Klinik Evangelische Lungenklinik Evangelisches Herzzentrum Coswig Evangelisches Krankenhaus Hubertus Evangelisches Krankenhaus Paul Gerhardt Stift Evangelisches Waldkrankenhaus Spandau Klinik Amsee Klinik für MIC Martin Luther Krankenhaus Wichernkrankenhaus Ambulante Versorgung Karriere & Bildung Helfen & Spenden Einrichtungen finden Pflege & Wohnen Zur Übersicht Betreuung & Pflegeangebote Zur Übersicht Ambulante & stationäre Palliativversorgung Ambulante Pflege Ambulante Pflege Berlin Außerklinische Intensivpflege Beratungsangebote & Pflegestützpunkte Besuchsdienst (Lebendige Nachbarschaft) Hausgemeinschaften Hospize & Hospizdienste Kurzzeitpflege Pflegeberatung Berlin Pflege & Wohnen Servicecenter Pflegewohnen (Langzeitpflege) Servicewohnen Tagespflege Wohnbereich für Menschen mit Demenz Wohnen für Menschen mit Teilhabe-Barrieren Karriere & Bildung Helfen & Spenden Einrichtungen finden Teilhabe & Pädagogik Zur Übersicht Angebote für Menschen mit Teilhabebarrieren Zur Übersicht August Hermann Francke Schule DiaLOG-IN (Migration & Beeinträchtigung) Die Macherei (Bildung & Beschäftigung) Proclusio Proclusio Services (Inklusionsbetriebe) Wohnen & Teilhabe Arbeitsförderung & Coaching Zur Übersicht GesBiT (Bildung & Teilhabe) Jugendhilfe Karriere & Bildung Helfen & Spenden Unterstützung finden Unsere Services Zur Übersicht Bau- & Energiemanagement Einkauf & Logistik Eventmanagement & -catering Zur Übersicht PAULS Events PAULS Catering Gastronomie Zur Übersicht CaféIN PAULS Delis & Cafés Marie. Das Bistro im Bundestag Gebäudereinigung Handwerk & Gärtnerei Haushaltsnahe Dienstleistungen Hotel & Appartements Immobilienverwaltung IT-Service Medizintechnik Möbelpolsterei Second-Hand-Laden Speisenversorgung der Einrichtungen Umzugshilfe & Malerarbeiten Veranstaltungs- & Konferenzräume Zentralsterilisation Karriere & Bildung Zur Übersicht Darum Johannesstift Diakonie Zur Übersicht Benefits für Pflegekräfte Karriereblog Wir sind die Johannesstift Diakonie Karriere & Jobs im Gesundheitswesen Karriere & Jobs in der IT Karriere & Jobs in der Pflege Karriere & Jobs im sozialen Bereich Stellenangebote & Bewerbung Initiativbewerbung & Kontakt Erfolgreich bewerben Ausbildungsberufe & Schulen Zur Übersicht Bachelor of Nursing Ausbildung Ergotherapeut*in Ausbildung Erzieher*in Ausbildung Fachinformatiker*in für Systemintegration Ausbildung Fachkraft für Küchen, Möbel und Umzugsservice Ausbildung Fachkraft im Gastgewerbe Ausbildung Gärtner*in im Garten- und Landschaftsbau Studium Hebammenwissenschaft Ausbildung Heilerziehungspfleger*in Ausbildung Hotelfachmann*frau Ausbildung Kauffrau*mann für Büromanagement Ausbildung Koch*Köchin Ausbildung Maler*in und Lackierer*in Ausbildung Medizinische*r Fachangestellte*r Ausbildung Operationstechnische*r Assistent*in Ausbildung Pflegefachassistent*in Ausbildung Pflegefachfrau*mann Ausbildung Physiotherapeut*in Ausbildung Restaurantfachmann*frau Ausbildung Sozialassistent*in Studium Therapie- und Pflegewissenschaften (B.Sc.) Ausbildung Verkäufer*in (Bekleidung/Möbel) Erfolgreich bewerben Famulatur & Praktisches Jahr (PJ) Ehrenamt Freiwilligendienste (FSJ, BFD) Fachveranstaltungen Fort- und Weiterbildungen Die Johannesstift Diakonie Zur Übersicht Im Porträt Organisation & Aufgaben Unser Anspruch an Qualität Diakonisches Handeln Zur Übersicht Ethikarbeit Seelsorge Palliativversorgung Gesundheitsförderung & Frühe Hilfen Helfen & Spenden Zur Übersicht Stiftung Evangelisches Johannesstift Paul Gerhardt Förderverein Ehrenamt Compliance & Hinweisabgabe Ansprechpartner*innen Podcasts Zur Übersicht Gut Durchblutet Warum ich? Der andere Gesundheitspodcast Warum nicht?! Karriere mal anders Hosts Moderatorin Martina Conradt Moderator Maxime Miossec Presse & Aktuelles Zur Übersicht Aktuelle Meldungen Blick in die Presse Veranstaltungen Fachveranstaltungen Alle Einrichtungen Leichte Sprache Mitarbeitenden-Login Startseite › Karriere & Bildung › Stellenangebote & Bewerbung Stellenangebote At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Soziales/Pädagogik/Bildung Erzieherin * Erzieher für Schulhort Eintrittsdatum nächstmöglich Stellenumfang Teilzeit Arbeitsort Spandau Einrichtung Johannesstift Diakonie Jugendhilfe Zur Ausschreibung Soziales/Pädagogik/Bildung Erzieherin * Erzieher für Jugendwohngruppe Eintrittsdatum nächstmöglich Stellenumfang Teilzeit Arbeitsort Spandau Einrichtung Johannesstift Diakonie Jugendhilfe Zur Ausschreibung Verwaltung/Leitung/IT Therapeutische Leitung Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung EGZB Zur Ausschreibung Einkauf/Logistik Consultant *in Healthcare – Fokus Sachkostensteuerung Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Zur Ausschreibung Handwerk/Technik Maurer *in | für den Bereich Ausbau Berlin Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Zur Ausschreibung Handwerk/Technik Leiter *in Handwerkerzentrum | Technik*er Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Zur Ausschreibung Handwerk/Technik Medizintechniker *in | Krankenhausbetreuung Berlin & Umgebung Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift ",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
+    },
+    {
+      "id": "small-office-fix-b49bfe82416de1d712",
+      "title": "Debitorenbuchhalter *in / Hauptbuchhalter *in",
+      "company": "Johannesstift Diakonie",
+      "location": "Berlin-Siemensstadt",
+      "address": "Siemens Wernerwerk-Hochhaus, 50, Siemensdamm, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland",
+      "lat": 52.5350366,
+      "lon": 13.2742541,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/online-bewerbung",
+      "source": "Johannesstift Büro-Liste direkt",
+      "sources": [
+        {
+          "name": "Johannesstift Büro-Liste direkt",
+          "url": "https://www.johannesstift-diakonie.de/karriere-bildung/stellenangebote-bewerbung/stellenangebot/online-bewerbung"
+        }
+      ],
+      "description": "Online-Bewerbung - Johannesstift Diakonie Navigation überspringen Schließen Suchen & Finden Suchen auf allen Seiten Ansprechpartner*in Stellenangebote Einrichtungen Medizinische Versorgung Pflege & Wohnen Teilhabe & Pädagogik Kontrast Suche Menü Schließen Medizinische Versorgung Zur Übersicht Ratgeber Gesundheit & Medizin Zur Übersicht Ratgeber Arthrose Ratgeber Geburtshilfe Ratgeber Gefäßerkrankungen Ratgeber Gelenkverschleiß Ratgeber Gynäkologie Ratgeber Kardiologie Behandlungsbereiche Zur Übersicht Notaufnahmen Allergologie Allgemein- und Viszeralchirurgie Anästhesie und Intensivmedizin Angiologie Beatmungsmedizin BG-Ambulanz/D-Arzt Geburtshilfe Beckenendlage Fetalchirurgie Fetofetales Transfusionssyndrom Frühgeburt Geburtsvorbereitungskurs Berlin Geplanter Kaiserschnitt Mehrlingsschwangerschaft Pränataldiagnostik Berlin Risikoschwangerschaft Rückbildungskurs Berlin Spontangeburt Stillberatung Schwangerschaftsdiabetes Gefäßchirurgie Geriatrie Gynäkologie Behandlung Eierstockkrebs Dysplasiesprechstunde Eileiterschwangerschaft OP Gebärmutterkrebs-OP Geschlechtsangleichende Operation Genetische Beratung Urogynäkologie Handchirurgie Innere Medizin Kardiologie Bypass-OP Herzinsuffizienz Therapie Herzklappenerkrankung Herzklappen-OP Herzrhythmusstörungen-Therapie Herzschrittmacher OP KHK Therapie Kinder- und Jugendmedizin Lasermedizin Onkologie Orthopädie und Unfallchirurgie Palliativversorgung Plastische Chirurgie Pneumologie Radiologie Reisemedizin Schlafmedizin Sportmedizin Thoraxchirurgie Urologie Krankenhäuser Zur Übersicht EGZB Evangelische Elisabeth Klinik Evangelische Lungenklinik Evangelisches Herzzentrum Coswig Evangelisches Krankenhaus Hubertus Evangelisches Krankenhaus Paul Gerhardt Stift Evangelisches Waldkrankenhaus Spandau Klinik Amsee Klinik für MIC Martin Luther Krankenhaus Wichernkrankenhaus Ambulante Versorgung Karriere & Bildung Helfen & Spenden Einrichtungen finden Pflege & Wohnen Zur Übersicht Betreuung & Pflegeangebote Zur Übersicht Ambulante & stationäre Palliativversorgung Ambulante Pflege Ambulante Pflege Berlin Außerklinische Intensivpflege Beratungsangebote & Pflegestützpunkte Besuchsdienst (Lebendige Nachbarschaft) Hausgemeinschaften Hospize & Hospizdienste Kurzzeitpflege Pflegeberatung Berlin Pflege & Wohnen Servicecenter Pflegewohnen (Langzeitpflege) Servicewohnen Tagespflege Wohnbereich für Menschen mit Demenz Wohnen für Menschen mit Teilhabe-Barrieren Karriere & Bildung Helfen & Spenden Einrichtungen finden Teilhabe & Pädagogik Zur Übersicht Angebote für Menschen mit Teilhabebarrieren Zur Übersicht August Hermann Francke Schule DiaLOG-IN (Migration & Beeinträchtigung) Die Macherei (Bildung & Beschäftigung) Proclusio Proclusio Services (Inklusionsbetriebe) Wohnen & Teilhabe Arbeitsförderung & Coaching Zur Übersicht GesBiT (Bildung & Teilhabe) Jugendhilfe Karriere & Bildung Helfen & Spenden Unterstützung finden Unsere Services Zur Übersicht Bau- & Energiemanagement Einkauf & Logistik Eventmanagement & -catering Zur Übersicht PAULS Events PAULS Catering Gastronomie Zur Übersicht CaféIN PAULS Delis & Cafés Marie. Das Bistro im Bundestag Gebäudereinigung Handwerk & Gärtnerei Haushaltsnahe Dienstleistungen Hotel & Appartements Immobilienverwaltung IT-Service Medizintechnik Möbelpolsterei Second-Hand-Laden Speisenversorgung der Einrichtungen Umzugshilfe & Malerarbeiten Veranstaltungs- & Konferenzräume Zentralsterilisation Karriere & Bildung Zur Übersicht Darum Johannesstift Diakonie Zur Übersicht Benefits für Pflegekräfte Karriereblog Wir sind die Johannesstift Diakonie Karriere & Jobs im Gesundheitswesen Karriere & Jobs in der IT Karriere & Jobs in der Pflege Karriere & Jobs im sozialen Bereich Stellenangebote & Bewerbung Initiativbewerbung & Kontakt Erfolgreich bewerben Ausbildungsberufe & Schulen Zur Übersicht Bachelor of Nursing Ausbildung Ergotherapeut*in Ausbildung Erzieher*in Ausbildung Fachinformatiker*in für Systemintegration Ausbildung Fachkraft für Küchen, Möbel und Umzugsservice Ausbildung Fachkraft im Gastgewerbe Ausbildung Gärtner*in im Garten- und Landschaftsbau Studium Hebammenwissenschaft Ausbildung Heilerziehungspfleger*in Ausbildung Hotelfachmann*frau Ausbildung Kauffrau*mann für Büromanagement Ausbildung Koch*Köchin Ausbildung Maler*in und Lackierer*in Ausbildung Medizinische*r Fachangestellte*r Ausbildung Operationstechnische*r Assistent*in Ausbildung Pflegefachassistent*in Ausbildung Pflegefachfrau*mann Ausbildung Physiotherapeut*in Ausbildung Restaurantfachmann*frau Ausbildung Sozialassistent*in Studium Therapie- und Pflegewissenschaften (B.Sc.) Ausbildung Verkäufer*in (Bekleidung/Möbel) Erfolgreich bewerben Famulatur & Praktisches Jahr (PJ) Ehrenamt Freiwilligendienste (FSJ, BFD) Fachveranstaltungen Fort- und Weiterbildungen Die Johannesstift Diakonie Zur Übersicht Im Porträt Organisation & Aufgaben Unser Anspruch an Qualität Diakonisches Handeln Zur Übersicht Ethikarbeit Seelsorge Palliativversorgung Gesundheitsförderung & Frühe Hilfen Helfen & Spenden Zur Übersicht Stiftung Evangelisches Johannesstift Paul Gerhardt Förderverein Ehrenamt Compliance & Hinweisabgabe Ansprechpartner*innen Podcasts Zur Übersicht Gut Durchblutet Warum ich? Der andere Gesundheitspodcast Warum nicht?! Karriere mal anders Hosts Moderatorin Martina Conradt Moderator Maxime Miossec Presse & Aktuelles Zur Übersicht Aktuelle Meldungen Blick in die Presse Veranstaltungen Fachveranstaltungen Alle Einrichtungen Leichte Sprache Mitarbeitenden-Login Startseite › Karriere & Bildung › Stellenangebote & Bewerbung Stellenangebote At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Soziales/Pädagogik/Bildung Erzieherin * Erzieher für Schulhort Eintrittsdatum nächstmöglich Stellenumfang Teilzeit Arbeitsort Spandau Einrichtung Johannesstift Diakonie Jugendhilfe Zur Ausschreibung Soziales/Pädagogik/Bildung Erzieherin * Erzieher für Jugendwohngruppe Eintrittsdatum nächstmöglich Stellenumfang Teilzeit Arbeitsort Spandau Einrichtung Johannesstift Diakonie Jugendhilfe Zur Ausschreibung Verwaltung/Leitung/IT Therapeutische Leitung Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung EGZB Zur Ausschreibung Einkauf/Logistik Consultant *in Healthcare – Fokus Sachkostensteuerung Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Zur Ausschreibung Handwerk/Technik Maurer *in | für den Bereich Ausbau Berlin Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Zur Ausschreibung Handwerk/Technik Leiter *in Handwerkerzentrum | Technik*er Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift Diakonie Services Zur Ausschreibung Handwerk/Technik Medizintechniker *in | Krankenhausbetreuung Berlin & Umgebung Eintrittsdatum nächstmöglich Stellenumfang Vollzeit Arbeitsort Berlin Einrichtung Johannesstift ",
+      "salary": null,
+      "firstSeenAt": "2026-08-14T11:10:46.708Z"
     },
     {
       "id": "tegel-office-e57514aef28d738088",

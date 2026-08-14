@@ -524,5 +524,77 @@
     "lat": 51.5158115,
     "lon": 13.39272,
     "display_name": "Bad Liebenwerda, Liebenwerda, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "major-portals:undefined undefined": null,
+  "major-portals:berlin berlin": {
+    "lat": 52.503379,
+    "lon": 13.3386522,
+    "display_name": "Berlin, Tauentzienstraße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10789, Deutschland"
+  },
+  "major-portals:munchen berlin frankfurt am main hamburg und dusseldorf": null,
+  "major-portals:friedrichstraße 23a 10969 berlin": {
+    "lat": 52.5033921,
+    "lon": 13.3923666,
+    "display_name": "23a, Friedrichstraße, Zeitungsviertel, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10969, Deutschland"
+  },
+  "major-portals:brunsbutteler damm 190 13581 berlin": {
+    "lat": 52.5338057,
+    "lon": 13.1702511,
+    "display_name": "190, Brunsbütteler Damm, Spandau, Berlin, 13581, Deutschland"
+  },
+  "major-portals:berlin": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
+  },
+  "major-portals:12099 berlin": {
+    "lat": 52.4639497,
+    "lon": 13.4029018,
+    "display_name": "12099, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "major-portals:eberswalder str 19 10437 berlin": {
+    "lat": 52.541055,
+    "lon": 13.4101293,
+    "display_name": "19, Eberswalder Straße, Bremer Höhe, Gleimviertel, Prenzlauer Berg, Pankow, Berlin, 10437, Deutschland"
+  },
+  "major-portals:caputh": {
+    "lat": 52.3464533,
+    "lon": 12.9890287,
+    "display_name": "Caputh, Schwielowsee, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "major-portals:turmstr 21 10559 berlin": {
+    "lat": 52.5286483,
+    "lon": 13.3464519,
+    "display_name": "Landesamt für Gesundheit und Soziales Berlin, 21, Turmstraße, Alt-Moabit, Stephankiez, Moabit, Mitte, Berlin, 10559, Deutschland"
+  },
+  "major-portals:10115 berlin": {
+    "lat": 52.5321914,
+    "lon": 13.3845571,
+    "display_name": "10115, Mitte, Berlin, Deutschland"
+  },
+  "major-portals:10178 berlin": {
+    "lat": 52.5212845,
+    "lon": 13.4097989,
+    "display_name": "10178, Mitte, Berlin, Deutschland"
+  },
+  "major-portals:10623 berlin": {
+    "lat": 52.5088608,
+    "lon": 13.3273465,
+    "display_name": "10623, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "major-portals:12529 schonefeld": {
+    "lat": 52.3680527,
+    "lon": 13.5048145,
+    "display_name": "12529, Schönefeld, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "major-portals:14469 potsdam": {
+    "lat": 52.4271931,
+    "lon": 13.0265212,
+    "display_name": "14469, Bornim, Potsdam, Brandenburg, Deutschland"
+  },
+  "major-portals:14057 berlin": {
+    "lat": 52.507254,
+    "lon": 13.2879423,
+    "display_name": "14057, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
