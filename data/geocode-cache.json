@@ -233,5 +233,60 @@
     "lat": 51.7567447,
     "lon": 14.3357307,
     "display_name": "Cottbus, Brandenburg, Deutschland"
+  },
+  "extra:bernhard weiß straße 6 unbefristet 10178 berlin": null,
+  "extra:fritz lang str 6 unbefristet 12627 berlin": null,
+  "extra:rathaus pankow breite str 24a 26 in 13187 berlin": null,
+  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 04 09 2026 unbefristet 13055 berlin": null,
+  "extra:invalidenstraße 57 10557 berlin": {
+    "lat": 52.5237956,
+    "lon": 13.3621914,
+    "display_name": "Landespolizeidirektion, 57, Invalidenstraße, Lehrter Kiez, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
+  },
+  "extra:frankfurter allee 14a 10247 berlin": {
+    "lat": 52.514551,
+    "lon": 13.4570531,
+    "display_name": "Bezirkszentralbibliothek Friedrichshain-Kreuzberg Pablo Neruda, 14a, Frankfurter Allee, Boxhagener Kiez, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, 10247, Deutschland"
+  },
+  "extra:rathaus pankow breite str 24a 26 13187 berlin": null,
+  "extra:keibelstr 36 10178 berlin": {
+    "lat": 52.5247324,
+    "lon": 13.4160442,
+    "display_name": "36, Keibelstraße, Rosenthaler Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  },
+  "extra:berliner allee 100 13088 berlin": {
+    "lat": 52.5498192,
+    "lon": 13.4589048,
+    "display_name": "100, Berliner Allee, Komponistenviertel, Weißensee, Pankow, Berlin, 13088, Deutschland"
+  },
+  "extra:platz der luftbrucke 6 12101 berlin": {
+    "lat": 52.482292,
+    "lon": 13.3885046,
+    "display_name": "Zentrales Fundbüro, 6, Platz der Luftbrücke, Manfred-von-Richthofen-Kiez, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 12101, Deutschland"
+  },
+  "extra:storkower str 113 10407 berlin": {
+    "lat": 52.5364757,
+    "lon": 13.4533311,
+    "display_name": "113, Storkower Straße, Blumenviertel, Mühlenviertel, Prenzlauer Berg, Pankow, Berlin, 10407, Deutschland"
+  },
+  "extra:keibelstraße 36 10178 berlin": {
+    "lat": 52.5247324,
+    "lon": 13.4160442,
+    "display_name": "36, Keibelstraße, Rosenthaler Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  },
+  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 21 08 2026 unbefristet 13055 berlin": null,
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 28 08 2026 unbefristet 10315 berlin": null,
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 28 08 2026 befristet 10315 berlin": null,
+  "extra:groß berliner damm 18 6 828 8 600 publizierung bis 20 08 2026 unbefristet 12487 berlin": null,
+  "extra:fehrbelliner platz 1 fehrbelliner platz publizierung bis 19 08 2026 unbefristet 10707 berlin": null,
+  "direct:ikea berlin spandau berlin": {
+    "lat": 52.5282537,
+    "lon": 13.21453,
+    "display_name": "IKEA, 10, Gewerbehof, Stresow, Wilhelmstadt, Spandau, Berlin, 13597, Deutschland"
+  },
+  "direct:alstom hennigsdorf hennigsdorf": {
+    "lat": 52.624302,
+    "lon": 13.209769,
+    "display_name": "Alstom, 1, Nieder Neuendorf, Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
   }
 }
