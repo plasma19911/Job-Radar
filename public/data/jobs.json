@@ -1,0 +1,4 @@
+{
+  "meta": {"generatedAt": null, "total": 0, "mapped": 0, "deduplicated": 0, "excludedTraining": 0, "sources": [], "message": "Der erste automatische Import wird nach dem ersten GitHub-Workflow-Lauf erzeugt."},
+  "jobs": []
+}

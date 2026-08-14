@@ -1,0 +1,14 @@
+{
+  "name": "Job Radar – Berlin & Brandenburg",
+  "short_name": "Job Radar",
+  "description": "Stellenangebote aus mehreren Quellen auf einer Karte, täglich aktualisiert und ohne doppelte Treffer.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "de-DE",
+  "icons": [
+    {"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
