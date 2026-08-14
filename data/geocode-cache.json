@@ -404,5 +404,85 @@
     "lat": 52.5897607,
     "lon": 13.2835379,
     "display_name": "Berliner Straße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "stuttgart deutschland": {
+    "lat": 48.7784485,
+    "lon": 9.1800132,
+    "display_name": "Stuttgart, Baden-Württemberg, Deutschland"
+  },
+  "fresh-local:innsbrucker str 53 14612 falkensee": {
+    "lat": 52.5823075,
+    "lon": 13.0823588,
+    "display_name": "53, Innsbrucker Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "fresh-local:wichernstraße 14 13587 berlin": {
+    "lat": 52.5673555,
+    "lon": 13.2064894,
+    "display_name": "14, Wichernstraße, Pepitahöfe, Waldsiedlung Hakenfelde, Hakenfelde, Spandau, Berlin, 13587, Deutschland"
+  },
+  "fresh-local:neue bergstraße 6 13585 berlin": {
+    "lat": 52.5488537,
+    "lon": 13.2042875,
+    "display_name": "6, Neue Bergstraße, Neustadt, Spandau, Berlin, 13585, Deutschland"
+  },
+  "fresh-local:altonaer straße 70 72 13581 berlin": {
+    "lat": 52.5318226,
+    "lon": 13.1944941,
+    "display_name": "Altonaer Straße, Klosterfelde, Spandau, Berlin, 13581, Deutschland"
+  },
+  "fresh-local:galenstraße 14 13597 berlin": {
+    "lat": 52.5367338,
+    "lon": 13.1968867,
+    "display_name": "Jugendgeschichtswerkstatt Spandau, 14, Galenstraße, Georg-Ramin-Siedlung, Klosterfelde, Spandau, Berlin, 13597, Deutschland"
+  },
+  "fresh-local:berliner straße 36 37 13507 berlin": {
+    "lat": 52.5892014,
+    "lon": 13.2841089,
+    "display_name": "Berliner Straße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "fresh-local:triftstraße 37 38 13509 berlin": {
+    "lat": 52.5868687,
+    "lon": 13.3161687,
+    "display_name": "Triftstraße, Borsigwalde, Reinickendorf, Berlin, 13403, Deutschland"
+  },
+  "fresh-local:am borsigturm 11 13507 berlin": {
+    "lat": 52.583439,
+    "lon": 13.2857588,
+    "display_name": "Borsigturm, 11, Am Borsigturm, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "micro-local:heerstraße 616 13591 berlin": {
+    "lat": 52.5267558,
+    "lon": 13.1330054,
+    "display_name": "616, Heerstraße, Siedlung Neu-Jerusalem, Siedlung Hahneberg, Staaken, Spandau, Berlin, 13591, Deutschland"
+  },
+  "micro-local:kolk 1 13597 berlin": {
+    "lat": 52.5395562,
+    "lon": 13.2071207,
+    "display_name": "1, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland"
+  },
+  "micro-local:bruderstraße 45 13595 berlin": {
+    "lat": 52.5239632,
+    "lon": 13.1939109,
+    "display_name": "45, Brüderstraße, Wilhelmstadt, Spandau, Berlin, 13595, Deutschland"
+  },
+  "micro-local:eiswerderstraße 18 e 13585 berlin": {
+    "lat": 52.5489602,
+    "lon": 13.2202663,
+    "display_name": "18E, Eiswerderstraße, Quartier Eiswerder, Wasserstadt Spandau, Hakenfelde, Spandau, Berlin, 13585, Deutschland"
+  },
+  "micro-local:eiswerderstraße 16 d 13585 berlin": {
+    "lat": 52.5483071,
+    "lon": 13.2198561,
+    "display_name": "Spree Ecke Havel, 16D, Eiswerderstraße, Quartier Eiswerder, Wasserstadt Spandau, Hakenfelde, Spandau, Berlin, 13585, Deutschland"
+  },
+  "micro-local:brunsbutteler damm 192 194 13581 berlin": {
+    "lat": 52.5336681,
+    "lon": 13.1740531,
+    "display_name": "Brunsbütteler Damm, Spandau-West, Spandau, Berlin, 13581, Deutschland"
+  },
+  "micro-local:berliner straße 68 13507 berlin": {
+    "lat": 52.5823846,
+    "lon": 13.2906269,
+    "display_name": "Autohaus Volkswagen, 68, Berliner Straße, Tegel-Süd, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
   }
 }
