@@ -32,7 +32,9 @@ jobs:
           node-version: '20'
 
       - name: Stellen aus allen Quellen aktualisieren
-        run: node scripts/update-jobs.mjs
+        run: |
+          node scripts/update-jobs.mjs
+          node scripts/supplement-sources.mjs
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
