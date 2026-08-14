@@ -29,26 +29,25 @@ async function get(url,{json=false,headers={},tries=3}={}){
 function source(name,url){return{name,url};}
 function final(j){
   const sources=(j.sources||[source(j.source,j.url)]).filter(s=>s?.url);
-  return {id:j.id||hash(`${norm(j.title)}|${companyNorm(j.company)}|${norm(j.location)}|${j.url}`),title:clean(j.title),company:clean(j.company),location:clean(j.location),address:clean(j.address),lat:num(j.lat),lon:num(j.lon),remote:Boolean(j.remote),employmentType:Array.isArray(j.employmentType)?j.employmentType.filter(Boolean).map(clean):[],publishedAt:j.publishedAt?new Date(j.publishedAt).toISOString():null,validThrough:null,url:j.url,source:j.source,sources,description:strip(j.description).slice(0,6500),salary:null};
+  const types=Array.isArray(j.employmentType)?j.employmentType:[j.employmentType].filter(Boolean);
+  return {id:j.id||hash(`${norm(j.title)}|${companyNorm(j.company)}|${norm(j.location)}|${j.url}`),title:clean(j.title),company:clean(j.company),location:clean(j.location),address:clean(j.address),lat:num(j.lat),lon:num(j.lon),remote:Boolean(j.remote),employmentType:types.map(clean),publishedAt:j.publishedAt?new Date(j.publishedAt).toISOString():null,validThrough:null,url:j.url,source:j.source,sources,description:strip(j.description).slice(0,6500),salary:null};
 }
 
 async function bundesagentur(){
   const name='Bundesagentur für Arbeit', jobs=[];
-  const endpoint='https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/app/jobs';
-  const places=['Berlin','Potsdam','Cottbus','Frankfurt (Oder)','Brandenburg an der Havel','Oranienburg','Eberswalde','Königs Wusterhausen'];
-  for(const wo of places){
-    for(let page=1;page<=4;page++){
-      const u=new URL(endpoint);
-      for(const [k,v] of Object.entries({angebotsart:'1',wo,umkreis:'50',veroeffentlichtseit:'35',page:String(page),size:'100',pav:'false'}))u.searchParams.set(k,v);
-      let data;try{data=await get(u,{json:true,headers:{'X-API-Key':'jobboerse-jobsuche'}});}catch(e){console.warn(`[BA] ${wo}/${page}: ${e.message}`);break;}
-      const rows=data.stellenangebote||data.jobs||[]; if(!rows.length)break;
-      for(const o of rows){
-        const w=o.arbeitsort||o.arbeitsorte?.[0]||{}; const c=w.koordinaten||o.koordinaten||{}; const ref=o.refnr||o.referenznummer||o.hashId;
-        const url=o.externeUrl||o.externeURL||(ref?`https://www.arbeitsagentur.de/jobsuche/jobdetail/${encodeURIComponent(ref)}`:'https://www.arbeitsagentur.de/jobsuche/');
-        jobs.push(final({id:ref?`ba-${hash(ref)}`:null,title:o.beruf||o.titel||o.stellenangebotsTitel,company:o.arbeitgeber||o.arbeitgeberName,location:clean([w.plz,w.ort].filter(Boolean).join(' '))||wo,address:clean([w.strasse,w.plz,w.ort].filter(Boolean).join(', ')),lat:c.lat,lon:c.lon,employmentType:o.arbeitszeitmodelle||o.arbeitszeit||[],publishedAt:o.aktuelleVeroeffentlichungsdatum||o.aktuelleVeroeffentlichungsDatum||o.veroeffentlichtAm||o.ersteVeroeffentlichungsdatum,url,source:name,sources:[source(name,url)]}));
-      }
-      if(rows.length<100)break; await sleep(130);
+  const endpoint='https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobs';
+  const wo='13589 Berlin';
+  for(let page=1;page<=6;page++){
+    const u=new URL(endpoint);
+    for(const [k,v] of Object.entries({angebotsart:'1',wo,umkreis:'15',veroeffentlichtseit:'35',page:String(page),size:'100',pav:'false'}))u.searchParams.set(k,v);
+    let data;try{data=await get(u,{json:true,headers:{'X-API-Key':'jobboerse-jobsuche'}});}catch(e){console.warn(`[BA] ${wo}/${page}: ${e.message}`);break;}
+    const rows=data.stellenangebote||data.jobs||[]; if(!rows.length)break;
+    for(const o of rows){
+      const w=o.arbeitsort||o.arbeitsorte?.[0]||{}; const c=w.koordinaten||o.koordinaten||{}; const ref=o.refnr||o.referenznummer||o.hashId;
+      const url=o.externeUrl||o.externeURL||(ref?`https://www.arbeitsagentur.de/jobsuche/jobdetail/${encodeURIComponent(ref)}`:'https://www.arbeitsagentur.de/jobsuche/');
+      jobs.push(final({id:ref?`ba-${hash(ref)}`:null,title:o.beruf||o.titel||o.stellenangebotsTitel,company:o.arbeitgeber||o.arbeitgeberName,location:clean([w.plz,w.ort].filter(Boolean).join(' '))||wo,address:clean([w.strasse,w.plz,w.ort].filter(Boolean).join(', ')),lat:c.lat,lon:c.lon,employmentType:o.arbeitszeitmodelle||o.arbeitszeit||[],publishedAt:o.aktuelleVeroeffentlichungsdatum||o.aktuelleVeroeffentlichungsDatum||o.veroeffentlichtAm||o.ersteVeroeffentlichungsdatum,url,source:name,sources:[source(name,url)]}));
     }
+    if(rows.length<100)break; await sleep(130);
   }
   return jobs.filter(j=>j.title&&!isTraining(j));
 }
