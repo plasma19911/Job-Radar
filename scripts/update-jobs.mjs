@@ -18,6 +18,7 @@ const uniq=a=>[...new Set(a.filter(Boolean))];
 const isoDate=v=>{ if(!v)return null; const d=new Date(v); return Number.isNaN(d.getTime())?null:d.toISOString(); };
 const daysOld=v=>{const d=new Date(v||0);return Number.isNaN(d.getTime())?9999:(Date.now()-d.getTime())/86400000;};
 const hash=v=>crypto.createHash('sha1').update(v).digest('hex').slice(0,18);
+const num=v=>(v===null||v===undefined||v==='')?null:(Number.isFinite(Number(v))?Number(v):null);
 
 function normalize(v=''){
   return clean(v).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\b(m|w|d|gn|all genders|divers)[\/\-\s]*\b/g,' ').replace(/[^a-z0-9äöüß]+/g,' ').replace(/\s+/g,' ').trim();
@@ -54,7 +55,7 @@ function finalizeJob(j){
   const sources=uniq((j.sources||[]).map(s=>s?.url?`${s.name}|||${s.url}`:null)).map(x=>{const [name,url]=x.split('|||');return{name,url};});
   const title=clean(j.title), company=clean(j.company), location=clean(j.location), address=clean(j.address);
   const id=j.id||hash(`${normalize(title)}|${normalizeCompany(company)}|${normalize(location||address)}|${j.url||''}`);
-  return {id,title,company,location,address,lat:Number.isFinite(Number(j.lat))?Number(j.lat):null,lon:Number.isFinite(Number(j.lon))?Number(j.lon):null,remote:Boolean(j.remote),employmentType:uniq(Array.isArray(j.employmentType)?j.employmentType.map(clean):[clean(j.employmentType)]),publishedAt:isoDate(j.publishedAt),validThrough:isoDate(j.validThrough),url:j.url||sources[0]?.url||null,source:j.source||sources[0]?.name||'Unbekannt',sources:sources.length?sources:[makeSource(j.source||'Unbekannt',j.url)],description:stripHtml(j.description).slice(0,6500),salary:clean(j.salary)||null};
+  return {id,title,company,location,address,lat:num(j.lat),lon:num(j.lon),remote:Boolean(j.remote),employmentType:uniq(Array.isArray(j.employmentType)?j.employmentType.map(clean):[clean(j.employmentType)]),publishedAt:isoDate(j.publishedAt),validThrough:isoDate(j.validThrough),url:j.url||sources[0]?.url||null,source:j.source||sources[0]?.name||'Unbekannt',sources:sources.length?sources:[makeSource(j.source||'Unbekannt',j.url)],description:stripHtml(j.description).slice(0,6500),salary:clean(j.salary)||null};
 }
 
 async function fetchArbeitsagentur(){
@@ -196,6 +197,7 @@ async function main(){
 
   const pre=all.map(finalizeJob).filter(j=>j.title&&j.url).filter(j=>!j.publishedAt||daysOld(j.publishedAt)<=MAX_AGE_DAYS);
   const excludedTraining=pre.filter(isTraining).length;let kept=pre.filter(j=>!isTraining(j));
+  // BA and explicitly regional portals are trusted by their geographic search; broad aggregators need location evidence.
   kept=kept.filter(j=>['Bundesagentur für Arbeit','Tagesspiegel Jobs','Berliner Morgenpost Jobs','MAZ Job','bluum Brandenburg','Berliner Zeitung Jobmarkt'].includes(j.source)||inRegionByText(`${j.location} ${j.address}`)||inRegionByCoords(j.lat,j.lon));
   await addCoordinates(kept);
   const {jobs,merged}=dedupeJobs(kept);
