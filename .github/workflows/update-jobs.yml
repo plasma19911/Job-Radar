@@ -49,6 +49,7 @@ jobs:
           node scripts/office-profile.mjs
           node scripts/scope-jobs.mjs
           node scripts/update-ui-scope.mjs
+          node scripts/track-new-jobs.mjs
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
