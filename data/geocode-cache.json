@@ -288,5 +288,30 @@
     "lat": 52.624302,
     "lon": 13.209769,
     "display_name": "Alstom, 1, Nieder Neuendorf, Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
+  },
+  "neuruppin deutschland": {
+    "lat": 52.9243859,
+    "lon": 12.8092919,
+    "display_name": "Neuruppin, Ostprignitz-Ruppin, Brandenburg, Deutschland"
+  },
+  "extra:voltairestraße 2 10179 berlin": {
+    "lat": 52.5167723,
+    "lon": 13.4151568,
+    "display_name": "Feuerwache Mitte, 2, Voltairestraße, Neu-Cölln am Wasser, Mitte, Berlin, 10179, Deutschland"
+  },
+  "more-direct:am borsigturm 100 13507 berlin": {
+    "lat": 52.5839954,
+    "lon": 13.2796698,
+    "display_name": "Amazon Logistics BER6 in Berlin, 100, Am Borsigturm, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "more-direct:niederneuendorfer allee 6 9 13587 berlin": {
+    "lat": 52.5665868,
+    "lon": 13.2111354,
+    "display_name": "Blindenwohnstätten Berlin - Haus Spandau, 6-9, Niederneuendorfer Allee, Pepitahöfe, Waldsiedlung Hakenfelde, Hakenfelde, Spandau, Berlin, 13587, Deutschland"
+  },
+  "more-direct:fontanesiedlung 13 16761 hennigsdorf": {
+    "lat": 52.6516297,
+    "lon": 13.2008083,
+    "display_name": "13, Fontanesiedlung, Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
   }
 }
