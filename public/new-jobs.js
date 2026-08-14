@@ -1,0 +1,85 @@
+const NEW_WINDOW_MS=7*24*60*60*1000;
+const READ_STORAGE='jobRadarReadNewJobsV1';
+
+const esc=(v='')=>String(v).replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[ch]));
+const formatDate=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'2-digit'}).format(d);};
+const firstSeenMs=j=>new Date(j.firstSeenAt||0).getTime();
+const token=j=>`${j.id||[j.company,j.title,j.url].filter(Boolean).join('|')}::${j.firstSeenAt||''}`;
+function safeUrl(v=''){try{const u=new URL(v,location.href);return /^https?:$/.test(u.protocol)?u.href:'#';}catch{return'#';}}
+function loadRead(){try{const value=JSON.parse(localStorage.getItem(READ_STORAGE)||'[]');return new Set(Array.isArray(value)?value:[]);}catch{return new Set();}}
+function saveRead(read){localStorage.setItem(READ_STORAGE,JSON.stringify([...read].slice(-1500)));}
+function addedLabel(v){const ms=Date.now()-new Date(v).getTime();const days=Math.max(0,Math.floor(ms/86400000));if(days===0)return'Heute neu';if(days===1)return'Gestern neu';return`Vor ${days} Tagen neu`;}
+function placeLabel(j){return j.remoteFull===true?'⌂ 100 % Homeoffice':`◎ ${j.location||'Ort nicht angegeben'}`;}
+
+function buildPopup(jobs,read){
+  const backdrop=document.createElement('div');
+  backdrop.className='new-jobs-backdrop';
+  backdrop.setAttribute('role','presentation');
+  backdrop.innerHTML=`
+    <section class="new-jobs-modal" role="dialog" aria-modal="true" aria-labelledby="newJobsTitle">
+      <header class="new-jobs-head">
+        <div>
+          <div class="new-jobs-kicker">● Neu im Radar</div>
+          <h2 id="newJobsTitle">Neue Jobs dieser Woche · <span data-new-count>${jobs.length}</span></h2>
+          <p>Diese Stellen sind beim Scannen neu dazugekommen und bleiben hier höchstens 7 Tage sichtbar.</p>
+        </div>
+        <button class="new-jobs-close" type="button" aria-label="Popup schließen">×</button>
+      </header>
+      <div class="new-jobs-list"></div>
+      <footer class="new-jobs-actions">
+        <div class="new-jobs-note">× schließt nur das Fenster. „Gelesen“ entfernt die Stelle dauerhaft aus diesem Wochen-Popup.</div>
+        <button class="new-jobs-read-all" type="button">Alle als gelesen markieren</button>
+      </footer>
+    </section>`;
+
+  const list=backdrop.querySelector('.new-jobs-list');
+  const countEl=backdrop.querySelector('[data-new-count]');
+  const readAll=backdrop.querySelector('.new-jobs-read-all');
+
+  function close(){backdrop.remove();}
+  function updateCount(){
+    const left=list.querySelectorAll('.new-job-row').length;
+    countEl.textContent=String(left);
+    if(left===0){list.innerHTML='<div class="new-jobs-empty"><strong>Alles gelesen ✓</strong>Für diese Woche sind keine ungelesenen neuen Jobs mehr übrig.</div>';readAll.disabled=true;setTimeout(close,650);}
+  }
+  function markOne(job,row){read.add(token(job));saveRead(read);row.remove();updateCount();}
+
+  for(const j of jobs){
+    const row=document.createElement('article');
+    row.className='new-job-row';
+    row.innerHTML=`
+      <div class="new-job-main">
+        <div class="new-job-topline"><span class="new-job-badge">NEU</span><h3 class="new-job-title">${esc(j.title||'Stellenangebot')}</h3></div>
+        <p class="new-job-company">${esc(j.company||'Arbeitgeber nicht angegeben')}</p>
+        <div class="new-job-meta"><span>${esc(placeLabel(j))}</span><span>◷ ${esc(addedLabel(j.firstSeenAt))}</span>${j.publishedAt?`<span>Anzeige: ${esc(formatDate(j.publishedAt))}</span>`:''}</div>
+      </div>
+      <div class="new-job-actions">
+        <a class="new-job-open" href="${esc(safeUrl(j.url||j.sources?.[0]?.url||''))}" target="_blank" rel="noopener noreferrer">Stelle öffnen ↗</a>
+        <button class="new-job-read" type="button">Gelesen ✓</button>
+      </div>`;
+    row.querySelector('.new-job-read').addEventListener('click',()=>markOne(j,row));
+    list.appendChild(row);
+  }
+
+  backdrop.querySelector('.new-jobs-close').addEventListener('click',close);
+  backdrop.addEventListener('click',e=>{if(e.target===backdrop)close();});
+  readAll.addEventListener('click',()=>{for(const j of jobs)read.add(token(j));saveRead(read);close();});
+  document.addEventListener('keydown',function onKey(e){if(e.key==='Escape'&&document.body.contains(backdrop)){close();document.removeEventListener('keydown',onKey);}});
+  document.body.appendChild(backdrop);
+}
+
+async function initNewJobs(){
+  try{
+    const r=await fetch(`./data/jobs.json?v=${Date.now()}`,{cache:'no-store'});
+    if(!r.ok)return;
+    const payload=await r.json();
+    const now=Date.now();
+    const read=loadRead();
+    const jobs=(Array.isArray(payload.jobs)?payload.jobs:[])
+      .filter(j=>Number.isFinite(firstSeenMs(j))&&firstSeenMs(j)>0&&now-firstSeenMs(j)>=0&&now-firstSeenMs(j)<NEW_WINDOW_MS&&!read.has(token(j)))
+      .sort((a,b)=>firstSeenMs(b)-firstSeenMs(a));
+    if(jobs.length)buildPopup(jobs,read);
+  }catch{}
+}
+
+initNewJobs();
