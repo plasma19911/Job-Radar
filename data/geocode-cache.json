@@ -504,5 +504,10 @@
     "lat": 52.5088608,
     "lon": 13.3273465,
     "display_name": "10623, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "herzberg deutschland": {
+    "lat": 51.6565219,
+    "lon": 10.3428415,
+    "display_name": "Herzberg am Harz, Landkreis Göttingen, Niedersachsen, 37412, Deutschland"
   }
 }

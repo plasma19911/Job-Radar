@@ -1,0 +1,8 @@
+/* Neue Jobs: für 72 Stunden unabhängig vom Popup-Lesestatus hervorheben */
+.job-card.fresh-job-card{border-color:rgba(255,190,76,.55);background:linear-gradient(90deg,rgba(255,174,58,.105),rgba(255,255,255,.026) 42%);box-shadow:inset 3px 0 0 #ffb13b,0 7px 22px rgba(255,150,45,.06)}
+.job-card.fresh-job-card:hover,.job-card.fresh-job-card.selected{border-color:rgba(255,201,102,.78);background:linear-gradient(90deg,rgba(255,174,58,.16),var(--panel-2) 48%)}
+.fresh-new-badge{color:#ffe2a0!important;border-color:rgba(255,184,66,.58)!important;background:rgba(255,166,46,.16)!important;box-shadow:0 0 0 1px rgba(255,184,66,.08),0 0 15px rgba(255,157,49,.12)}
+.job-pin.fresh-job-pin{width:33px;height:33px;background:linear-gradient(135deg,#ffd35a,#ff7f3f);border-color:#fff3c4;box-shadow:0 0 0 5px rgba(255,178,55,.18),0 5px 18px rgba(0,0,0,.42);animation:freshJobPulse 1.8s ease-in-out infinite}
+.job-pin.fresh-job-pin span{font-size:10px;font-weight:950;color:#2a1600}
+@keyframes freshJobPulse{0%,100%{box-shadow:0 0 0 4px rgba(255,178,55,.15),0 5px 18px rgba(0,0,0,.42)}50%{box-shadow:0 0 0 9px rgba(255,178,55,.03),0 5px 22px rgba(255,142,47,.28)}}
+@media(max-width:850px){.job-card.fresh-job-card{box-shadow:inset 3px 0 0 #ffb13b}.job-pin.fresh-job-pin{animation:none}}
