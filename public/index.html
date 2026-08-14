@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="./fixed.css">
   <link rel="stylesheet" href="./new-jobs.css">
   <link rel="stylesheet" href="./fresh-highlights.css">
+  <link rel="stylesheet" href="./readable-ui.css">
 </head>
 <body>
   <div class="app-shell">
@@ -33,7 +34,10 @@
           <div class="brand-sub">Büro & PC · 10 km + 100 % Homeoffice</div>
         </div>
       </div>
-      <div class="update-pill" id="updatePill" title="Letzte Datenaktualisierung"><span class="pulse"></span><span id="updateText">Daten werden geladen …</span></div>
+      <div class="top-actions">
+        <button class="install-app-btn" id="installAppBtn" type="button" hidden>App installieren</button>
+        <div class="update-pill" id="updatePill" title="Letzte Datenaktualisierung"><span class="pulse"></span><span id="updateText">Daten werden geladen …</span></div>
+      </div>
     </header>
 
     <section class="search-panel" aria-label="Jobsuche">
@@ -41,7 +45,7 @@
       <div class="search-grid fixed-search-grid">
         <label class="field field-search">
           <span>Was suchst du?</span>
-          <div class="input-wrap"><span class="input-icon">⌕</span><input id="queryInput" type="search" autocomplete="off" placeholder="z. B. Fahrer, Verkäufer, IT, Büro …"><button class="clear-input" id="clearQuery" type="button" aria-label="Suchbegriff löschen">×</button></div>
+          <div class="input-wrap"><span class="input-icon">⌕</span><input id="queryInput" type="search" autocomplete="off" placeholder="z. B. Büro, Verwaltung, Assistenz, Kundenservice …"><button class="clear-input" id="clearQuery" type="button" aria-label="Suchbegriff löschen">×</button></div>
         </label>
         <button class="primary-btn" id="searchBtn" type="button">Jobs finden</button>
       </div>
@@ -98,5 +102,6 @@
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script type="module" src="./app.js"></script>
   <script type="module" src="./new-jobs.js"></script>
+  <script type="module" src="./pwa-install.js"></script>
 </body>
 </html>
