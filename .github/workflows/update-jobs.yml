@@ -52,6 +52,7 @@ jobs:
           node scripts/update-ui-scope.mjs
           node scripts/track-new-jobs.mjs
           node scripts/apply-fresh-highlights.mjs
+          node scripts/ensure-app-ui.mjs
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
@@ -60,7 +61,7 @@ jobs:
         run: |
           git config user.name "job-radar-bot"
           git config user.email "job-radar-bot@users.noreply.github.com"
-          git add public/data/jobs.json data/geocode-cache.json public/app.js public/index.html public/manifest.webmanifest public/sw.js public/fresh-highlights.css
+          git add public/data/jobs.json data/geocode-cache.json public/app.js public/index.html public/manifest.webmanifest public/sw.js public/fresh-highlights.css public/readable-ui.css public/pwa-install.js
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
           else
