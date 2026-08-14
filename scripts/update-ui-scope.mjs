@@ -7,7 +7,13 @@ for(const file of files){
      .replace(/15-km/g,'10-km')
      .replace(/15 km/g,'10 km')
      .replace(/15-km-Bereich/g,'10-km-Bereich')
-     .replace(/localWithin15km/g,'localWithin10km');
+     .replace(/localWithin15km/g,'localWithin10km')
+     .replace(/Job Radar – 10 km \+ Homeoffice/g,'Job Radar – Büro & PC · 10 km + Homeoffice')
+     .replace(/10 km \+ 100 % Homeoffice/g,'Büro & PC · 10 km + 100 % Homeoffice')
+     .replace(/10 km oder reines Homeoffice/g,'Büro/PC bis 10 km oder reines Homeoffice');
   await fs.writeFile(file,s);
 }
-console.log('Oberfläche auf 10 km aktualisiert.');
+let sw=await fs.readFile('public/sw.js','utf8');
+sw=sw.replace(/job-radar-v\d+/g,'job-radar-v3');
+await fs.writeFile('public/sw.js',sw);
+console.log('Oberfläche auf Büro/PC, 10 km und aktuellen PWA-Cache aktualisiert.');
