@@ -1,1 +1,237 @@
-{}
+{
+  "berlin deutschland": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
+  },
+  "berlin berlin deutschland": {
+    "lat": 52.503379,
+    "lon": 13.3386522,
+    "display_name": "Berlin, Tauentzienstraße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10789, Deutschland"
+  },
+  "berlin hybrid deutschland": null,
+  "berlin de deutschland": {
+    "lat": 52.503379,
+    "lon": 13.3386522,
+    "display_name": "Berlin, Tauentzienstraße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10789, Deutschland"
+  },
+  "berlin hq deutschland": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
+  },
+  "berlin berlin munchen bavaria deutschland": null,
+  "berlin hamburg deutschland": {
+    "lat": 53.5534401,
+    "lon": 10.0260449,
+    "display_name": "Berlin, Bürgerweide, Borgfelde, Hamburg-Mitte, Hamburg, 20537, Deutschland"
+  },
+  "berlin hamburg hannover munich wolfsburg deutschland": null,
+  "berlin germany deutschland": null,
+  "berlin munich deutschland": {
+    "lat": 48.1323609,
+    "lon": 11.5648878,
+    "display_name": "Berlin Döner Express, 7, Lindwurmstraße, Am Alten Südlichen Friedhof, Klinikviertel, Ludwigsvorstadt, Ludwigsvorstadt-Isarvorstadt, München, Bayern, 80337, Deutschland"
+  },
+  "berlin de dusseldorf de deutschland": {
+    "lat": 51.2243298,
+    "lon": 6.7767472,
+    "display_name": "LIEBESKIND Berlin, 17, Grabenstraße, Stadtmitte, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40212, Deutschland"
+  },
+  "potsdam gisma deutschland": null,
+  "potsdam deutschland": {
+    "lat": 52.4009309,
+    "lon": 13.0591397,
+    "display_name": "Potsdam, Brandenburg, Deutschland"
+  },
+  "berlin mitte deutschland": {
+    "lat": 52.5332165,
+    "lon": 13.3597957,
+    "display_name": "Berlin-Mitte, Berlin, Deutschland"
+  },
+  "berlin berlin germany deutschland": null,
+  "hub berlin deutschland": {
+    "lat": 52.5477016,
+    "lon": 13.3624127,
+    "display_name": "Safe-Hub Berlin, Schulstraße, Maxgärten, Antonkiez, Wedding, Mitte, Berlin, 13347, Deutschland"
+  },
+  "liveeo gmbh berlin office hybrid deutschland": null,
+  "berlin berlin allemagne deutschland": null,
+  "schonefeld deutschland": {
+    "lat": 52.388552,
+    "lon": 13.5048276,
+    "display_name": "Schönefeld, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 12529, Deutschland"
+  },
+  "berlin office deutschland": {
+    "lat": 52.4397381,
+    "lon": 13.2857854,
+    "display_name": "U. S. Embassy Office Berlin General Services Facility, 54-66, Lichterfelde West, Lichterfelde, Steglitz-Zehlendorf, Berlin, 12205, Deutschland"
+  },
+  "berlin heilbronner straße deutschland": null,
+  "neubrandenburg deutschland": {
+    "lat": 53.5574458,
+    "lon": 13.2602781,
+    "display_name": "Neubrandenburg, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland"
+  },
+  "bundesgeschaftsstelle berlin deutschland": {
+    "lat": 52.4792273,
+    "lon": 13.4333429,
+    "display_name": "Neubau BUND Bundesgeschäftsstelle, Flughafenkiez, Neukölln, Berlin, Deutschland"
+  },
+  "kleinmachnow deutschland": {
+    "lat": 52.4064167,
+    "lon": 13.2236601,
+    "display_name": "Kleinmachnow, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "hybrid germany berlin deutschland": null,
+  "berlin united kingdom manchester deutschland": null,
+  "berlin united kingdom manchester london deutschland": null,
+  "better place oranienstraße 183 berlin deutschland": null,
+  "hamburg or berlin deutschland": null,
+  "berlin potsdam deutschland": {
+    "lat": 54.4049941,
+    "lon": 9.432134,
+    "display_name": "Berlin, Potsdam, Klein Bennebek, Kropp-Stapelholm, Kreis Schleswig-Flensburg, Schleswig-Holstein, 24848, Deutschland"
+  },
+  "grossbeeren deutschland": {
+    "lat": 52.3540888,
+    "lon": 13.307754,
+    "display_name": "Großbeeren, Teltow-Fläming, Brandenburg, 14979, Deutschland"
+  },
+  "de berlin enpal campus deutschland": null,
+  "14974 ludwigsfelde deutschland": {
+    "lat": 52.2914397,
+    "lon": 13.263513,
+    "display_name": "14974, Ludwigsfelde, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "senftenberg deutschland": {
+    "lat": 51.519201,
+    "lon": 14.0046541,
+    "display_name": "Senftenberg, Oberspreewald-Lausitz, Brandenburg, Deutschland"
+  },
+  "großbeeren deutschland": {
+    "lat": 52.3540888,
+    "lon": 13.307754,
+    "display_name": "Großbeeren, Teltow-Fläming, Brandenburg, 14979, Deutschland"
+  },
+  "14 teltow deutschland": {
+    "lat": 52.4016457,
+    "lon": 13.2644532,
+    "display_name": "Teltow, Potsdam-Mittelmark, Brandenburg, 14513, Deutschland"
+  },
+  "bentwisch deutschland": {
+    "lat": 54.1162169,
+    "lon": 12.2022371,
+    "display_name": "Bentwisch, Rostocker Heide, Landkreis Rostock, Mecklenburg-Vorpommern, Deutschland"
+  },
+  "perleberg deutschland": {
+    "lat": 53.075548,
+    "lon": 11.8212016,
+    "display_name": "Perleberg, Prignitz, Brandenburg, 19348, Deutschland"
+  },
+  "14547 beelitz deutschland": {
+    "lat": 52.2272864,
+    "lon": 12.9476677,
+    "display_name": "14547, Beelitz, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "teltow deutschland": {
+    "lat": 52.3805562,
+    "lon": 13.2685278,
+    "display_name": "Teltow, Potsdam-Mittelmark, Brandenburg, 14513, Deutschland"
+  },
+  "16 hohen neuendorf deutschland": {
+    "lat": 52.6732755,
+    "lon": 13.2807255,
+    "display_name": "Hohen Neuendorf, Oberhavel, Brandenburg, Deutschland"
+  },
+  "falkensee deutschland": {
+    "lat": 52.5606426,
+    "lon": 13.08824,
+    "display_name": "Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "brandenburg an der havel deutschland": {
+    "lat": 52.4108261,
+    "lon": 12.5497933,
+    "display_name": "Brandenburg an der Havel, Brandenburg, Deutschland"
+  },
+  "groß kreutz havel deutschland": {
+    "lat": 52.4189427,
+    "lon": 12.770724,
+    "display_name": "Groß Kreutz (Havel), Potsdam-Mittelmark, Brandenburg, 14550, Deutschland"
+  },
+  "14532 kleinmachnow deutschland": {
+    "lat": 52.4064167,
+    "lon": 13.2236601,
+    "display_name": "Kleinmachnow, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "6 kirchhofsweg 14943 luckenwalde deutschland": {
+    "lat": 52.0899079,
+    "lon": 13.1814586,
+    "display_name": "6, Kirchhofsweg, Luckenwalde, Teltow-Fläming, Brandenburg, 14943, Deutschland"
+  },
+  "zehdenick deutschland": {
+    "lat": 52.9794838,
+    "lon": 13.3348959,
+    "display_name": "Zehdenick, Oberhavel, Brandenburg, 16792, Deutschland"
+  },
+  "wildau deutschland": {
+    "lat": 52.3214429,
+    "lon": 13.6348744,
+    "display_name": "Wildau, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 15745, Deutschland"
+  },
+  "luckenwalde deutschland": {
+    "lat": 52.0902045,
+    "lon": 13.1741882,
+    "display_name": "Luckenwalde, Teltow-Fläming, Brandenburg, 14943, Deutschland"
+  },
+  "16928 pritzwalk deutschland": {
+    "lat": 53.1365386,
+    "lon": 12.1291291,
+    "display_name": "16928, Giesensdorf, Pritzwalk, Halenbeck-Rohlsdorf, Prignitz, Brandenburg, Deutschland"
+  },
+  "19 karstadt deutschland": {
+    "lat": 53.8600041,
+    "lon": 11.166843,
+    "display_name": "19, Rudolph-Karstadt-Straße, Grevesmühlen, Nordwestmecklenburg, Mecklenburg-Vorpommern, 23936, Deutschland"
+  },
+  "munchen deutschland": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "display_name": "München, Bayern, Deutschland"
+  },
+  "10439 berlin pankow deutschland": {
+    "lat": 52.5521496,
+    "lon": 13.4121394,
+    "display_name": "10439, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "10115 berlin deutschland": {
+    "lat": 52.5321914,
+    "lon": 13.3845571,
+    "display_name": "10115, Mitte, Berlin, Deutschland"
+  },
+  "10965 berlin neukolln deutschland": {
+    "lat": 52.4880036,
+    "lon": 13.4089223,
+    "display_name": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "stefan heym platz 1 10367 berlin deutschland": {
+    "lat": 52.51371,
+    "lon": 13.4784514,
+    "display_name": "Howoge Wohnungsbaugesellschaft, 1, Stefan-Heym-Platz, Frankfurter Allee Süd, Alt-Hohenschönhausen, Lichtenberg, Berlin, 10367, Deutschland"
+  },
+  "berlin charlottenburg deutschland": {
+    "lat": 52.5043157,
+    "lon": 13.3026447,
+    "display_name": "Berlin-Charlottenburg, Gervinusstraße, Witzleben, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10629, Deutschland"
+  },
+  "berlin brandenburg deutschland": {
+    "lat": 52.6845573,
+    "lon": 13.605759,
+    "display_name": "CEMEX Deutschland AG, Gieses Plan, Bernau, Barnim, Brandenburg, Deutschland"
+  },
+  "cottbus deutschland": {
+    "lat": 51.7567447,
+    "lon": 14.3357307,
+    "display_name": "Cottbus, Brandenburg, Deutschland"
+  }
+}
