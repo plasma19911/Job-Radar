@@ -1,0 +1,65 @@
+/* Job Radar – lesbares responsives Layout ohne Zoomen */
+:root{--safe-bottom:env(safe-area-inset-bottom,0px);--safe-top:env(safe-area-inset-top,0px)}
+html{font-size:16px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{min-width:0}
+.top-actions{display:flex;align-items:center;gap:8px;min-width:0}
+.install-app-btn{height:38px;padding:0 13px;border:1px solid rgba(100,244,187,.34);border-radius:12px;background:rgba(100,244,187,.1);color:var(--accent);font-size:12px;font-weight:850;cursor:pointer;white-space:nowrap}
+.install-app-btn:hover{background:rgba(100,244,187,.16)}
+.install-app-btn[hidden]{display:none!important}
+.workspace{grid-template-columns:minmax(360px,430px) minmax(0,1fr)}
+.job-title{font-size:15px;line-height:1.38}
+.job-company{font-size:13px}
+.job-meta{font-size:12px;line-height:1.4}
+.source-badge,.new-badge{font-size:10px;padding:4px 7px}
+.distance{font-size:12px}
+.results-head strong{font-size:17px}.results-head span{font-size:12px;line-height:1.35}.source-summary{font-size:11.5px}
+.job-modal-description{font-size:14px;line-height:1.7}.meta-pill{font-size:12px}.source-link{font-size:13px}
+
+@media(max-width:850px){
+  html,body{width:100%;max-width:100%;min-width:0;overflow-x:hidden}
+  body{overflow-y:auto!important;overscroll-behavior-y:auto}
+  .app-shell{height:auto!important;min-height:100dvh!important;display:block!important;overflow:visible}
+  .topbar{position:sticky;top:0;z-index:1200;display:grid!important;grid-template-columns:minmax(0,1fr) auto;gap:8px 10px;padding:calc(9px + var(--safe-top)) 11px 9px!important;background:rgba(7,17,31,.98)}
+  .brand{min-width:0}.brand-mark{width:42px!important;height:42px!important;border-radius:13px;font-size:27px}.brand-name{font-size:20px!important}.brand-sub{font-size:11px!important;line-height:1.25;letter-spacing:.035em;white-space:normal;text-transform:none}
+  .top-actions{justify-self:end;gap:6px}.install-app-btn{height:40px;padding:0 11px;font-size:12px}.update-pill{height:40px;max-width:138px!important;padding:0 10px!important;font-size:11px!important}.update-pill span:last-child{max-width:105px}
+  .search-panel{position:relative!important;z-index:30;padding:11px!important;box-shadow:none}
+  .fixed-area{font-size:13px!important;line-height:1.45!important;padding:10px 11px!important;border-radius:12px;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+  .fixed-search-grid,.search-grid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:9px!important;margin-top:10px}
+  .field-search,.search-grid>.primary-btn{grid-column:1!important;width:100%}
+  .input-wrap{height:48px!important;padding:0 12px!important;border-radius:13px}.input-wrap input{font-size:16px!important;min-width:0}.input-icon{font-size:20px}.clear-input{width:36px;height:36px}
+  .search-grid>.primary-btn{height:48px!important;font-size:15px;border-radius:13px}
+  .filter-row{gap:8px;padding:10px 0 1px!important;overflow-x:auto;scroll-padding:11px}.chip{height:40px!important;padding:0 14px!important;font-size:13px!important;border-radius:12px!important}
+  .workspace{display:flex!important;flex-direction:column!important;min-height:0!important;height:auto!important;overflow:visible!important}
+  .map-panel{position:relative!important;inset:auto!important;order:1!important;width:100%!important;height:42dvh!important;min-height:290px!important;max-height:430px!important;border-bottom:1px solid var(--line)}
+  .map-panel #map{position:absolute!important;inset:0!important;width:100%!important;height:100%!important}
+  .map-tools{right:10px!important;top:10px!important}.map-tools button{width:44px!important;height:44px!important}
+  .mobile-list-toggle{display:none!important}
+  .results-panel{position:relative!important;inset:auto!important;left:auto!important;right:auto!important;bottom:auto!important;order:2!important;width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;border:0!important;border-radius:0!important;background:var(--panel)!important;backdrop-filter:none!important;display:block!important;overflow:visible!important;transform:none!important}
+  .results-head{position:relative!important;display:grid!important;grid-template-columns:minmax(0,1fr) minmax(118px,150px);align-items:end!important;gap:10px!important;padding:16px 12px 10px!important}.results-head>div{gap:4px!important;min-width:0}.results-head strong{font-size:20px!important}.results-head span{font-size:13px!important;line-height:1.4!important;white-space:normal!important}.results-head select{width:100%;height:44px!important;font-size:14px!important;padding:0 9px!important}
+  .source-summary{padding:0 12px 11px!important;font-size:12px!important;line-height:1.4;white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+  .results-list{height:auto!important;max-height:none!important;min-height:0!important;overflow:visible!important;padding:0 10px calc(22px + var(--safe-bottom))!important}
+  .job-card{margin:0 0 10px!important;padding:15px 14px!important;border-radius:16px!important;transform:none!important;overflow:hidden}
+  .job-card-top{gap:11px}.job-title{font-size:17px!important;line-height:1.38!important;overflow-wrap:anywhere}.job-company{margin-top:5px!important;font-size:14px!important;line-height:1.35!important;white-space:normal!important;overflow:visible!important;text-overflow:clip!important;overflow-wrap:anywhere}
+  .fav-btn{width:44px!important;height:44px!important;border-radius:12px!important;font-size:22px!important}
+  .job-meta{gap:7px 12px!important;margin-top:11px!important;font-size:13px!important;line-height:1.45!important}.job-meta-item{overflow-wrap:anywhere}
+  .job-bottom{align-items:flex-end!important;gap:9px!important;margin-top:11px!important}.source-badges{display:flex!important;flex-wrap:wrap!important;overflow:visible!important;gap:6px!important}.source-badge,.new-badge{font-size:11px!important;padding:5px 8px!important}.distance{font-size:13px!important;line-height:1.35!important}
+  .leaflet-control-zoom a{width:38px!important;height:38px!important;line-height:38px!important;font-size:20px!important}.leaflet-control-attribution{font-size:8px!important;max-width:80vw;white-space:normal}
+  .map-popup{min-width:0!important;width:min(280px,calc(100vw - 78px))!important;max-width:calc(100vw - 78px)!important}.map-popup h3{font-size:15px!important;line-height:1.35!important}.map-popup p{font-size:13px!important;line-height:1.45!important}.map-popup button{height:42px!important;font-size:14px!important}
+  .modal-backdrop{padding:0!important;overflow:hidden!important;align-items:stretch!important;place-items:stretch!important;background:rgba(1,7,14,.94)}
+  .modal-backdrop:not([hidden]){display:block!important}
+  .modal,.job-modal{width:100%!important;max-width:none!important;height:100dvh!important;min-height:100dvh!important;max-height:100dvh!important;margin:0!important;border:0!important;border-radius:0!important;padding:calc(16px + var(--safe-top)) 15px calc(16px + var(--safe-bottom))!important;overflow-y:auto!important;overflow-x:hidden!important}
+  .modal-head{gap:12px}.modal h2{font-size:23px!important;line-height:1.25!important;overflow-wrap:anywhere}.modal-head p,.job-modal-title-wrap p{font-size:15px!important;line-height:1.4!important;overflow-wrap:anywhere}.icon-btn{width:44px!important;height:44px!important;flex:0 0 44px!important;font-size:26px!important;border-radius:12px!important}
+  .job-source-badge{font-size:12px!important;padding:6px 9px!important}.job-modal-meta{gap:8px!important;margin:16px 0!important}.meta-pill{font-size:13px!important;line-height:1.35!important;padding:8px 10px!important}
+  .job-modal-description{max-height:none!important;overflow:visible!important;font-size:16px!important;line-height:1.7!important;color:#d4deea!important;padding:0!important;overflow-wrap:anywhere}
+  .job-modal-sources{margin-top:20px!important}.job-modal-sources h3{font-size:12px!important}.source-link{font-size:14px!important;line-height:1.4!important;padding:11px 12px!important;overflow-wrap:anywhere}
+  .modal-actions,.sticky-actions{display:grid!important;grid-template-columns:1fr 1fr!important;gap:9px!important;position:sticky!important;bottom:calc(-16px - var(--safe-bottom))!important;margin-top:18px!important;padding:19px 0 calc(14px + var(--safe-bottom))!important;background:linear-gradient(to bottom,rgba(13,26,43,0),var(--panel) 18%,var(--panel) 100%)!important}.modal-actions .primary-btn,.modal-actions .secondary-btn,.button-link{width:100%!important;min-width:0!important;height:48px!important;font-size:14px!important}
+  .source-options{gap:9px!important}.source-option{padding:13px!important}.source-option label{font-size:14px;line-height:1.35}.source-option input{width:21px!important;height:21px!important}
+  .toast{max-width:calc(100vw - 24px);white-space:normal;text-align:center;font-size:13px!important;bottom:calc(14px + var(--safe-bottom))}
+  .new-jobs-backdrop{padding:0!important;align-items:stretch!important}.new-jobs-modal{width:100%!important;max-width:none!important;height:100dvh!important;max-height:100dvh!important;border-radius:0!important;border:0!important;padding-top:var(--safe-top)}.new-jobs-head{padding:16px 14px 13px!important}.new-jobs-kicker{font-size:11px!important}.new-jobs-head h2{font-size:23px!important}.new-jobs-head p{font-size:14px!important;line-height:1.45!important}.new-jobs-close{width:44px!important;height:44px!important}.new-jobs-list{padding:10px!important}.new-job-row{padding:14px!important;gap:12px!important;border-radius:15px!important}.new-job-title{font-size:16px!important;line-height:1.4!important;white-space:normal!important;overflow-wrap:anywhere}.new-job-company{font-size:14px!important;line-height:1.35!important;white-space:normal!important}.new-job-meta{font-size:13px!important;line-height:1.4!important}.new-job-badge{font-size:10px!important}.new-job-actions{display:grid!important;grid-template-columns:1fr 1fr!important;gap:8px!important}.new-job-open,.new-job-read{height:46px!important;font-size:13px!important}.new-jobs-actions{padding:12px 10px calc(12px + var(--safe-bottom))!important}.new-jobs-note{font-size:12px!important}.new-jobs-read-all{height:48px!important;font-size:14px!important}
+}
+
+@media(max-width:430px){
+  .topbar{grid-template-columns:minmax(0,1fr) auto}.brand-sub{display:none}.brand-mark{width:40px!important;height:40px!important}.brand-name{font-size:19px!important}.update-pill{display:none!important}.install-app-btn{height:40px}
+  .map-panel{height:38dvh!important;min-height:260px!important}.results-head{grid-template-columns:minmax(0,1fr) 126px!important}.results-head strong{font-size:19px!important}.results-head span{font-size:12.5px!important}.job-title{font-size:16.5px!important}.job-company{font-size:14px!important}.job-bottom{display:grid!important;grid-template-columns:1fr auto!important}.distance{align-self:end}
+  .modal-actions,.sticky-actions{grid-template-columns:1fr!important}.new-job-actions{grid-template-columns:1fr!important}
+}
