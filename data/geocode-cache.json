@@ -484,5 +484,25 @@
     "lat": 52.5823846,
     "lon": 13.2906269,
     "display_name": "Autohaus Volkswagen, 68, Berliner Straße, Tegel-Süd, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "germany berlin deutschland": {
+    "lat": 52.4880036,
+    "lon": 13.4089223,
+    "display_name": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "schwarzheide deutschland": {
+    "lat": 51.4858276,
+    "lon": 13.8306977,
+    "display_name": "Schwarzheide, Oberspreewald-Lausitz, Brandenburg, 01987, Deutschland"
+  },
+  "15848 ragow merz deutschland": {
+    "lat": 52.218715,
+    "lon": 14.3330065,
+    "display_name": "Ragow-Merz, Schlaubetal, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "10623 berlin deutschland": {
+    "lat": 52.5088608,
+    "lon": 13.3273465,
+    "display_name": "10623, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
