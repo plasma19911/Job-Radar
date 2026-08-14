@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 
+// Erweiterte direkte Arbeitgebersuche im festen 10-km-Zielgebiet.
 const OUT='public/data/jobs.json';
 const CACHE='data/geocode-cache.json';
 const UA='Job-Radar/1.0 (+https://github.com/plasma19911/Job-Radar)';
