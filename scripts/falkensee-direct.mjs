@@ -60,6 +60,12 @@ async function apleona(){
   console.log(`[Apleona Hennigsdorf direkt] ${rows.length}`);return rows;
 }
 
+async function stadtwerkeHennigsdorf(){
+  const urls=['https://www.stadtwerke-hennigsdorf.de/referent-foerdermittelmanagement-m-w-d/','https://www.stadtwerke-hennigsdorf.de/vertriebsassistenz-energie-m-w-d/'];
+  const rows=(await Promise.all(urls.map(u=>detail(u,'Stadtwerke Hennigsdorf GmbH','Stadtwerke Hennigsdorf Büro direkt','Rathenaustraße 4, 16761 Hennigsdorf','Hennigsdorf')))).filter(Boolean);
+  console.log(`[Stadtwerke Hennigsdorf Büro direkt] ${rows.length}`);return rows;
+}
+
 function links(html,base){const out=[];const re=/\bhref\s*=\s*["']([^"'#]+)["']/gi;let m;while((m=re.exec(html))){try{const u=new URL(m[1].replace(/&amp;/g,'&'),base);if(/^https?:$/.test(u.protocol))out.push(u.href.split('#')[0]);}catch{}}return[...new Set(out)];}
 async function kwg(){
   const list='https://www.k-w-g.de/stellenanzeigen/';
@@ -68,10 +74,10 @@ async function kwg(){
 
 async function main(){
   const payload=JSON.parse(await fs.readFile(OUT,'utf8'));try{cache=JSON.parse(await fs.readFile(CACHE,'utf8'));}catch{cache={};}
-  const groups=[await ennux(),await lebenshilfe(),await apleona(),await kwg()];let added=0,merged=0;
+  const groups=[await ennux(),await lebenshilfe(),await apleona(),await stadtwerkeHennigsdorf(),await kwg()];let added=0,merged=0;
   for(const rows of groups)for(const j of rows){const r=merge(payload.jobs,j);r==='added'?added++:merged++;}
   payload.meta=payload.meta||{};payload.meta.sources=Array.isArray(payload.meta.sources)?payload.meta.sources:[];
-  const stats=[['Ennux Falkensee direkt',groups[0].length],['Lebenshilfe Havelland direkt',groups[1].length],['Apleona Hennigsdorf direkt',groups[2].length],['Klärwerk Wansdorf direkt',groups[3].length]];
+  const stats=[['Ennux Falkensee direkt',groups[0].length],['Lebenshilfe Havelland direkt',groups[1].length],['Apleona Hennigsdorf direkt',groups[2].length],['Stadtwerke Hennigsdorf Büro direkt',groups[3].length],['Klärwerk Wansdorf direkt',groups[4].length]];
   for(const [name,count] of stats){const s=payload.meta.sources.find(x=>x.name===name);if(s){s.count=count;s.status='ok';}else payload.meta.sources.push({name,count,status:'ok'});}
   payload.meta.generatedAt=new Date().toISOString();payload.meta.total=payload.jobs.length;payload.meta.expandedFalkenseeOfficeSearch=true;
   await fs.writeFile(OUT,JSON.stringify(payload,null,2)+'\n');await fs.writeFile(CACHE,JSON.stringify(cache,null,2)+'\n');
