@@ -54,7 +54,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
           else
-            git commit -m "chore: tägliche Stellen aktualisieren [skip ci]"
+            git commit -m "chore: tägliche Stellen aktualisieren"
             git pull --rebase origin main
             git push
           fi
