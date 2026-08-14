@@ -16,6 +16,6 @@ for(const file of files){
   await fs.writeFile(file,s);
 }
 let sw=await fs.readFile('public/sw.js','utf8');
-sw=sw.replace(/job-radar-v\d+/g,'job-radar-v4');
+sw=sw.replace(/job-radar-v\d+/g,'job-radar-v5');
 await fs.writeFile('public/sw.js',sw);
-console.log('Oberfläche auf Büro/PC, 10 km und PWA-Cache v4 aktualisiert.');
+console.log('Oberfläche auf Büro/PC, 10 km und PWA-Cache v5 aktualisiert.');
