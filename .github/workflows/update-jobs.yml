@@ -40,6 +40,7 @@ jobs:
           node scripts/local-employers.mjs
           node scripts/more-local-employers.mjs
           node scripts/falkensee-direct.mjs
+          node scripts/small-local-office.mjs
           node scripts/exclude-unwanted.mjs
           node scripts/office-profile.mjs
           node scripts/scope-jobs.mjs
