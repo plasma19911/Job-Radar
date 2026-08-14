@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#07111f">
-  <meta name="description" content="Job Radar – freie Stellen in Berlin und Brandenburg auf einer Karte, täglich aktualisiert und ohne doppelte Treffer.">
+  <meta name="description" content="Job Radar – Stellenangebote im festen 15-km-Umkreis, täglich aktualisiert und ohne doppelte Treffer.">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Job Radar">
-  <title>Job Radar – Berlin & Brandenburg</title>
+  <title>Job Radar – 15 km Umkreis</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icons/icon.svg">
   <link rel="preconnect" href="https://unpkg.com">
   <link rel="preconnect" href="https://tile.openstreetmap.org">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynhI8dKLqVCYv27T2ZxqVfJQhJ8M=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
   <link rel="stylesheet" href="./styles.css">
@@ -27,7 +27,7 @@
         <div class="brand-mark" aria-hidden="true">⌖</div>
         <div>
           <div class="brand-name">Job <span>Radar</span></div>
-          <div class="brand-sub">Berlin & Brandenburg</div>
+          <div class="brand-sub">15 km Umkreis</div>
         </div>
       </div>
       <div class="update-pill" id="updatePill" title="Letzte Datenaktualisierung">
@@ -36,7 +36,8 @@
     </header>
 
     <section class="search-panel" aria-label="Jobsuche">
-      <div class="search-grid">
+      <div class="fixed-area">◎ <strong>Marwitzer Str. 67, 13589 Berlin</strong> · maximal 15 km</div>
+      <div class="search-grid fixed-search-grid">
         <label class="field field-search">
           <span>Was suchst du?</span>
           <div class="input-wrap">
@@ -45,28 +46,6 @@
             <button class="clear-input" id="clearQuery" type="button" aria-label="Suchbegriff löschen">×</button>
           </div>
         </label>
-
-        <label class="field field-location">
-          <span>Wo?</span>
-          <div class="input-wrap">
-            <span class="input-icon">◎</span>
-            <input id="locationInput" type="search" autocomplete="postal-code" placeholder="Ort oder PLZ">
-            <button class="locate-btn" id="locateBtn" type="button" title="Meinen Standort verwenden" aria-label="Meinen Standort verwenden">⌖</button>
-          </div>
-        </label>
-
-        <label class="field field-radius">
-          <span>Umkreis</span>
-          <select id="radiusSelect">
-            <option value="5">5 km</option>
-            <option value="10">10 km</option>
-            <option value="25" selected>25 km</option>
-            <option value="50">50 km</option>
-            <option value="100">100 km</option>
-            <option value="200">200 km</option>
-          </select>
-        </label>
-
         <button class="primary-btn" id="searchBtn" type="button">Jobs finden</button>
       </div>
 
@@ -86,7 +65,7 @@
         <div class="results-head">
           <div>
             <strong id="resultCount">0 Stellen</strong>
-            <span id="resultContext">in Berlin & Brandenburg</span>
+            <span id="resultContext">maximal 15 km entfernt</span>
           </div>
           <select id="sortSelect" aria-label="Sortierung">
             <option value="distance">Entfernung</option>
@@ -101,8 +80,7 @@
       <section class="map-panel" aria-label="Karte mit Stellenangeboten">
         <div id="map"></div>
         <div class="map-tools">
-          <button id="fitBtn" type="button" title="Alle sichtbaren Jobs anzeigen">⌗</button>
-          <button id="mapLocateBtn" type="button" title="Zu meinem Standort">⌖</button>
+          <button id="fitBtn" type="button" title="15-km-Bereich anzeigen">⌗</button>
         </div>
         <button class="mobile-list-toggle" id="mobileListToggle" type="button"><span id="mobileCount">0</span> Jobs anzeigen</button>
       </section>
@@ -112,43 +90,29 @@
   <div class="modal-backdrop" id="sourceModal" hidden>
     <section class="modal" role="dialog" aria-modal="true" aria-labelledby="sourceModalTitle">
       <div class="modal-head">
-        <div>
-          <h2 id="sourceModalTitle">Quellen auswählen</h2>
-          <p>Mehrfach gefundene Stellen werden automatisch zusammengeführt.</p>
-        </div>
+        <div><h2 id="sourceModalTitle">Quellen auswählen</h2><p>Doppelte Stellen werden automatisch zusammengeführt.</p></div>
         <button class="icon-btn" data-close-source type="button">×</button>
       </div>
       <div id="sourceOptions" class="source-options"></div>
-      <div class="modal-actions">
-        <button class="secondary-btn" id="allSourcesBtn" type="button">Alle auswählen</button>
-        <button class="primary-btn" data-close-source type="button">Fertig</button>
-      </div>
+      <div class="modal-actions"><button class="secondary-btn" id="allSourcesBtn" type="button">Alle auswählen</button><button class="primary-btn" data-close-source type="button">Fertig</button></div>
     </section>
   </div>
 
   <div class="modal-backdrop" id="jobModal" hidden>
     <article class="modal job-modal" role="dialog" aria-modal="true" aria-labelledby="jobModalTitle">
       <div class="modal-head">
-        <div class="job-modal-title-wrap">
-          <div class="job-source-badge" id="jobModalSource">Quelle</div>
-          <h2 id="jobModalTitle">Stelle</h2>
-          <p id="jobModalCompany"></p>
-        </div>
+        <div class="job-modal-title-wrap"><div class="job-source-badge" id="jobModalSource">Quelle</div><h2 id="jobModalTitle">Stelle</h2><p id="jobModalCompany"></p></div>
         <button class="icon-btn" data-close-job type="button">×</button>
       </div>
       <div class="job-modal-meta" id="jobModalMeta"></div>
       <div class="job-modal-description" id="jobModalDescription"></div>
       <div class="job-modal-sources" id="jobModalSources"></div>
-      <div class="modal-actions sticky-actions">
-        <button class="secondary-btn" id="jobFavoriteBtn" type="button">☆ Merken</button>
-        <a class="primary-btn button-link" id="jobApplyBtn" href="#" target="_blank" rel="noopener noreferrer">Stelle öffnen ↗</a>
-      </div>
+      <div class="modal-actions sticky-actions"><button class="secondary-btn" id="jobFavoriteBtn" type="button">☆ Merken</button><a class="primary-btn button-link" id="jobApplyBtn" href="#" target="_blank" rel="noopener noreferrer">Stelle öffnen ↗</a></div>
     </article>
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script type="module" src="./app.js"></script>
 </body>
