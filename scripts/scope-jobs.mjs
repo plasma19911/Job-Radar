@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 
+// Finale Sichtbarkeit: lokale Stellen bis 15 km ODER echte 100-%-Homeoffice-Stellen ohne Entfernungsgrenze.
 const OUT='public/data/jobs.json';
 const ADDRESS='Marwitzer Str. 67, 13589 Berlin';
 const FALLBACK=[52.5804,13.1729];
