@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generatedAt": "2026-08-14T06:57:32.697Z",
-    "total": 141,
+    "generatedAt": "2026-08-14T07:05:05.180Z",
+    "total": 121,
     "mapped": 323,
     "deduplicated": 27,
     "excludedTraining": 3,
@@ -10,60 +10,60 @@
         "name": "Bundesagentur für Arbeit",
         "count": 0,
         "status": "ok",
-        "ms": 3367
+        "ms": 2895
       },
       {
         "name": "Arbeitnow",
         "count": 267,
         "status": "ok",
-        "ms": 4006
+        "ms": 4354
       },
       {
         "name": "Tagesspiegel Jobs",
         "count": 70,
         "status": "ok",
-        "ms": 6610
+        "ms": 3545
       },
       {
         "name": "Berliner Morgenpost Jobs",
         "count": 9,
         "status": "ok",
-        "ms": 7690
+        "ms": 6722
       },
       {
         "name": "MAZ Job",
         "count": 44,
         "status": "ok",
-        "ms": 8104
+        "ms": 7582
       },
       {
         "name": "bluum Brandenburg",
         "count": 30,
         "status": "ok",
-        "ms": 7828
+        "ms": 7264
       },
       {
         "name": "Berliner Zeitung Jobmarkt",
         "count": 12,
         "status": "ok",
-        "ms": 9983
+        "ms": 15449
       },
       {
         "name": "Adzuna",
         "count": 0,
         "status": "ok",
-        "ms": 0
+        "ms": 1
       },
       {
         "name": "Arbeitnow Remote",
-        "count": 99,
+        "count": 90,
         "status": "ok"
       }
     ],
     "geocodedThisRun": 0,
     "region": "Berlin & Brandenburg",
     "trainingOffers": false,
-    "remoteFull": 91,
+    "remoteFull": 83,
     "scope": {
       "address": "Marwitzer Str. 67, 13589 Berlin",
       "radiusKm": 15,
@@ -73,7 +73,10 @@
         "lon": 13.1833278
       }
     },
-    "localWithin15km": 50
+    "localWithin15km": 50,
+    "excludedWorkingStudent": true,
+    "excludedInternships": true,
+    "excludedUnwantedThisRun": 12
   },
   "jobs": [
     {
@@ -98,71 +101,6 @@
         }
       ],
       "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.dataiku.com/?utm_source=newswire&amp;amp;utm_medium=press-release&amp;amp;utm_campaign=PlatformforAISuccess&quot; target=&quot;_blank&quot;&gt;Dataiku&lt;/a&gt; is the Platform for AI Success, the enterprise orchestration layer for building, deploying, and governing AI. In a single environment, teams design and operate analytics, machine learning, and AI agents with the transparency, collaboration, and control enterprises require. Sitting above data platforms, cloud infrastructure, and AI services, Dataiku connects the full enterprise AI stack - empowering organizations to run AI across multi-vendor environments with centralized governance.&lt;br&gt;&lt;br&gt;The world’s leading companies rely on Dataiku to operationalize AI and run it as a true business performance engine delivering measurable value. For more, visit the Dataiku &lt;a href=&quot;https://blog.dataiku.com/?_gl=1*17edvf4*_ga*MjA1Mjk5NzY4OC4xNjY3MjMyMDUz*_ga_B3YXRYMY48*MTY2OTA1MDY5NS4xMi4xLjE2NjkwNTA2OTguNTcuMC4w&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/company/dataiku/&quot; target=&quot;_blank&quot;&gt;LinkedIn&lt;/a&gt;, &lt;a href=&quot;https://x.com/dataiku&quot; target=&quot;_blank&quot;&gt;X&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/dataiku&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;&lt;strong&gt;How You&#39;ll Make an Impact&lt;/strong&gt;&lt;/p&gt; &lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;We&#39;re looking for a passionate advocate for data, AI, and advanced analytics who can engage government and public sector organisations across Germany, helping them unlock the full potential of their data through Dataiku&#39;s platform.&lt;/p&gt; &lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;Senior Account Executive, Public Sector, you will own the entire sales cycle within government and public sector organisations — from prospecting through to close and beyond. You&#39;ll leverage Dataiku&#39;s resources and expertise to build meaningful partnerships, navigate complex procurement environments, and deliver successful outcomes for your clients.&lt;/p&gt; &lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;Dataiku is at an exciting early stage of growth within the public sector. You&#39;ll work cross-functionally with Marketing, Product, and Engineering to align our solutions with the unique needs, priorities, and compliance requirements of government clients — helping shape how Dataiku establishes itself in this market.&lt;/p&gt; &lt;hr class=&quot;border-border-200 border-t-0.5 my-3 mx-1.5&quot;&gt; &lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;&gt;&lt;strong&gt;What We&#39;re Looking For&lt;/strong&gt;&lt;/p&gt; &lt;ul class=&quot;[li_&amp;amp;]:mb-0 [li_&amp;amp;]:mt-1 [li_&amp;amp;]:gap-1 [&amp;amp;:not(:last-child)_ul]:pb-1 [&amp;amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3&quot;&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Public Sector Sales Experience:&lt;/strong&gt; A proven track record in enterprise software sales within government or public sector organisations, with a strong understanding of tender processes, procurement frameworks, and how to influence buying decisions.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Domain Expertise:&lt;/strong&gt; Experience selling complex software platforms — ideally in data, analytics, AI, machine learning, or business intelligence. Platform sales experience strongly preferred over point-solution backgrounds.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;New Business Hunter:&lt;/strong&gt; Demonstrated ability to acquire new logos and drive significant net new revenue in a market where warm introductions and event presence matter more than cold outreach.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Value-Driven Approach:&lt;/strong&gt; Skilled at understanding the unique challenges of public sector clients and articulating how Dataiku delivers tangible outcomes — including AI sovereignty, on-premise deployment capabilities, and data governance.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Partner &amp;amp; Reseller Network:&lt;/strong&gt; Established relationships within the German public sector reseller ecosystem, with the ability to leverage partners to navigate certification requirements and accelerate deals.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Collaborative Spirit:&lt;/strong&gt; Comfortable working cross-functionally with pre-sales, customer success, and partner teams to move complex, multi-stakeholder deals forward.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Language Proficiency:&lt;/strong&gt; Native or business-fluent German is required. Excellent English is essential.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Adaptability:&lt;/strong&gt; Ability to thrive in a fast-paced, high-growth environment and operate with an entrepreneurial mindset in a nascent market.&lt;/li&gt; &lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;strong&gt;Travel:&lt;/strong&gt; Willingness to travel across Germany and attend relevant public sector industry events and conferences.&lt;/li&gt; &lt;/ul&gt; &lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;#LI-CM&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt; &lt;div&gt;&lt;strong&gt;What are you waiting for!&lt;/strong&gt;&lt;/div&gt; &lt;div&gt;At Dataiku, you&#39;ll be part of a journey to shape the ever-evolving world of AI. We&#39;re not just building a product; we&#39;re crafting the future of AI. If you&#39;re ready to make a signi",
-      "salary": null
-    },
-    {
-      "id": "remote-remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-177906",
-      "title": "Werkstudent (m/w/d) – Finance & Beratung (unternehmerisch, leistungsbasiert)",
-      "company": "Kevin Kehr",
-      "location": "Homeoffice",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Entry",
-        "fulltime permanent"
-      ],
-      "publishedAt": "2026-08-14T05:30:10.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-177906",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-177906"
-        },
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-497194"
-        },
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-170259"
-        }
-      ],
-      "description": "Du studierst und willst mehr als einen „Nebenjob“? Du willst Verantwortung, klare Ziele und ein Umfeld, in dem Leistung zählt? Dann ist diese Werkstudentenrolle dein Einstieg in die Finanzberatung, mit strukturiertem Onboarding, Coaching und einem klaren Weg in ein Trainee-Programm. Diese Rolle ist unternehmerisch geprägt und bietet dir die Möglichkeit, dich aktiv einzubringen, Verantwortung zu übernehmen und dich fachlich wie persönlich weiterzuentwickeln. Leistung und Eigeninitiative spielen dabei eine zentrale Rolle, gleichzeitig wirst du durch strukturiertes Onboarding, Coaching und ein erfahrenes Team unterstützt. Sehr gute Deutschkenntnisse (C1+) sind erforderlich, da die Ausbildung, die Kommunikation im Team sowie die Perspektive Richtung IHK vollständig auf Deutsch stattfinden. Dein Aufgabenbereich Startphase (erste Wochen): Terminaufbau: Du vereinbarst Kundentermine (Telefon, Netzwerk, Leads) und baust eine saubere Pipeline auf. Prozesslernen: Du lernst Gesprächsleitfäden, Bedarfsermittlung, Nachbereitung und Dokumentationsstandards. Performance-Optimierung: Du arbeitest mit KPIs, bekommst Feedback und verbesserst systematisch deine Ergebnisse. Im weiteren Verlauf: Analyse &amp; Vorbereitung: Du unterstützt bei der Analyse von Kundensituationen und bereitest Beratungsunterlagen strukturiert vor. Kundenkontakt: Du begleitest Gespräche (je nach Stand), übernimmst Follow-ups und sorgst für klare nächste Schritte. Dokumentation &amp; Organisation: Du hältst Prozesse sauber, dokumentierst konsequent und stellst Verlässlichkeit sicher. Teamarbeit: Du arbeitest eng mit einem leistungsstarken Team und übernimmst Verantwortung für deine Aufgabenpakete. Das bieten wir dir Strukturierter Einstieg : Trainingsplan, Leitfäden, klare Standards Mentoring &amp; Coaching : regelmäßiges Feedback, klare Ziele Leistungsorientierte Vergütung (Erfolgslogik – du wirst für Output belohnt) Skalierbare Perspektive : Option auf Übernahme ins Trainee-Programm Remote möglich – eigenverantwortlich statt “nach Uhr” Team mit Performance-Kultur : klare Kommunikation, klare Ergebnisse Nichts für dich, wenn… du einen typischen Werkstudentenjob mit “ein paar Stunden nebenbei” suchst du Telefon/Terminaufbau vermeiden willst dein Deutsch unter C1 liegt du lieber Sicherheit als Entwicklung priorisierst Muss Immatrikuliert (Uni/FH) Deutsch mindestens C1 (mündlich &amp; schriftlich) Kommunikationsstärke, Verbindlichkeit, Zuverlässigkeit Eigeninitiative und strukturierte Arbeitsweise Lust auf Leistung und messbare Ergebnisse Wunsch Erste Erfahrung in Vertrieb, Service, Beratung, Sport-/Leistungskultur Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-founders-associate-pflicht-praktikum-sylt-155878",
-      "title": "Founders Associate (Pflicht-Praktikum) (d/w/m)",
-      "company": "Project Bay GmbH",
-      "location": "Sylt",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Internship"
-      ],
-      "publishedAt": "2026-08-14T05:00:26.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/project-bay-gmbh/founders-associate-pflicht-praktikum-sylt-155878",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/project-bay-gmbh/founders-associate-pflicht-praktikum-sylt-155878"
-        },
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/project-bay-gmbh/founders-associate-pflicht-praktikum-sylt-120697"
-        }
-      ],
-      "description": "Project Bay ist der erste CoWorking-Living Space mit direktem Meerzugang und neuer Hotspot für Innovation im Norden. Die Themen „Digitalisierung, Künstliche Intelligenz und neue Mobilitätslösungen“ werden hierbei mit regionaler Community, Work-Life-Balance und Natur pur verbunden. Wir bieten unseren Kunden Büro- und CoWorking-Flächen, Break-Out-Optionen sowie Fortbildungen, Freizeitangebote und Übernachtungen direkt am Meer auf Rügen. Des Weiteren verfügen wir über einen Accelerator \"Founders Bay\", um junge Startups mit Fokus auf Nachhaltigkeit zu unterstützen. Ab sofort sind wir auch im Aufbau des ersten MakerSpaces auf der Insel Rügen. Neben digitalen Lösungen ist es notwendig auch einen Ort für Hardware-Lösungen zu schaffen. Mit den Synergien unseres neuen Accelerators für nachhaltige Startups und den Kooperationen zu den Hochschulen, Kammern usw., möchten wir mit dem MakerSpace einen Ort für Handwerk, Selbstständige, Kreative und Startups schaffen. Neben diesen Themen beschäftigen wir uns rundum neue Projekte im Bereich: Expansion mit neuen Spaces, IT Lösungen, CarSharing, Tinyhäuser und noch vieles mehr. Aufgaben Du unterstützt beim Aufbau und der Entwicklung neuer Geschäftsbereiche und verfolgst selbstständig die Erreichung der Ziele. Du unterstützt die Geschäftsleitung in allen organisatorischen und administrativen Aufgaben. Du unterstützt die Geschäftsführung bei allen Unterfirmen/neuen Projekten (IT-Firma, CarSharing, Tinyhouses, neue Spaces) Du erstellst Entscheidungsvorlagen sowie Präsentationen und Grafiken inkl. Analysen. Du fungierst als Kommunikationsschnittstelle zwischen der Geschäftsleitung und externen Geschäftspartnern sowie Mitarbeitern in deutscher und englischer Sprache. Du übernimmst die Vor- und Nachbereitung von Meetings und Telefonkonferenzen inkl. Protokollführung. Du übernimmst Terminkoordination und -kontrolle, insbesondere die Priorisierung der Agenda der Geschäftsführung. Du organisierst internationale sowie nationale Reisetätigkeiten und erstellst die Spesenabrechnungen. Qualifikation Du studierst Wirtschaftswissenschaften, Rechtswissenschaften, Ingenieurwesen oder Ähnliches Du hast sehr gute Deutsch- und sichere Englischkenntnisse Du zeichnest dich durch eine zuverlässige und vor allem eigenständige Arbeitsweise aus Du hast Lust auf hohes Tempo, Leidenschaft Dinge zu bewegen sowie strukturiertes und gewissenhaftes Arbeiten Du hast für das Praktikum 40 Stunden pro Woche Zeit Es ist von Vorteil, wenn du bereits erste Erfahrungen in Startups, Agenturen oder Beratungen gesammelt hast Benefits Du hast die Chance in einem jungen und dynamischen Gründerteam zu arbeiten und mit deinen Ideen unsere Marketing-Kampagnen zu bestimmen Flache Hierarchien und kurze Kommunikationswege in einem hoch motivierten und kreativen Team Wir bieten dir abwechslungsreiche und anspruchsvolle Aufgaben mit großer Entfaltungsmöglichkeit Du wirst als vollwertiges Teammitglied aufgenommen und kannst alle deine Ideen/ Vorschläge mit uns besprechen Find more English Speaking Jobs in Germany on Arbeitnow",
       "salary": null
     },
     {
@@ -424,29 +362,6 @@
       "salary": null
     },
     {
-      "id": "arbeitnow-working-student-deposit-operations-berlin-berlin-305347",
-      "title": "Working Student Deposit Operations (m/f/d)",
-      "company": "raisin",
-      "location": "Berlin, Berlin",
-      "address": "",
-      "lat": 52.503379,
-      "lon": 13.3386522,
-      "remote": false,
-      "employmentType": [],
-      "publishedAt": "2026-08-13T17:55:04.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/raisin/working-student-deposit-operations-berlin-berlin-305347",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/raisin/working-student-deposit-operations-berlin-berlin-305347"
-        }
-      ],
-      "description": "Raisin is the world’s leading platform for savings and investment products. Founded in 2012, the FinTech connects consumers with banks in the EU, the UK and the US. This gives consumers better interest rates and banks a diversified form of refinancing . Our vision is to offer savings and investments without barriers and thus open up the global 160 trillion euro market. Raisin currently employs more than 800 people from over 75 countries worldwide. Today, the platform holds over 80 billion euros in assets from more than one million investors which have accrued over 5 billion euros in returns. Team The Operations team is responsible for integrating banks into the world of digital deposits and improving their business on a daily basis by introducing them to new products or features. In addition, we also build and strengthen relationships with our existing partners. Our tasks also include continuously ensuring smooth operations with deposit taking banks, investment products and distribution partners. Our tasks are varied and range from meetings with existing deposit taking banks to daily operational and incident management tasks. Your Responsibilities Support and manage standard operational ticket requests from deposit taking partner banks and internal stakeholders. Assist in conducting ledger-to-bank reconciliation by analysing data and creating reports for internal stakeholders as well partner banks. Create and maintain audit-proof Standard Operating Procedures, onboarding guides, and flowcharts as internal processes evolve. Proactively map out current manual workflows to identify bottlenecks and assist the team in proposing automation ideas. Handle daily written correspondence with partner banks and track compliance with our Service Level Agreements (SLAs). Your Profile Currently enrolled in a Bachelor’s or Master’s program in Business Administration, Data Science, Economics, Law, Marketing, or a related field. Prior internship or practical experience in startups, consulting, or operations is a plus. However, early-career candidates and motivated fast-learners are strongly encouraged to apply. Proficient in Microsoft Excel for data organization and analysis. Comfortable balancing independent problem-solving with close team collaboration. Advanced proficiency (C1 level or higher) in both English and German. Additional European languages are a valuable plus. Join our mission, join our team – and grow with us! At Raisin, we care about each other and it is one of our top priorities to foster an open and caring environment in which everyone feels welcome and comfortable. Our culture is strongly driven by our ambitious team, which connects more than 75 different nationalities. As part of our team, you will benefit from: Employee Development Budget of €400 and one full training day per year. Flexible working hours, home office and 20 vacation days per year. Do you miss being in the office? The Deutschland Ticket gets you there, which we subsidize with €25 per month. Enjoy more than 50+ different sports with Urban Sports Club: We subsidize your membership with more than €20 per month. Hungry all the time? Snacks, daily fresh fruit as well as drinks provided at the office. Raisin Applicant Privacy Policy We value diversity and the unique experiences each individual brings. If you’re excited about this role but don’t meet every requirement, we still encourage you to apply. We are an equal opportunity employer and are committed to creating an inclusive environment for everyone, regardless of race, colour, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, or gender identity. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
       "id": "remote-remote-senior-architect-mit-ki-im-gkv-umfeld-karlsruhe-317671",
       "title": "Senior Architect mit KI im GKV-Umfeld (m/w/d)",
       "company": "virtual7 GmbH",
@@ -498,33 +413,6 @@
         }
       ],
       "description": "For a long-term cloud infrastructure project, we are looking for an experienced Senior Go / Kubernetes Developer to support the further development of a distributed multi-provider cloud and edge platform. You will work in an international engineering environment and contribute primarily to the development of Kubernetes-native infrastructure automation using Go . Start: asap Duration: 12+ months Capacity: 100% Location: Remote Preferred setup: Nearshore / Europe-compatible Language: English; German beneficial Contract: Freelance Tasks Design and develop Kubernetes Operators and Controllers in Go Develop cloud-native backend services and Kubernetes-native APIs Design and implement Custom Resource Definitions (CRDs) and reconciliation logic Automate provisioning and lifecycle management of cloud, edge and bare-metal infrastructure Integrate infrastructure, networking and platform components via Kubernetes APIs Develop and maintain automated unit and integration tests Analyze, troubleshoot and improve Go applications and Kubernetes controllers Contribute to technical architecture, code reviews and engineering standards Collaborate with infrastructure, networking, security and AI/ML specialists Requirements Several years of professional software development experience with strong hands-on Go / Golang expertise Proven experience developing Kubernetes Operators and/or Custom Controllers in Go Strong practical knowledge of the Kubernetes API, CRDs and reconciliation patterns Experience with common Kubernetes development frameworks such as controller-runtime, client-go, Kubebuilder or Operator SDK Good understanding of Go concurrency, APIs, testing and backend/service development Experience developing and operating containerized applications Good understanding of cloud-native and distributed infrastructure Familiarity with infrastructure topics such as compute, networking, storage and automated provisioning Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-customer-service-accounting-werkstudent-cologne-65877",
-      "title": "Customer Service & Accounting Werkstudent (m/w/d)",
-      "company": "BC Better Cakez GmbH",
-      "location": "Cologne",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Working student",
-        "hilfstätigkeit / student"
-      ],
-      "publishedAt": "2026-08-13T15:00:24.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/bc-better-cakez-gmbh/customer-service-accounting-werkstudent-cologne-65877",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/bc-better-cakez-gmbh/customer-service-accounting-werkstudent-cologne-65877"
-        }
-      ],
-      "description": "Über BETTER CAKEZ: BETTER CAKEZ wurde 2024 von Isabelle Forster gegründet – aus ihrer großen Liebe zu Kuchen und einer ganz persönlichen Herausforderung heraus. Aufgrund einer Gluten- und Laktoseunverträglichkeit war Isabelle stark in ihrer Ernährung eingeschränkt und konnte vor allem eines nicht mehr essen: ihren heißgeliebten Bäckerkuchen. Also stellte sie sich zwei Jahre lang selbst in die Küche und entwickelte Kuchen, die vor allem eines sein sollten: sündhaft lecker – aber gleichzeitig gesünder und leicht verträglich. Das Ergebnis begeisterte nicht nur sie selbst, sondern auch ihr gesamtes Umfeld. So sehr, dass Isabelle überzeugt wurde, ihr zweites Staatsexamen in Jura nicht mehr anzutreten und stattdessen ihre gesünderen Snack-Kuchen to go auch anderen zugänglich zu machen. Heute gibt es unsere drei Snack-Kuchen to go, die mit bis zu 30 % Gemüse vollgepackt sind. Sie sind glutenfrei, vegan, ohne raffinierten Zucker, ohne künstliche Konservierungsstoffe und ohne Palmöl – und das alles in Bio-Qualität und mit langer Haltbarkeit ganz ohne Kühlung. Und das Wichtigste hätten wir fast vergessen: Sie sind sündhaft lecker. Aufgaben Deine Aufgaben: Unterstützung im vorbereitenden Accounting und bei administrativen Aufgaben Prüfung, Erfassung und Ablage von Eingangs- und Ausgangsrechnungen Unterstützung bei der Zuordnung und Pflege von Belegen und Zahlungen Vorbereitung und strukturierte Aufbereitung von Unterlagen für die Buchhaltung Bearbeitung von Kundenanfragen per E-Mail und weiteren Kommunikationskanälen Unterstützung bei Fragen rund um Bestellungen, Lieferungen, Retouren und Reklamationen Lösungsorientierte Betreuung unserer Kunden und Sicherstellung einer positiven Customer Experience Unterstützung bei weiteren organisatorischen und operativen Themen im Tagesgeschäft Qualifikation Das bringst du mit: Du bist aktuell an einer Hochschule oder Universität eingeschrieben Du arbeitest strukturiert, sorgfältig und zuverlässig Du hast ein gutes Zahlenverständnis und Freude an organisatorischen Aufgaben Gleichzeitig kommunizierst du gerne und hast Spaß am Kontakt mit Kunden Du arbeitest eigenständig und lösungsorientiert und behältst auch bei mehreren Aufgaben den Überblick Du bist motiviert, dich in neue Themen einzuarbeiten und Verantwortung im Tagesgeschäft zu übernehmen Benefits Das erwartet dich bei BETTER CAKEZ: Bei BETTER CAKEZ bekommst du die Möglichkeit, einen zentralen Bereich unseres Unternehmens aktiv mitzugestalten. Statt starrer Strukturen erwarten dich kurze Entscheidungswege, viel Gestaltungsspielraum und direkter Impact. Du arbeitest nah am Produkt und hast unmittelbaren Einfluss darauf, wie wir unsere Supply Chain weiterentwickeln und Better Cakez skalieren. Dabei erwartet dich ein dynamisches und ambitioniertes Team, in dem Ideen schnell umgesetzt werden und du vom ersten Tag an einen echten Unterschied machen kannst. Klingt nach dir? Dann freuen wir uns darauf, dich kennenzulernen! Schick uns deine Bewerbung inklusive Lebenslauf und möglichem Startdatum. Find more English Speaking Jobs in Germany on Arbeitnow",
       "salary": null
     },
     {
@@ -630,33 +518,6 @@
       "description": "Your mission Die Onepage GmbH ist ein AI-first-SaaS-Unternehmen, welches sich das Ziel gesetzt hat, den kinderleichten Aufbau von modernen, schnellen und conversionstarken Webseiten und Landingpages für jeden Unternehmer zu ermöglichen. Mit Onepage AI 2.0 bauen wir die Brücke zwischen Vibe Coding und No-Code: Sections und Layouts entstehen per Prompt – und bleiben danach im visuellen Editor vollständig steuerbar. Kein Lock-in, kein \"einmal generiert und nie mehr angefasst\". Daran arbeiten wir – und suchen Leute, die dieses Problem genauso spannend finden wie wir. Deine Aufgaben Entwicklung von Creatives für Social Ads: Gestaltung und Entwicklung ansprechender und wirkungsvoller Creatives für verschiedene Social-Media-Kanäle (Facebook, Instagram, LinkedIn usw.). Zusammenarbeit mit unserem Marketing-Team: Enge Zusammenarbeit mit unserem Marketing-Team, um die Konsistenz von Markenbotschaften und C.I. sicherzustellen und die Effektivität von Werbekampagnen zu steigern. Konzeption und Umsetzung: Entwicklung kreativer Konzepte und deren Umsetzung in visuell ansprechende Designs, die die Zielgruppe ansprechen und zur Erreichung der Marketingziele beitragen. Optimierung unserer Anzeigen: Kontinuierliche Analyse und Verbesserung der Performance von Social Ads durch Anpassung und Optimierung der Creatives auf Basis von Feedback und Performance-Daten. Erstellung visueller Konzepte und Assets für Landingpages sowie deren Umsetzung mithilfe unserer eigenen KI-gestützten Page-Builder-Software. Erstellung von Reports, Infografiken und Präsentationsdesigns. Entwicklung von Creatives für Google Display Ads und Bild-Erweiterungen (Image Extensions). Your profile Erfahrung: Du bringst mindestens 3-5 Jahre Erfahrung im Grafikdesign mit, idealerweise im Bereich Social-Media-Werbung und Marketing. Design-Tools: Du verfügst über fundierte Kenntnisse gängiger Design-Tools wie Figma und die Adobe Creative Suite (Photoshop, Illustrator, InDesign). Ad-Erstellung: Du hast Erfahrung in der Erstellung von statischen und animierten Ads (Meta, Instagram, LinkedIn). KI-Kompetenz: Du hast erste Erfahrungen im Umgang mit KI-Assistenten zur Entwicklung von Konzepten und visuellen Inhalten und bist generell offen dafür, die Möglichkeiten von KI zu erkunden. Nutzerempathie: Du hast die Fähigkeit, die Bedürfnisse unserer Nutzer zu verstehen und darauf basierend ansprechende und funktionale Designs zu entwickeln. Ästhetik: Du hast ein ausgeprägtes Gespür für Ästhetik und die Fähigkeit, schnell kreative und innovative Designlösungen zu entwickeln. Kommunikation: Du verfügst über exzellente Kommunikationsfähigkeiten und die Fähigkeit, effektiv in einem Remote-Team zu arbeiten. Sprache: Du verfügst über sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift. Organisation: Du gehst strukturiert an deine Arbeit heran und kannst mehrere Prioritäten effektiv managen. Why us? Langfristige Perspektive: Werde Teil eines modernen, innovativen Unternehmens mit Zukunft. Remote-First: Arbeite zu 100% remote und genieße maximale Flexibilität in deinem Arbeitsalltag. Flache Hierarchien: Profitiere von kurzen Entscheidungswegen und direkter Kommunikation. Gesundheit: Deine Gesundheit liegt uns am Herzen – wir unterstützen dich mit einer Zusatzkrankenversicherung sowie einem Zuschuss zu dem Gesundheitsprogramm von Wellhub. Nachhaltige Benefits: Erhalte attraktive Mitarbeiterrabatte in vielen Kategorien über FutureBens. Mitgestaltung &#x26; Entwicklung: Bringe deine Ideen aktiv ein, gestalte Prozesse mit und erweitere deine Fähigkeiten durch kontinuierliche Weiterbildung. Find Jobs in Germany on Arbeitnow",
       "salary": null,
       "remoteFull": true
-    },
-    {
-      "id": "remote-projektmanagerin-kommunikationassistenz-fur-videoagentur-wurzburg-331592",
-      "title": "Projektmanager:in, Kommunikationassistenz für Videoagentur",
-      "company": "VSL Media",
-      "location": "Würzburg",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Working student",
-        "hilfstätigkeit / student"
-      ],
-      "publishedAt": "2026-08-13T12:01:01.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/vsl-media/projektmanagerin-kommunikationassistenz-fur-videoagentur-wurzburg-331592",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/vsl-media/projektmanagerin-kommunikationassistenz-fur-videoagentur-wurzburg-331592"
-        }
-      ],
-      "description": "Wir sind eine wachsende Videoschnitt und Produktinosagentur und suchen aktuell Unterstützung in Form eines Werkstudenten im Bereich Projektmanagement &#x26; Kundenkommunikation. Du arbeitest an laufenden Videoprojekten für Agenturen, Unternehmen und Influencer und übernimmst dabei vor allem die Schnittstelle zwischen unseren Kunden und unserem Editing-Team. Der Umfang liegt bei ca. 10-15 Stunden pro Woche, nach oben hin flexibel und bei Bedarf auch mehr. Die Stelle ist 100 % remote. Aufgaben Kommunikation und Abstimmung mit unseren Kunden Schnittstelle zwischen Kunden und Cuttern Koordination laufender Videoprojekte Kundenfeedback aufnehmen, weitergeben und nachhalten Deadlines und Projektstände im Blick behalten Dafür sorgen, dass Projekte sauber und ohne unnötige Reibung durchlaufen Qualifikation Du kommunizierst klar, zuverlässig und freundlich Du arbeitest selbstständig und behältst auch mehrere Projekte gleichzeitig im Blick Du bist organisiert und hast kein Problem damit, Verantwortung zu übernehmen Erfahrung im Projektmanagement oder in der Kundenkommunikation ist hilfreich, aber absolut nicht nötig Erfahrung im Videoschnitt bzw. ein gutes Verständnis für Cutting ist sehr, sehr hilfreich, da du dadurch Feedback und Abläufe deutlich besser einschätzen kannst Du musst nicht selbst schneiden, solltest aber idealerweise verstehen, wie ein Editing-Prozess funktioniert Benefits 100 % remote Sehr flexible Arbeitszeiten Viele Aufgaben lassen sich unkompliziert vom Laptop oder teilweise auch vom Handy aus erledigen Flexible Stundenanzahl, bei Bedarf auch mehr als 10-15 Stunden pro Woche möglich Arbeit an spannenden Projekten für Agenturen, Unternehmen und teilweise bekannte Influencer Direkte Kommunikation und kurze Entscheidungswege Wenn du Lust auf Videoprojekte hast, gerne mit Kunden kommunizierst und gleichzeitig ein gutes Auge dafür hast, dass Projekte sauber organisiert laufen, sollte das ziemlich gut passen. Find Jobs in Germany on Arbeitnow",
-      "salary": null
     },
     {
       "id": "remote-ai-developer-hamburg-381069",
@@ -810,32 +671,6 @@
       "description": "Über die Rolle Wir suchen einen SEO Lead (w/m/d), der/die die Verantwortung für unser Affiliate-Portfolio übernimmt und es weiter skaliert. Du arbeitest mit einigen der größten Publisher der Welt zusammen und hast direkten Einfluss auf den Umsatz. Du treibst die SEO-Strategie für mehrere Affiliate-Websites in unterschiedlichsten Verticals voran, leitest laufende Go-Lives in neuen Märkten und führst ein kleines Team von SEO Content Managern. Du hast die Freiheit, die Richtung vorzugeben, Prioritäten zu setzen und schnell zu handeln, wenn sich etwas ändert – denn im SEO ändert sich immer etwas. Bei WLX ist SEO keine Support-Funktion, sondern eine treibende Kraft. Wir haben die Ressourcen, den Rückhalt vom Management und das Hands-on-Know-how, um Dinge wirklich umzusetzen. Und anders als bei einer Agentur gehört alles, was wir aufbauen, uns selbst: eigene Projekte, die in enger Zusammenarbeit mit den größten Publishern der Welt umgesetzt werden. Das bedeutet echte Ownership, echten Impact und keine Kunden Briefings. Wenn du darin aufgehst, neue Projekte zu launchen, das Tempo eines wachstumsstarken Umfelds liebst und ein wachsendes, mehrere Millionen schweres Portfolio über ein stetig expandierendes Spektrum an Verticals mitgestalten willst – dann ist das die passende Rolle für dich. Du berichtest an den Head of Organic und arbeitest eng mit Publishern, Vertical Managern und Content-Teams zusammen, um SEO-Potenziale in messbare Geschäftsergebnisse zu verwandeln. Das wirst Du tun Das Umsatzwachstum bestehender Affiliate-Websites vorantreiben: Langfristige SEO-Strategien entwickeln und umsetzen, hochwertige Seiten für Rankings und CTR optimieren und Backlink-Kampagnen über mehrere Affiliate-Websites hinweg verantworten. Neue Affiliate-Websites end-to-end launchen: Von Keyword-Clustering, Themen-Mapping und Content-Struktur bis zur Koordination mit Stakeholdern, um neue Websites von Grund auf live zu schalten. On-Page- und Off-Page-Performance vorantreiben: Content-Audits durchführen, die Nutzung von SERP-Features verbessern, Linkbuilding-Maßnahmen steuern und mit Agenturen und Publishern zusammenarbeiten, um die Domain Authority zu stärken. Wachstumschancen identifizieren und erschließen: Publisher recherchieren, neue Märkte einschätzen, Domain Authority und Traffic-Trends bewerten und Expansionsoptionen anhand von Business-Growth-Frameworks abwägen. Ein Team von SEO Content Managern führen und entwickeln: Klare Prioritäten setzen, Verantwortlichkeit einfordern, Weiterentwicklung coachen und bei Bedarf auch schwierige Gespräche führen. Das bringst Du mit Du bringst umfangreiche On-Page- und Off-Page-Erfahrung im SEO mit, mit nachweisbaren Erfolgen darin, organisches Wachstum zu skalieren. Du hast nachgewiesene Erfahrung in der Führung eines Teams mit Fokus auf Entwicklung, Motivation und High Performance Du sprichst Deutsch auf muttersprachlichem Niveau und verhandlungssicheres Englisch (C1+), du bewegst dich sicher mit Stakeholdern in beiden Sprachen. Idealerweise bist du in Berlin ansässig. Für die richtige Person ist die Position aber auch remote möglich. Du bist analytisch und strukturiert: du priorisierst das Wesentliche, kommunizierst klar und triffst Entscheidungen auch unter Druck. Du fühlst dich wohl in einem schnelllebigen, flachen Umfeld im Startup-Stil. Erfahrung im iGaming oder in anderen Affiliate-Marketing-Branchen sind von Vorteil. Über Uns Bei We Love X entwickeln und betreiben wir leistungsstarke Vergleichsplattformen und Conversion-Funnels, die Millionen von Nutzer:innen mit den passenden Produkten und Services verbinden. Als Marktführer im SEA-basierten Affiliate-Marketing über mehrere Verticals hinweg verwandeln wir hochintentionierten Traffic in skalierbares Wachstum für unsere Partner. In den vergangenen Jahren haben wir zudem eines der am schnellsten wachsenden SEO-Geschäfte in unserem Markt aufgebaut – in Zusammenarbeit mit einigen der weltweit größten Publisher. Über unsere eigenen Plattformen hinaus inkubiert We Love X kontinuierlich neue, performance-getriebene Geschäftsmodelle: von der ersten Idee bis zur internationalen Skalierung. Find Jobs in Germany on Arbeitnow",
       "salary": null,
       "remoteFull": true
-    },
-    {
-      "id": "remote-werkstudentin-marketing-und-pr-braunschweig-438478",
-      "title": "Werkstudent:in Marketing und PR (m/w/d)",
-      "company": "ETANA SYSTEMS GmbH",
-      "location": "Braunschweig",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Working student"
-      ],
-      "publishedAt": "2026-08-13T09:31:28.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/etana-systems-gmbh/werkstudentin-marketing-und-pr-braunschweig-438478",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/etana-systems-gmbh/werkstudentin-marketing-und-pr-braunschweig-438478"
-        }
-      ],
-      "description": "Drohnen schützen kritische Infrastrukturen, inspizieren gefährliche Einsatzorte, unterstützen Rettungskräfte und übernehmen Aufgaben, die für Menschen riskant, ineffizient oder schwer zugänglich sind. Damit Drohnen ihr volles Potenzial entfalten können, müssen ihre Einsätze sicher, zuverlässig und skalierbar werden. Genau daran arbeiten wir bei ETANA SYSTEMS. Wir entwickeln ein ganzheitliches Software-Ökosystem für industrielle Drohnenoperationen – von der Einsatzplanung über Training und Flottenmanagement bis zur Qualitätssicherung. Unsere Vision ist eine Zukunft, in der Drohnen ein selbstverständlicher Bestandteil unserer Infrastruktur sind – sicher, zuverlässig, bezahlbar und überall dort verfügbar, wo sie gebraucht werden. Aufgaben Als Werkstudent:in unterstützt du uns beim Aufbau und bei der Weiterentwicklung unseres Marketings und unserer Öffentlichkeitsarbeit. Zu deinen möglichen Aufgaben gehören: Mitgestaltung unserer Marketingstrategie und Kommunikation Betreuung unserer Website und Social-Media-Kanäle Unterstützung bei Content-Marketing, SEO und digitalen Kampagnen Verfassen von Newslettern und Pressemitteilungen Erstellung von Medien und Marketingmaterialien Recherche relevanter Medien, Multiplikatoren, Veranstaltungen und Kooperationspartner Unterstützung bei Events Qualifikation Studium im Bereich Marketing oder vergleichbar Mindset over Skillset! Du arbeitest selbstständig und bist engagiert Du beherrschst Deutsch und Englisch sicher in Wort und Schrift Du kannst komplexe Themen verständlich, interessant und zielgruppengerecht vermitteln. Du kennst aktuelle Social-Media- und Content-Formate. Wichtiger als ein perfekter Lebenslauf sind für uns deine Motivation, deine Lernbereitschaft und dein Interesse an unseren Themen. Benefits Direkte Zusammenarbeit mit dem Gründerteam und schnelle Entscheidungen Viel Gestaltungsspielraum für eigene Ideen – entscheidend ist, dass es funktioniert! Selbstständigkeit und Eigenverantwortung statt bloßer Zuarbeit Flexible Arbeitszeiten 100 % Remote-Arbeit Abwechslungsreiche Aufgaben an der Schnittstelle von Marketing, Software und Drohnentechnologie Arbeitsproben und Projektergebnisse, die du für dein persönliches Portfolio nutzen kannst Wir suchen Unterstützung im Umfang von ca. 35 - 50 h pro Monat. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "salary": null
     },
     {
       "id": "remote-senior-software-developer-python-haltern-am-see-285434",
@@ -1188,29 +1023,6 @@
       "description": "About the Role We are looking for a Russian-speaking senior, well-rounded Full-Stack Engineer who is equally comfortable building polished React/TypeScript interfaces and substantial backend systems with Node.js/TypeScript. This is a long-term opportunity to join an established engineering environment and take meaningful ownership of production systems, architecture decisions, and technical outcomes. The role is fully remote, working EST hours. Fintech experience is preferred. Responsibilities Design, build, and maintain production-grade React and TypeScript applications, delivering scalable and reliable user-facing functionality. Develop and own substantial Node.js/TypeScript backend services and APIs, contributing to architecture and technical design decisions. Build, deploy, and operate applications within AWS, ensuring reliability, scalability, performance, and maintainability. Design and work with PostgreSQL databases, including schemas, queries, migrations, data modeling, and performance optimization. Collaborate with engineering leadership and other team members on architecture, implementation, code quality, and production outcomes. Troubleshoot production issues, improve existing systems, and contribute to engineering standards and long-term technical decisions. 7+ years of professional software engineering experience, with a strong track record of owning and delivering production systems and a stable employment history. Strong, recent, hands-on React + TypeScript experience building production frontend applications. Significant, recent Node.js + TypeScript backend experience, including ownership of production APIs or services; candidates who are primarily frontend engineers with only occasional Node.js exposure will not be considered. Hands-on production experience with AWS and PostgreSQL; experience with AWS Fargate/ECS, containers, S3, and CloudFront is highly preferred. Russian-speaking proficiency is required, along with strong enough English communication skills to clearly discuss technical decisions, architecture, responsibilities, and production outcomes. Experience with fintech, payments, regulated systems, or SOC 1/SOC 2 environments is a strong plus. Find more English Speaking Jobs in Germany on Arbeitnow",
       "salary": null,
       "remoteFull": true
-    },
-    {
-      "id": "arbeitnow-werkstudent-partnerships-influencer-operations-all-genders-berlin-berlin-160330",
-      "title": "Werkstudent - Partnerships & Influencer Operations (all genders)",
-      "company": "hellofresh",
-      "location": "Berlin, Berlin",
-      "address": "",
-      "lat": 52.503379,
-      "lon": 13.3386522,
-      "remote": false,
-      "employmentType": [],
-      "publishedAt": "2026-08-12T20:56:01.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/werkstudent-partnerships-influencer-operations-all-genders-berlin-berlin-160330",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/werkstudent-partnerships-influencer-operations-all-genders-berlin-berlin-160330"
-        }
-      ],
-      "description": "Deine Rolle Als Werkstudent Partnerships & Influencer Operations (all genders) erhältst Du Einblicke in zwei spannende Wachstumsbereiche von HelloFresh: Retail Media umfasst unsere vielfältigen Werbe- und Aktivierungsmöglichkeiten entlang der HelloFresh Customer Journey und ermöglicht es Drittmarken, ihre Zielgruppen direkt über unsere Plattform und Produkte zu erreichen, zum Beispiel durch Produktsamples in unseren Boxen. Im Influencer Marketing arbeiten wir mit relevanten Creators zusammen, um unsere Marke authentisch zu positionieren und neue Kunden zu gewinnen. Was Dich erwartet und woran Du arbeitest: Du übernimmst Verantwortung für operative Prozesse, unterstützt den reibungslosen Ablauf unseres Tagesgeschäftes, sorgst gemeinsam mit dem Team dafür, dass unsere Aktivitäten effizient umgesetzt werden, arbeitest zudem mit unterschiedlichen Stakeholdern und bist die zentrale Ansprechperson für unser Distributionszentrum in Barleben. Dein Verantwortungsbereich Steuerung von Marketingkampagnen im Bereich Retail Media - von der Planung über die Kommunikation und Abstimmung mit dem Lager bis hin zum Reporting Operative Kommunikation und Abstimmung mit unseren Retail-Media-Partnern zu Kampagnen, Timings, Materialien und Anforderungen Pflege und Aktualisierung unseres CRM-Systems HubSpot sowie unserer Kampagnenübersicht, einschließlich der Anlage und Verwaltung diverser Produkte / Samples Koordination von Influencer-Kampagnen und Abstimmungen zwischen unseren internen Teams und externer Agenturen für unsere Märkte in Deutschland und der Schweiz Organisation von Muster- und PR-Paketen, Gewinnspielaktionen, Musterlieferungen für Influencer und Partner, sowie Koordination der Zusammenarbeit mit unserem Distributionszentrum in Barleben Mitwirkung bei der Umsetzung von Influencer Paid-Social-Kampagnen, inklusive der Aufbereitung und dem Upload von Content bis zur Abstimmung mit dem zuständigen Marketing-Team Vorbereitung und Dokumentation wichtiger interner Meetings, sodass relevante Informationen und nächste Schritte für alle Beteiligten transparent festgehalten werden Dein Profil Eingeschriebene/r Student/in, idealerweise im Bereich Marketing, Kommunikation, BWL oder einem vergleichbaren Studiengang Strukturierte und zuverlässige Arbeitsweise, Organisationstalent und ein gutes Gespür dafür, Prioritäten zu setzen, um auch bei unterschiedlichen Themen den Überblick zu behalten Kommunikationsstärke und ein sicheres Auftreten im Austausch mit internen Teams, externen Partnern und Agenturen Eigeninitiative und Freude daran, Verantwortung zu übernehmen, eigene Ideen einzubringen und Themen aktiv voranzutreiben Sicherer Umgang mit digitalen Tools; erste Erfahrungen mit HubSpot, Slack oder vergleichbaren Plattformen sind ein Plus Fließende Deutsch- und gute Englischkenntnisse Vor allem suchen wir Menschen, die HelloFresh besser machen. Wir lieben vielfältige Erfahrungen und glauben, dass es viele Wege gibt, Fähigkeiten zu entwickeln. Wenn Du also nicht alle Kriterien erfüllst, aber glaubst, in dieser Rolle überzeugen zu können, möchten wir gerne mehr über Dich erfahren. Das bieten wir Dir Einen Wohlfühlarbeitsplatz mit einem tollen Team in Berlin-Kreuzberg Rabatte auf unsere HelloFresh Kochboxen und Convini-Produkte Ein flexibles Arbeitsumfeld mit Vertrauensarbeitszeit, Work From Home/Work From Abroad Ein umfassendes Onboarding inkl. Buddy-Programm Spaß bei Teamevents, Friday Beers, Company Runs, Buchclub u.v.m. Vergünstigte Fitnessangebote bei Urban Sports Club bzw. John Reed, regelmäßige Yoga-Sessions Initiativen für das Wohlbefinden durch Kooperationen mit der Headspace-App und Spill Unterstützungsangebote bei der Kinderbetreuung Einen monatlichen Zuschuss zum Deutschlandticket Bist du die fehlende Zutat? Wenn diese Gelegenheit für Dich lecker klingt, freuen wir uns darauf, von Dir zu hören. Wir bemühen uns, Dein Profil zu prüfen und Dir innerhalb von 5 Werktagen zu antworten. #JD1002 Find more English Speaking Jobs in Germany on Arbeitnow",
-      "salary": null
     },
     {
       "id": "arbeitnow-senior-product-manager-intelligent-platforms-berlin-berlin-40887",
@@ -1605,59 +1417,6 @@
         }
       ],
       "description": "This is an Atlantic portfolio venture. About the Venture We build frontier artificial intelligence that helps governments and defence organisations make sense of a fast-moving information environment. Our systems help the teams responsible for national security read a complex information environment faster and clearer than ever before. We've closed a pre-seed round and are already running live government pilots, with plans to expand across Europe and beyond. This is an early, venture-backed company doing work that carries weight. About the Role This is a founding role for our expansion across the DACH region and the Nordics. You will own how we grow here, from the first conversation through to a signed contract, building the region much as we built the UK: learning the landscape, opening doors, landing pilots and turning them into long-term contracts. You will work closely with the founders and with a forward-deployed engineer who builds the tools, integrations and prototypes that a live sales process needs, so your job is to win the room, work out what the customer actually needs, and direct that build until the deal closes. What you'll do Own go-to-market across the DACH region and the Nordics, winning and growing contracts across government, defence and large enterprise, from first conversation through to close. Map the region from a blank slate, find the advisory relationships that open doors, and build a network where we do not have one yet. Land pilots and turn them into long-term contracts, working from first engagements towards enterprise deals worth seven figures a year. Turn customer needs into scoped solutions, briefing and directing a forward-deployed engineer to stand up the reports, dashboards, integrations and prototypes that move deals forward. Build the regional playbook from first principles: pipeline, qualification, pricing and close. Make complex technology clear and convincing to senior decision-makers in government and defence. Work directly with the founders on strategy, positioning and the deals that matter most. About You You are, at heart, someone who likes to build something from nothing. You are at your best finding the first contacts, earning their trust, and turning a cold market into real relationships and real deals. You are hands-on, as comfortable doing the sourcing and outreach yourself as sitting across from a senior decision-maker on a sensitive brief, and you understand that this kind of work is slow, careful and built on trust. A real appetite for business development: you like winning deals, opening relationships and building a market from scratch, and you keep going long after an inherited network has run dry. Enough of a technical background to scope solutions, brief an engineer and hold your own with technical buyers. The drive to build a process from nothing rather than run one that already exists. Fluency in the region: strong English and at least one relevant regional language, with German a clear advantage. Comfort in an early startup, where there is real ownership, quick decisions and plenty of ambiguity. Discretion and integrity, because our work depends on a high level of trust. A background in defence, national security or another setting where you have earned trust and done deals with government is a strong advantage. Eligibility for security clearance is an advantage. Why Join This is a launching role with a whole region to own, at an early, venture-backed company that has already closed a pre-seed round and is running live pilots with government. You will work alongside the founders, with founder-level access and ownership from the start, and the market you build will be yours to shape. The work is demanding and it matters, for clients operating at a high level on problems that are genuinely difficult. For the person who builds this well, there is meaningful equity and real upside. Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-praktikum-online-marketing-marketing-startup-bielefeld-407677",
-      "title": "Praktikum Online-Marketing / Marketing / StartUp",
-      "company": "SEOMATIK GmbH",
-      "location": "Bielefeld",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Internship"
-      ],
-      "publishedAt": "2026-08-12T15:30:44.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/seomatik-gmbh/praktikum-online-marketing-marketing-startup-bielefeld-407677",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/seomatik-gmbh/praktikum-online-marketing-marketing-startup-bielefeld-407677"
-        }
-      ],
-      "description": "Die SEOMATIK GmbH ist eine der führenden Online-Marketing-Agenturen in Europa. Als Full-Service-Agentur in der digitalen Vermarktung von Produkten und Websites liegen unsere Kernkompetenzen in den Bereichen Suchmaschinenoptimierung (SEO), Suchmaschinenwerbung (SEA) und Social Media Marketing (SMM). Derzeit bereiten wir als SpinOff ein E-Commerce Produkt im Bereich Kinder und Illustrationen vor. In diesem Zuge bieten wir nachfolgende Position an: Praktikum Online-Marketing / Marketing / StartUp Aufgaben Zu den Aufgaben im Praktikum gehören u.a. nachfolgenden Themen: Projektmanagement bei dem Aufbau der Webseite, Content Creation im Web, Content Creation im Print, Suchmaschinenoptimierung (SEO), Suchmaschinenwerbung (SEA) Instagram Strategie &#x26; Umsetzung Others Social Strategie &#x26; Umsetzung Diskussion des weiteren Vorgehen zur Vermarktung des Startups -uvm. Qualifikation ein laufendes oder abgeschlossenes Studium, gutes Deutsch, Affinität zu KI / AI Affinität zum Neuaufbau, Kreativität, Teamfähigkeit, Motivation, und HUMOR (sehr wichtig!) :) Benefits Begleitung eines StartUps direkt von Anfang an, ein hochgradig spannendes Projekte, multi-operative Tätigkeit, grosses Lernpotential, offener Umgang &#x26; viel Humor, Zukunftschancen (Nebentätigkeit bis Vollzeit). Das Praktikum selbst ist allerdings unvergütet. Solltest Du Interesse haben an diesem aussergewöhnlichen Projekt, dann freuen wir uns über Deine Bewerbung. Das Praktikum kann Remote erfolgen mit vereinzelten Besuchen vor Ort. Lieben Gruss Agnes Kmety Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-werkstudent-sales-100-remote-hanover-8828",
-      "title": "Werkstudent Sales - 100% Remote (m/w/d)",
-      "company": "Digistore24",
-      "location": "Hanover",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Contract",
-        "hilfstätigkeit / student"
-      ],
-      "publishedAt": "2026-08-12T15:30:43.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/digistore24/werkstudent-sales-100-remote-hanover-8828",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/digistore24/werkstudent-sales-100-remote-hanover-8828"
-        }
-      ],
-      "description": "Jobbeschreibung Du studierst und willst nicht nur Theorie pauken, sondern echte Vertriebspraxis sammeln? Bei Digistore24 arbeitest du direkt im Sales-Team, qualifizierst Leads, unterstützt Outbound-Kampagnen und lernst von erfahrenen Account Executives, wie moderner B2B-Vertrieb wirklich funktioniert. Bitte beachte: Diese Position setzt fließende Deutsch- und Englischkenntnisse voraus. Über Digistore24 Wir sind ein schnell wachsendes Technologieunternehmen und haben eine klare Vision : We shape the digital future . Unsere Mission ? Menschen weltweit dabei zu unterstützen, ihr Wissen online zu teilen und sich damit ein eigenes, erfolgreiches Business aufzubauen. Mit unserer Platform ermöglichen wir Millionen von Menschen den Zugang zu wertvollem Wissen und geben ihnen die Werkzeuge an die Hand, ihre Ziele wirklich zu erreichen. Was uns besonders macht :Wir sind rund 200 hochmotivierte Mitarbeitende, die nicht auf Anweisungen warten, sondern ihren Alltag aktiv gestalten und jeden Tag neu verbessern - genau wie unsere Kunden. Unser Team ist so vielfältig wie unsere Ideen: Menschen aus über 40 verschiedenen Ländern arbeiten bei uns gemeinsam an einer Vision. Was uns verbindet, sind unsere Werte, unser Antrieb und unser Anspruch, wirklich etwas zu bewegen. Wir sind keine großen Redner: wir sind Macher. We love to perform . Mit unserem Wachstum bauen wir unsere Teams gezielt und nachhaltig aus und suchen Persönlichkeiten, die Verantwortung übernehmen, mitdenken und mit uns die Zukunft gestalten. Dein neuer Studijob Unterstütze unser Sales-Team dabei, neue Vendoren zu gewinnen und bestehende Leads weiterzuentwickeln! Lead-Qualifizierung &#x26; Onboarding-Anfragen: Du bearbeitest eingehende Leads und Paid-Onboarding-Anfragen eigenständig, führst erste Discovery- und Qualifizierungsgespräche und sorgst dafür, dass vielversprechende Kontakte strukturiert an die Account Executives übergeben werden. Dabei lernst du direkt, worauf es bei der Bewertung von Vertriebschancen wirklich ankommt. Outbound-Kampagnen &#x26; Vendor-Ansprache: Du unterstützt aktiv bei der Ansprache neuer Vendoren und bringst dich in laufende Outbound-Kampagnen ein. Du lernst, wie man gezielt potenzielle Partner identifiziert, anspricht und für Digistore24 begeistert. CRM-Pflege &#x26; Dokumentation: Du hältst alle Sales-Aktivitäten sauber in HubSpot fest, sorgst für eine lückenlose Dokumentation und stellst sicher, dass das Team jederzeit den vollen Überblick hat. Zusammenarbeit mit den Account Executives: Du arbeitest eng mit erfahrenen Account Executives zusammen, unterstützt aktuelle Sales-Projekte und übernimmst schrittweise eigene Verantwortungsbereiche. Unsere Werte Bitte schau dir die WIRKLICH genau an. Bist du bereit diese zu leben? Stellenanforderungen Deine Superkräfte Strukturierte und eigenverantwortliche Arbeitsweise: Du organisierst deine Aufgaben selbständig, behältst den Überblick über Deadlines und Prioritäten und bringst Dinge zuverlässig zu Ende, ohne dass dir jemand jeden Schritt vorgibt. Kommunikationsstärke und sicheres Auftreten: Du kommunizierst klar und professionell, sowohl schriftlich als auch im direkten Gespräch, auf Deutsch und Englisch. Schnelle Auffassungsgabe und Lernbereitschaft: Du arbeitest dich zügig in neue Themen und Tools ein und hast Freude daran, dich im Bereich Sales kontinuierlich weiterzuentwickeln. Hands-on-Mentalität: Du packst an, denkst mit und wartest nicht darauf, dass Aufgaben zu dir kommen. Erste Erfahrungen im Vertrieb, Kundenservice oder in der Kundenkommunikation sind von Vorteil. Digitale Affinität: Du arbeitest sicher mit digitalen Tools wie Google Workspace und CRM-Systemen und hast Interesse an B2B SaaS, Software oder digitalen Geschäftsmodellen. Dieser Job ist NICHT für dich geeignet, wenn du … kein immatrikulierter Student bist. … nicht für mindestens 20 Stunden an mindestens vier Tagen pro Woche verfügbar bist. … keinen Spaß daran hast, mit Menschen zu kommunizieren und aktiv auf potenzielle Kunden zuzugehen. … nicht fließend Deutsch (C2) und Englisch (mind. B2) in Wort und Schrift beherrschst (beide Sprachen sind Voraussetzung für diese Rolle). … schnelle Veränderungen und neue Herausforderungen lieber vermeidest. … ausschließlich administrative Aufgaben übernehmen möchtest und kein Interesse an echtem Vertrieb hast. … wenig Eigeninitiative mitbringst und darauf wartest, dass dir jede Aufgabe vorgegeben wird. ... dich nicht mit unseren identifizierst. Deine Benefits bei Digistore24 Du erledigst nicht nur einen 08/15-Studijob, sondern wirst Teil eines großartigen Remote-Teams, wenn du dich langfristig entwickeln willst! 100 % Remote: Arbeite dauerhaft von zu Hause aus. Alles, was du brauchst, ist eine stabile Internetverbindung. Arbeite bis zu 170 Tage im Jahr aus dem EU-Ausland ! (Weitere Länder nach Absprache möglich). Nutze bis zu 3 Tage pro Woche die Coworking-Spaces unseres Partners. Wir bieten dir 24 Urlaubstage im Jahr (auf Basis einer 5-Tage-Woche). Keine starren Entwicklungspläne: Deine Weiterentwicklung richtet sich individuell nach deinen Stärken. On the job setzt du dich mit modernen und relevanten Themen auseinander. Flache Hierarchien und kurze Entscheidungswege: Die Stabilität eines extrem erfolgreichen deutschen Hightech-Unternehmens, das sich seinen Start-Up-Spirit über die Jahre bewahrt hat. Unsere Founder sind Teil unseres Teams: wir agieren ohne externe Investoren aus eigener Kraft und reinvestieren alles, was wir erwirtschaften. Selbstbestimmte, ergebnisorientierte Teams: Arbeite in einer Unternehmenskultur, die auf Eigenverantwortung, Autonomie und direktes Feedback setzt, statt auf Micromanagement. Du erhältst von uns modernes Equipment für deine Arbeit. Internationale, kollaborative Kultur: Arbeite mit einem internationalen Team aus engagierten, klugen Köpfen zusammen. Echte menschliche Verbindung: Erlebe spektakuläre Team-Events in ganz Europa und baue Beziehungen auf, die über Bildschirme hinausgehen. Ownership vom ersten Tag an: Bei uns bist du kein Rädchen im System, sondern ein wichtiger Teil eines A-Player-Teams und wirst von der Teamleitung persönlich gefördert (und gechallenged!), unter anderem in monatlichen One-on-One-Gesprächen. Arbeite in deinem Team per du, ohne Dresscode und auf Augenhöhe. Team Lunches mit Lieferando-Guthaben. Eigenverantwortliche Aufgabenbereiche und direkte Einbindung von Tag 1 an. Planbare Stundenanzahl und abgestimmte Arbeitszeiten, die sich mit deinem Studium vereinbaren lassen. Attraktiver Stunde",
       "salary": null
     },
     {
@@ -2083,33 +1842,6 @@
       "salary": null
     },
     {
-      "id": "remote-remote-internship-working-student-finance-freiburg-174597",
-      "title": "Internship / Working Student Finance (m/f/x)",
-      "company": "Virtual Identity",
-      "location": "Remote job",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Student college",
-        "internship"
-      ],
-      "publishedAt": "2026-08-12T11:30:23.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/virtual-identity/remote-internship-working-student-finance-freiburg-174597",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/virtual-identity/remote-internship-working-student-finance-freiburg-174597"
-        }
-      ],
-      "description": "We are looking for an Intern (6-8 weeks) and a Working Student in Finance for at least 6 months. Depending on your background, you'll support our day-to-day Finance operations and help us build AI-powered tools for Finance processes. What you will do: Preparatory bookkeeping: document capture, account coding, and invoice verification (accounts payable &amp; receivable) Account reconciliations and travel expense reporting Support for monthly and annual closing processes Process documentation and support for our ERP implementation, data migration, and master data maintenance Budget planning and forecasting, target/actual comparisons, KPI reporting, liquidity and cost management, and ad-hoc analyses Testing and evaluating AI tools for Finance use cases Developing new Finance processes and tools using AI — e.g. reporting dashboards or budget planning tools Integrating AI models with Finance data; data preparation and visualisation Studies with a focus on Finance, Accounting/Controlling, Business Administration or similar Relevant experience in Finance (from studies or internships) and/or first practical experience with AI tools (LLMs, prompting, automation) Strong affinity for numbers and a structured, careful way of working Very good Excel skills Technical curiosity and hands-on mentality, especially when building or testing new tools Willingness to learn and work independently German at C1 level or higher Based in Germany, Austria or Portugal Find more English Speaking Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
       "id": "remote-remote-creative-director-director-digital-creation-freiburg-388887",
       "title": "Creative Director/ Director Digital Creation (m/f/x)",
       "company": "Virtual Identity",
@@ -2134,32 +1866,6 @@
         }
       ],
       "description": "Creative work is changing fast. Are you ready to lead that shift, not just react to it? We're looking for a Creative Director to lead our Digital Creative Unit and raise the bar on our creative output - across digital marketing and communication projects. AI is changing how creative work gets done, but the human behind the idea still matters most. We want someone with a strong, informed point of view on where this is heading, who isn't afraid to push back when needed. If you're ready to hold your team and yourself to a high standard and shape the future of creative work at VI - not just manage it - we want to hear from you. What you will do: Lead the Digital Creative Unit, both professionally and as their manager - fostering the growth of the team and individual talents Shape how the team works with AI - bring your own point of view on pace and direction, and help the team use it to sharpen their craft Develop and shape strong creative ideas, and guide the team in bringing them to life Connect strategy and creation in daily work Set clear expectations and hold your ground in conflicts when needed Convincingly present creative concepts to (potential) clients, communicating the value and impact of the ideas What we expect: Experience as Creative Director, Head of Digital, Creative Strategist or similar, in a digital agency environment with a focus on digital marketing and communication A genuine point of view on AI and how it changes creative work A proven track record of strong, boundary-pushing creative thinking, paired with clear strategic reasoning Exceptional communication skills, with the ability to inspire and motivate a team Conflict ability - you can name expectations clearly and stand by them Leadership experience is a plus Fluent English is required; fluent German is an advantage; based in Austria is an advantage Contact Victoria Vargas-Grimm Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-werkstudent-praktikant-development-ai-engineering-fur-sap-business-ai-stuttgart-48578",
-      "title": "Werkstudent / Praktikant (m/w/d) | Development & AI Engineering für SAP Business AI",
-      "company": "nfaculty GmbH",
-      "location": "Stuttgart",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Working student"
-      ],
-      "publishedAt": "2026-08-12T11:29:03.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/nfaculty-gmbh/werkstudent-praktikant-development-ai-engineering-fur-sap-business-ai-stuttgart-48578",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/nfaculty-gmbh/werkstudent-praktikant-development-ai-engineering-fur-sap-business-ai-stuttgart-48578"
-        }
-      ],
-      "description": "Du willst nicht in einer Sandbox mit Testdaten üben, sondern KI-Agenten bauen, die im echten Unternehmen produktiv laufen? Dann lies weiter. Wir sind nfaculty: eine SAP-Boutique, SAP Gold Partner, spezialisiert auf SAP Cloud ERP, die SAP Business AI Platform und die SAP Business Data Cloud. Unsere Kunden sind mittelständische Unternehmen, die ihre Prozesse in der Cloud standardisieren — und darauf etwas Eigenes brauchen: Agenten, die den Monatsabschluss beschleunigen, Abweichungen erklären, Bestellprozesse übernehmen. Genau diese Agenten entwickeln wir. Mit CAP auf der SAP BTP, mit SAP AI Core und Joule, mit Frontier-Modellen und den Werkzeugen, die es dafür heute wirklich gibt — nicht mit denen von vor drei Jahren. Dafür suchen wir Verstärkung: jemanden, der Lust hat, tief in die Technik zu gehen. Du schreibst Code, der beim Kunden ankommt, und Du bekommst von Anfang an gesagt, wofür er gut ist. Ob als Werkstudent über mehrere Semester, im Pflicht- oder freiwilligen Praktikum ab drei Monaten oder mit Abschlussarbeit im Thema — alles drei geht, sag uns einfach, was zu Deinem Studium passt. Umfang und Vergütung: 16–20 Stunden pro Woche als Werkstudent, in der Prüfungszeit reduzierbar. Vollzeit im Praktikum. 17 € pro Stunde. Remote-first, deutschlandweit. Aufgaben Du entwickelst Services und Anwendungen mit SAP CAP (Node.js/TypeScript oder Java) auf der SAP Business Technology Platform — vom Datenmodell über den Service bis zum Deployment. Du baust an unseren KI-Agenten mit: SAP AI Core und Generative AI Hub, Joule-Erweiterungen, Tool-Calling, MCP-Server, RAG auf Unternehmensdaten. Prompt- und Kontextdesign gehören dazu — das ist heute Engineering-Arbeit, nicht Textarbeit. Du machst Agenten messbar: Du baust kleine Evaluations- und Test-Setups, damit wir belegen können, dass ein Agent zuverlässig arbeitet, statt es zu behaupten. Du baust Frontends, wo sie gebraucht werden: SAPUI5/Fiori Elements oder eine leichtgewichtige Web-App. Du automatisierst: CI/CD, Deployment-Pipelines, Skripte, die uns Handarbeit sparen. Du prototypisierst neue Ideen für unser eigenes Produktportfolio — manchmal in zwei Tagen von null auf demofähig. Du dokumentierst und zeigst, was Du gebaut hast: im Team, gelegentlich auch beim Kunden. Was Du nicht machst: Excel-Listen pflegen, Präsentationen formatieren, Kaffee holen, Ticket-Triage. Wir sind ein kleines Team — wir haben keine Zeit, Dich zu parken. Qualifikation Das brauchst Du Laufendes Studium in Informatik, Wirtschaftsinformatik, Software Engineering, Data Science, Mathematik, Physik oder etwas Vergleichbarem — ab dem dritten Semester Solide Programmierkenntnisse in mindestens einer Sprache: JavaScript/TypeScript, Java oder Python . Wichtiger als die Sprache ist, dass Du eigenständig ein Problem in Code übersetzen kannst. Grundverständnis von Git, APIs (REST/OData) und relationalen Datenbanken (SQL) Echtes Interesse an KI — Du hast schon selbst mit LLMs, Agenten oder Coding-Assistenten gearbeitet, nicht nur darüber gelesen Du arbeitest strukturiert und fragst nach, wenn etwas unklar ist. Bei uns gibt es niemanden, der Dir täglich Aufgaben zuteilt. Deutsch verhandlungssicher, Englisch sicher in verbaler und schriftlicher Kommunikation Schön, wenn Du es hast — aber kein Ausschlusskriterium Erste Berührung mit SAP BTP, CAP, HANA Cloud, SAPUI5 oder ABAP Erfahrung mit Cloud-Plattformen (SAP BTP, Azure, AWS, GCP), Docker, Kubernetes Ein eigenes Projekt, ein GitHub-Profil oder ein Hackathon, über das Du erzählen kannst Grundverständnis betriebswirtschaftlicher Prozesse (Finance, Einkauf, Vertrieb) Was Du ausdrücklich nicht brauchst: SAP-Vorkenntnisse. Die bringen wir Dir bei — schneller, als Du denkst, weil Du direkt an echten Systemen arbeitest. Benefits Echte Verantwortung ab Woche zwei. Dein Code geht in Kundenprojekte, nicht in ein Ablagefach. Direkter Zugang zur Geschäftsführung. Kein Zwischenlayer, keine Matrix. Du sitzt in denselben Terminen wie die Seniors. Frontier-KI-Modelle und ein eigenes Toolbudget. Wir arbeiten mit den aktuellen Modellen und Agenten-Tools — bezahlt, freigeschaltet, ohne Genehmigungsschleife. Eine eigene Entwicklungsumgebung auf SAP BTP plus Zugang zu SAP Learning Hub und Zertifizierungen, die wir bezahlen. Die nimmst Du mit, egal wie es hier weitergeht. MacBook , auch privat nutzbar, modernes Setup. Remote-first, deutschlandweit. Arbeitszeit rund ums Studium, nicht umgekehrt — in der Prüfungsphase runterfahren ist normal und kein Gesprächsthema. Ein fester Mentor aus dem Team und ein wöchentlicher 1:1. Du wirst nicht ins kalte Wasser geworfen, aber auch nicht an der Hand geführt. Perspektive: Abschlussarbeit im Thema, danach Einstieg als Consultant oder Developer. Das ist bei uns der Regelweg, nicht die Ausnahme. Teamtage vor Ort mit dem gesamten Team, Reise und Unterkunft von uns. Klartext, damit Du weißt, worauf Du Dich einlässt: Wir sind ein kleines Team. Es gibt kein Onboarding-Portal, kein Werkstudentenprogramm mit 40 anderen in Deinem Jahrgang und keine perfekt dokumentierte Codebase. Es gibt Kunden mit echten Problemen, erfahrene Kollegen, die Dir antworten, und viel Raum, Dinge selbst zu entscheiden. Wenn Du eine klar abgesteckte Aufgabe suchst, die Du sechs Monate lang abarbeitest, wirst Du hier nicht glücklich. Wenn Du im nächsten Jahr mehr über KI, Cloud-Entwicklung und Unternehmensprozesse lernen willst als in jedem Praktikum bei einem Konzern — dann sollten wir reden. Bewirb Dich unkompliziert: Lebenslauf reicht. Kein Anschreiben. Stattdessen zwei Sätze im Bewerbungsformular zu der Frage: Was hast Du zuletzt selbst gebaut oder ausprobiert — und was hat dabei nicht funktioniert? Das interessiert uns mehr als jede Note. Wir melden uns innerhalb einer Woche. Der Prozess besteht aus einem Kennenlerngespräch und einem fachlichen Gespräch, in dem wir gemeinsam auf ein konkretes technisches Problem schauen. Kein Assessment-Theater, keine fünf Runden. Find Jobs in Germany on Arbeitnow",
       "salary": null
     },
     {
@@ -2388,32 +2094,6 @@
       ],
       "description": "Wir bei nutri+ glauben an eine Welt, in der Tiere respektiert werden und niemand zurückgelassen wird. Deshalb setzen wir uns nicht nur für hochwertige vegane Produkte ein, sondern unterstützen aktiv den Tierschutz. Social Media ist für uns weit mehr als Reichweite – wir möchten Menschen begeistern, informieren und unsere Marke authentisch erlebbar machen. Dafür suchen wir dich als Social Media Manager (m/w/d) mit Schwerpunkt TikTok Content. Deine Mission Als Social Media Manager (m/w/d) entwickelst du kreative TikTok-Formate, erkennst Trends frühzeitig und sorgst dafür, dass unsere Inhalte Reichweite erzielen und unsere Community wachsen lassen. Du denkst Content nicht nur kreativ, sondern auch datengetrieben und weißt, welche Formate wirklich funktionieren. Du sorgst dafür, dass unsere Follower nicht nur unsere Marke kennenlernen, sondern vor allem auch Dich als Creator. Aufgaben Du entwickelst, planst und veröffentlichst TikTok-Content, der begeistert und Reichweite erzielt Du beobachtest aktuelle Trends, Sounds und Formate und setzt diese kreativ für unsere Marke um Du trittst selbst in unserem Kanal als Creator auf Du arbeitest eng mit unserem Marketing- und Design-Team zusammen, um hochwertigen Content zu produzieren Du koordinierst die Zusammenarbeit mit Content Creatorn und Influencern Du analysierst die Performance deiner Inhalte und leitest Optimierungsmaßnahmen anhand relevanter KPIs ab Du unterstützt bei der Weiterentwicklung unserer Social-Media-Strategie und bringst eigene Ideen aktiv ein Du unterstützt bei Bedarf auch bei Content für Instagram Reels und weitere Social-Media-Kanäle Qualifikation Du hast mindestens 2 Jahre Erfahrung im Social Media Management, idealerweise mit Schwerpunkt TikTok Du verstehst, wie Inhalte auf TikTok funktionieren und was Nutzer wirklich anspricht Du hast ein Gespür für Trends, Storytelling und virale Formate Du teilst unsere Werte &#x26; Philosophie (!) – idealerweise hast Du sogar Bezug zum Thema Tierschutz Du arbeitest kreativ, eigenständig und setzt Ideen schnell um Du denkst datenbasiert und nutzt KPIs zur kontinuierlichen Optimierung deiner Inhalte Idealerweise hast du bereits Erfahrung mit der Zusammenarbeit mit Content Creatorn oder Influencern Kenntnisse in Tools wie CapCut, Canva oder Adobe Premiere Pro sind von Vorteil Du bringst eine Hands-on-Mentalität, Eigeninitiative und Begeisterung für Social Media mit Du hast einen Wohnsitz in Deutschland Benefits 100 % Remote – arbeite von überall in Deutschland ein Bruttojahresgehalt von 36.000-44.000 € (bei Vollzeit/40 Stunden), abhängig von Deiner Erfahrung und Qualifikation 30 Urlaubstage im Jahr Ein motiviertes, engagiertes Team mit einer gemeinsamen Mission Regelmäßige Team-Events Monatliche Sachbezüge über Edenred Attraktive Mitarbeiter-Rabatte Die Möglichkeit, einen direkten Einfluss auf den Erfolg eines nachhaltig ausgerichteten Unternehmens zu nehmen Du findest Dich hier wieder und hast Lust ein wichtiger Teil unseres Teams zu werden? Dann bewirb Dich jetzt direkt bei unserer COO Svenja! Schicke uns Deine kompletten Bewerbungsunterlagen mit Lebenslauf, Anschreiben (inkl. Gehaltsvorstellung und frühestmöglichem Einstiegsdatum) und Zeugnissen zu. Wir freuen uns auf Deine Bewerbung! Find Jobs in Germany on Arbeitnow",
       "salary": null
-    },
-    {
-      "id": "arbeitnow-werkstudentin-marketing-content-20-std-woche-berlin-464011",
-      "title": "Werkstudent:in Marketing & Content - 20 Std./Woche",
-      "company": "No Bad Days Club (NBDC)",
-      "location": "Berlin",
-      "address": "",
-      "lat": 52.5173885,
-      "lon": 13.3951309,
-      "remote": true,
-      "employmentType": [
-        "Working student"
-      ],
-      "publishedAt": "2026-08-12T06:00:30.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/no-bad-days-club-nbdc/werkstudentin-marketing-content-20-std-woche-berlin-464011",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/no-bad-days-club-nbdc/werkstudentin-marketing-content-20-std-woche-berlin-464011"
-        }
-      ],
-      "description": "Bei NBDC suchen wir eine:n Werkstudent:in, der/die Lust hat, Marketing aktiv mitzugestalten. Du arbeitest eng mit den Gründern in einem kleinen Team zusammen und unterstützt uns dabei, unsere Marke weiter aufzubauen und neue Kunden zu erreichen. Dabei geht es nicht nur darum, bestehende Aufgaben abzuarbeiten: Wir möchten gemeinsam neue Ideen entwickeln, ausprobieren, messen, was funktioniert, und daraus lernen. Du bekommst von Anfang an die Möglichkeit, Verantwortung zu übernehmen und eigene Ideen umzusetzen. Aufgaben Du entwickelst und erstellst Marketingmaterialien für unsere verschiedenen Kanäle. Du konzipierst und erstellst Marketing-E-Mails und unterstützt bei der Weiterentwicklung unserer E-Mail-Kommunikation. Du entwickelst Ideen und Creatives für Paid Ads auf Instagram und Facebook und begleitest deren Umsetzung. Du entwickelst organische Content-Ideen für Instagram, TikTok und Pinterest und setzt diese eigenständig um. Du beobachtest aktuelle Social-Media-Trends und überlegst, welche davon zu unserer Marke passen. Du betreust zahlreiche Creator und identifiizerst neue potenzielle Partner. Du entwickelst gemeinsam mit uns kreative Guerilla-Marketing-Aktionen und neue Wege, um Aufmerksamkeit für NBDC zu schaffen. Du unterstützt bei der Planung und Umsetzung von Kampagnen und Launches. Du testest unterschiedliche Inhalte, Formate und Botschaften und hilfst uns herauszufinden, was bei unserer Zielgruppe funktioniert. Du bringst eigene Marketing-Ideen ein und bekommst die Möglichkeit, kleinere Projekte selbstständig von der Idee bis zur Umsetzung zu übernehmen. Qualifikation Du bist eingeschriebene:r Student:in und hast ca. 20 Stunden pro Woche Zeit. Du sprichst und schreibst fließend Deutsch und hast ein gutes Gefühl für Sprache und Kommunikation. Du interessierst dich für Marketing, Social Media, Content und Markenaufbau. Du arbeitest eigenständig und wartest nicht darauf, dass dir jeder einzelne Schritt vorgegeben wird. Du bist kreativ, probierst gerne neue Dinge aus und hast keine Angst davor, dass eine Idee auch einmal nicht funktioniert. Du hast Lust, schnell zu lernen, Verantwortung zu übernehmen und dich gemeinsam mit uns weiterzuentwickeln. Du kannst dich gut organisieren und mehrere kleinere Projekte gleichzeitig im Blick behalten. Erste praktische Erfahrung mit Social Media, Content Creation, Performance Marketing oder E-Mail-Marketing ist ein Plus – aber kein Muss. Benefits Du bekommst bei uns keine klassische Werkstudentenrolle, in der du hauptsächlich Aufgaben abarbeitest. Stattdessen arbeitest du direkt mit den Gründern zusammen und bekommst einen unmittelbaren Einblick darin, wie wir NBDC aufbauen und weiterentwickeln. Du kannst eigene Ideen einbringen, sie tatsächlich umsetzen und direkt sehen, welchen Einfluss deine Arbeit hat. Gleichzeitig bekommst du viel Raum zum Ausprobieren und die Möglichkeit, schnell Verantwortung für eigene Projekte zu übernehmen. Du möchtest Marketing nicht nur theoretisch kennenlernen, sondern selbst ausprobieren, welche Ideen wirklich funktionieren? Dann möchten wir dich kennenlernen. Schick uns deine Bewerbung und erzähl uns gerne kurz, wer du bist, was dich an Marketing interessiert und warum du Lust hast, NBDC gemeinsam mit uns weiterzuentwickeln. Find Jobs in Germany on Arbeitnow",
-      "salary": null,
-      "remoteFull": true
     },
     {
       "id": "remote-remote-senior-manager-customer-success-engineering-428126",
@@ -2871,33 +2551,6 @@
       "salary": null
     },
     {
-      "id": "remote-business-analyst-design-freelance-remote-karlsruhe-347499",
-      "title": "Business Analyst & Design (m/w/d) 100% remote · Freelance ·",
-      "company": "ZWW Deutschland GmbH",
-      "location": "Karlsruhe",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Freelance",
-        "berufserfahren"
-      ],
-      "publishedAt": "2026-08-11T12:29:03.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/zww-deutschland-gmbh/business-analyst-design-freelance-remote-karlsruhe-347499",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/zww-deutschland-gmbh/business-analyst-design-freelance-remote-karlsruhe-347499"
-        }
-      ],
-      "description": "Du lebst im Ausland, arbeitest remote und suchst eine spannende, flexible Aufgabe mit echtem Startup-Einblick und direktem Kontakt zu Unternehmern? Wir sind ZWW Deutschland. Wir verbinden KMU, Agenturen und Berater mit staatlichen Förderprogrammen, von denen kaum jemand weiß. Unser Team wächst und wir suchen jemanden, der uns vom Ausland aus bei der strategischen Arbeit mit unseren Kunden unterstützt. Auf Deutsch, auf Augenhöhe, mit klarem Kopf und einem guten Gespür für Geschäftsmodelle. Bei uns arbeitest du direkt mit Unternehmern und Beratern zusammen. Du analysierst bestehende Angebote und Geschäftsmodelle, führst strukturierte Gespräche und hilfst unseren Kunden dabei, ihre Leistungen klarer, strategischer und förderfähig aufzustellen. Aufgaben Du führst strukturierte Gespräche mit Unternehmern und arbeitest gemeinsam mit ihnen an ihren bestehenden Angeboten. Du analysierst Geschäftsmodelle, Leistungen und Vertriebsstrukturen und erkennst schnell, wo etwas noch unscharf oder nicht sauber aufgebaut ist. Du bringst komplexe Diskussionen auf den Punkt und überführst die Ergebnisse in eine klare Struktur. Du entwickelst gemeinsam mit unseren Kunden Beratungsleistungen, Methoden und Angebotsbausteine weiter. Du strukturierst bestehende Leistungen so, dass daraus nachvollziehbare Beratungsangebote mit klaren Zielen, Vorgehensweisen und Ergebnissen entstehen. Du bereitest die Ergebnisse der Gespräche sauber auf und entwickelst daraus konkrete strategische Empfehlungen. Du arbeitest dich tief in unser ZWW-System und die Anforderungen rund um geförderte Unternehmensberatung ein. Qualifikation Deutsch auf sehr gutem Niveau. Du kannst komplexe Sachverhalte klar erklären und präzise formulieren. Du denkst analytisch und strukturiert und erkennst schnell Zusammenhänge. Du kannst Gespräche aktiv führen und dafür sorgen, dass am Ende ein konkretes Ergebnis steht. Du fühlst dich im Gespräch mit Unternehmern wohl und kannst auch kritisch nachfragen. Du verstehst Geschäftsmodelle, Vertrieb und Unternehmensstrukturen oder arbeitest dich schnell in neue Branchen ein. Erfahrung in Unternehmensberatung, Strategie, Projektarbeit oder der Moderation von Kundengesprächen ist ein Plus. Ein Studium in Wirtschaftsingenieurwesen, Betriebswirtschaft, Wirtschaftsinformatik oder einem ähnlichen Bereich passt gut zur Rolle, ist aber kein Muss. Benefits 100% remote. Du arbeitest von wo du willst. Du arbeitest direkt mit Unternehmern, Beratern und Agenturen aus unterschiedlichsten Branchen. Du bekommst einen klar strukturierten Beratungsprozess, musst aber selbst denken und Verantwortung übernehmen. Du erhältst direkten Einblick in Geschäftsmodelle, Vertriebsstrukturen und strategische Fragestellungen unterschiedlichster Unternehmen. Du arbeitest eng mit unserem Gründerteam zusammen und bekommst direkten Kontakt zu erfahrenen Unternehmern und Serial Foundern. Du kannst unsere Methoden, Beratungsprodukte und internen Standards aktiv mitentwickeln. Viel Eigenverantwortung, kurze Entscheidungswege und Raum zur persönlichen Weiterentwicklung. Klingt nach dir? Dann melde dich einfach bei Felix auf JOIN. Wir freuen uns darauf, dich kennenzulernen. Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
       "id": "remote-remote-software-engineer-infrastructure-44606",
       "title": "Software Engineer, Infrastructure",
       "company": "Camunda",
@@ -3246,193 +2899,6 @@
         }
       ],
       "description": "About The Company GROPYUS is a technology-based construction company focused on building multi-story residential buildings. Thanks to its prefabricated building system with various design options, industrial offsite construction, and fully digitalized processes, the company manufactures aspirational, sustainable, and affordable homes using timber construction methods. GROPYUS is using scalable construction and manufacturing solutions to tap into a future market, boost Europe's strength in innovation, while also playing a substantial role in improving sustainability. About the role The Building Systems Team designs the GROPYUS building system and enables project realization by connecting physical and digital products and processes. The Architecture Interior Design Team within BST comprises architects, interior designers, BIM and parametric design experts. As part of the team, you will be involved in Product Development, Value Chain and Construction Project Development Processes in close collaboration with the other teams in BST (Drafting, Integrated Engineering and Building Technologies), as well as other Departments across Gropyus. About the position Project development in stage LP5 Implementation of state-of-the-art architectural and technical solutions in our timber residential Building Product Constant and controlled evolution of the Product within the Series- and Change Management Coordination with design disciplines like Engineering, MEP, Building Physics, Acoustics, Fire Protection, and Energy Design Contribute to the improvement of our Digital Value Chain in close collaboration with the Product and Technology Teams Design for user centricity, DfMA, sustainability, and cost About you Must have Project experience in technical detail development of the project stage LP5 in Germany (min. 3 years), focusing on technical detailed design, particularly the building envelope and structural works Proficiency in relevant German building regulations and codes Experience in timber construction Experience with building class 4/5 Fluent German and English skills Nice to have Experience with residential buildings Experience in Revit Experience in AutoCAD and in Rhino What we offer An unlimited contract with 30 vacation days. Flexible work: We value regular in‑person collaboration in the office, while also offering working from home and the opportunity to work up to 40 days a year from abroad. Attractive perks and benefits : We offer a company pension scheme, language courses (English/German), and employee discounts with selected sustainable brands. Furthermore, our external partners in mental health support you in strengthening your mental health through anonymous private/group sessions. Virtual Shares Program : Participate in the success of GROPYUS through our Virtual Share Program. Ownership : You can truly make your mark with your work and contributions – on all our organizational levels. Find your solutions, drive and test them. The chance to be part of something big : Our mission is to rethink an entire industry. Join us in reinventing construction and fostering sustainable, affordable living. A diverse and enriching work environment : Become a valued member of a wonderfully diverse team of individuals from over 50 countries. At GROPYUS we value inclusion above all, ensuring that everyone feels they belong – no matter their background. In this way, our differences become strengths t",
-      "salary": null
-    },
-    {
-      "id": "remote-information-security-lead-berlin-385700",
-      "title": "Information Security Lead",
-      "company": "Secfix",
-      "location": "Remote-Europe",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Full Time"
-      ],
-      "publishedAt": "2026-08-10T17:40:21.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/secfix/information-security-lead-berlin-385700",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/secfix/information-security-lead-berlin-385700"
-        }
-      ],
-      "description": "Remote (+/- 2hrs from Germany GMT+1). C1 or C2 English is essential At Secfix, we’re at the forefront of automating security compliance in Europe. We help companies get and stay ISO 27001, GDPR, TISAX, and SOC 2 fast and easy and reduce hundreds of hours of manual work. Secfix is run by a 100% remote team with hubs in Munich, Berlin and London. We’re a high-performing team looking for passionate, execution-focused, owners to help us automate security and compliance for modern companies and become the European compliance automation leader. We’ve just raised our $12M Series A and are backed by top VCs, including Alstin Capital, Neosfer (Commerzbank), and Bayern Capital. About the Role We're hiring a Senior Information Security Specialist to strengthen our compliance function as Secfix scales into more frameworks, mid-market customers, and a growing compliance team. This role sits at the intersection of compliance delivery, content, and team support. You'll own the compliance knowledge that lives inside our platform, mentor our junior compliance specialists, support our customer success team, and act as the senior compliance voice for customers, auditors, and product. You'll work closely with our co-founder &amp; CISO and our CS Lead. This is a high-impact role with real influence on how Secfix delivers compliance: both as a service to customers and as content inside our app. What You'll Do: You will own one of the most important pillars of Secfix: the quality and breadth of our compliance offering . We don't (and can't afford to) micro-manage. We've built strong foundations and will give you full context on what works. You can test new approaches, but at the end of the day, you have full ownership of how you deliver results (with a strong support network from within and outside the company). You will: Own and drive the compliance roadmap inside the Secfix platform across different compliance frameworks (ISO 27001, TISAX, SOC 2, GDPR, NIS 2, DORA, ISO 27017/27018, ISO 42001, C5, and more as we expand) Implement ISO 27001 and adjacent frameworks end-to-end for customers Mentor and upskill the compliance team: sharing expertise, reviewing work, and helping drive consistency in audits and customer deliverables Conduct internal audits directly for strategic and complex customers, and review the internal audits performed by junior team members to drive quality and consistency Act as a compliance partner to CSMs and sales reps: fast, reliable support for customer questions, and joining customer calls when deep expertise is needed Own the quality of compliance content in the platform (including creating policies, evidence templates, Compliance enable playbooks for our CSMs, security awareness trainings and more) Close framework gaps and incorporate auditor feedback into both team practice and platform improvements Partner with product and engineering to translate compliance gaps into structured product work Collaborate closely with CS, Product, and Founders to align compliance, customer, and roadmap priorities Deepen relationships with our existing certification partners and train auditors on the Secfix platform so they can confidently use it during customer audits To be qualified for this role, you must have the following: English (fluent) is a must for this role 7+ years of hands‑on information security and GRC experience in B2B SaaS Led 5+ successful ISO 27001 certification projects as an implementer and/or auditor at a startup or mid-market company 2+ years of people/team management experience Hands on experience with a GRC platform like Secfix, or similar GRC platforms Cloud infrastructure readiness across AWS, Azure, and GCP; experience with posture analysis and remediation planning Strong project management skills with the ability to break down ambiguous initiatives into concrete deliverables, prioritizes ruthlessly, and ships Excellent written communication, especially in producing clear, precise compliance content for diverse audiences (auditors, founders, engineers) Strong ownership mindset: operates as a senior individual contributor without waiting for direction Bonus: Experience implementing one or two additional compliance frameworks (e.g. SOC 2, GDPR, NIS 2, etc.) Experience mentoring or coaching colleagues in a compliance, audit, or GRC context Experience in a startup environment is a plus What we offer Remote Work: 100% remote work with a virtual office in Gather. Competitive Salary: Industry-competitive local salaries. We pay local rates that are at or above the market. We share this philosophy with GitLab. Equity: Generous equity package – we’re all owners of Secfix and beneficiaries of our collective success. Mentorship: We are backed by top VCs and accelerators and have direct access to world-class mentors. Development Budget: €1,000 annual personal development budget. Home office Budget: Home office budget and access to co-working spaces. Holidays: 26 days holiday + local public holidays. Health Insurance: Comprehensive health coverage. Annual Retreat: Annual retreat to build connections and inspire ideas (this year we’re headed to Milan!). Company Events: Company-wide events to build relationships and have some fun! Tech Equipment: Latest tech equipment (MacBook, monitors, headphones). Interview Process: 20-30 min - Intro call with Talent team Take-home Assessment 1.5hr Assessment review and interview with our CS Lead and CEO 45 min - Final Founder Interview with Co-Founders (CTO &amp; CISO) Please note: We are an equal-opportunity employer and remote-only company. At this time, we can support hiring only within EU time zones. We work in sync using Gather as our virtual office. As a small fast-growing company, we believe in the need for an in-sync component of daily communication and therefore cannot support 100% asynchronous work. Read more about our Remote Culture here . Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-legal-director-germany-141927",
-      "title": "Legal Director",
-      "company": "Coupa Software, Inc.",
-      "location": "Germany",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Mid-Senior Level"
-      ],
-      "publishedAt": "2026-08-10T17:04:46.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/coupa-software-inc/legal-director-germany-141927",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/coupa-software-inc/legal-director-germany-141927"
-        }
-      ],
-      "description": "Coupa makes margins multiply through its community-generated AI and industry-leading total spend management platform for businesses large and small. Coupa AI is informed by trillions of dollars of direct and indirect spend data across a global network of 10M+ buyers and suppliers. We empower you with the ability to predict, prescribe, and automate smarter, more profitable business decisions to improve operating margins. &nbsp; Why join Coupa? &nbsp; 🔹 Pioneering Technology: At Coupa, we're at the forefront of innovation, leveraging the latest technology to empower our customers with greater efficiency and visibility in their spend. 🔹 Collaborative Culture: We value collaboration and teamwork, and our culture is driven by transparency, openness, and a shared commitment to excellence. 🔹 Global Impact: Join a company where your work has a global, measurable impact on our clients, the business, and each other.&nbsp; &nbsp; Learn more on Life at Coupa blog and hear from our employees about their experiences working at Coupa.&nbsp; The Impact of a Legal Director at Coupa: We are looking for an enthusiastic and sharp Legal Director/Senior Legal Counsel (DACH/EMEA) to join our EMEA commercial legal team and the broader global Coupa Legal team. You will be the go-to lawyer for the DACH Region with also exposure to multiple other jurisdictions across EMEA, reporting directly to the Head of Legal EMEA. This is a fully remote role, with the possibility of visiting our office depending on your location. What You'll Do: Provide legal support for Coupa’s Go-To-Market sales organization across EMEA to help close deals and keep the business moving. Negotiate and draft various commercial documents, such as SaaS master subscription agreements, DPAs, AI terms, professional services agreements, partner agreements, and regulatory addenda (including DORA). Take over any service desk tickets assigned to the EMEA Legal team on any legal subject matter to keep the queue moving and the business unblocked. Advise on regulatory and customer compliance requirements across the EU/EEA. Get to know Coupa’s products, SaaS offerings, security, and data protection policies inside and out to build a strong foundation for supporting every line of business. Partner closely with the sales operations, finance, product, privacy, security and Deal Desk teams, as well as other stakeholder teams, to ensure that agreements are consistent with internal corporate policies and processes. Resolve customer success issues and any commercial dispute by working directly with a customer representatives and internal teams. Collaborate with legal and cross-functional stakeholders to help standardize documentation across, develop guidelines, and improve the team’s efficiency and effectiveness every quarter. Develop training materials and deliver ad-hoc sales enablement sessions on topics such as new regulations and the contracting process. Assist with other projects as assigned. What You Will Bring to Coupa: Qualified German lawyer. A Master of Laws Degree or being a member in good standing of a recognized international bar is a plus. Fluent written and verbal German and English language skills is required, and other language(s) is highly desirable. 10+ years of relevant experience with at least 4 years in-house in the tech sector, ideally with exposure to the US software industry. You should be comfortable working directly with strategic and regulated customers, internal clients and executives. Ability to handle complex contractual issues quickly and work with autonomy. Excellent written and verbal communication skills. Highly responsive and service-oriented attitude. Ability to organize, prioritize and manage deadlines in a fast-paced, evolving and demanding work environment. Ability to develop and maintain strong working relationships within the Coupa Legal Department, across other supporting departments and with demanding internal clients. Talent for thinking “outside the box” in confronting new issues and pursuing novel approaches to old problems. A commitment to excellence and to ensuring the success of Coupa’s customers. At Coupa, we are 100% committed to creating and nurturing an environment that supports your physical, mental, and community well-being&nbsp;. We offer a comprehensive suite of benefits designed to help you and your family thrive: &nbsp; Global Well-Being Perks (For All Employees Globally) Global Wellness Days: &nbsp;Enjoy two designated, company-wide paid wellness days&nbsp;off&nbsp;each year (typically the first Friday in March and the last Friday in September) so the entire global team can unplug, step away, and recharge together&nbsp;. Birthday&nbsp;Time-Off: &nbsp;Celebrate your day!&nbsp;Coupa provides a paid day&nbsp;off&nbsp;on your&nbsp;birthday&nbsp;or another day of your choice within your&nbsp;birthday&nbsp;month&nbsp;. Volunteer&nbsp;Time&nbsp;Off&nbsp;(VTO): &nbsp;Giving back is in our DNA.&nbsp;We offer 40 hours of paid VTO annually to support the community initiatives and volunteer programs you are passionate about&nbsp;. Employee Assistance Program (EAP): &nbsp;Access free, confidential, 24/7/365 counseling and resources for emotional support, work-life solutions, financial advice, legal guidance, and support for new parents&nbsp;. Business Travel Protection: &nbsp;Travel with peace of mind.&nbsp;Zurich Travel Assist provides medical, safety, pre-trip planning, and emergency support during any business travel&nbsp;. Referral Bonus Program: &nbsp;Share the Coupa experience!&nbsp;Receive generous monetary referral bonuses when you successfully refer talented friends or acquaintances who are hired into open roles&nbsp;. Please note: In addition to these global well-being perks, Coupa offers highly competitive, location-specific benefits packages (which include comprehensive medical/dental insurance, retirement/pension plans, and life or accident protection) tailored to your primary work location. Your recruiter will walk you through the specific regional benefits package for this role during the interview process. &nbsp; Coupa complies with relevant laws and regulations regarding equal opportunity and offers a welcoming and inclusive work environment. Decisions related to hiring, compensation, training, or evaluating performance are made fairly, and we provide equal employment opportunities to all qualified candidates and employees.&nbsp; &nbsp; Please be advised that inquiries or resumes from r",
-      "salary": null
-    },
-    {
-      "id": "remote-ai-native-business-analyst-dach-mannheim-198122",
-      "title": "AI-Native Business Analyst - DACH",
-      "company": "Oper",
-      "location": "Mannheim",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Freelance",
-        "professional / experienced"
-      ],
-      "publishedAt": "2026-08-10T16:00:32.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/oper/ai-native-business-analyst-dach-mannheim-198122",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/oper/ai-native-business-analyst-dach-mannheim-198122"
-        }
-      ],
-      "description": "About Oper Oper, a European Fintech company, is a leader in cloud-based digital mortgage software. We provide personalized journeys for borrowers and lenders. Oper's technology streamlines the mortgage application process, eliminates paperwork, and increases transparency. The fastest growing part of our business is Herman , our AI agent for mortgage origination. Herman reads documents, checks them, and works a credit file the way an analyst would, inside the regulated workflow of a real bank. It runs on sovereign EU infrastructure, because our clients cannot send mortgage data anywhere else. Phase by phase, it automates more of the origination process: first employed borrowers, then the self-employed, and onward. This is not a chatbot bolted onto old software. It is agentic software doing real work in a regulated environment. A passionate and engaging team of around 30 stellar Fintech operators works vigorously to transform European mortgages by enhancing efficiency and alleviating borrower anxiety. Backed by Bessemer Venture Partners and Motive Ventures, we have raised EUR 14 million, placing Oper at the forefront of revolutionizing mortgages in Europe. Oper currently has offices in Zürich, Switzerland, and Antwerp, Belgium. Your Mission We are looking for a Business Analyst (DACH) to join our Customer Success team. You will start with one of our flagship Austrian customers, owning the delivery work that turns their business needs into a configured, live Oper platform. As we continue to grow in DACH, you will expand into a broader portfolio of German-speaking lenders, becoming the trusted delivery partner who guides them from kickoff to value. This is a role for someone who genuinely enjoys structuring messy problems, sitting in a workshop with bankers and product owners, and translating what they hear into something concrete the engineering team can build and the customer can run. It is also a role for someone who is AI-native , who uses modern AI tooling as a core part of how they think, write, and ship. Tasks Your Responsibilities Capture and structure customer requirements You will be the bridge between what the customer wants and what Oper delivers. Run discovery workshops with business and IT stakeholders at our DACH customers Capture functional and business requirements in clear, well-structured documentation Map requirements to Oper's product : identify what works out-of-the-box, what needs configuration, and what genuinely needs engineering Translate business needs into user stories and functional specifications the squad can act on Manage stakeholder expectations throughout the project lifecycle Analyze integration points Our customers run on complex banking stacks. You will figure out how Oper plugs in cleanly. Review technical API documentation from core banking systems, CRMs, and online banking platforms Work with Oper engineering to identify and define integration points Document data flows, contracts, and edge cases so nothing surprises us at go-live Make smart, pragmatic recommendations on what to integrate now vs. later Configure workflows and deliver value You will own the hands-on configuration work that makes Oper work for each customer. Configure mortgage products, business rules, and customer journeys inside the Oper platform Validate that configurations match the agreed scope and pass acceptance testing Lead training sessions for end users and customer champions Stay close to the customer through go-live and early adoption, then hand over cleanly to the Customer Success team Work AI-native We expect you to use modern AI tooling as a real lever, not a curiosity. Use AI tools to scaffold documentation, draft specs, summarize workshops, and accelerate analysis, automate processes,… Identify where AI compounds your work and where it does not, and design your workflow accordingly Help us push the bar on what an AI-native delivery function looks like at Oper Requirements Your Profile We are looking for someone with a consulting background who is ready to go deep on a product and an industry and love technology: 2 to 3 years of experience in consulting (Big-4, boutique strategy/tech, or implementation consulting). Fluent in German and English You love structuring problems : messy customer conversations come out of your hands as clean documents, frameworks, and next steps You genuinely enjoy customer and end-user interaction : workshops energize you rather than drain you Technical affinity : you are comfortable reading API documentation, understanding integration patterns, and configuring software. You do not need to code, but you should not be afraid of anything technical either. AI-native : you can name the tools, the workflows, and the concrete recent examples where AI gave you real leverage. You see AI as a default part of how you work. Action-oriented, with a knack for getting things done in ambiguous situations Comfortable in a fast-growing, evolving SaaS environment 🌍 Languages Fluent in German (required) Fluent in English (required) Bonus qualities Familiarity with the European mortgage market or financial services more broadly Experience with enterprise SaaS implementations , integrations, or workflow configuration Experience working with banks or lenders as clients Location &#x26; Setup DACH-based candidates: remote setup, with regular travel to Antwerp (roughly quarterly) and to DACH customers as needed Working in CET hours Reporting to the Head of Customer Success (Co-Founder) Close collaboration with the Customer Success, Product, and Engineering teams Benefits As a fast-growing fintech, we're building a team where you can truly make an impact. We offer: Freelance contract Comptetive dayrate Dynamic international team with 12 nationalities Supportive, inclusive, and collaborative culture Learning &#x26; Development budget with dedicated time for growth Structured onboarding with a dedicated mentor Travel budget to collaborate with teams in Antwerp Annual company-wide Team G2G in an inspiring location Flexible working hours All equipment needed to do your best work Inclusive at Our Core Oper is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. All applications are considered without regard to race, religion, gender, gender identity, sexual orientation, disability, age, or any other protected status. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-solution-architect-aws-plattform-cloud-security-stuttgart-12120",
-      "title": "Solution Architect - AWS Plattform & Cloud Security (m/w/d)",
-      "company": "Rockstardevelopers GmbH",
-      "location": "Stuttgart",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "berufserfahren"
-      ],
-      "publishedAt": "2026-08-10T15:00:24.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/solution-architect-aws-plattform-cloud-security-stuttgart-12120",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/rockstardevelopers-gmbh/solution-architect-aws-plattform-cloud-security-stuttgart-12120"
-        }
-      ],
-      "description": "Wer wir sind Rockstardevelopers, gegründet 2015 in Mannheim, weitere Büros in Stuttgart und München. Wir sind ein Software-Entwickler mit Erfahrung aus hunderten von individuellen Projekten für Enterprise- und Mittelstands-Kunden. Kurze Wege, ehrliches Feedback, keine politischen Spielchen. Keine Hierarchie-Ebenen zwischen dir und den Leuten, die Entscheidungen treffen. Deine Aufgaben Plattformarchitektur auf AWS entwerfen und weiterentwickeln: EKS, ECR, Fargate, Cluster-Design, Namespace-Strategien, Hochverfügbarkeit Security-Konzepte für regulierte Umgebungen: Zero Trust, IAM/RBAC, Container-Security, Verschlüsselung, Audit-Logging, Netzwerksegmentierung Asynchrone, lose gekoppelte Systemlandschaften entwerfen – Kafka/MSK, EventBridge, SNS/SQS, dazu Saga, CQRS und Event Sourcing Everything-as-Code umsetzen: Terraform oder CDK, Policy-as-Code mit OPA/Gatekeeper, GitOps-Deployments über ArgoCD oder Flux Im laufenden Betrieb selbst mit anfassen: Incidents, Post-Incident-Reviews und die Architekturentscheidungen, die daraus folgen Produktiv mit AI-Tools entwickeln (Claude Code, Copilot, Cursor) Die meisten kommen ein bis zwei Tage die Woche in eins der Büros. Zwang ist keiner. Beim Kunden vor Ort nur für einzelne Termine alle paar Wochen. Wo du landest Je nach Projekt: Großkonzerne wie Deutsche Bahn / DB Systel, öffentlicher Sektor (Bundesagentur für Arbeit, ITZBund, Bundesdruckerei) sowie Enterprise- und Mittelstands-Kunden – jeweils die Plattform- und Architektur-Themen. Was du mitbringst Senior-Level, mehr als fünf Jahre. Unsere Kunden brauchen Leute, die ab Tag eins liefern und eigenständig arbeiten. Kubernetes-Plattformen auf AWS – gebaut und betrieben, nicht nur benutzt (EKS, ECR, Fargate) Security-Architektur in komplexen Unternehmensumgebungen: Zero Trust, IAM/RBAC, Container-Security, Compliance Event-Driven Architecture mit Kafka oder den AWS-Pendants, inklusive Konsistenz-Patterns Infrastructure as Code und GitOps: Terraform, CDK oder Pulumi, ArgoCD oder Flux ITIL-Betrieb mit eigenem technischem Beitrag, nicht nur Governance Von Vorteil: SAFe und PI-Plannings, BPMN 2.0 mit Camunda (Platform 7 oder 8), AWS-Zertifizierungen (Solutions Architect, DevOps Engineer), Kubernetes CKA/CKS. Du musst nicht alles können. Wichtig ist, dass du dich schnell in neue Umgebungen reinfindest. Deutsch verhandlungssicher in Wort und Schrift, Englisch auf C2. AI-Tools sind Pflicht, kein Bonus Claude Code, Copilot, Cursor: Damit musst du produktiv arbeiten können. Nicht weil wir hip sein wollen, sondern weil unsere Kunden das erwarten und wir auch so arbeiten. Wenn du AI-Tools für einen Hype hältst und lieber alles selbst tippst: falsche Firma. Intern investieren wir in deine AI-Skills. Was wir bieten Homeoffice, Büro oder Mix, du entscheidest MacBook (außer der Kunde stellt eigene Hardware) Verschiedene Kunden, verschiedene Projekte Die Gründer sind deine direkten Ansprechpartner Internes Upskilling in AI-Entwicklung Bewerbung Lebenslauf reicht. Kein Anschreiben nötig. Nach einer kurzen Video-Frage-Runde (2×90 Sekunden) melden wir uns innerhalb weniger Tage. Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-experte-fur-rohstoffhandel-deutschland-berlin-104348",
-      "title": "Experte für Rohstoffhandel (Deutschland)",
-      "company": "Authority.inc",
-      "location": "Berlin",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Contract",
-        "berufserfahren"
-      ],
-      "publishedAt": "2026-08-10T15:00:24.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/authorityinc/experte-fur-rohstoffhandel-deutschland-berlin-104348",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/authorityinc/experte-fur-rohstoffhandel-deutschland-berlin-104348"
-        }
-      ],
-      "description": "Rollenbeschreibung Die Position als Experte für Rohstoffhandel ist eine vollständig remote ausgeübte Vertragstätigkeit für Fachleute mit Wohnsitz in Deutschland. Sie geben klare und präzise Kommentare zu Rohstoffmärkten ab, darunter physischer Handel und Derivatehandel, Angebot und Nachfrage, Preisbildung, Logistik, Risikomanagement, Regulierung und Marktstruktur. Der erwartete Zeitaufwand beträgt etwa vier Stunden pro Monat. Wir suchen Fachleute aus den Bereichen Energie, Metalle, Agrarrohstoffe, Soft Commodities und weiteren Spezialmärkten. Sie prüfen unsere Inhalte und geben kritisches Feedback, um deren Genauigkeit zu verbessern. Ihre Fachkommentare werden genutzt, um die weltweit präzisesten Prognosemodelle zu optimieren. Diese Modelle sollen Ereignisse und Entwicklungen auf den globalen Rohstoffmärkten vorhersagen. Über Authority.inc Authority.inc entwickelt die präziseste Plattform für Brancheninformationen weltweit und liefert verlässliche Erkenntnisse für Fachleute und Organisationen. Qualifikationen Mindestens fünf Jahre Berufserfahrung im Rohstoffhandel. Fundierte Kenntnisse in mindestens einem Rohstoffmarkt, einer Handelsfunktion oder einer Fachdisziplin. Kenntnisse relevanter Marktdynamiken, Instrumente, Vorschriften, Abläufe und Risikopraktiken. Fähigkeit, komplexe Handelsthemen klar und präzise zu erklären. Sorgfältige Arbeitsweise und hoher Anspruch an Genauigkeit. Rahmenbedingungen Remote-Vertragstätigkeit. Offen für Fachleute in ganz Deutschland. Etwa vier Stunden pro Monat. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-senior-sap-abap-developer-hr-data-migration-support-freelance-remote-bonn-24417",
-      "title": "Senior SAP ABAP Developer - HR Data Migration Support (Freelance, Remote)",
-      "company": "Sidekick Network GmbH & Co. KG",
-      "location": "Bonn",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Freelance",
-        "professional / experienced"
-      ],
-      "publishedAt": "2026-08-10T14:30:42.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-sap-abap-developer-hr-data-migration-support-freelance-remote-bonn-24417",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/sidekick-network-gmbh-co-kg/senior-sap-abap-developer-hr-data-migration-support-freelance-remote-bonn-24417"
-        }
-      ],
-      "description": "We are currently supporting an international client in the automotive sector with the stabilization and maintenance of an existing SAP HR master data migration solution. The technical setup is already in place. HR master data is currently being transferred from a legacy SAP environment into the new company SAP system. The client is therefore not looking for a developer to build a new solution , but for an experienced ABAP specialist who can support the team with occasional technical issues, debugging and small adjustments. The assignment is expected to require approximately 4 hours per week and is particularly suitable for a senior SAP freelancer who can provide flexible support alongside another project. Start: ASAP Workload: Approx. 4 hours/week Duration: Long-term / ongoing support Location: 100% remote Team location: Mainly Romania Language: English Contract type: Freelance / B2B Tasks Analyze and troubleshoot issues in existing SAP ABAP developments Debug and correct existing custom programs and reportsImplement small adjustments and enhancements where required Support HR master data migration and data processing between SAP systems Analyze and resolve data inconsistencies and processing errors Troubleshoot SAP background jobs and custom interfaces Work with existing custom tables, reports, function modules and RFC-based processes Support testing and validation of implemented fixes Document technical changes where required Collaborate directly with the international HR IT team The role is based on an already implemented SAP HCM master-data landscape with custom reports, RFC-based transfers, snapshot/staging tables and scheduled background jobs. Requirements Several years of hands-on SAP ABAP development experience Strong ABAP debugging and troubleshooting skills Proven experience maintaining and modifying existing custom developments Good understanding of SAP tables, reports, function modules and background jobs Experience with RFC-based interfaces or SAP-to-SAP data transfers Ability to quickly understand an existing technical setup with limited onboarding Strong analytical and problem-solving skills Independent and pragmatic working style Fluent English Find Jobs in Germany on Arbeitnow",
-      "salary": null
-    },
-    {
-      "id": "remote-senior-snowflake-data-engineer-munchen-299676",
-      "title": "Senior Snowflake Data Engineer (m/w/d)",
-      "company": "Jobrad Loop",
-      "location": "München",
-      "address": "",
-      "lat": null,
-      "lon": null,
-      "remote": true,
-      "remoteFull": true,
-      "employmentType": [
-        "Experienced",
-        "Permanent",
-        "Full time"
-      ],
-      "publishedAt": "2026-08-10T14:09:56.000Z",
-      "validThrough": null,
-      "url": "https://www.arbeitnow.com/jobs/companies/jobrad-loop/senior-snowflake-data-engineer-munchen-299676",
-      "source": "Arbeitnow",
-      "sources": [
-        {
-          "name": "Arbeitnow",
-          "url": "https://www.arbeitnow.com/jobs/companies/jobrad-loop/senior-snowflake-data-engineer-munchen-299676"
-        }
-      ],
-      "description": "Lust auf eine besondere Herausforderung? Du möchtest als Senior Data Engineer nicht bei null anfangen, sondern eine bestehende Data Platform gezielt weiterentwickeln und nachhaltig prägen? Bei uns ist Data mehr als ein Trend – wir machen Daten zu einem echten Erfolgsfaktor. Unsere Datenlandschaft bildet bereits eine starke Grundlage, die wir gemeinsam mit dir technologisch weiterentwickeln und skalieren möchten. Mit deiner Expertise entwickelst du moderne Data Pipelines , skalierbare Data Architekturen und leistungsfähige Lösungen auf Basis von Snowflake . Als Senior setzt du fachliche Impulse, übernimmst eine Mentor:innenrolle und unterstützt dein Team dabei, gemeinsam die nächste Stufe im Data Engineering zu erreichen. Let's ride together! Was du brauchst, um erfolgreich zu sein Fundierte Erfahrung: Du verfügst über mehrjährige Berufserfahrung (mind. 5-7 Jahre) im Data Engineering und hast bereits komplexe Datenplattformen sowie skalierbare Datenlösungen erfolgreich umgesetzt Snowflake-Expertise: Du bringst fundierte Praxiserfahrung mit Snowflake mit und verfügst über ein gutes Verständnis moderner Datenarchitekturen, Performance-Optimierung und Best Practices Technisches Know-how: Du beherrschst SQL und Python sicher und hast idealerweise Erfahrung mit Tools wie dbt , Apache Airflow oder Dagster sowie Cloud-Technologien, vorzugsweise Azure Data-Engineering-Kompetenz: Du kennst dich mit dem Aufbau und Betrieb von ETL-/ELT-Pipelines , Datenmodellierung sowie Data Warehouses und Data Lakes aus Architektur &amp; Qualität: Du verfügst über ein gutes Verständnis für skalierbare Datenarchitekturen und legst Wert auf stabile, performante und wartbare Lösungen Seniorität &amp; Zusammenarbeit: Du überzeugst durch Eigenverantwortung, technisches Urteilsvermögen und die Fähigkeit, dein Wissen als fachliche:r Sparringspartner:in weiterzugeben Kommunikation: Du kommunizierst sicher auf Deutsch und verfügst über gute Englischkenntnisse Dein Beitrag zu unserer Erfolgsgeschichte Unsere Data Platform weiterentwickeln: Du übernimmst die technische Verantwortung für unsere Snowflake-basierte Datenplattform und entwickelst sie strategisch sowie technologisch kontinuierlich weiter Datenarchitekturen gestalten: Du konzipierst und optimierst skalierbare Datenarchitekturen, Data Warehouses und Datenmodelle mit Fokus auf Performance, Stabilität und Zukunftsfähigkeit Data Pipelines verantworten: Du entwickelst, betreibst und optimierst performante ETL-/ELT-Pipelines und stellst eine zuverlässige, effiziente Datenversorgung sicher Standards etablieren: Du definierst Best Practices für Datenqualität, Datenmodellierung und Architektur und schaffst die Grundlage für eine skalierbare und zukunftsfähige Data Platform Schnittstellenmanagement: Du bist zentrale Ansprechperson für technische Fragestellungen, stimmst Anforderungen mit Stakeholdern ab und sorgst für eine zielgerichtete Umsetzung Senior-Expertise: Du bringst deine Erfahrung aktiv in Architekturentscheidungen ein, etablierst technische Standards und unterstützt dein Team durch fachliches Coaching und Wissensaustausch Sei nicht überrascht: Diese Stelle findest du ebenfalls unter dem Jobtitel \"Senior Data Engineer (m/w/d) - Snowflake\" – das ist unsere Art des Split-Tests Warum JobRad® Loop? new work: echter Gestaltungsspielraum, wirklich kurze Entscheidungswege, faire JobRad® Loop Gehaltsstruktur in einem modernen Office-Setting (vom kreativen Workshopraum, über die Möglichkeit deinen vierbeinigen Feelgood-Manager mitzubringen bis hin zu Meetingboxen als Rückzugsort) financial support: Essenszuschuss (46 € monatlich), Sachwertgutschein (50 € monatlich) oder Bezuschussung zu EGYM Wellpass, Mitarbeiterrabatt auf unsere Bikes (1.080 € jährlich) und bei unserem Partner futurebens sowie Jubiläumsgeschenk work life experience: 30 Tage Urlaub, anteiliges Homeoffice und flexible Arbeitszeiten auf Vertrauensbasis mit fairer Zeiterfassung green mobility: Übernahme des Deutschlandtickets oder JobRad®-Leasing-Zuschuss für bis zu zwei Bikes (85 € monatlich) workation: arbeite jährlich an bis zu 40 Tagen aus 50 verschiedenen Ländern weltweit food &amp; drinks: Obst, Kaffee, Tee und Getränke sind im Office for free health promotion: Kooperation mit nilohealth.com zur Förderung deiner mentalen Gesundheit social responsibility: jährlich 2 Sonderurlaubstage für dein ehrenamtliches Engagement fun &amp; community : regelmäßige Company-Events und private Get-togethers (von Bike-Touren bis hin zum Feierabendbier auf der Wiesn) personal growth &amp; security: individuelle Entwicklungsmöglichkeiten im Rahmen deines unbefristeten Arbeitsverhältnisses Hinweis: Wir achten sehr darauf, für alle Mitarbeiter:innen passende und faire Benefits zu ermöglichen, dennoch sind nicht alle Benefits bei Full Remote möglich. Find more English Speaking Jobs in Germany on Arbeitnow",
       "salary": null
     },
     {
