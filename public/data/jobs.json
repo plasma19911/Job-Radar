@@ -1,52 +1,52 @@
 {
   "meta": {
-    "generatedAt": "2026-08-14T07:31:45.539Z",
-    "total": 222,
-    "mapped": 322,
-    "deduplicated": 25,
-    "excludedTraining": 3,
+    "generatedAt": "2026-08-14T07:39:17.461Z",
+    "total": 228,
+    "mapped": 391,
+    "deduplicated": 26,
+    "excludedTraining": 4,
     "sources": [
       {
         "name": "Bundesagentur für Arbeit",
         "count": 0,
         "status": "ok",
-        "ms": 2749
+        "ms": 3596
       },
       {
         "name": "Arbeitnow",
-        "count": 261,
+        "count": 347,
         "status": "ok",
-        "ms": 4202
+        "ms": 15515
       },
       {
         "name": "Tagesspiegel Jobs",
-        "count": 72,
+        "count": 71,
         "status": "ok",
-        "ms": 3494
+        "ms": 3402
       },
       {
         "name": "Berliner Morgenpost Jobs",
         "count": 9,
         "status": "ok",
-        "ms": 6578
+        "ms": 6523
       },
       {
         "name": "MAZ Job",
         "count": 44,
         "status": "ok",
-        "ms": 7355
+        "ms": 7367
       },
       {
         "name": "bluum Brandenburg",
         "count": 30,
         "status": "ok",
-        "ms": 6943
+        "ms": 7213
       },
       {
         "name": "Berliner Zeitung Jobmarkt",
         "count": 12,
         "status": "ok",
-        "ms": 9587
+        "ms": 9793
       },
       {
         "name": "Adzuna",
@@ -153,20 +153,41 @@
         "name": "Klüh Borsigturm direkt",
         "count": 0,
         "status": "ok"
+      },
+      {
+        "name": "Ennux Falkensee direkt",
+        "count": 3,
+        "status": "ok"
+      },
+      {
+        "name": "Lebenshilfe Havelland direkt",
+        "count": 0,
+        "status": "ok"
+      },
+      {
+        "name": "Apleona Hennigsdorf direkt",
+        "count": 0,
+        "status": "ok"
+      },
+      {
+        "name": "Klärwerk Wansdorf direkt",
+        "count": 3,
+        "status": "ok"
       }
     ],
-    "geocodedThisRun": 0,
+    "geocodedThisRun": 2,
     "region": "Berlin & Brandenburg",
     "trainingOffers": false,
     "remoteFull": 214,
     "directEmployerSources": 16,
     "expandedLocalEmployerSearch": true,
+    "expandedFalkenseeOfficeSearch": true,
     "excludedWorkingStudent": true,
     "excludedInternships": true,
-    "excludedUnwantedThisRun": 44,
+    "excludedUnwantedThisRun": 57,
     "officePcProfile": true,
     "excludedPhysicalHeavy": true,
-    "officeProfileRemoved": 60,
+    "officeProfileRemoved": 64,
     "scope": {
       "address": "Marwitzer Str. 67, 13589 Berlin",
       "radiusKm": 10,
@@ -176,7 +197,7 @@
         "lon": 13.1833278
       }
     },
-    "localWithin10km": 8
+    "localWithin10km": 14
   },
   "jobs": [
     {
@@ -3546,7 +3567,7 @@
           "url": "https://www.arbeitnow.com/jobs/companies/brandmediale-gmbh/frontend-entwickler-drupal-twig-erfurt-363575"
         }
       ],
-      "description": "brandmediale ist eine inhabergeführte Digitalagentur aus Erfurt. Seit über 25 Jahren entwickeln und betreuen wir Websites, Markenauftritte und digitale Kommunikation für mittelständische Unternehmen — vor allem aus Industrie, Energie und B2B. Wir sind ein kleines, erfahrenes Team mit kurzen Wegen. Bei uns gibt es keine Abteilungen, keine Zwischenebenen und keine Projekte, bei denen man nur ein Rädchen ist. Wer bei uns arbeitet, sieht das Ergebnis seiner Arbeit direkt beim Kunden. Unsere Kunden bleiben lange. Einige begleiten wir seit über zehn Jahren. Aufgaben Du betreust unsere Kunden-Websites im laufenden Betrieb: Updates, Anpassungen, Erweiterungen und Fehlerbehebung. Du setzt Änderungen an Templates und Frontend um — Twig, HTML, SCSS, JavaScript. Du entwickelst bestehende Seiten weiter: neue Seitentypen, Funktionen, Formulare, Schnittstellen zu Drittsystemen. Du arbeitest eng mit unserem Design-Team zusammen und setzt Entwürfe technisch sauber um. Du deployst eigenverantwortlich und bist Ansprechpartner, wenn auf einer Live-Seite etwas klemmt. Du bringst eigene Ideen ein, wie wir Betrieb und Wartung unserer Seiten besser und stabiler machen. Unsere Kundenseiten laufen überwiegend auf Drupal 11 mit Bootstrap. Technisch sind das solide Standardprojekte ohne exotische Sonderlocken. Qualifikation Erfahrung in der Webentwicklung mit einem CMS — idealerweise Drupal, alternativ TYPO3, WordPress oder Vergleichbares. Sicher in HTML, CSS/SCSS und JavaScript; PHP liest und schreibst du auf dem Niveau, das für Templates und kleinere Anpassungen nötig ist. Routine im Umgang mit Git, SSH und Deployments. Du arbeitest strukturiert und eigenständig — bei uns läuft niemand hinterher. Du übernimmst Verantwortung für laufende Systeme und meldest dich, wenn etwas nicht passt. Du bist offen dafür, dich in neue Werkzeuge und Arbeitsweisen einzuarbeiten. Uns interessiert, was du kannst — nicht, ob du einen bestimmten Abschluss oder eine Mindestzahl an Berufsjahren vorweisen kannst. Quereinsteiger mit belastbarer Praxis sind ausdrücklich willkommen. Benefits Unbefristete Festanstellung in einem seit 25 Jahren stabilen Unternehmen Direkter Draht zur Geschäftsführung schnelle Entscheidungen keine Politik Eigenverantwortliches Arbeiten statt abgesteckter Ticketpakete Moderne Hardware nach deiner Wahl Zentrales Büro in Erfurt, Tiergartenstraße Weiterbildungsbudget Ein förmliches Anschreiben brauchen wir nicht. Zeig uns lieber, woran du gearbeitet hast — eine Website, ein Repository, ein Projekt, das du selbst umgesetzt hast. Alles Weitere klären wir im Gespräch. Find Jobs in Germany on Arbeitnow",
+      "description": "brandmediale ist eine inhabergeführte Digitalagentur aus Erfurt. Seit über 25 Jahren entwickeln und betreuen wir Websites, Markenauftritte und digitale Kommunikation für mittelständische Unternehmen — vor allem aus Industrie, Energie und B2B. Wir sind ein kleines, erfahrenes Team mit kurzen Wegen. Bei uns gibt es keine Abteilungen, keine Zwischenebenen und keine Projekte, bei denen man nur ein Rädchen ist. Wer bei uns arbeitet, sieht das Ergebnis seiner Arbeit direkt beim Kunden. Unsere Kunden bleiben lange. Einige begleiten wir seit über zehn Jahren. Aufgaben Du betreust unsere Kunden-Websites im laufenden Betrieb: Updates, Anpassungen, Erweiterungen und Fehlerbehebung. Du setzt Änderungen an Templates und Frontend um — Twig, HTML, SCSS, JavaScript. Du entwickelst bestehende Seiten weiter: neue Seitentypen, Funktionen, Formulare, Schnittstellen zu Drittsystemen. Du arbeitest eng mit unserem Design-Team zusammen und setzt Entwürfe technisch sauber um. Du deployst eigenverantwortlich und bist Ansprechpartner, wenn auf einer Live-Seite etwas klemmt. Du bringst eigene Ideen ein, wie wir Betrieb und Wartung unserer Seiten besser und stabiler machen. Unsere Kundenseiten laufen überwiegend auf Drupal 11 mit Bootstrap. Technisch sind das solide Standardprojekte ohne exotische Sonderlocken. Qualifikation Erfahrung in der Webentwicklung mit einem CMS — idealerweise Drupal, alternativ TYPO3, WordPress oder Vergleichbares. Sicher in HTML, CSS/SCSS und JavaScript; PHP liest und schreibst du auf dem Niveau, das für Templates und kleinere Anpassungen nötig ist. Routine im Umgang mit Git, SSH und Deployments. Du arbeitest strukturiert und eigenständig — bei uns läuft niemand hinterher. Du übernimmst Verantwortung für laufende Systeme und meldest dich, wenn etwas nicht passt. Du bist offen dafür, dich in neue Werkzeuge und Arbeitsweisen einzuarbeiten. Uns interessiert, was du kannst — nicht, ob du einen bestimmten Abschluss oder eine Mindestzahl an Berufsjahren vorweisen kannst. Quereinsteiger mit belastbarer Praxis sind ausdrücklich willkommen. Benefits Unbefristete Festanstellung in einem seit 25 Jahren stabilen Unternehmen Direkter Draht zur Geschäftsführung schnelle Entscheidungen keine Politik Eigenverantwortliches Arbeiten statt abgesteckter Ticketpakete Moderne Hardware nach deiner Wahl Zentrales Büro in Erfurt, Tiergartenstraße Weiterbildungsbudget Ein förmliches Anschreiben brauchen wir nicht. Zeig uns lieber, woran du gearbeitet hast — eine Website, ein Repository, ein Projekt, das du selbst umgesetzt hast. Alles Weitere klären wir im Gespräch. Find more English Speaking Jobs in Germany on Arbeitnow",
       "salary": null
     },
     {
@@ -3599,7 +3620,7 @@
           "url": "https://www.arbeitnow.com/jobs/companies/xentral/senior-fpa-manager-remote-238768"
         }
       ],
-      "description": "Our mission is to help businesses smooth their processes with a single, powerful software solution. As a leading ERP provider for the DACH market, we believe that financial clarity is the backbone of a successful business—especially in the fast-paced world of B2B and E-commerce. In this role, you will play a key part in safeguarding our financial data, ensuring our reporting is accurate and our growth is measurable. You will work closely with our Finance leadership team, providing the insights needed to navigate our evolving market landscape. Your Tasks: You manage the monthly reporting process, preparing topline performance updates and supporting consolidated management P&amp;L and Cash Flow statements. You support the annual budgeting process and monthly forecasting cycles, helping ensure that our revenue projections and cost structures are accurate and evidence-based. You perform regular data health checks between our backend systems and Looker, identifying discrepancies to ensure our reporting is bulletproof. You collaborate with department heads and senior management across the company, providing ad-hoc analysis and data-driven insights for various strategic projects. You maintain and update our financial views within LucaNet, ensuring that accounting postings are correctly reflected and the reporting structure meets management needs. You leverage AI tools such as Claude Code to automate FP&amp;A processes and enhance reporting efficiency You may join senior leadership meetings to provide technical financial context and help answer detailed questions regarding our performance and KPIs. Your Profile: You are a Senior Finance Professional with 4+ years of relevant experience. You have a solid working knowledge of LucaNet and are comfortable navigating the tool, managing consolidations, and adjusting reporting layouts. You are highly proficient in Excel and have experience using BI tools like Looker to analyze datasets and monitor business performance. You have a strong background in accounting or a related finance degree You have a deep understanding of P&amp;L, Balance Sheet, and Cash Flow mechanics. You have an uncompromising eye for detail and enjoy digging into data to find the root cause of an error until the numbers tie out. You are familiar with standard SaaS and subscription metrics and understand how to translate these into meaningful reports for B2B and E-commerce contexts. You are fluent in English and German (written and spoken). What we offer Flexible Work Environment: Enjoy remote work options across Europe or from our office-hubs in Augsburg, Amsterdam, Berlin, Munich, and Lohne (Oldenburg), along with flexible working hours. Competitive Compensation &amp; Comprehensive Benefits: Attractive salary packages and a generous leave policy that includes 28 annual leave days, special leave days, and nursing care days. Our comprehensive benefits package also provides a monthly voucher to choose from a variety of providers, including Urban Sports Club, grocery stores, entertainment, and lifestyle options. Additionally, we equip all employees with state-of-the-art home office equipment and offer a 50% subsidy on private pension plans for permanent employees in Germany. Professional Growth &amp; Development: Benefit from a significant budget dedicated to learning and personal development, supporting your career growth and continuous learning. Inclusive &amp; Engaging Culture: Participate in virtual and in-person company events and in our yearly culture connect days, fostering a collaborative and vibrant company culture with minimal hierarchies and respectful communication. Diverse &amp; International Team: Work alongside a multicultural and international team across 17 different work locations within Europe and 32 nationalities, embracing diversity and a global perspective. Mental Health &amp; Well-being: Access comprehensive, evidence-based mental health care with 24/7 counseling, therapy placement, on-site support, and legal and financial guidance to help you thrive at work and in life. You have what it takes? Then apply now with your CV or LinkedIn profile. We look forward to your application! About us We are an established tech startup with major tech investors Sequoia Capital and Visionaries Club on our side. We are aiming at defining a new SaaS category and empower entrepreneurs and e-commerce vendors to automate their resource planning and focus on the things that matters most to them: their business. We grow all over Europe, join us fully remote or in one of our hubs in Augsburg, Amsterdam, Berlin, Munich and Lohne (Oldenburg). You decide! At Xentral, it doesn’t matter where you come from, what you believe in, or how you identify - what matters is the person you are and the skills you bring. We’re a remote-first company operating across Europe, so you can work from wherever you feel most comfortable. That also means we can’t offer relocation or visa sponsorship - but the good news is, relocation within Europe isn’t necessary to join our team. What unites us at Xentral is not one location, but one mission: making business software simple, powerful, and accessible for everyone. We strive to create a workplace where everyone feels respected, supported, and empowered to do their best work. Convince us with your personality and your skills – and together we’ll make great things happen. We’re looking forward to meeting you! Your recruitment experience @ Xentral We aim for our recruitment experience to be exciting, smooth, and rewarding—for both you and us! That’s why we’ve designed a efficient and enjoyable recruitment process to ensure a great experience from start to finish. Want to know what your journey with us will look like? Check it out here! Still have questions before taking the next step? No worries—we’re here to help! I’m Milou , your responsible Talent Acquisition Manager, and I'm happy to answer any questions so you can make the best decision for you. We can’t wait to receive your application and hopefully welcome you to our team soon! 🚀 Find Jobs in Germany on Arbeitnow",
+      "description": "Our mission is to help businesses smooth their processes with a single, powerful software solution. As a leading ERP provider for the DACH market, we believe that financial clarity is the backbone of a successful business—especially in the fast-paced world of B2B and E-commerce. In this role, you will play a key part in safeguarding our financial data, ensuring our reporting is accurate and our growth is measurable. You will work closely with our Finance leadership team, providing the insights needed to navigate our evolving market landscape. Your Tasks: You manage the monthly reporting process, preparing topline performance updates and supporting consolidated management P&amp;L and Cash Flow statements. You support the annual budgeting process and monthly forecasting cycles, helping ensure that our revenue projections and cost structures are accurate and evidence-based. You perform regular data health checks between our backend systems and Looker, identifying discrepancies to ensure our reporting is bulletproof. You collaborate with department heads and senior management across the company, providing ad-hoc analysis and data-driven insights for various strategic projects. You maintain and update our financial views within LucaNet, ensuring that accounting postings are correctly reflected and the reporting structure meets management needs. You leverage AI tools such as Claude Code to automate FP&amp;A processes and enhance reporting efficiency You may join senior leadership meetings to provide technical financial context and help answer detailed questions regarding our performance and KPIs. Your Profile: You are a Senior Finance Professional with 4+ years of relevant experience. You have a solid working knowledge of LucaNet and are comfortable navigating the tool, managing consolidations, and adjusting reporting layouts. You are highly proficient in Excel and have experience using BI tools like Looker to analyze datasets and monitor business performance. You have a strong background in accounting or a related finance degree You have a deep understanding of P&amp;L, Balance Sheet, and Cash Flow mechanics. You have an uncompromising eye for detail and enjoy digging into data to find the root cause of an error until the numbers tie out. You are familiar with standard SaaS and subscription metrics and understand how to translate these into meaningful reports for B2B and E-commerce contexts. You are fluent in English and German (written and spoken). What we offer Flexible Work Environment: Enjoy remote work options across Europe or from our office-hubs in Augsburg, Amsterdam, Berlin, Munich, and Lohne (Oldenburg), along with flexible working hours. Competitive Compensation &amp; Comprehensive Benefits: Attractive salary packages and a generous leave policy that includes 28 annual leave days, special leave days, and nursing care days. Our comprehensive benefits package also provides a monthly voucher to choose from a variety of providers, including Urban Sports Club, grocery stores, entertainment, and lifestyle options. Additionally, we equip all employees with state-of-the-art home office equipment and offer a 50% subsidy on private pension plans for permanent employees in Germany. Professional Growth &amp; Development: Benefit from a significant budget dedicated to learning and personal development, supporting your career growth and continuous learning. Inclusive &amp; Engaging Culture: Participate in virtual and in-person company events and in our yearly culture connect days, fostering a collaborative and vibrant company culture with minimal hierarchies and respectful communication. Diverse &amp; International Team: Work alongside a multicultural and international team across 17 different work locations within Europe and 32 nationalities, embracing diversity and a global perspective. Mental Health &amp; Well-being: Access comprehensive, evidence-based mental health care with 24/7 counseling, therapy placement, on-site support, and legal and financial guidance to help you thrive at work and in life. You have what it takes? Then apply now with your CV or LinkedIn profile. We look forward to your application! About us We are an established tech startup with major tech investors Sequoia Capital and Visionaries Club on our side. We are aiming at defining a new SaaS category and empower entrepreneurs and e-commerce vendors to automate their resource planning and focus on the things that matters most to them: their business. We grow all over Europe, join us fully remote or in one of our hubs in Augsburg, Amsterdam, Berlin, Munich and Lohne (Oldenburg). You decide! At Xentral, it doesn’t matter where you come from, what you believe in, or how you identify - what matters is the person you are and the skills you bring. We’re a remote-first company operating across Europe, so you can work from wherever you feel most comfortable. That also means we can’t offer relocation or visa sponsorship - but the good news is, relocation within Europe isn’t necessary to join our team. What unites us at Xentral is not one location, but one mission: making business software simple, powerful, and accessible for everyone. We strive to create a workplace where everyone feels respected, supported, and empowered to do their best work. Convince us with your personality and your skills – and together we’ll make great things happen. We’re looking forward to meeting you! Your recruitment experience @ Xentral We aim for our recruitment experience to be exciting, smooth, and rewarding—for both you and us! That’s why we’ve designed a efficient and enjoyable recruitment process to ensure a great experience from start to finish. Want to know what your journey with us will look like? Check it out here! Still have questions before taking the next step? No worries—we’re here to help! I’m Milou , your responsible Talent Acquisition Manager, and I'm happy to answer any questions so you can make the best decision for you. We can’t wait to receive your application and hopefully welcome you to our team soon! 🚀 Find more English Speaking Jobs in Germany on Arbeitnow",
       "salary": null
     },
     {
@@ -5926,6 +5947,150 @@
         }
       ],
       "description": "Blindenwohnstätten Berlin - Willkommen auf der Internetseite der BWS | Stellenangebote Blindenwohnstätten Berlin Direkt zum Inhalt Navigation Kontakt Blindenwohnstätten Berlin - Willkommen auf der Internetseite der BWS Navigation überspringen Navigation überspringen Arbeiten für die BWS Stellenangebote BWS Vorteile BEWERBEN BEWERBEN BWS WEBSITE Arbeiten für die BWS Stellenangebote BWS HOMEPAGE Stellenangebote Mit Ihrer Bewerbung bei Blindenwohnstätten Berlin haben Sie die Möglichkeit, sich zwischen zwei Standorten zu entscheiden. Initiativ oder auf eine konkrete Stellenausschreibung – wir berücksichtigen Ihre Wünsche. Bewerben lohnt sich. Jobs in Haus Spandau Jobs in Haus Weissensee Haus Spandau Haus Weissensee Navigation überspringen Aktuelles Kontakt Impressum Datenschutz ABSV Blindenwohnstätten Berlin Telefon: 030 335006-0 E-Mail © Blindenwohnstätten Berlin Beliebte Seiten HAUS SPANDAU HAUS WEISSENSEE PFLEGEPLATZ ANFRAGEN BARRIEREFREI BWS Diese Webseite verwendet Cookies Essenziell Details einblenden für Essenziell Details ausblenden für Essenziell Essenziell Contao HTTPS CSRF Token Schützt vor Cross-Site-Request-Forgery Angriffen. Speicherdauer: Dieses Cookie bleibt nur für die aktuelle Browsersitzung bestehen. PHP SESSION ID Speichert die aktuelle PHP-Session. Speicherdauer: Dieses Cookie bleibt nur für die aktuelle Browsersitzung bestehen. Analyse Details einblenden für Analyse Details ausblenden für Analyse Google Maps Auswahl speichern Alle akzeptieren Sind Sie widerruflich mit der Nutzung von Cookies einverstanden? Kontakt Impressum Datenschutz",
+      "salary": null
+    },
+    {
+      "id": "local-special-5a861c10268594626f",
+      "title": "Sachbearbeiter (m/w/d)",
+      "company": "Ennux Distribution GmbH & Co. KG",
+      "location": "Falkensee",
+      "address": "53, Innsbrucker Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "lat": 52.5823075,
+      "lon": 13.0823588,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://ennux.de/karriere/",
+      "source": "Ennux Falkensee direkt",
+      "sources": [
+        {
+          "name": "Ennux Falkensee direkt",
+          "url": "https://ennux.de/karriere/"
+        }
+      ],
+      "description": "Karriere &#8211; Ennux Wir sind für Sie da von Montag bis Freitag von 9:00 bis 18:00 Uhr Mo-Fr 9-18:00 Uhr Rufen Sie uns an: 030 - 364 28 66 80 030 - 364 28 66 80 Ennux Partner-Login Über uns FAQ Karriere Partner-Login Vertriebspartner werden Vertriebspartner Strom Vertriebspartner Gasprodukte Energiedistribution Vertriebspartner E.ON Energiemakler werden Produktpartner werden Vertriebsfelder Strom &#038; Gas Telekommunikation THG-Quote Photovoltaik Gross- und Gewerbekunden Energieaudit Wie funktioniert Ennux? Karriere bei Ennux Werden Sie Teil unseres Teams! Wir sind ständig auf der Suche nach neuen Kollegen die unser Team mit ihrer Persönlichkeit bereichern. Auf dieser Seite sehen Sie unsere aktuellen Stellenausschreibungen. Bewerben Sie sich einfach per Mail an info@ennux.de mit Ihren aussagekräftigen Bewerbungsunterlagen. Social Media Manager (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 58 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n Social Media Manager (m/w/d) ab sofort. Ihre Aufgabenbereiche Weiterentwicklung unserer Social-Media-Präsenz und -Strategie Aktiver Dialog mit der Community Aufbau eines Social-Media-Monitorings Aufbau und Pflege eines Social-Media-Redaktionsplans Erstellen von Social-Media-Posts, Grafiken und bewegten Bildinhalten u.a. für Instagram, Facebook, Xing, Twitter Planen, Durchführen und Auswerten von Werbekampagnen Ihr Profil Erfolgreich abgeschlossenes Studium oder Berufsausbildung im Bereich Kommunikation, Marketing oder Fotografie/Film Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Teilzeit oder Vollzeit zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Key Account Manager (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 58 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n Key Account Manager (m/w/d) ab sofort. Ihre Aufgabenbereiche Du bist das Gesicht von Ennux Du übernimmst die Verantwortung für die Betreuung und Weiterentwicklung unserer Partner Aufbau und Stärkung langfristiger Beziehungen zu den Key Accounts mittels kundenbezogener Maßnahmen gehören zu deinem Kernportfolio Du etablierst Ennux als verlässlichen und vertrauensvollen Partner bei der Erfüllung von Projekten Durch dein aufgebautes Netzwerk sowie deine Kenntnisse des Marktes bleibst du konstant auf dem neuesten Stand für geplante Projekte Als Ennux Profi unterstützt und schulst du unsere Partner auch im Onboarding sowie bei der Bedienung unserer Plattform Ihr Profil Du hast bereits Erfahrungen im Vertrieb/Key Account Management gesammelt Mit deiner ausgeprägten Kommunikationsfähigkeit und deinem sicheren Auftritt kannst du auf allen Ebenen punkten und bewahrst jederzeit Vertrauenswürdigkeit und Fingerspitzengefühl. Du bist bekannt für deine digitale Geschicklichkeit und hast den Drive, anzupacken und zu verändern. Problemlösungskompetenz, Lösungsorientierung und Ausdauer gehören zu deinen Stärken genauso dazu wie Teamspirit. Du hast sehr gute MS Office Kenntnisse Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Vollzeit zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Sachbearbeiter (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 60 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n weitere zuverlässige Bürokauffrau / Sachbearbeiter (m/w/d) ab sofort. Ihre Aufgabenbereiche Controlling verschiedener Statuslisten und Abrechnungen Controlling von Kundenaufträgen der Vertriebspartner das Aufbereiten und das Einpflegen von Statuslisten Datenübermittlung an Produktpartner telefonische und schriftliche Korrespondenz zu Vertriebspartnern und Lieferanten ca. 30-40 Std./Woche, Arbeitsbeginn jeweils 9:00 Uhr bzw. 10:30 Uhr Ihr Profil Abgeschlossene kaufmännisch Ausbildung oder vergleichbare Berufserfahrung Gute Kenntnisse des MS-Offices Paket Ordentliche, strukturierte und zuverlässige Arbeitsweise freundlich, versiert im schriftlichen und telefonischen Kontakt mit Vertriebspartnern und Kooperationspartnern Dienstleistungsorientierte Arbeitsweise Kommunikations- und Teamfähigkeit Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Vollzeit bis 40 H/Woche zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Schulungen und Seminare Immer einen Schritt voraus Der Markt in dem wir arbeiten ist so dynamisch wie die Produkte, die wir vertreiben. Deshalb möchten wir unseren Vertriebspartnern stets die Möglichkeit bieten, ihre Leistungen und Services weiterzuentwickeln. Optimieren Sie Kernkompetenzen, vertiefen Sie ihr strategisches Know-How oder verbessern Sie ihr Auftreten. Durch unsere Schulungen und Seminare können Sie dem Wandel selbstbewusst begegnen und Ihren Kunden immer die beste Beratung bieten. Jetzt bewerben Werden Sie Teil unseres Teams und kontakrieren Sie uns! Anrede* Herr Frau Vorname* Nachname* E-Mail* Firma Nachrichten* Ich stimme der Datenschutzerklärung zu*. Ennux Distribution GmbH & Co. KG Innsbrucker Str. 53 14612 Falkensee Tel: 030 &#8211; 364286680 Fax: 030 &#8211; 364286695 E-Mail: info@ennux.de Vertriebspartner werden Produktpartner werden Wie funktioniert Ennux? Impressum Datenschutz Partner-Login",
+      "salary": null
+    },
+    {
+      "id": "local-special-8b5ad44d3b77cb9bb9",
+      "title": "Key Account Manager (m/w/d)",
+      "company": "Ennux Distribution GmbH & Co. KG",
+      "location": "Falkensee",
+      "address": "53, Innsbrucker Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "lat": 52.5823075,
+      "lon": 13.0823588,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://ennux.de/karriere/",
+      "source": "Ennux Falkensee direkt",
+      "sources": [
+        {
+          "name": "Ennux Falkensee direkt",
+          "url": "https://ennux.de/karriere/"
+        }
+      ],
+      "description": "Karriere &#8211; Ennux Wir sind für Sie da von Montag bis Freitag von 9:00 bis 18:00 Uhr Mo-Fr 9-18:00 Uhr Rufen Sie uns an: 030 - 364 28 66 80 030 - 364 28 66 80 Ennux Partner-Login Über uns FAQ Karriere Partner-Login Vertriebspartner werden Vertriebspartner Strom Vertriebspartner Gasprodukte Energiedistribution Vertriebspartner E.ON Energiemakler werden Produktpartner werden Vertriebsfelder Strom &#038; Gas Telekommunikation THG-Quote Photovoltaik Gross- und Gewerbekunden Energieaudit Wie funktioniert Ennux? Karriere bei Ennux Werden Sie Teil unseres Teams! Wir sind ständig auf der Suche nach neuen Kollegen die unser Team mit ihrer Persönlichkeit bereichern. Auf dieser Seite sehen Sie unsere aktuellen Stellenausschreibungen. Bewerben Sie sich einfach per Mail an info@ennux.de mit Ihren aussagekräftigen Bewerbungsunterlagen. Social Media Manager (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 58 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n Social Media Manager (m/w/d) ab sofort. Ihre Aufgabenbereiche Weiterentwicklung unserer Social-Media-Präsenz und -Strategie Aktiver Dialog mit der Community Aufbau eines Social-Media-Monitorings Aufbau und Pflege eines Social-Media-Redaktionsplans Erstellen von Social-Media-Posts, Grafiken und bewegten Bildinhalten u.a. für Instagram, Facebook, Xing, Twitter Planen, Durchführen und Auswerten von Werbekampagnen Ihr Profil Erfolgreich abgeschlossenes Studium oder Berufsausbildung im Bereich Kommunikation, Marketing oder Fotografie/Film Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Teilzeit oder Vollzeit zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Key Account Manager (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 58 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n Key Account Manager (m/w/d) ab sofort. Ihre Aufgabenbereiche Du bist das Gesicht von Ennux Du übernimmst die Verantwortung für die Betreuung und Weiterentwicklung unserer Partner Aufbau und Stärkung langfristiger Beziehungen zu den Key Accounts mittels kundenbezogener Maßnahmen gehören zu deinem Kernportfolio Du etablierst Ennux als verlässlichen und vertrauensvollen Partner bei der Erfüllung von Projekten Durch dein aufgebautes Netzwerk sowie deine Kenntnisse des Marktes bleibst du konstant auf dem neuesten Stand für geplante Projekte Als Ennux Profi unterstützt und schulst du unsere Partner auch im Onboarding sowie bei der Bedienung unserer Plattform Ihr Profil Du hast bereits Erfahrungen im Vertrieb/Key Account Management gesammelt Mit deiner ausgeprägten Kommunikationsfähigkeit und deinem sicheren Auftritt kannst du auf allen Ebenen punkten und bewahrst jederzeit Vertrauenswürdigkeit und Fingerspitzengefühl. Du bist bekannt für deine digitale Geschicklichkeit und hast den Drive, anzupacken und zu verändern. Problemlösungskompetenz, Lösungsorientierung und Ausdauer gehören zu deinen Stärken genauso dazu wie Teamspirit. Du hast sehr gute MS Office Kenntnisse Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Vollzeit zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Sachbearbeiter (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 60 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n weitere zuverlässige Bürokauffrau / Sachbearbeiter (m/w/d) ab sofort. Ihre Aufgabenbereiche Controlling verschiedener Statuslisten und Abrechnungen Controlling von Kundenaufträgen der Vertriebspartner das Aufbereiten und das Einpflegen von Statuslisten Datenübermittlung an Produktpartner telefonische und schriftliche Korrespondenz zu Vertriebspartnern und Lieferanten ca. 30-40 Std./Woche, Arbeitsbeginn jeweils 9:00 Uhr bzw. 10:30 Uhr Ihr Profil Abgeschlossene kaufmännisch Ausbildung oder vergleichbare Berufserfahrung Gute Kenntnisse des MS-Offices Paket Ordentliche, strukturierte und zuverlässige Arbeitsweise freundlich, versiert im schriftlichen und telefonischen Kontakt mit Vertriebspartnern und Kooperationspartnern Dienstleistungsorientierte Arbeitsweise Kommunikations- und Teamfähigkeit Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Vollzeit bis 40 H/Woche zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Schulungen und Seminare Immer einen Schritt voraus Der Markt in dem wir arbeiten ist so dynamisch wie die Produkte, die wir vertreiben. Deshalb möchten wir unseren Vertriebspartnern stets die Möglichkeit bieten, ihre Leistungen und Services weiterzuentwickeln. Optimieren Sie Kernkompetenzen, vertiefen Sie ihr strategisches Know-How oder verbessern Sie ihr Auftreten. Durch unsere Schulungen und Seminare können Sie dem Wandel selbstbewusst begegnen und Ihren Kunden immer die beste Beratung bieten. Jetzt bewerben Werden Sie Teil unseres Teams und kontakrieren Sie uns! Anrede* Herr Frau Vorname* Nachname* E-Mail* Firma Nachrichten* Ich stimme der Datenschutzerklärung zu*. Ennux Distribution GmbH & Co. KG Innsbrucker Str. 53 14612 Falkensee Tel: 030 &#8211; 364286680 Fax: 030 &#8211; 364286695 E-Mail: info@ennux.de Vertriebspartner werden Produktpartner werden Wie funktioniert Ennux? Impressum Datenschutz Partner-Login",
+      "salary": null
+    },
+    {
+      "id": "local-special-2b378ad49522aac475",
+      "title": "Social Media Manager (m/w/d)",
+      "company": "Ennux Distribution GmbH & Co. KG",
+      "location": "Falkensee",
+      "address": "53, Innsbrucker Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "lat": 52.5823075,
+      "lon": 13.0823588,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://ennux.de/karriere/",
+      "source": "Ennux Falkensee direkt",
+      "sources": [
+        {
+          "name": "Ennux Falkensee direkt",
+          "url": "https://ennux.de/karriere/"
+        }
+      ],
+      "description": "Karriere &#8211; Ennux Wir sind für Sie da von Montag bis Freitag von 9:00 bis 18:00 Uhr Mo-Fr 9-18:00 Uhr Rufen Sie uns an: 030 - 364 28 66 80 030 - 364 28 66 80 Ennux Partner-Login Über uns FAQ Karriere Partner-Login Vertriebspartner werden Vertriebspartner Strom Vertriebspartner Gasprodukte Energiedistribution Vertriebspartner E.ON Energiemakler werden Produktpartner werden Vertriebsfelder Strom &#038; Gas Telekommunikation THG-Quote Photovoltaik Gross- und Gewerbekunden Energieaudit Wie funktioniert Ennux? Karriere bei Ennux Werden Sie Teil unseres Teams! Wir sind ständig auf der Suche nach neuen Kollegen die unser Team mit ihrer Persönlichkeit bereichern. Auf dieser Seite sehen Sie unsere aktuellen Stellenausschreibungen. Bewerben Sie sich einfach per Mail an info@ennux.de mit Ihren aussagekräftigen Bewerbungsunterlagen. Social Media Manager (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 58 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n Social Media Manager (m/w/d) ab sofort. Ihre Aufgabenbereiche Weiterentwicklung unserer Social-Media-Präsenz und -Strategie Aktiver Dialog mit der Community Aufbau eines Social-Media-Monitorings Aufbau und Pflege eines Social-Media-Redaktionsplans Erstellen von Social-Media-Posts, Grafiken und bewegten Bildinhalten u.a. für Instagram, Facebook, Xing, Twitter Planen, Durchführen und Auswerten von Werbekampagnen Ihr Profil Erfolgreich abgeschlossenes Studium oder Berufsausbildung im Bereich Kommunikation, Marketing oder Fotografie/Film Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Teilzeit oder Vollzeit zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Key Account Manager (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 58 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n Key Account Manager (m/w/d) ab sofort. Ihre Aufgabenbereiche Du bist das Gesicht von Ennux Du übernimmst die Verantwortung für die Betreuung und Weiterentwicklung unserer Partner Aufbau und Stärkung langfristiger Beziehungen zu den Key Accounts mittels kundenbezogener Maßnahmen gehören zu deinem Kernportfolio Du etablierst Ennux als verlässlichen und vertrauensvollen Partner bei der Erfüllung von Projekten Durch dein aufgebautes Netzwerk sowie deine Kenntnisse des Marktes bleibst du konstant auf dem neuesten Stand für geplante Projekte Als Ennux Profi unterstützt und schulst du unsere Partner auch im Onboarding sowie bei der Bedienung unserer Plattform Ihr Profil Du hast bereits Erfahrungen im Vertrieb/Key Account Management gesammelt Mit deiner ausgeprägten Kommunikationsfähigkeit und deinem sicheren Auftritt kannst du auf allen Ebenen punkten und bewahrst jederzeit Vertrauenswürdigkeit und Fingerspitzengefühl. Du bist bekannt für deine digitale Geschicklichkeit und hast den Drive, anzupacken und zu verändern. Problemlösungskompetenz, Lösungsorientierung und Ausdauer gehören zu deinen Stärken genauso dazu wie Teamspirit. Du hast sehr gute MS Office Kenntnisse Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Vollzeit zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Sachbearbeiter (m/w/d) Wir sind seit 2008 in der Energiewirtschaft als Distribution in Falkensee tätig. Überwiegend arbeiten wir mit stationären Fachhandelspartnern und Handelsvertretern zusammen. Unser unabhängiges Produktportfolio umfasst mehr als 60 Energielieferanten. Aufgrund steigenden Wachstumes suchen wir eine/n weitere zuverlässige Bürokauffrau / Sachbearbeiter (m/w/d) ab sofort. Ihre Aufgabenbereiche Controlling verschiedener Statuslisten und Abrechnungen Controlling von Kundenaufträgen der Vertriebspartner das Aufbereiten und das Einpflegen von Statuslisten Datenübermittlung an Produktpartner telefonische und schriftliche Korrespondenz zu Vertriebspartnern und Lieferanten ca. 30-40 Std./Woche, Arbeitsbeginn jeweils 9:00 Uhr bzw. 10:30 Uhr Ihr Profil Abgeschlossene kaufmännisch Ausbildung oder vergleichbare Berufserfahrung Gute Kenntnisse des MS-Offices Paket Ordentliche, strukturierte und zuverlässige Arbeitsweise freundlich, versiert im schriftlichen und telefonischen Kontakt mit Vertriebspartnern und Kooperationspartnern Dienstleistungsorientierte Arbeitsweise Kommunikations- und Teamfähigkeit Das erwartet Sie kurze und direkte Kommunikationswege eine tolle Atmosphäre und ein motiviertes Team klare Arbeitsbereiche Bonus / Sonderzahlung Die Position ist in Vollzeit bis 40 H/Woche zu besetzen Ein unbefristetes Arbeitsverhältnis Du kannst Dir deine Arbeitszeiten flexibel einteilen Schulungen und Seminare Immer einen Schritt voraus Der Markt in dem wir arbeiten ist so dynamisch wie die Produkte, die wir vertreiben. Deshalb möchten wir unseren Vertriebspartnern stets die Möglichkeit bieten, ihre Leistungen und Services weiterzuentwickeln. Optimieren Sie Kernkompetenzen, vertiefen Sie ihr strategisches Know-How oder verbessern Sie ihr Auftreten. Durch unsere Schulungen und Seminare können Sie dem Wandel selbstbewusst begegnen und Ihren Kunden immer die beste Beratung bieten. Jetzt bewerben Werden Sie Teil unseres Teams und kontakrieren Sie uns! Anrede* Herr Frau Vorname* Nachname* E-Mail* Firma Nachrichten* Ich stimme der Datenschutzerklärung zu*. Ennux Distribution GmbH & Co. KG Innsbrucker Str. 53 14612 Falkensee Tel: 030 &#8211; 364286680 Fax: 030 &#8211; 364286695 E-Mail: info@ennux.de Vertriebspartner werden Produktpartner werden Wie funktioniert Ennux? Impressum Datenschutz Partner-Login",
+      "salary": null
+    },
+    {
+      "id": "local-special-6ac385d209da034395",
+      "title": "Stellenanzeige &#8211; Mitarbeiter*in (m/w/d) Bauherrenaufgaben und Projektsteuerung",
+      "company": "Klärwerk Wansdorf GmbH",
+      "location": "Schönwalde-Glien",
+      "address": "1, Klärwerksweg, Wansdorf, Schönwalde-Glien, Havelland, Brandenburg, 14621, Deutschland",
+      "lat": 52.6169703,
+      "lon": 13.0906594,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://www.k-w-g.de/stellenanzeigen/ma-bauherrenaufgaben-projektsteuerung/",
+      "source": "Klärwerk Wansdorf direkt",
+      "sources": [
+        {
+          "name": "Klärwerk Wansdorf direkt",
+          "url": "https://www.k-w-g.de/stellenanzeigen/ma-bauherrenaufgaben-projektsteuerung/"
+        }
+      ],
+      "description": "Stellenanzeige &#8211; Mitarbeiter*in (m/w/d) Bauherrenaufgaben und Projektsteuerung | Klärwerk Wansdorf --> Wir feiern am 5. Juli 2019 - 20 Jahre Klärwerk Wansdorf - &raquo; Details hier --> Startseite | Impressum | Datenschutzerklärung | Kontakt --> Startseite Unternehmen Geschichte Struktur Einzugsbereich Abwassermengen Finanzen Qualität &#038; Umwelt Abwasserreinigung Reinigungsverfahren Reinigungsleistung Rundgang Betriebsführung Service Stellenanzeigen Aktuell News-Archiv Abwassergebühren Ansprechpartner Informationsmaterial Wichtige Links Anfahrt Stellenanzeige &#8211; Mitarbeiter*in (m/w/d) Bauherrenaufgaben und Projektsteuerung Über Uns Die Klärwerk Wansdorf GmbH stellt seit 1999 eine Kooperation der öffentlich-rechtlichen Aufgabenträger Berlin und Brandenburg dar und ist zu 100% in kommunaler Hand. Das Unternehmen behandelt in seinen Anlagen die Abwässer von rd. 220.000 Einwohnern, die im Süden des Kreises Oberhavel und im Osten des Kreises Havelland des Landes Brandenburgs sowie im Berliner Stadtbezirk Spandau anfallen. Wir bauen unseren technischen Bereich aus und besetzen die folgende Position zum schnellstmöglichen Termin: Mitarbeiter*in (m/w/d) Bauherrenaufgaben und Projektsteuerung, Vollzeit Ihre Aufgaben Mitwirkung bei der Investitionsplanung und Durchführung der Kontrolle Übergeordnete Projektorganisation und Multiprojektmanagement Ansprechpartner für die Betriebsführer Ausschreibungsmanagement Projektsteuerung für ausgewählte Maßnahmen Das bringen Sie mit abgeschlossenes wissenschaftliches Hochschulstudium im Wirtschaftsingenieurwesen, Bauingenieurwesen, Verfahrenstechnik oder in einer vergleichbaren Fachrichtung mehrjährige Berufserfahrung in der Projektsteuerung und im Bauherrenmanagement fundierte Kenntnisse in Ausschreibungs- und Vergabeverfahren fundierte Kenntnisse in den gängigen MS Office-Anwendungen sowie Projektsteuerungssystemen ausgeprägte analytische Fähigkeiten Erfahrung im wirtschaftlichen Controlling Deutsch verhandlungssicher Erfahrung und ggf. Kenntnisse in der Versorgungsbranche sind von Vorteil die Begeisterung in einem Umweltunternehmen einen nachhaltigen Beitrag zu leisten Das bieten wir Ihnen einen zukunftssicheren Arbeitsplatz in einer krisenfesten Branche einen interessanten und verantwortungsvollen Aufgabenbereich mit gesellschaftlicher Relevanz selbständiges Arbeiten Tarifliche Bezahlung in Anlehnung an TV-V Betriebliche Altersversorgung (ZVK Brandenburg) Ihre Bewerbung Wir freuen uns auf Ihre zeitnahe Bewerbung an Klärwerk Wansdorf GmbH Wansdorf • Klärwerksweg 1 14621 Schönwalde-Glien Tel 033231 715-0 info@k-w-g.de Ansprechpartnerin: Julia Röhl, Geschäftsführerin Klärwerk Wansdorf GmbH Wansdorf &bull; Klärwerksweg 1 14621 Schönwalde-Glien Tel 033231 715-0 &bull; Fax 033231 715-25 &#105;&#110;&#102;&#111;&#64;&#107;&#45;&#119;&#45;&#103;&#46;&#100;&#101; Startseite | Impressum | Kontakt Geschichte | Struktur | Einzugsbereich | Abwassermengen | Finanzen | Qualität &#038; Umwelt Reinigungsverfahren | Reinigungsleistung | Rundgang | Betriebsführung Aktuell | News-Archiv | Abwassergebühren | Ansprechpartner | Informationsmaterial | Wichtige Links | Anfahrt &copy; 1999-2026 Klärwerk Wansdorf GmbH Realisierung Z MEDIA",
+      "salary": null
+    },
+    {
+      "id": "local-special-cdfa8d96f2e2fd2218",
+      "title": "Stellenanzeige &#8211; Teamleiter*in (m/w/d) Technik / Investitionen",
+      "company": "Klärwerk Wansdorf GmbH",
+      "location": "Schönwalde-Glien",
+      "address": "1, Klärwerksweg, Wansdorf, Schönwalde-Glien, Havelland, Brandenburg, 14621, Deutschland",
+      "lat": 52.6169703,
+      "lon": 13.0906594,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://www.k-w-g.de/stellenanzeigen/stellenanzeige-teamleiter-technik/",
+      "source": "Klärwerk Wansdorf direkt",
+      "sources": [
+        {
+          "name": "Klärwerk Wansdorf direkt",
+          "url": "https://www.k-w-g.de/stellenanzeigen/stellenanzeige-teamleiter-technik/"
+        }
+      ],
+      "description": "Stellenanzeige &#8211; Teamleiter*in (m/w/d) Technik / Investitionen | Klärwerk Wansdorf --> Wir feiern am 5. Juli 2019 - 20 Jahre Klärwerk Wansdorf - &raquo; Details hier --> Startseite | Impressum | Datenschutzerklärung | Kontakt --> Startseite Unternehmen Geschichte Struktur Einzugsbereich Abwassermengen Finanzen Qualität &#038; Umwelt Abwasserreinigung Reinigungsverfahren Reinigungsleistung Rundgang Betriebsführung Service Stellenanzeigen Aktuell News-Archiv Abwassergebühren Ansprechpartner Informationsmaterial Wichtige Links Anfahrt Stellenanzeige &#8211; Teamleiter*in (m/w/d) Technik / Investitionen Über Uns Die Klärwerk Wansdorf GmbH stellt seit 1999 eine Kooperation der öffentlich-rechtlichen Aufgabenträger Berlin und Brandenburg dar und ist zu 100% in kommunaler Hand. Das Unternehmen behandelt in seinen Anlagen die Abwässer von rd. 220.000 Einwohnern, die im Süden des Kreises Oberhavel und im Osten des Kreises Havelland des Landes Brandenburgs sowie im Berliner Stadtbezirk Spandau anfallen. Wir bauen unseren technischen Bereich aus und besetzen die folgende Position zum schnellstmöglichen Termin: Teamleiter*in (m/w/d) Technik / Investitionen, Vollzeit Ihre Aufgaben Fachliche Führung eines noch aufzubauenden Teams, Festlegung von Strukturen und Abläufen, Qualitätssicherung der Arbeitsergebnisse Investitionsplanung und -kontrolle Übergeordnete Projektorganisation und Multiprojektmanagement Ansprechpartner für die Betriebsführer Ausschreibungsmanagement Projektsteuerung für ausgewählte Maßnahmen Das bringen Sie mit abgeschlossenes wissenschaftliches Hochschulstudium im Wirtschaftsingenieurwesen, Bauingenieurwesen, Verfahrenstechnik oder in einer vergleichbaren Fachrichtung mehrjährige Berufserfahrung in der Projektsteuerung und im Bauherrenmanagement Erfahrung in der Führung von kleinen Teams bis 5 MA fundierte Kenntnisse in Ausschreibungs- und Vergabeverfahren fundierte Kenntnisse in den gängigen MS Office-Anwendungen sowie Projektsteuerungssystemen ausgeprägte analytische Fähigkeiten Erfahrung im wirtschaftlichen Controlling Deutsch verhandlungssicher Kenntnisse und ggf. Erfahrungen in der Versorgungsbranche sind von Vorteil die Begeisterung, in einem Umweltunternehmen einen nachhaltigen Beitrag zu leisten Das bieten wir Ihnen einen zukunftssicheren Arbeitsplatz in einer krisenfesten Branche einen interessanten und verantwortungsvollen Aufgabenbereich mit gesellschaftlicher Relevanz selbständiges Arbeiten Tarifliche Bezahlung in Anlehnung an TV-V Betriebliche Altersversorgung (ZVK Brandenburg) Ihre Bewerbung Wir freuen uns auf Ihre zeitnahe Bewerbung an Klärwerk Wansdorf GmbH Wansdorf • Klärwerksweg 1 14621 Schönwalde-Glien Tel 033231 715-0 info@k-w-g.de Ansprechpartnerin: Julia Röhl, Geschäftsführerin Klärwerk Wansdorf GmbH Wansdorf &bull; Klärwerksweg 1 14621 Schönwalde-Glien Tel 033231 715-0 &bull; Fax 033231 715-25 &#105;&#110;&#102;&#111;&#64;&#107;&#45;&#119;&#45;&#103;&#46;&#100;&#101; Startseite | Impressum | Kontakt Geschichte | Struktur | Einzugsbereich | Abwassermengen | Finanzen | Qualität &#038; Umwelt Reinigungsverfahren | Reinigungsleistung | Rundgang | Betriebsführung Aktuell | News-Archiv | Abwassergebühren | Ansprechpartner | Informationsmaterial | Wichtige Links | Anfahrt &copy; 1999-2026 Klärwerk Wansdorf GmbH Realisierung Z MEDIA",
+      "salary": null
+    },
+    {
+      "id": "local-special-d2982391f5bc8155fc",
+      "title": "Stellenanzeige &#8211; Bauoberleiter*in (m/w/d), Vollzeit",
+      "company": "Klärwerk Wansdorf GmbH",
+      "location": "Schönwalde-Glien",
+      "address": "1, Klärwerksweg, Wansdorf, Schönwalde-Glien, Havelland, Brandenburg, 14621, Deutschland",
+      "lat": 52.6169703,
+      "lon": 13.0906594,
+      "remote": false,
+      "remoteFull": false,
+      "employmentType": [],
+      "publishedAt": null,
+      "validThrough": null,
+      "url": "https://www.k-w-g.de/stellenanzeigen/stellenanzeige-bauoberleiter/",
+      "source": "Klärwerk Wansdorf direkt",
+      "sources": [
+        {
+          "name": "Klärwerk Wansdorf direkt",
+          "url": "https://www.k-w-g.de/stellenanzeigen/stellenanzeige-bauoberleiter/"
+        }
+      ],
+      "description": "Stellenanzeige &#8211; Bauoberleiter*in (m/w/d), Vollzeit | Klärwerk Wansdorf --> Wir feiern am 5. Juli 2019 - 20 Jahre Klärwerk Wansdorf - &raquo; Details hier --> Startseite | Impressum | Datenschutzerklärung | Kontakt --> Startseite Unternehmen Geschichte Struktur Einzugsbereich Abwassermengen Finanzen Qualität &#038; Umwelt Abwasserreinigung Reinigungsverfahren Reinigungsleistung Rundgang Betriebsführung Service Stellenanzeigen Aktuell News-Archiv Abwassergebühren Ansprechpartner Informationsmaterial Wichtige Links Anfahrt Stellenanzeige &#8211; Bauoberleiter*in (m/w/d), Vollzeit Über Uns Die Klärwerk Wansdorf GmbH stellt seit 1999 eine Kooperation der öffentlich-rechtlichen Aufgabenträger Berlin und Brandenburg dar und ist zu 100% in kommunaler Hand. Das Unternehmen behandelt in seinen Anlagen die Abwässer von rd. 220.000 Einwohnern, die im Süden des Kreises Oberhavel und im Osten des Kreises Havelland des Landes Brandenburgs sowie im Berliner Stadtbezirk Spandau anfallen. Wir bauen unseren technischen Bereich aus und besetzen die folgende Position zum schnellstmöglichen Termin: Bauoberleiter*in (m/w/d), Vollzeit Ihre Aufgaben Koordination aller im Bau beteiligten Parteien (Bauherr, Betriebsführer, Planer, Bauunternehmen, Behörde) Qualitätssicherung Genehmigungsmanagement, Schnittstellenmanagement und Dokumentation Bauüberwachung vor Ort, Mängelmanagement und Überwachung der Einhaltung von Arbeitssicherheit auf der Baustelle Durchführen von Endabnahmen der Bauleistungen, Erstellen von Abnahmeprotokollen und Mängelberichten Führen der Bautagebücher, sowie das Erstellen von Fortschrittsberichten Prüfung der Rechnungen Projektsteuerung für ausgewählte Maßnahmen Das bringen Sie mit abgeschlossenes wissenschaftliches Hochschulstudium im Bauingenieurwesen, Wirtschaftsingenieurwesen oder in einer vergleichbaren Fachrichtung mehrjährige Berufserfahrung in der Bauoberleitung bzw. Bauleitung fundierte Kenntnisse in den gängigen MS Office-Anwendungen sowie Projektsteuerungssystemen ausgeprägte analytische Fähigkeiten und Erfahrung im wirtschaftlichen Controlling Deutsch verhandlungssicher Hervoragende Kommunikations- und Verhandlungskompetenzen Kenntnisse und ggf. Erfahrung in der Versorgungsbranche sind von Vorteil die Begeisterung, in einem Umweltunternehmen einen nachhaltigen Beitrag zu leisten Das bieten wir Ihnen einen zukunftssicheren Arbeitsplatz in einer krisenfesten Branche einen interessanten und verantwortungsvollen Aufgabenbereich mit gesellschaftlicher Relevanz selbständiges Arbeiten Tarifliche Bezahlung in Anlehnung an TV-V Betriebliche Altersversorgung (ZVK Brandenburg) Ihre Bewerbung Wir freuen uns auf Ihre zeitnahe Bewerbung an Klärwerk Wansdorf GmbH Wansdorf • Klärwerksweg 1 14621 Schönwalde-Glien Tel 033231 715-0 info@k-w-g.de Ansprechpartnerin: Julia Röhl, Geschäftsführerin Klärwerk Wansdorf GmbH Wansdorf &bull; Klärwerksweg 1 14621 Schönwalde-Glien Tel 033231 715-0 &bull; Fax 033231 715-25 &#105;&#110;&#102;&#111;&#64;&#107;&#45;&#119;&#45;&#103;&#46;&#100;&#101; Startseite | Impressum | Kontakt Geschichte | Struktur | Einzugsbereich | Abwassermengen | Finanzen | Qualität &#038; Umwelt Reinigungsverfahren | Reinigungsleistung | Rundgang | Betriebsführung Aktuell | News-Archiv | Abwassergebühren | Ansprechpartner | Informationsmaterial | Wichtige Links | Anfahrt &copy; 1999-2026 Klärwerk Wansdorf GmbH Realisierung Z MEDIA",
       "salary": null
     }
   ]

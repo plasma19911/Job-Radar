@@ -313,5 +313,30 @@
     "lat": 52.6516297,
     "lon": 13.2008083,
     "display_name": "13, Fontanesiedlung, Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
+  },
+  "16303 schoneberg deutschland": {
+    "lat": 52.482157,
+    "lon": 13.3551901,
+    "display_name": "Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "01979 lauchhammer deutschland": {
+    "lat": 51.5036534,
+    "lon": 13.7535416,
+    "display_name": "01979, Kleinleipisch, Lauchhammer, Oberspreewald-Lausitz, Brandenburg, Deutschland"
+  },
+  "falkensee-direct:innsbrucker str 53 14612 falkensee": {
+    "lat": 52.5823075,
+    "lon": 13.0823588,
+    "display_name": "53, Innsbrucker Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "falkensee-direct:bahnhofstraße 32 14612 falkensee": {
+    "lat": 52.5637464,
+    "lon": 13.0980171,
+    "display_name": "Lebenshilfe Havelland e.V., 32, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "falkensee-direct:klarwerksweg 1 14621 schonwalde glien": {
+    "lat": 52.6169703,
+    "lon": 13.0906594,
+    "display_name": "1, Klärwerksweg, Wansdorf, Schönwalde-Glien, Havelland, Brandenburg, 14621, Deutschland"
   }
 }
