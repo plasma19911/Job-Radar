@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#07111f">
-  <meta name="description" content="Job Radar – Stellenangebote im festen 15-km-Umkreis, täglich aktualisiert und ohne doppelte Treffer.">
+  <meta name="description" content="Job Radar – Stellen im 15-km-Umkreis oder 100 % Homeoffice, täglich aktualisiert und ohne doppelte Treffer.">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Job Radar">
-  <title>Job Radar – 15 km Umkreis</title>
+  <title>Job Radar – 15 km + Homeoffice</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icons/icon.svg">
@@ -27,24 +27,18 @@
         <div class="brand-mark" aria-hidden="true">⌖</div>
         <div>
           <div class="brand-name">Job <span>Radar</span></div>
-          <div class="brand-sub">15 km Umkreis</div>
+          <div class="brand-sub">15 km + 100 % Homeoffice</div>
         </div>
       </div>
-      <div class="update-pill" id="updatePill" title="Letzte Datenaktualisierung">
-        <span class="pulse"></span><span id="updateText">Daten werden geladen …</span>
-      </div>
+      <div class="update-pill" id="updatePill" title="Letzte Datenaktualisierung"><span class="pulse"></span><span id="updateText">Daten werden geladen …</span></div>
     </header>
 
     <section class="search-panel" aria-label="Jobsuche">
-      <div class="fixed-area">◎ <strong>Marwitzer Str. 67, 13589 Berlin</strong> · maximal 15 km</div>
+      <div class="fixed-area">◎ <strong>Marwitzer Str. 67, 13589 Berlin</strong> · bis 15 km <strong>oder 100 % Homeoffice deutschlandweit</strong></div>
       <div class="search-grid fixed-search-grid">
         <label class="field field-search">
           <span>Was suchst du?</span>
-          <div class="input-wrap">
-            <span class="input-icon">⌕</span>
-            <input id="queryInput" type="search" autocomplete="off" placeholder="z. B. Fahrer, Verkäufer, IT, Büro …">
-            <button class="clear-input" id="clearQuery" type="button" aria-label="Suchbegriff löschen">×</button>
-          </div>
+          <div class="input-wrap"><span class="input-icon">⌕</span><input id="queryInput" type="search" autocomplete="off" placeholder="z. B. Fahrer, Verkäufer, IT, Büro …"><button class="clear-input" id="clearQuery" type="button" aria-label="Suchbegriff löschen">×</button></div>
         </label>
         <button class="primary-btn" id="searchBtn" type="button">Jobs finden</button>
       </div>
@@ -54,7 +48,7 @@
         <button class="chip" data-filter="fulltime" type="button">Vollzeit</button>
         <button class="chip" data-filter="parttime" type="button">Teilzeit</button>
         <button class="chip" data-filter="minijob" type="button">Minijob</button>
-        <button class="chip" data-filter="remote" type="button">Homeoffice</button>
+        <button class="chip" data-filter="remote" type="button">100 % Homeoffice</button>
         <button class="chip" data-filter="favorites" type="button">★ Favoriten</button>
         <button class="chip source-chip" id="sourceFilterBtn" type="button">Quellen</button>
       </div>
@@ -63,15 +57,8 @@
     <main class="workspace">
       <aside class="results-panel" id="resultsPanel">
         <div class="results-head">
-          <div>
-            <strong id="resultCount">0 Stellen</strong>
-            <span id="resultContext">maximal 15 km entfernt</span>
-          </div>
-          <select id="sortSelect" aria-label="Sortierung">
-            <option value="distance">Entfernung</option>
-            <option value="newest">Neueste</option>
-            <option value="title">Jobtitel A–Z</option>
-          </select>
+          <div><strong id="resultCount">0 Stellen</strong><span id="resultContext">15 km oder reines Homeoffice</span></div>
+          <select id="sortSelect" aria-label="Sortierung"><option value="distance">Entfernung</option><option value="newest">Neueste</option><option value="title">Jobtitel A–Z</option></select>
         </div>
         <div class="source-summary" id="sourceSummary"></div>
         <div class="results-list" id="resultsList" aria-live="polite"></div>
@@ -79,9 +66,7 @@
 
       <section class="map-panel" aria-label="Karte mit Stellenangeboten">
         <div id="map"></div>
-        <div class="map-tools">
-          <button id="fitBtn" type="button" title="15-km-Bereich anzeigen">⌗</button>
-        </div>
+        <div class="map-tools"><button id="fitBtn" type="button" title="15-km-Bereich anzeigen">⌗</button></div>
         <button class="mobile-list-toggle" id="mobileListToggle" type="button"><span id="mobileCount">0</span> Jobs anzeigen</button>
       </section>
     </main>
@@ -89,10 +74,7 @@
 
   <div class="modal-backdrop" id="sourceModal" hidden>
     <section class="modal" role="dialog" aria-modal="true" aria-labelledby="sourceModalTitle">
-      <div class="modal-head">
-        <div><h2 id="sourceModalTitle">Quellen auswählen</h2><p>Doppelte Stellen werden automatisch zusammengeführt.</p></div>
-        <button class="icon-btn" data-close-source type="button">×</button>
-      </div>
+      <div class="modal-head"><div><h2 id="sourceModalTitle">Quellen auswählen</h2><p>Doppelte Stellen werden automatisch zusammengeführt.</p></div><button class="icon-btn" data-close-source type="button">×</button></div>
       <div id="sourceOptions" class="source-options"></div>
       <div class="modal-actions"><button class="secondary-btn" id="allSourcesBtn" type="button">Alle auswählen</button><button class="primary-btn" data-close-source type="button">Fertig</button></div>
     </section>
@@ -100,10 +82,7 @@
 
   <div class="modal-backdrop" id="jobModal" hidden>
     <article class="modal job-modal" role="dialog" aria-modal="true" aria-labelledby="jobModalTitle">
-      <div class="modal-head">
-        <div class="job-modal-title-wrap"><div class="job-source-badge" id="jobModalSource">Quelle</div><h2 id="jobModalTitle">Stelle</h2><p id="jobModalCompany"></p></div>
-        <button class="icon-btn" data-close-job type="button">×</button>
-      </div>
+      <div class="modal-head"><div class="job-modal-title-wrap"><div class="job-source-badge" id="jobModalSource">Quelle</div><h2 id="jobModalTitle">Stelle</h2><p id="jobModalCompany"></p></div><button class="icon-btn" data-close-job type="button">×</button></div>
       <div class="job-modal-meta" id="jobModalMeta"></div>
       <div class="job-modal-description" id="jobModalDescription"></div>
       <div class="job-modal-sources" id="jobModalSources"></div>
