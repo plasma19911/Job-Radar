@@ -519,5 +519,10 @@
     "lat": 52.5378977,
     "lon": 13.2121103,
     "display_name": "6, An der Spreeschanze, Haselhorst, Spandau, Berlin, 13599, Deutschland"
+  },
+  "bad liebenwerda deutschland": {
+    "lat": 51.5158115,
+    "lon": 13.39272,
+    "display_name": "Bad Liebenwerda, Liebenwerda, Elbe-Elster, Brandenburg, Deutschland"
   }
 }
