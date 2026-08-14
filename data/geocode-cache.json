@@ -596,5 +596,15 @@
     "lat": 52.507254,
     "lon": 13.2879423,
     "display_name": "14057, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "15732 eichwalde deutschland": {
+    "lat": 52.373076,
+    "lon": 13.6219208,
+    "display_name": "Eichwalde, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "extra:tempelhofer damm 12 12101 berlin": {
+    "lat": 52.4825383,
+    "lon": 13.3851327,
+    "display_name": "Landeskriminalamt Berlin, 12, Tempelhofer Damm, Manfred-von-Richthofen-Kiez, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 12101, Deutschland"
   }
 }
