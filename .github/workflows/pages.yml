@@ -7,6 +7,10 @@ on:
     paths:
       - 'public/**'
       - '.github/workflows/pages.yml'
+  workflow_run:
+    workflows: ['Job Radar – täglich aktualisieren']
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -19,12 +23,15 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Prüfen ob GitHub Pages aktiviert ist
         id: pagescheck
