@@ -50,6 +50,7 @@ jobs:
           node scripts/exclude-unwanted.mjs
           node scripts/office-profile.mjs
           node scripts/scope-jobs.mjs
+          node scripts/validate-and-prefer-employer.mjs
           node scripts/update-ui-scope.mjs
           node scripts/track-new-jobs.mjs
           node scripts/apply-fresh-highlights.mjs
