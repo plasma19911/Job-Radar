@@ -509,5 +509,15 @@
     "lat": 51.6565219,
     "lon": 10.3428415,
     "display_name": "Herzberg am Harz, Landkreis Göttingen, Niedersachsen, 37412, Deutschland"
+  },
+  "extra-office-2:am borsigturm 70 13507 berlin": {
+    "lat": 52.5849335,
+    "lon": 13.2826769,
+    "display_name": "embeddeers, 70, Am Borsigturm, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "extra-office-2:an der spreeschanze 6 13599 berlin": {
+    "lat": 52.5378977,
+    "lon": 13.2121103,
+    "display_name": "6, An der Spreeschanze, Haselhorst, Spandau, Berlin, 13599, Deutschland"
   }
 }
