@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 
+// Letzter Schritt jedes Scans: mobiles App-Layout und PWA-Dateien dauerhaft erhalten.
 const INDEX='public/index.html';
 const SW='public/sw.js';
 
