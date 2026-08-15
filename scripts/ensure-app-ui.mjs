@@ -14,10 +14,11 @@ if(!index.includes('./pwa-install.js')){
 await fs.writeFile(INDEX,index);
 
 let sw=await fs.readFile(SW,'utf8');
-sw=sw.replace(/job-radar-v\d+/g,'job-radar-v6');
+sw=sw.replace(/job-radar-v\d+/g,'job-radar-v7');
 if(!sw.includes("'./readable-ui.css'")) sw=sw.replace("'./fresh-highlights.css'","'./fresh-highlights.css','./readable-ui.css'");
-if(!sw.includes("'./pwa-install.js'")) sw=sw.replace("'./new-jobs.js'","'./new-jobs.js','./pwa-install.js'");
+if(!sw.includes("'./favorite-store.js'")) sw=sw.replace("'./new-jobs.js'","'./new-jobs.js','./favorite-store.js'");
+if(!sw.includes("'./pwa-install.js'")) sw=sw.replace("'./favorite-store.js'","'./favorite-store.js','./pwa-install.js'");
 if(!sw.includes("'./icons/icon-maskable.svg'")) sw=sw.replace("'./icons/icon.svg'","'./icons/icon.svg','./icons/icon-maskable.svg'");
 await fs.writeFile(SW,sw);
 
-console.log('Lesbares Handy-App-UI und PWA-Cache v6 sichergestellt.');
+console.log('Lesbares Handy-App-UI, dauerhafte Favoriten und PWA-Cache v7 sichergestellt.');
