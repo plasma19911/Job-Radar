@@ -46,6 +46,9 @@ async function readDb(){
 async function writeDb(keys){
   try{const db=await openDb();if(!db)return;await new Promise(resolve=>{const tx=db.transaction(DB_STORE,'readwrite');tx.objectStore(DB_STORE).put({keys:[...keys],savedAt:new Date().toISOString()},DB_ITEM);tx.oncomplete=resolve;tx.onerror=resolve;});}catch{}
 }
+async function requestPersistentStorage(){
+  try{if(navigator.storage?.persist)await navigator.storage.persist();}catch{}
+}
 
 export async function loadFavoriteKeys(jobs=[]){
   const keys=new Set([...parseLocal(),...await readDb()].filter(Boolean));
@@ -64,8 +67,8 @@ export function isFavorite(job,keys){const k=favoriteKey(job);return Boolean(k&&
 export async function saveFavoriteKeys(keys,notify=true){
   const list=[...keys].filter(Boolean).slice(-3000);
   try{localStorage.setItem(STORAGE_KEY,JSON.stringify({version:2,keys:list,savedAt:new Date().toISOString()}));}catch{}
-  await writeDb(new Set(list));
   if(notify)window.dispatchEvent(new CustomEvent('jobradar:favorites-changed',{detail:{keys:list}}));
+  await Promise.all([writeDb(new Set(list)),requestPersistentStorage()]);
 }
 
 export async function toggleFavorite(job,keys){
