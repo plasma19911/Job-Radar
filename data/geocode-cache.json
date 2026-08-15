@@ -641,5 +641,35 @@
     "lat": 52.390402,
     "lon": 13.4171073,
     "display_name": "12309, Lichtenrade, Tempelhof-Schöneberg, Berlin, Schenkendorf-Krummensee, Deutschland"
+  },
+  "wustermark deutschland": {
+    "lat": 52.5462731,
+    "lon": 12.9404114,
+    "display_name": "Wustermark, Havelland, Brandenburg, Deutschland"
+  },
+  "nauen deutschland": {
+    "lat": 52.6061065,
+    "lon": 12.8772599,
+    "display_name": "Nauen, Havelland, Brandenburg, 14641, Deutschland"
+  },
+  "15366 hoppegarten deutschland": {
+    "lat": 52.5224441,
+    "lon": 13.6688112,
+    "display_name": "15366, Dahlwitz-Hoppegarten, Hoppegarten, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "wusterhausen dosse deutschland": {
+    "lat": 52.9027861,
+    "lon": 12.5210329,
+    "display_name": "Wusterhausen/Dosse, Ostprignitz-Ruppin, Brandenburg, 16868, Deutschland"
+  },
+  "hoppegarten deutschland": {
+    "lat": 52.550231,
+    "lon": 13.6411944,
+    "display_name": "Hoppegarten, Märkisch-Oderland, Brandenburg, 15366, Deutschland"
+  },
+  "muhlenbecker land deutschland": {
+    "lat": 52.6840606,
+    "lon": 13.3757876,
+    "display_name": "Mühlenbecker Land, Oberhavel, Brandenburg, Deutschland"
   }
 }
