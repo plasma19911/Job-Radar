@@ -1,3 +1,5 @@
+import {loadFavoriteKeys,isFavorite,toggleFavorite,replaceFavoriteKeys} from './favorite-store.js';
+
 const NEW_WINDOW_MS=7*24*60*60*1000;
 const READ_STORAGE='jobRadarReadNewJobsV1';
 
@@ -11,7 +13,7 @@ function saveRead(read){localStorage.setItem(READ_STORAGE,JSON.stringify([...rea
 function addedLabel(v){const ms=Date.now()-new Date(v).getTime();const days=Math.max(0,Math.floor(ms/86400000));if(days===0)return'Heute neu';if(days===1)return'Gestern neu';return`Vor ${days} Tagen neu`;}
 function placeLabel(j){return j.remoteFull===true?'⌂ 100 % Homeoffice':`◎ ${j.location||'Ort nicht angegeben'}`;}
 
-function buildPopup(jobs,read){
+function buildPopup(jobs,read,favorites){
   const backdrop=document.createElement('div');
   backdrop.className='new-jobs-backdrop';
   backdrop.setAttribute('role','presentation');
@@ -21,13 +23,13 @@ function buildPopup(jobs,read){
         <div>
           <div class="new-jobs-kicker">● Neu im Radar</div>
           <h2 id="newJobsTitle">Neue Jobs dieser Woche · <span data-new-count>${jobs.length}</span></h2>
-          <p>Diese Stellen sind beim Scannen neu dazugekommen und bleiben hier höchstens 7 Tage sichtbar.</p>
+          <p>Diese Stellen sind beim Scannen neu dazugekommen. Mit ★ kannst du sie direkt dauerhaft als Favorit speichern.</p>
         </div>
         <button class="new-jobs-close" type="button" aria-label="Popup schließen">×</button>
       </header>
       <div class="new-jobs-list"></div>
       <footer class="new-jobs-actions">
-        <div class="new-jobs-note">× schließt nur das Fenster. „Gelesen“ entfernt die Stelle dauerhaft aus diesem Wochen-Popup.</div>
+        <div class="new-jobs-note">★ Favoriten bleiben gespeichert. × schließt nur das Fenster. „Gelesen“ entfernt die Stelle aus diesem Wochen-Popup.</div>
         <button class="new-jobs-read-all" type="button">Alle als gelesen markieren</button>
       </footer>
     </section>`;
@@ -35,14 +37,29 @@ function buildPopup(jobs,read){
   const list=backdrop.querySelector('.new-jobs-list');
   const countEl=backdrop.querySelector('[data-new-count]');
   const readAll=backdrop.querySelector('.new-jobs-read-all');
+  const rows=new Map();
 
-  function close(){backdrop.remove();}
+  function syncFavorite(job,row){
+    const fav=isFavorite(job,favorites),btn=row.querySelector('.new-job-fav');
+    row.classList.toggle('favorite',fav);
+    btn.classList.toggle('active',fav);
+    btn.textContent=fav?'★':'☆';
+    btn.setAttribute('aria-label',fav?'Favorit entfernen':'Als Favorit speichern');
+    btn.title=fav?'Favorit entfernen':'Als Favorit speichern';
+  }
+  function onFavoriteChange(e){
+    replaceFavoriteKeys(favorites,e.detail?.keys||[]);
+    for(const [job,row] of rows)if(document.body.contains(row))syncFavorite(job,row);
+  }
+  window.addEventListener('jobradar:favorites-changed',onFavoriteChange);
+
+  function close(){window.removeEventListener('jobradar:favorites-changed',onFavoriteChange);backdrop.remove();}
   function updateCount(){
     const left=list.querySelectorAll('.new-job-row').length;
     countEl.textContent=String(left);
     if(left===0){list.innerHTML='<div class="new-jobs-empty"><strong>Alles gelesen ✓</strong>Für diese Woche sind keine ungelesenen neuen Jobs mehr übrig.</div>';readAll.disabled=true;setTimeout(close,650);}
   }
-  function markOne(job,row){read.add(token(job));saveRead(read);row.remove();updateCount();}
+  function markOne(job,row){read.add(token(job));saveRead(read);rows.delete(job);row.remove();updateCount();}
 
   for(const j of jobs){
     const row=document.createElement('article');
@@ -54,9 +71,13 @@ function buildPopup(jobs,read){
         <div class="new-job-meta"><span>${esc(placeLabel(j))}</span><span>◷ ${esc(addedLabel(j.firstSeenAt))}</span>${j.publishedAt?`<span>Anzeige: ${esc(formatDate(j.publishedAt))}</span>`:''}</div>
       </div>
       <div class="new-job-actions">
+        <button class="new-job-fav" type="button" aria-label="Als Favorit speichern" title="Als Favorit speichern">☆</button>
         <a class="new-job-open" href="${esc(safeUrl(j.url||j.sources?.[0]?.url||''))}" target="_blank" rel="noopener noreferrer">Stelle öffnen ↗</a>
         <button class="new-job-read" type="button">Gelesen ✓</button>
       </div>`;
+    rows.set(j,row);
+    syncFavorite(j,row);
+    row.querySelector('.new-job-fav').addEventListener('click',async()=>{await toggleFavorite(j,favorites);syncFavorite(j,row);});
     row.querySelector('.new-job-read').addEventListener('click',()=>markOne(j,row));
     list.appendChild(row);
   }
@@ -73,12 +94,14 @@ async function initNewJobs(){
     const r=await fetch(`./data/jobs.json?v=${Date.now()}`,{cache:'no-store'});
     if(!r.ok)return;
     const payload=await r.json();
+    const allJobs=Array.isArray(payload.jobs)?payload.jobs:[];
     const now=Date.now();
     const read=loadRead();
-    const jobs=(Array.isArray(payload.jobs)?payload.jobs:[])
+    const favorites=await loadFavoriteKeys(allJobs);
+    const jobs=allJobs
       .filter(j=>Number.isFinite(firstSeenMs(j))&&firstSeenMs(j)>0&&now-firstSeenMs(j)>=0&&now-firstSeenMs(j)<NEW_WINDOW_MS&&!read.has(token(j)))
       .sort((a,b)=>firstSeenMs(b)-firstSeenMs(a));
-    if(jobs.length)buildPopup(jobs,read);
+    if(jobs.length)buildPopup(jobs,read,favorites);
   }catch{}
 }
 
