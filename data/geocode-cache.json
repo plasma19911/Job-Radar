@@ -606,5 +606,40 @@
     "lat": 52.4825383,
     "lon": 13.3851327,
     "display_name": "Landeskriminalamt Berlin, 12, Tempelhofer Damm, Manfred-von-Richthofen-Kiez, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 12101, Deutschland"
+  },
+  "15345 altlandsberg deutschland": {
+    "lat": 52.5936007,
+    "lon": 13.7760013,
+    "display_name": "Altlandsberg, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "12681 berlin deutschland": {
+    "lat": 52.5372044,
+    "lon": 13.5368175,
+    "display_name": "12681, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "10117 berlin deutschland": {
+    "lat": 52.5169124,
+    "lon": 13.3873553,
+    "display_name": "10117, Mitte, Berlin, Deutschland"
+  },
+  "14057 berlin deutschland": {
+    "lat": 52.507254,
+    "lon": 13.2879423,
+    "display_name": "14057, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "berlin prenzlauer deutschland": {
+    "lat": 52.5486235,
+    "lon": 13.4074646,
+    "display_name": "GetYourGuide, Sonnenburger Straße, Bremer Höhe, Gleimviertel, Prenzlauer Berg, Pankow, Berlin, 10437, Deutschland"
+  },
+  "major-portals:potsdam": {
+    "lat": 52.4009309,
+    "lon": 13.0591397,
+    "display_name": "Potsdam, Brandenburg, Deutschland"
+  },
+  "major-portals:12309 berlin": {
+    "lat": 52.390402,
+    "lon": 13.4171073,
+    "display_name": "12309, Lichtenrade, Tempelhof-Schöneberg, Berlin, Schenkendorf-Krummensee, Deutschland"
   }
 }
