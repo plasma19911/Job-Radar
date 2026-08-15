@@ -59,7 +59,8 @@ async function patchApp(){
     );
   }
 
-  if(!s.includes("icon:fresh3(j)?freshPinIcon:pinIcon")){
+  // Sowohl die alte reine NEU-Logik als auch die neue Favoriten-Priorität gelten als korrekt.
+  if(!s.includes("fresh3(j)?freshPinIcon:pinIcon")){
     s=mustReplace(
       s,
       "const m=L.marker(c,{icon:pinIcon,title:j.title||'Job'});",
@@ -86,8 +87,10 @@ async function writeCss(){
 .fresh-new-badge{color:#ffe2a0!important;border-color:rgba(255,184,66,.58)!important;background:rgba(255,166,46,.16)!important;box-shadow:0 0 0 1px rgba(255,184,66,.08),0 0 15px rgba(255,157,49,.12)}
 .job-pin.fresh-job-pin{width:33px;height:33px;background:linear-gradient(135deg,#ffd35a,#ff7f3f);border-color:#fff3c4;box-shadow:0 0 0 5px rgba(255,178,55,.18),0 5px 18px rgba(0,0,0,.42);animation:freshJobPulse 1.8s ease-in-out infinite}
 .job-pin.fresh-job-pin span{font-size:10px;font-weight:950;color:#2a1600}
+.job-pin.favorite-job-pin{width:35px;height:35px;background:linear-gradient(135deg,#b75cff,#ff5fbd);border-color:#f5ddff;box-shadow:0 0 0 6px rgba(195,91,255,.18),0 6px 20px rgba(0,0,0,.46)}
+.job-pin.favorite-job-pin span{font-size:16px;font-weight:950;line-height:1;color:#fff;text-shadow:0 1px 3px rgba(55,0,82,.55)}
 @keyframes freshJobPulse{0%,100%{box-shadow:0 0 0 4px rgba(255,178,55,.15),0 5px 18px rgba(0,0,0,.42)}50%{box-shadow:0 0 0 9px rgba(255,178,55,.03),0 5px 22px rgba(255,142,47,.28)}}
-@media(max-width:850px){.job-card.fresh-job-card{box-shadow:inset 3px 0 0 #ffb13b}.job-pin.fresh-job-pin{animation:none}}
+@media(max-width:850px){.job-card.fresh-job-card{box-shadow:inset 3px 0 0 #ffb13b}.job-pin.fresh-job-pin{animation:none}.job-pin.favorite-job-pin{box-shadow:0 0 0 4px rgba(195,91,255,.16),0 5px 16px rgba(0,0,0,.44)}}
 `;
   await fs.writeFile(CSS,css);
 }
@@ -105,4 +108,4 @@ await patchApp();
 await patchIndex();
 await writeCss();
 await patchSw();
-console.log('3-Tage-NEU-Hervorhebung aktiv: Karte farbig, NEU-Badge und bei Alle zuerst.');
+console.log('3-Tage-NEU-Hervorhebung und Favoritenmarker aktiv.');
