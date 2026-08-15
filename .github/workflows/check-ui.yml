@@ -1,0 +1,29 @@
+name: Job Radar – UI prüfen
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'public/app.js'
+      - 'public/new-jobs.js'
+      - 'public/favorite-store.js'
+      - 'public/*.css'
+      - '.github/workflows/check-ui.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: JavaScript-Syntax prüfen
+        run: |
+          node --check public/app.js
+          node --check public/new-jobs.js
+          node --check public/favorite-store.js
