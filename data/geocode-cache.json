@@ -671,5 +671,31 @@
     "lat": 52.6840606,
     "lon": 13.3757876,
     "display_name": "Mühlenbecker Land, Oberhavel, Brandenburg, Deutschland"
+  },
+  "munchen hamburg traunstein berlin frankfurt deutschland": null,
+  "berlin lichtenberg deutschland": {
+    "lat": 52.5097832,
+    "lon": 13.4961404,
+    "display_name": "Berlin-Lichtenberg, 22, Weitlingstraße, Weitlingkiez, Rummelsburg, Lichtenberg, Berlin, 10317, Deutschland"
+  },
+  "hermannswerder 14473 potsdam deutschland": {
+    "lat": 52.3850049,
+    "lon": 13.0367814,
+    "display_name": "Hermannswerder, Templiner Vorstadt, Potsdam, Brandenburg, 14473, Deutschland"
+  },
+  "13051 berlin alt hohenschonhausen deutschland": {
+    "lat": 52.547762,
+    "lon": 13.5188035,
+    "display_name": "Alliance Healthcare Deutschland GmbH - Niederlassung GEHE Berlin, 19, Marzahner Straße, Alt-Hohenschönhausen, Lichtenberg, Berlin, 13053, Deutschland"
+  },
+  "10435 berlin deutschland": {
+    "lat": 52.5377689,
+    "lon": 13.4111411,
+    "display_name": "10435, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "major-portals:14974 ludwigsfelde": {
+    "lat": 52.2914397,
+    "lon": 13.263513,
+    "display_name": "14974, Ludwigsfelde, Teltow-Fläming, Brandenburg, Deutschland"
   }
 }
