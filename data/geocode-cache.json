@@ -697,5 +697,25 @@
     "lat": 52.2914397,
     "lon": 13.263513,
     "display_name": "14974, Ludwigsfelde, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "brieselang deutschland": {
+    "lat": 52.588357,
+    "lon": 12.9958846,
+    "display_name": "Brieselang, Havelland, Brandenburg, 14656, Deutschland"
+  },
+  "herzberg elster deutschland": {
+    "lat": 51.6924078,
+    "lon": 13.2358585,
+    "display_name": "Herzberg (Elster), Elbe-Elster, Brandenburg, 04916, Deutschland"
+  },
+  "bernau bei berlin deutschland": {
+    "lat": 52.6787254,
+    "lon": 13.5881114,
+    "display_name": "Bernau, Barnim, Brandenburg, 16321, Deutschland"
+  },
+  "furstenwalde deutschland": {
+    "lat": 50.76058,
+    "lon": 13.8681537,
+    "display_name": "Fürstenwalde, Altenberg, Sächsische Schweiz-Osterzgebirge, Sachsen, 01778, Deutschland"
   }
 }
