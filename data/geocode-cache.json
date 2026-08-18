@@ -717,5 +717,56 @@
     "lat": 50.76058,
     "lon": 13.8681537,
     "display_name": "Fürstenwalde, Altenberg, Sächsische Schweiz-Osterzgebirge, Sachsen, 01778, Deutschland"
+  },
+  "berlin berliner straße 80 13189 berlin deutschland": null,
+  "berlin fasanenstrasse deutschland": {
+    "lat": 52.5096672,
+    "lon": 13.327792,
+    "display_name": "Universität der Künste Berlin, Fasanenstraße, Spreestadt Charlottenburg, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10623, Deutschland"
+  },
+  "invesdor berlin deutschland": null,
+  "berlin global team deutschland": null,
+  "falkensee brandenburg deutschland": {
+    "lat": 52.5606426,
+    "lon": 13.08824,
+    "display_name": "Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "frankfurt oder deutschland": {
+    "lat": 52.3412273,
+    "lon": 14.549452,
+    "display_name": "Frankfurt (Oder), Brandenburg, Deutschland"
+  },
+  "03172 guben deutschland": {
+    "lat": 51.9503235,
+    "lon": 14.7153567,
+    "display_name": "Guben, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "13051 berlin hohenschonhausen deutschland": {
+    "lat": 52.5654806,
+    "lon": 13.5374613,
+    "display_name": "Coca-Cola European Partners Deutschland GmbH, 51, Vincent-van-Gogh-Straße, Neu-Hohenschönhausen, Lichtenberg, Berlin, 13057, Deutschland"
+  },
+  "13597 berlin deutschland": {
+    "lat": 52.527257,
+    "lon": 13.2194875,
+    "display_name": "13597, Wilhelmstadt, Spandau, Berlin, Deutschland"
+  },
+  "12435 berlin alt treptow deutschland": {
+    "lat": 52.4869643,
+    "lon": 13.4662697,
+    "display_name": "12435, Alt-Treptow, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "extra:oranienstraße 106 publizierung bis 31 08 2026 unbefristet 10969 berlin": null,
+  "extra:darßer str 203 13088 berlin": {
+    "lat": 52.5669092,
+    "lon": 13.4673084,
+    "display_name": "203, Darßer Straße, Stadtrandsiedlung Malchow, Pankow, Berlin, 13088, Deutschland"
+  },
+  "extra:mullerstr 146 vollzeit 13353 berlin": null,
+  "extra:mullerstr 146 buro verwaltung sachbearbeitung vollzeit publizierung bis 31 08 2026 13353 berlin": null,
+  "major-portals:10119 berlin": {
+    "lat": 52.5304785,
+    "lon": 13.4053272,
+    "display_name": "10119, Mitte, Berlin, Deutschland"
   }
 }
