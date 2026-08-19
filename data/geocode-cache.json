@@ -768,5 +768,51 @@
     "lat": 52.5304785,
     "lon": 13.4053272,
     "display_name": "10119, Mitte, Berlin, Deutschland"
+  },
+  "berlin b deutschland": {
+    "lat": 52.4880036,
+    "lon": 13.4089223,
+    "display_name": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "aachen munchen berlin deutschland": null,
+  "de berlin deutschland": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
+  },
+  "strausberg deutschland": {
+    "lat": 52.5814009,
+    "lon": 13.8833952,
+    "display_name": "Strausberg, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "blankenfelde mahlow deutschland": {
+    "lat": 52.3479238,
+    "lon": 13.4119554,
+    "display_name": "Blankenfelde-Mahlow, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "leegebrucher chaussee 16727 oberkramer deutschland": {
+    "lat": 52.720562,
+    "lon": 13.1596111,
+    "display_name": "Leegebrucher Chaussee, Orion, Bärenklau, Oberkrämer, Oberhavel, Brandenburg, 16727, Deutschland"
+  },
+  "10827 berlin friedenau deutschland": {
+    "lat": 52.4663909,
+    "lon": 13.3303399,
+    "display_name": "Stiftung Unabhängige Patientenberatung Deutschland, 45-46, Rheinstraße, Friedenau, Tempelhof-Schöneberg, Berlin, 12161, Deutschland"
+  },
+  "claire waldoff straße 7 10117 berlin deutschland": {
+    "lat": 52.5244057,
+    "lon": 13.3853722,
+    "display_name": "Haus der Land- und Ernährungswirtschaft, 7, Claire-Waldoff-Straße, Dorotheenstadt, Mitte, Berlin, 10117, Deutschland"
+  },
+  "berlin johannisthal deutschland": {
+    "lat": 52.4469899,
+    "lon": 13.5235435,
+    "display_name": "Johannisthal, 103, Adlergestell, Oberspree, Niederschöneweide, Treptow-Köpenick, Berlin, 12439, Deutschland"
+  },
+  "major-portals:10557 berlin": {
+    "lat": 52.52324,
+    "lon": 13.359503,
+    "display_name": "10557, Moabit, Mitte, Berlin, Deutschland"
   }
 }
