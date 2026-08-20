@@ -814,5 +814,46 @@
     "lat": 52.52324,
     "lon": 13.359503,
     "display_name": "10557, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "mainz oder berlin deutschland": null,
+  "bad saarow deutschland": {
+    "lat": 52.2922975,
+    "lon": 14.0552305,
+    "display_name": "Bad Saarow, Scharmützelsee, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "14641 retzow deutschland": {
+    "lat": 52.6250923,
+    "lon": 12.6827945,
+    "display_name": "Retzow, Friesack, Havelland, Brandenburg, Deutschland"
+  },
+  "trebbin deutschland": {
+    "lat": 52.2150361,
+    "lon": 13.2140282,
+    "display_name": "Trebbin, Teltow-Fläming, Brandenburg, 14959, Deutschland"
+  },
+  "13353 berlin deutschland": {
+    "lat": 52.5415792,
+    "lon": 13.3495465,
+    "display_name": "13353, Wedding, Mitte, Berlin, Deutschland"
+  },
+  "12167 berlin deutschland": {
+    "lat": 52.4485835,
+    "lon": 13.3337712,
+    "display_name": "12167, Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "kurfurstendamm 100 10709 berlin deutschland": {
+    "lat": 52.4983249,
+    "lon": 13.2967345,
+    "display_name": "(smow), 100, Kurfürstendamm, Halensee, Charlottenburg-Wilmersdorf, Berlin, 10709, Deutschland"
+  },
+  "berlin tempelhof deutschland": {
+    "lat": 52.4711794,
+    "lon": 13.3774625,
+    "display_name": "Berlin-Tempelhof, Boelckestraße, Güterbahnhof Tempelhof, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 12101, Deutschland"
+  },
+  "major-portals:10117 berlin": {
+    "lat": 52.5169124,
+    "lon": 13.3873553,
+    "display_name": "10117, Mitte, Berlin, Deutschland"
   }
 }
