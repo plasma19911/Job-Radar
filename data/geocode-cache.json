@@ -855,5 +855,52 @@
     "lat": 52.5169124,
     "lon": 13.3873553,
     "display_name": "10117, Mitte, Berlin, Deutschland"
-  }
+  },
+  "berlin schlesische straße 26 deutschland": null,
+  "ludwigsfelde deutschland": {
+    "lat": 52.3016096,
+    "lon": 13.2610163,
+    "display_name": "Ludwigsfelde, Teltow-Fläming, Brandenburg, 14974, Deutschland"
+  },
+  "ahrensfelde deutschland": {
+    "lat": 52.5782258,
+    "lon": 13.5739094,
+    "display_name": "Ahrensfelde, Barnim, Brandenburg, Deutschland"
+  },
+  "15926 luckau deutschland": {
+    "lat": 51.8524163,
+    "lon": 13.7150055,
+    "display_name": "Luckau, Pitschen-Pickel, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "doberlug kirchhain deutschland": {
+    "lat": 51.6219804,
+    "lon": 13.5660433,
+    "display_name": "Doberlug-Kirchhain, Elbe-Elster, Brandenburg, 03253, Deutschland"
+  },
+  "89073 ulm deutschland": {
+    "lat": 48.4039741,
+    "lon": 10.000012,
+    "display_name": "89073, Oststadt, Ulm, Baden-Württemberg, Deutschland"
+  },
+  "12435 berlin deutschland": {
+    "lat": 52.4869643,
+    "lon": 13.4662697,
+    "display_name": "12435, Alt-Treptow, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "10178 berlin deutschland": {
+    "lat": 52.5212845,
+    "lon": 13.4097989,
+    "display_name": "10178, Mitte, Berlin, Deutschland"
+  },
+  "10787 berlin deutschland": {
+    "lat": 52.5078609,
+    "lon": 13.3438747,
+    "display_name": "10787, Tiergarten, Mitte, Berlin, Deutschland"
+  },
+  "13409 berlin deutschland": {
+    "lat": 52.5681011,
+    "lon": 13.3716797,
+    "display_name": "13409, Reinickendorf, Berlin, Deutschland"
+  },
+  "extra:nikolaus groß weg 2 es lts 13627 berlin": null
 }
