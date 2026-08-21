@@ -902,5 +902,37 @@
     "lon": 13.3716797,
     "display_name": "13409, Reinickendorf, Berlin, Deutschland"
   },
-  "extra:nikolaus groß weg 2 es lts 13627 berlin": null
+  "extra:nikolaus groß weg 2 es lts 13627 berlin": null,
+  "knick berlin deutschland": {
+    "lat": 52.4309113,
+    "lon": 13.2506987,
+    "display_name": "Knick Elektronische Messgeräte GmbH & Co. KG, 22, Beuckestraße, Gartenstadt Zehlendorf, Zehlendorf, Steglitz-Zehlendorf, Berlin, 14163, Deutschland"
+  },
+  "berlin pariser platz deutschland": {
+    "lat": 52.5171648,
+    "lon": 13.3794979,
+    "display_name": "Botschaft der Französischen Republik, 5, Pariser Platz, Friedrich-Wilhelm-Stadt, Mitte, Berlin, 10117, Deutschland"
+  },
+  "berlin munich hamburg frankfurt deutschland": null,
+  "15537 grunheide mark deutschland": {
+    "lat": 52.4140973,
+    "lon": 13.865935,
+    "display_name": "15537, Grünheide, Grünheide (Mark), Oder-Spree, Brandenburg, Deutschland"
+  },
+  "01945 lindenau deutschland": {
+    "lat": 51.4009428,
+    "lon": 13.7211783,
+    "display_name": "Lindenau, Ortrand, Oberspreewald-Lausitz, Brandenburg, Deutschland"
+  },
+  "13125 berlin deutschland": {
+    "lat": 52.6334423,
+    "lon": 13.4812367,
+    "display_name": "13125, Buch, Pankow, Berlin, Deutschland"
+  },
+  "12099 berlin deutschland": {
+    "lat": 52.4639497,
+    "lon": 13.4029018,
+    "display_name": "12099, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 18 09 2026 unbefristet 10315 berlin": null
 }
