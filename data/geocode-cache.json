@@ -934,5 +934,28 @@
     "lon": 13.4029018,
     "display_name": "12099, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
   },
-  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 18 09 2026 unbefristet 10315 berlin": null
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 18 09 2026 unbefristet 10315 berlin": null,
+  "sesamy berlin deutschland": null,
+  "epi use gmbh berlin deutschland": null,
+  "10557 berlin deutschland": {
+    "lat": 52.52324,
+    "lon": 13.359503,
+    "display_name": "10557, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "10585 berlin charlottenburg deutschland": {
+    "lat": 52.5152076,
+    "lon": 13.3056792,
+    "display_name": "10585, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "extra:mullerstr 146 vollzeit publizierung bis 04 09 2026 13353 berlin": null,
+  "major-portals:14979 großbeeren": {
+    "lat": 52.3621617,
+    "lon": 13.3282555,
+    "display_name": "14979, Kleinbeeren, Großbeeren, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "major-portals:14167 berlin": {
+    "lat": 52.421164,
+    "lon": 13.2765595,
+    "display_name": "14167, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  }
 }
