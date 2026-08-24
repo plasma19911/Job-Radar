@@ -959,5 +959,25 @@
     "display_name": "14167, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
   },
   "berlin berlin hamburg hamburg munchen bavaria deutschland": null,
-  "freiburg germany berlin germany munich germany frankfurt germany paris france amsterdam netherlands deutschland": null
+  "freiburg germany berlin germany munich germany frankfurt germany paris france amsterdam netherlands deutschland": null,
+  "oranienburg deutschland": {
+    "lat": 52.7529379,
+    "lon": 13.2457591,
+    "display_name": "Oranienburg, Oberhavel, Brandenburg, 16515, Deutschland"
+  },
+  "16244 schorfheide deutschland": {
+    "lat": 52.9091991,
+    "lon": 13.5946835,
+    "display_name": "16244, Groß Schönebeck, Schorfheide, Barnim, Brandenburg, Deutschland"
+  },
+  "10777 berlin schoneberg deutschland": {
+    "lat": 52.4974716,
+    "lon": 13.3427239,
+    "display_name": "10777, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "major-portals:heidestraße 40 10115 berlin": {
+    "lat": 52.5328215,
+    "lon": 13.3655968,
+    "display_name": "dean & david, 40, Heidestraße, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
+  }
 }
