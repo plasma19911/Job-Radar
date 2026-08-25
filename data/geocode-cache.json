@@ -979,5 +979,26 @@
     "lat": 52.5328215,
     "lon": 13.3655968,
     "display_name": "dean & david, 40, Heidestraße, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
+  },
+  "berlin zentrale deutschland": {
+    "lat": 52.502345,
+    "lon": 13.3302642,
+    "display_name": "Zentrale Orthodoxe Synagoge zu Berlin, 13, Joachimsthaler Straße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10719, Deutschland"
+  },
+  "karwer heide 16818 neuruppin deutschland": {
+    "lat": 52.8495717,
+    "lon": 12.8931301,
+    "display_name": "Karwer Heide, Karwe, Neuruppin, Ostprignitz-Ruppin, Brandenburg, 16818, Deutschland"
+  },
+  "extra:turmstr 21 haus a berufserfahrung junior level buro verwaltung sachbearbeitung 10559 berlin": null,
+  "extra:eiswaldtstr 18 12249 berlin": {
+    "lat": 52.4273942,
+    "lon": 13.3493793,
+    "display_name": "Polizei Direktion 4 Kriminalpolizei, 18, Eiswaldtstraße, Großsiedlung Kamenzer Damm, Lankwitz, Steglitz-Zehlendorf, Berlin, 12249, Deutschland"
+  },
+  "extra:darßer straße 203 13088 berlin": {
+    "lat": 52.5669092,
+    "lon": 13.4673084,
+    "display_name": "203, Darßer Straße, Stadtrandsiedlung Malchow, Pankow, Berlin, 13088, Deutschland"
   }
 }
