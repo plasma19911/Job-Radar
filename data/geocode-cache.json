@@ -1000,5 +1000,44 @@
     "lat": 52.5669092,
     "lon": 13.4673084,
     "display_name": "203, Darßer Straße, Stadtrandsiedlung Malchow, Pankow, Berlin, 13088, Deutschland"
+  },
+  "berlin cologne frankfurt hamburg hannover leipzig munich nuremberg stuttgart deutschland": null,
+  "berlin hamburg wolfsburg deutschland": null,
+  "berlin kreuzberg deutschland": {
+    "lat": 52.4880036,
+    "lon": 13.4089223,
+    "display_name": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "03222 lubbenau spreewald deutschland": {
+    "lat": 51.8489051,
+    "lon": 13.9515023,
+    "display_name": "03222, Groß Klessow, Lübbenau/Spreewald, Oberspreewald-Lausitz, Brandenburg, Deutschland"
+  },
+  "tettau deutschland": {
+    "lat": 50.4399039,
+    "lon": 11.2833762,
+    "display_name": "Tettau, Landkreis Kronach, Bayern, 96355, Deutschland"
+  },
+  "14806 bad belzig deutschland": {
+    "lat": 52.1697567,
+    "lon": 12.5814327,
+    "display_name": "14806, Bad Belzig, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "10243 berlin deutschland": {
+    "lat": 52.5122697,
+    "lon": 13.4394216,
+    "display_name": "10243, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "berlin karlshorst deutschland": {
+    "lat": 52.4881213,
+    "lon": 13.5401648,
+    "display_name": "Pionierschule I (ehem.) & Militärobjekt 9 der Sowjetischen Streitkräfte in Deutschland, Rheinisches Viertel, Karlshorst, Lichtenberg, Berlin, Deutschland"
+  },
+  "extra:turmstraße 21 lagetsi publizierung bis 15 09 2026 unbefristet 10559 berlin": null,
+  "extra:nikolaus groß weg 2 es ikt 13627 berlin": null,
+  "major-portals:30175 hannover": {
+    "lat": 52.3794524,
+    "lon": 9.7667578,
+    "display_name": "30175, Zoo, Mitte, Hannover, Region Hannover, Niedersachsen, Deutschland"
   }
 }
