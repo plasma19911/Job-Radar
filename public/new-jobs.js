@@ -1,16 +1,19 @@
 import {loadFavoriteKeys,isFavorite,toggleFavorite,replaceFavoriteKeys} from './favorite-store.js';
 
 const NEW_WINDOW_MS=7*24*60*60*1000;
+const BERLIN_TIME_ZONE='Europe/Berlin';
 const READ_STORAGE='jobRadarReadNewJobsV1';
 
 const esc=(v='')=>String(v).replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[ch]));
-const formatDate=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'2-digit'}).format(d);};
+const formatDate=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'2-digit',timeZone:BERLIN_TIME_ZONE}).format(d);};
+function berlinDayNumber(v){const d=new Date(v);if(Number.isNaN(d.getTime()))return NaN;const p=Object.fromEntries(new Intl.DateTimeFormat('en',{year:'numeric',month:'2-digit',day:'2-digit',timeZone:BERLIN_TIME_ZONE}).formatToParts(d).filter(x=>x.type!=='literal').map(x=>[x.type,+x.value]));return Math.floor(Date.UTC(p.year,p.month-1,p.day)/86400000);}
+const isSeniorJob=j=>/\bsenior|\bsr\b/i.test(String(j?.title||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' '));
 const firstSeenMs=j=>new Date(j.firstSeenAt||0).getTime();
 const token=j=>`${j.id||[j.company,j.title,j.url].filter(Boolean).join('|')}::${j.firstSeenAt||''}`;
 function safeUrl(v=''){try{const u=new URL(v,location.href);return /^https?:$/.test(u.protocol)?u.href:'#';}catch{return'#';}}
 function loadRead(){try{const value=JSON.parse(localStorage.getItem(READ_STORAGE)||'[]');return new Set(Array.isArray(value)?value:[]);}catch{return new Set();}}
 function saveRead(read){localStorage.setItem(READ_STORAGE,JSON.stringify([...read].slice(-1500)));}
-function addedLabel(v){const ms=Date.now()-new Date(v).getTime();const days=Math.max(0,Math.floor(ms/86400000));if(days===0)return'Heute neu';if(days===1)return'Gestern neu';return`Vor ${days} Tagen neu`;}
+function addedLabel(v){const days=Math.max(0,berlinDayNumber(new Date())-berlinDayNumber(v));if(days===0)return'Heute neu';if(days===1)return'Gestern neu';return`Vor ${days} Tagen neu`;}
 function placeLabel(j){return j.remoteFull===true?'⌂ 100 % Homeoffice':`◎ ${j.location||'Ort nicht angegeben'}`;}
 
 function buildPopup(jobs,read,favorites){
@@ -99,7 +102,7 @@ async function initNewJobs(){
     const read=loadRead();
     const favorites=await loadFavoriteKeys(allJobs);
     const jobs=allJobs
-      .filter(j=>Number.isFinite(firstSeenMs(j))&&firstSeenMs(j)>0&&now-firstSeenMs(j)>=0&&now-firstSeenMs(j)<NEW_WINDOW_MS&&!read.has(token(j)))
+      .filter(j=>!isSeniorJob(j)&&Number.isFinite(firstSeenMs(j))&&firstSeenMs(j)>0&&now-firstSeenMs(j)>=0&&now-firstSeenMs(j)<NEW_WINDOW_MS&&!read.has(token(j)))
       .sort((a,b)=>firstSeenMs(b)-firstSeenMs(a));
     if(jobs.length)buildPopup(jobs,read,favorites);
   }catch{}

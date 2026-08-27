@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 
 const OUT='public/data/jobs.json';
-// Endgültiger Ausschlussfilter: keine Werkstudentenstellen, Praktika oder Zeitarbeit/Leiharbeit.
+// Endgültiger Ausschlussfilter: keine Senior-, Werkstudenten-, Praktikums- oder Zeitarbeitsstellen.
 
 function norm(v=''){
   return String(v??'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9äöüß%]+/g,' ').replace(/\s+/g,' ').trim();
@@ -19,6 +19,9 @@ function isExcluded(job){
   const text=`${title} ${types}`;
   const staffingText=`${title} ${company} ${description.slice(0,1800)} ${source}`;
 
+  // Seniorität nur anhand des Jobtitels prüfen, damit harmlose Erwähnungen in Beschreibungen nicht aussortieren.
+  if(/\bsenior|\bsr\b/i.test(title))return true;
+
   if(/(werkstudent|werkstudentin|werkstudierende|working student|studentische hilfskraft|student assistant|praktikum|praktikant|praktikantin|praktikumsplatz|internship|\bintern\b|trainee internship)/i.test(text))return true;
   if(TEMP_WORK_TERMS.test(staffingText))return true;
   if(TEMP_AGENCY_COMPANIES.test(company))return true;
@@ -32,12 +35,13 @@ async function main(){
   payload.meta=payload.meta||{};
   payload.meta.generatedAt=new Date().toISOString();
   payload.meta.total=payload.jobs.length;
+  payload.meta.excludedSeniorJobs=true;
   payload.meta.excludedWorkingStudent=true;
   payload.meta.excludedInternships=true;
   payload.meta.excludedTemporaryWork=true;
   payload.meta.excludedUnwantedThisRun=before-payload.jobs.length;
   await fs.writeFile(OUT,JSON.stringify(payload,null,2)+'\n');
-  console.log(`Ausschlussfilter Werkstudent/Praktikum/Zeitarbeit: ${before} -> ${payload.jobs.length}; removed ${before-payload.jobs.length}`);
+  console.log(`Ausschlussfilter Senior/Werkstudent/Praktikum/Zeitarbeit: ${before} -> ${payload.jobs.length}; removed ${before-payload.jobs.length}`);
 }
 
 main().catch(e=>{console.error(e);process.exit(1);});

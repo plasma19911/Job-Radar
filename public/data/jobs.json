@@ -485,7 +485,9 @@
       "addedThisScan": 22,
       "seededFromPreviousScan": 0,
       "trackedAt": "2026-08-26T04:13:01.103Z"
-    }
+    },
+    "excludedSeniorJobs": true,
+    "excludedSeniorExisting": 0
   },
   "jobs": [
     {

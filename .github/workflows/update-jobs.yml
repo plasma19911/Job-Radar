@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * *'
+    - cron: '47 6 * * *' # Ersatzlauf, falls GitHub den ersten Zeitplan verzögert oder auslässt
   push:
     branches: [main]
     paths:
