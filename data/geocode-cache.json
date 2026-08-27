@@ -1039,5 +1039,43 @@
     "lat": 52.3794524,
     "lon": 9.7667578,
     "display_name": "30175, Zoo, Mitte, Hannover, Region Hannover, Niedersachsen, Deutschland"
+  },
+  "berlin berlin hannover lower saxony munchen bavaria deutschland": null,
+  "munich berlin germany deutschland": null,
+  "berlin italy team deutschland": null,
+  "stahnsdorf deutschland": {
+    "lat": 52.3869675,
+    "lon": 13.2077118,
+    "display_name": "Stahnsdorf, Potsdam-Mittelmark, Brandenburg, 14532, Deutschland"
+  },
+  "13053 berlin weißensee deutschland": {
+    "lat": 52.5567489,
+    "lon": 13.4484295,
+    "display_name": "Kleingartenanlage Frieden e. V. Berlin-Weißensee, Munizipalviertel, Weißensee, Pankow, Berlin, 13086, Deutschland"
+  },
+  "wilmersdorfer straße 42 10627 berlin deutschland": {
+    "lat": 52.5105643,
+    "lon": 13.305194,
+    "display_name": "42, Wilmersdorfer Straße, Gierkekiez, Alt-Lietzow, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10627, Deutschland"
+  },
+  "13407 berlin deutschland": {
+    "lat": 52.5726,
+    "lon": 13.3509039,
+    "display_name": "13407, Reinickendorf, Berlin, Deutschland"
+  },
+  "extra:rhinstr 46 unbefristet 12681 berlin": null,
+  "extra:ruppiner chaussee 268 bfra 13503 berlin": null,
+  "extra:konigstr 36 b unbefristet 14109 berlin": null,
+  "extra:karl marx allee 31 unbefristet 10178 berlin": null,
+  "extra:tino schwierzina str 32 unbefristet 13089 berlin": null,
+  "extra:buckower damm 114 unbefristet 12349 berlin": null,
+  "extra:bernhard weiß straße 6 publiziert 27 08 2026 10178 berlin": null,
+  "extra:voltairestraße 2 dg mitte 10179 berlin": null,
+  "extra:klosterstraße 59 landesfinanzservice lfs publizierung bis 09 09 2026 10179 berlin": null,
+  "extra:klosterstr 59 senatsverwaltung fur finanzen publizierung bis 09 09 2026 10179 berlin": null,
+  "extra:poelchaustr 1 12681 berlin": {
+    "lat": 52.5357944,
+    "lon": 13.5383766,
+    "display_name": "Direktion 3, 1, Poelchaustraße, Springpfuhl, Marzahn, Marzahn-Hellersdorf, Berlin, 12681, Deutschland"
   }
 }
