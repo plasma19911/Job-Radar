@@ -1077,5 +1077,21 @@
     "lat": 52.5357944,
     "lon": 13.5383766,
     "display_name": "Direktion 3, 1, Poelchaustraße, Springpfuhl, Marzahn, Marzahn-Hellersdorf, Berlin, 12681, Deutschland"
+  },
+  "obernau deutschland": {
+    "lat": 50.6673455,
+    "lon": 7.5716048,
+    "display_name": "Obernau, Neitersen, Altenkirchen-Flammersfeld, Landkreis Altenkirchen (Westerwald), Rheinland-Pfalz, Deutschland"
+  },
+  "berlijn brandenburg duitsland deutschland": null,
+  "berlin lichterfelde deutschland": {
+    "lat": 52.4570635,
+    "lon": 13.3043098,
+    "display_name": "Deutschland – Auenwald, Lichterfelde West, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "extra:invalidenstr 57 10557 berlin": {
+    "lat": 52.5237956,
+    "lon": 13.3621914,
+    "display_name": "Landespolizeidirektion, 57, Invalidenstraße, Lehrter Kiez, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
   }
 }
