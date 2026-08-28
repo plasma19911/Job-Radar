@@ -1112,5 +1112,30 @@
   },
   "extra:eichborndamm 115 landesarchiv berlin vollzeit publizierung bis 25 09 2026 befristet 13403 berlin": null,
   "extra:yorckstr 4 11 ingenieur 10965 berlin": null,
-  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 18 09 2026 unbefristet 13055 berlin": null
+  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 18 09 2026 unbefristet 13055 berlin": null,
+  "03172 schenkendobern deutschland": {
+    "lat": 51.9540983,
+    "lon": 14.5702688,
+    "display_name": "03172, Bärenklau, Schenkendöbern, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "03099 kolkwitz deutschland": {
+    "lat": 51.7542807,
+    "lon": 14.1989376,
+    "display_name": "03099, Limberg, Kolkwitz, Burg-Kolonie, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "12347 berlin deutschland": {
+    "lat": 52.4508767,
+    "lon": 13.428155,
+    "display_name": "12347, Britz, Neukölln, Berlin, Deutschland"
+  },
+  "10247 berlin deutschland": {
+    "lat": 52.5160829,
+    "lon": 13.4654674,
+    "display_name": "10247, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "pfarrer lenzel straße 1 13156 berlin deutschland": {
+    "lat": 52.5886367,
+    "lon": 13.3956951,
+    "display_name": "1, Pfarrer-Lenzel-Straße, Niederschönhausen, Pankow, Berlin, 13156, Deutschland"
+  }
 }
