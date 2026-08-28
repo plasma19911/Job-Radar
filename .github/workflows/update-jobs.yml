@@ -9,6 +9,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/**'
+      - '.github/workflows/update-jobs.yml'
+      - '.github/workflows/job-radar-watchdog.yml'
 
 permissions:
   contents: write

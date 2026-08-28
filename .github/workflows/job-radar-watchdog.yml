@@ -1,0 +1,49 @@
+name: Job Radar – Nachtlauf sicherstellen
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Mehrere Versuche außerhalb der GitHub-Stoßzeiten. Sobald die heutigen Daten da sind, passiert nichts mehr.
+    - cron: '23 1-8 * * *'
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: job-radar-watchdog
+  cancel-in-progress: true
+
+jobs:
+  ensure-daily-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Prüfen und fehlenden Tageslauf starten
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          today=$(TZ=Europe/Berlin date +%F)
+          generated_at=$(gh api "repos/${GITHUB_REPOSITORY}/contents/public/data/jobs.json" --jq '.content' | tr -d '\n' | base64 -d | jq -r '.meta.generatedAt // empty')
+          generated_day=''
+          if [ -n "$generated_at" ]; then
+            generated_day=$(TZ=Europe/Berlin date -d "$generated_at" +%F 2>/dev/null || true)
+          fi
+
+          echo "Heute in Berlin: $today"
+          echo "Letzter Datenstand: ${generated_day:-nicht vorhanden}"
+
+          if [ "$generated_day" = "$today" ]; then
+            echo "Der heutige Scan ist bereits vorhanden."
+            exit 0
+          fi
+
+          active=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow update-jobs.yml --limit 20 --json status --jq '[.[] | select(.status == "in_progress" or .status == "queued" or .status == "waiting" or .status == "requested" or .status == "pending")] | length')
+          if [ "$active" -gt 0 ]; then
+            echo "Ein Job-Scan läuft bereits; kein Doppelstart."
+            exit 0
+          fi
+
+          echo "Der heutige Scan fehlt und wird jetzt nachgestartet."
+          gh workflow run update-jobs.yml --repo "$GITHUB_REPOSITORY"
