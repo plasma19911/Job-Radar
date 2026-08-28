@@ -1093,5 +1093,24 @@
     "lat": 52.5237956,
     "lon": 13.3621914,
     "display_name": "Landespolizeidirektion, 57, Invalidenstraße, Lehrter Kiez, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
-  }
+  },
+  "brandenburg deutschland": {
+    "lat": 52.8455492,
+    "lon": 13.2461296,
+    "display_name": "Brandenburg, Deutschland"
+  },
+  "hamburg munich berlin deutschland": null,
+  "hohen neuendorf deutschland": {
+    "lat": 52.6732755,
+    "lon": 13.2807255,
+    "display_name": "Hohen Neuendorf, Oberhavel, Brandenburg, Deutschland"
+  },
+  "15910 schonwald deutschland": {
+    "lat": 50.1981219,
+    "lon": 12.0907653,
+    "display_name": "Schönwald, Landkreis Wunsiedel im Fichtelgebirge, Bayern, 95173, Deutschland"
+  },
+  "extra:eichborndamm 115 landesarchiv berlin vollzeit publizierung bis 25 09 2026 befristet 13403 berlin": null,
+  "extra:yorckstr 4 11 ingenieur 10965 berlin": null,
+  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 18 09 2026 unbefristet 13055 berlin": null
 }
