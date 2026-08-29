@@ -1154,5 +1154,10 @@
     "lat": 52.4857603,
     "lon": 13.3943882,
     "display_name": "10965, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "15517 furstenwalde spree deutschland": {
+    "lat": 52.3743288,
+    "lon": 14.057497,
+    "display_name": "15517, Fürstenwalde/Spree, Oder-Spree, Brandenburg, Deutschland"
   }
 }
