@@ -1159,5 +1159,15 @@
     "lat": 52.3743288,
     "lon": 14.057497,
     "display_name": "15517, Fürstenwalde/Spree, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "oberkramer deutschland": {
+    "lat": 52.7079067,
+    "lon": 13.1099284,
+    "display_name": "Oberkrämer, Oberhavel, Brandenburg, 16727, Deutschland"
+  },
+  "12349 berlin deutschland": {
+    "lat": 52.4252425,
+    "lon": 13.4220243,
+    "display_name": "12349, Britz, Neukölln, Berlin, Deutschland"
   }
 }
