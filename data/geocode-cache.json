@@ -1137,5 +1137,22 @@
     "lat": 52.5886367,
     "lon": 13.3956951,
     "display_name": "1, Pfarrer-Lenzel-Straße, Niederschönhausen, Pankow, Berlin, 13156, Deutschland"
+  },
+  "berlin ger deutschland": null,
+  "berlin boppstr deutschland": null,
+  "03238 finsterwalde deutschland": {
+    "lat": 51.5959396,
+    "lon": 13.7247408,
+    "display_name": "03238, Pechhütte, Finsterwalde, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "33 hauffstraße 14548 schwielowsee deutschland": {
+    "lat": 52.3644001,
+    "lon": 12.9726146,
+    "display_name": "Meusebach-Grundschule Geltow, 33, Hauffstraße, Geltow, Schwielowsee, Potsdam-Mittelmark, Brandenburg, 14548, Deutschland"
+  },
+  "10965 berlin deutschland": {
+    "lat": 52.4857603,
+    "lon": 13.3943882,
+    "display_name": "10965, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   }
 }
