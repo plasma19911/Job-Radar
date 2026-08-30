@@ -1169,5 +1169,15 @@
     "lat": 52.4252425,
     "lon": 13.4220243,
     "display_name": "12349, Britz, Neukölln, Berlin, Deutschland"
+  },
+  "berlin neukolln deutschland": {
+    "lat": 52.4811497,
+    "lon": 13.4353501,
+    "display_name": "Neukölln, Berlin, Deutschland"
+  },
+  "12687 berlin deutschland": {
+    "lat": 52.5566368,
+    "lon": 13.5655679,
+    "display_name": "12687, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
   }
 }
