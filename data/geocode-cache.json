@@ -1179,5 +1179,15 @@
     "lat": 52.5566368,
     "lon": 13.5655679,
     "display_name": "12687, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "bad wilsnack deutschland": {
+    "lat": 52.9706466,
+    "lon": 11.9231901,
+    "display_name": "Bad Wilsnack, Bad Wilsnack/Weisen, Prignitz, Brandenburg, 19336, Deutschland"
+  },
+  "major-portals:76133 karlsruhe": {
+    "lat": 49.0121068,
+    "lon": 8.3896193,
+    "display_name": "76133, Innenstadt-West, Karlsruhe, Baden-Württemberg, Deutschland"
   }
 }
