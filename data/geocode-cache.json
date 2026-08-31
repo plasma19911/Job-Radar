@@ -1194,5 +1194,10 @@
     "lat": 52.9832845,
     "lon": 13.3407892,
     "display_name": "Linden-Grundschule, 8, Dammhaststraße, Kamp, Zehdenick, Oberhavel, Brandenburg, 16792, Deutschland"
+  },
+  "major-portals:20095 hamburg": {
+    "lat": 53.5514245,
+    "lon": 10.0003864,
+    "display_name": "20095, Altstadt, Hamburg-Mitte, Hamburg, Deutschland"
   }
 }
