@@ -7,7 +7,7 @@ import fs from 'node:fs/promises';
 const OUT='public/data/jobs.json';
 const ADDRESS='Marwitzer Str. 67, 13589 Berlin';
 const FALLBACK=[52.5804,13.1729];
-const RADIUS=10;
+const RADIUS=Number(process.env.JOB_RADAR_RADIUS_KM||10);
 const UA='Job-Radar/1.0 (+https://github.com/plasma19911/Job-Radar)';
 
 const clean=v=>String(v??'').replace(/\s+/g,' ').trim();
