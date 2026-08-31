@@ -3,6 +3,7 @@ import {loadFavoriteKeys,isFavorite,toggleFavorite,replaceFavoriteKeys} from './
 const NEW_WINDOW_MS=7*24*60*60*1000;
 const BERLIN_TIME_ZONE='Europe/Berlin';
 const READ_STORAGE='jobRadarReadNewJobsV1';
+const FALLBACK_CENTER=[52.559043,13.1833278];
 
 const esc=(v='')=>String(v).replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[ch]));
 const formatDate=v=>{const d=new Date(v);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('de-DE',{day:'2-digit',month:'2-digit',timeZone:BERLIN_TIME_ZONE}).format(d);};
@@ -15,8 +16,12 @@ function loadRead(){try{const value=JSON.parse(localStorage.getItem(READ_STORAGE
 function saveRead(read){localStorage.setItem(READ_STORAGE,JSON.stringify([...read].slice(-1500)));}
 function addedLabel(v){const days=Math.max(0,berlinDayNumber(new Date())-berlinDayNumber(v));if(days===0)return'Heute neu';if(days===1)return'Gestern neu';return`Vor ${days} Tagen neu`;}
 function placeLabel(j){return j.remoteFull===true?'⌂ 100 % Homeoffice':`◎ ${j.location||'Ort nicht angegeben'}`;}
+function km(a,b){if(!a||!b)return Infinity;const R=6371,r=x=>x*Math.PI/180,dLat=r(b[0]-a[0]),dLon=r(b[1]-a[1]),q=Math.sin(dLat/2)**2+Math.cos(r(a[0]))*Math.cos(r(b[0]))*Math.sin(dLon/2)**2;return R*2*Math.atan2(Math.sqrt(q),Math.sqrt(1-q));}
+function coords(j){const lat=Number(j?.lat),lon=Number(j?.lon);return Number.isFinite(lat)&&Number.isFinite(lon)?[lat,lon]:null;}
+function localDistance(j,center){const c=coords(j);return c?km(center,c):Infinity;}
+function distanceLabel(j,center){const d=localDistance(j,center);if(!Number.isFinite(d))return'';return `${d.toLocaleString('de-DE',{minimumFractionDigits:1,maximumFractionDigits:1})} km entfernt`;}
 
-function buildPopup(jobs,read,favorites){
+function buildPopup(jobs,read,favorites,center){
   const backdrop=document.createElement('div');
   backdrop.className='new-jobs-backdrop';
   backdrop.setAttribute('role','presentation');
@@ -26,7 +31,7 @@ function buildPopup(jobs,read,favorites){
         <div>
           <div class="new-jobs-kicker">● Neu im Radar</div>
           <h2 id="newJobsTitle">Neue Jobs dieser Woche · <span data-new-count>${jobs.length}</span></h2>
-          <p>Lokale Stellen stehen zuerst. Reine Homeoffice-Stellen sind darunter platzsparend eingeklappt. Mit ★ kannst du Jobs direkt dauerhaft als Favorit speichern.</p>
+          <p>Lokale Stellen sind nach Entfernung sortiert – die nächsten zuerst bis 15 km. Die genaue Entfernung steht klein an jedem Job. Reine Homeoffice-Stellen sind darunter eingeklappt.</p>
         </div>
         <button class="new-jobs-close" type="button" aria-label="Popup schließen">×</button>
       </header>
@@ -41,13 +46,21 @@ function buildPopup(jobs,read,favorites){
   const countEl=backdrop.querySelector('[data-new-count]');
   const readAll=backdrop.querySelector('.new-jobs-read-all');
   const rows=new Map();
-  const localJobs=jobs.filter(j=>j.remoteFull!==true);
-  const remoteJobs=jobs.filter(j=>j.remoteFull===true);
+  const localJobs=jobs
+    .filter(j=>j.remoteFull!==true)
+    .sort((a,b)=>{
+      const ad=localDistance(a,center),bd=localDistance(b,center);
+      if(ad!==bd)return ad-bd;
+      return firstSeenMs(b)-firstSeenMs(a);
+    });
+  const remoteJobs=jobs
+    .filter(j=>j.remoteFull===true)
+    .sort((a,b)=>firstSeenMs(b)-firstSeenMs(a));
 
   const localGroup=document.createElement('section');
   localGroup.className='new-jobs-group new-jobs-group-local';
   localGroup.dataset.jobGroup='local';
-  localGroup.innerHTML=`<div class="new-jobs-group-title"><span>◎ Lokal · bis 15 km</span><strong>${localJobs.length}</strong></div><div class="new-jobs-group-list"></div>`;
+  localGroup.innerHTML=`<div class="new-jobs-group-title"><span>◎ Lokal · nächste zuerst · bis 15 km</span><strong>${localJobs.length}</strong></div><div class="new-jobs-group-list"></div>`;
   if(localJobs.length)list.appendChild(localGroup);
 
   const remoteGroup=document.createElement('details');
@@ -98,11 +111,12 @@ function buildPopup(jobs,read,favorites){
   function createRow(j){
     const row=document.createElement('article');
     row.className='new-job-row';
+    const distance=j.remoteFull===true?'':distanceLabel(j,center);
     row.innerHTML=`
       <div class="new-job-main">
         <div class="new-job-topline"><span class="new-job-badge">NEU</span><h3 class="new-job-title">${esc(j.title||'Stellenangebot')}</h3></div>
         <p class="new-job-company">${esc(j.company||'Arbeitgeber nicht angegeben')}</p>
-        <div class="new-job-meta"><span>${esc(placeLabel(j))}</span><span>◷ ${esc(addedLabel(j.firstSeenAt))}</span>${j.publishedAt?`<span>Anzeige: ${esc(formatDate(j.publishedAt))}</span>`:''}</div>
+        <div class="new-job-meta"><span>${esc(placeLabel(j))}</span>${distance?`<span class="new-job-distance">⌖ ${esc(distance)}</span>`:''}<span>◷ ${esc(addedLabel(j.firstSeenAt))}</span>${j.publishedAt?`<span>Anzeige: ${esc(formatDate(j.publishedAt))}</span>`:''}</div>
       </div>
       <div class="new-job-actions">
         <button class="new-job-fav" type="button" aria-label="Als Favorit speichern" title="Als Favorit speichern">☆</button>
@@ -134,13 +148,15 @@ async function initNewJobs(){
     if(!r.ok)return;
     const payload=await r.json();
     const allJobs=Array.isArray(payload.jobs)?payload.jobs:[];
+    const c=payload.meta?.scope?.center;
+    const center=Number.isFinite(Number(c?.lat))&&Number.isFinite(Number(c?.lon))?[Number(c.lat),Number(c.lon)]:FALLBACK_CENTER;
     const now=Date.now();
     const read=loadRead();
     const favorites=await loadFavoriteKeys(allJobs);
     const jobs=allJobs
       .filter(j=>!isSeniorJob(j)&&Number.isFinite(firstSeenMs(j))&&firstSeenMs(j)>0&&now-firstSeenMs(j)>=0&&now-firstSeenMs(j)<NEW_WINDOW_MS&&!read.has(token(j)))
       .sort((a,b)=>firstSeenMs(b)-firstSeenMs(a));
-    if(jobs.length)buildPopup(jobs,read,favorites);
+    if(jobs.length)buildPopup(jobs,read,favorites,center);
   }catch{}
 }
 
