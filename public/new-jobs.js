@@ -47,7 +47,7 @@ function buildPopup(jobs,read,favorites){
   const localGroup=document.createElement('section');
   localGroup.className='new-jobs-group new-jobs-group-local';
   localGroup.dataset.jobGroup='local';
-  localGroup.innerHTML=`<div class="new-jobs-group-title"><span>◎ Lokal · bis 10 km</span><strong>${localJobs.length}</strong></div><div class="new-jobs-group-list"></div>`;
+  localGroup.innerHTML=`<div class="new-jobs-group-title"><span>◎ Lokal · bis 15 km</span><strong>${localJobs.length}</strong></div><div class="new-jobs-group-list"></div>`;
   if(localJobs.length)list.appendChild(localGroup);
 
   const remoteGroup=document.createElement('details');
