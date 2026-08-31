@@ -1230,5 +1230,15 @@
     "lat": 52.5244103,
     "lon": 13.4069079,
     "display_name": "19, Münzstraße, Scheunenviertel, Spandauer Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  },
+  "eibenstock deutschland": {
+    "lat": 50.47265,
+    "lon": 12.611508,
+    "display_name": "Eibenstock, Erzgebirgskreis, Sachsen, 08309, Deutschland"
+  },
+  "19322 wittenberge deutschland": {
+    "lat": 52.9945364,
+    "lon": 11.7791517,
+    "display_name": "19322, Garsedow, Wittenberge, Prignitz, Brandenburg, Deutschland"
   }
 }
