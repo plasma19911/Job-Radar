@@ -37,6 +37,7 @@ jobs:
       - name: Neue No-Key-Importer prüfen
         run: |
           node --check scripts/no-key-public-sources.mjs
+          node --check scripts/himalayas-no-key.mjs
 
       - name: Stellen aus allen Quellen aktualisieren
         run: |
@@ -58,6 +59,7 @@ jobs:
           node scripts/api-portale.mjs
           node scripts/expanded-15km-sources.mjs
           node scripts/no-key-public-sources.mjs
+          node scripts/himalayas-no-key.mjs
           node scripts/exclude-unwanted.mjs
           node scripts/office-profile.mjs
           node scripts/scope-jobs.mjs
