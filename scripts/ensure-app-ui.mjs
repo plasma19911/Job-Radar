@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 
-// Letzter Schritt jedes Scans: mobiles App-Layout und PWA-Dateien dauerhaft erhalten.
+// Letzter Schritt jedes Scans: 15-km-App-Layout, Polish und PWA-Dateien dauerhaft erhalten.
 const INDEX='public/index.html';
 const SW='public/sw.js';
 
@@ -25,4 +25,4 @@ if(!sw.includes("'./pwa-install.js'")) sw=sw.replace("'./favorite-store.js'","'.
 if(!sw.includes("'./icons/icon-maskable.svg'")) sw=sw.replace("'./icons/icon.svg'","'./icons/icon.svg','./icons/icon-maskable.svg'");
 await fs.writeFile(SW,sw);
 
-console.log('15-km-Handy-App-UI, visuelles Polish, Favoriten und PWA-Cache v8 sichergestellt.');
+console.log('Vollständiger 15-km-App-Stand inkl. polish.css, Favoriten und PWA-Cache v8 sichergestellt.');
