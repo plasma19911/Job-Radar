@@ -1214,5 +1214,21 @@
     "lat": 52.571656,
     "lon": 13.5417751,
     "display_name": "13057, Falkenberg, Lichtenberg, Berlin, Deutschland"
+  },
+  "eisenhuttenstadt deutschland": {
+    "lat": 52.1448863,
+    "lon": 14.6294413,
+    "display_name": "Eisenhüttenstadt, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "16909 heiligengrabe deutschland": {
+    "lat": 53.1449761,
+    "lon": 12.3601617,
+    "display_name": "Heiligengrabe, Ostprignitz-Ruppin, Brandenburg, Deutschland"
+  },
+  "extra:sachsische str 28 buro verwaltung sachbearbeitung 10707 berlin": null,
+  "major-portals:munzstraße 19 berlin": {
+    "lat": 52.5244103,
+    "lon": 13.4069079,
+    "display_name": "19, Münzstraße, Scheunenviertel, Spandauer Vorstadt, Mitte, Berlin, 10178, Deutschland"
   }
 }
