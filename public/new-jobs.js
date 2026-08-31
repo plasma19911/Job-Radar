@@ -26,7 +26,7 @@ function buildPopup(jobs,read,favorites){
         <div>
           <div class="new-jobs-kicker">● Neu im Radar</div>
           <h2 id="newJobsTitle">Neue Jobs dieser Woche · <span data-new-count>${jobs.length}</span></h2>
-          <p>Diese Stellen sind beim Scannen neu dazugekommen. Mit ★ kannst du sie direkt dauerhaft als Favorit speichern.</p>
+          <p>Lokale Stellen stehen zuerst. Reine Homeoffice-Stellen sind darunter platzsparend eingeklappt. Mit ★ kannst du Jobs direkt dauerhaft als Favorit speichern.</p>
         </div>
         <button class="new-jobs-close" type="button" aria-label="Popup schließen">×</button>
       </header>
@@ -41,6 +41,26 @@ function buildPopup(jobs,read,favorites){
   const countEl=backdrop.querySelector('[data-new-count]');
   const readAll=backdrop.querySelector('.new-jobs-read-all');
   const rows=new Map();
+  const localJobs=jobs.filter(j=>j.remoteFull!==true);
+  const remoteJobs=jobs.filter(j=>j.remoteFull===true);
+
+  const localGroup=document.createElement('section');
+  localGroup.className='new-jobs-group new-jobs-group-local';
+  localGroup.dataset.jobGroup='local';
+  localGroup.innerHTML=`<div class="new-jobs-group-title"><span>◎ Lokal · bis 10 km</span><strong>${localJobs.length}</strong></div><div class="new-jobs-group-list"></div>`;
+  if(localJobs.length)list.appendChild(localGroup);
+
+  const remoteGroup=document.createElement('details');
+  remoteGroup.className='new-jobs-group new-jobs-group-remote';
+  remoteGroup.dataset.jobGroup='remote';
+  remoteGroup.innerHTML=`
+    <summary class="new-jobs-group-summary">
+      <span class="new-jobs-group-icon" aria-hidden="true">+</span>
+      <span class="new-jobs-group-summary-text"><strong>⌂ 100 % Homeoffice</strong><small>Nicht lokal · zum Aufklappen</small></span>
+      <span class="new-jobs-group-count">${remoteJobs.length}</span>
+    </summary>
+    <div class="new-jobs-group-list"></div>`;
+  if(remoteJobs.length)list.appendChild(remoteGroup);
 
   function syncFavorite(job,row){
     const fav=isFavorite(job,favorites),btn=row.querySelector('.new-job-fav');
@@ -57,14 +77,25 @@ function buildPopup(jobs,read,favorites){
   window.addEventListener('jobradar:favorites-changed',onFavoriteChange);
 
   function close(){window.removeEventListener('jobradar:favorites-changed',onFavoriteChange);backdrop.remove();}
+  function updateGroups(){
+    const localLeft=localGroup.querySelectorAll('.new-job-row').length;
+    const remoteLeft=remoteGroup.querySelectorAll('.new-job-row').length;
+    localGroup.hidden=localLeft===0;
+    remoteGroup.hidden=remoteLeft===0;
+    const localCount=localGroup.querySelector('.new-jobs-group-title strong');
+    const remoteCount=remoteGroup.querySelector('.new-jobs-group-count');
+    if(localCount)localCount.textContent=String(localLeft);
+    if(remoteCount)remoteCount.textContent=String(remoteLeft);
+  }
   function updateCount(){
     const left=list.querySelectorAll('.new-job-row').length;
     countEl.textContent=String(left);
+    updateGroups();
     if(left===0){list.innerHTML='<div class="new-jobs-empty"><strong>Alles gelesen ✓</strong>Für diese Woche sind keine ungelesenen neuen Jobs mehr übrig.</div>';readAll.disabled=true;setTimeout(close,650);}
   }
   function markOne(job,row){read.add(token(job));saveRead(read);rows.delete(job);row.remove();updateCount();}
 
-  for(const j of jobs){
+  function createRow(j){
     const row=document.createElement('article');
     row.className='new-job-row';
     row.innerHTML=`
@@ -82,8 +113,13 @@ function buildPopup(jobs,read,favorites){
     syncFavorite(j,row);
     row.querySelector('.new-job-fav').addEventListener('click',async()=>{await toggleFavorite(j,favorites);syncFavorite(j,row);});
     row.querySelector('.new-job-read').addEventListener('click',()=>markOne(j,row));
-    list.appendChild(row);
+    return row;
   }
+
+  const localList=localGroup.querySelector('.new-jobs-group-list');
+  const remoteList=remoteGroup.querySelector('.new-jobs-group-list');
+  for(const j of localJobs)localList.appendChild(createRow(j));
+  for(const j of remoteJobs)remoteList.appendChild(createRow(j));
 
   backdrop.querySelector('.new-jobs-close').addEventListener('click',close);
   backdrop.addEventListener('click',e=>{if(e.target===backdrop)close();});
