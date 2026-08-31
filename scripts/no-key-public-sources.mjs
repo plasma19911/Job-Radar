@@ -15,7 +15,8 @@ const hash=v=>crypto.createHash('sha1').update(String(v)).digest('hex').slice(0,
 const excluded=v=>/(ausbildung|ausbildungsplatz|auszubild|azubi|lehrstelle|duales studium|dual studium|dualstudent|berufsausbildung|werkstudent|werkstudentin|working student|studentische hilfskraft|praktikum|praktikant|praktikantin|internship|\bintern\b)/i.test(norm(v));
 const officeLike=v=>/(sachbearbeit|büro|buero|office|verwaltung|administrat|assistenz|assistant|sekret|empfang|rezeption|kundenservice|customer|support|backoffice|buchhalt|accountant|finance|finanz|controlling|personal|people|human resources|\bhr\b|recruit|einkauf|procurement|vertriebsinnendienst|sales support|daten|data|it support|service desk|operations|operation|koordination|coordinator|projekt|project|legal|recht|compliance|kaufmänn|kaufmaenn|payroll|abrechnung|disponent|disposition)/i.test(norm(v));
 const hybrid=v=>/(hybrid|teilweise homeoffice|teilweise remote|tage pro woche|tage im büro|tage im buero|office days|on-site days|onsite days)/i.test(norm(v));
-const remoteFull=v=>{const t=norm(v);if(hybrid(t))return false;return /(100 ?% ?(remote|homeoffice)|fully remote|full remote|remote only|komplett remote|vollständig remote|vollstaendig remote|reines homeoffice|ausschließlich homeoffice|ausschliesslich homeoffice|ortsunabhängig|ortsunabhangig|remote)/i.test(t);};
+const explicitRemoteFull=v=>{const t=norm(v);if(!t||hybrid(t))return false;return /(100 ?% ?(remote|homeoffice)|fully remote|full remote|remote only|remote-only|komplett remote|vollständig remote|vollstaendig remote|reines homeoffice|ausschließlich homeoffice|ausschliesslich homeoffice|ortsunabhängig|ortsunabhangig|work from anywhere|anywhere in germany)/i.test(t);};
+const locationRemoteFull=v=>{const t=norm(v);if(!t||hybrid(t))return false;return /(^|\b)(remote|homeoffice|germany remote|remote germany|deutschland remote|remote deutschland)(\b|$)/i.test(t);};
 const germanyEvidence=v=>/(deutschland|germany|berlin|brandenburg|potsdam|falkensee|hennigsdorf|german|deutsch|europe.*germany|germany.*remote)/i.test(clean(v));
 
 async function get(url,{json=true,tries=2,headers={}}={}){
@@ -84,9 +85,15 @@ async function greenhouse(){
     try{
       const d=await get(`https://boards-api.greenhouse.io/v1/boards/${encodeURIComponent(cfg.board)}/jobs?content=true`);
       for(const o of d.jobs||[]){
-        const text=`${o.title||''} ${o.content||''} ${o.location?.name||''}`;
+        const loc=clean(o.location?.name||'');
+        const text=`${o.title||''} ${o.content||''} ${loc}`;
         if(excluded(text)||!officeLike(text)||!germanyEvidence(text))continue;
-        const full=remoteFull(text);const j=job({id:`gh-${cfg.board}-${o.id}`,title:o.title,company:cfg.company,location:o.location?.name||'',remote:full,remoteFull:full,employmentType:[],publishedAt:o.updated_at||null,url:o.absolute_url,description:o.content,source});out.push(await enrich(j));
+        // Greenhouse liefert kein verlaessliches workplaceType-Feld. Darum nur dann
+        // 100%-Remote setzen, wenn der Standort selbst Remote sagt oder die Anzeige
+        // eine explizite Voll-Remote-Formulierung enthaelt. Ein einzelnes "remote"
+        // irgendwo in Benefits/Beschreibung reicht absichtlich NICHT.
+        const full=locationRemoteFull(loc)||explicitRemoteFull(`${o.title||''} ${loc} ${(strip(o.content||'').slice(0,1800))}`);
+        const j=job({id:`gh-${cfg.board}-${o.id}`,title:o.title,company:cfg.company,location:loc,remote:full,remoteFull:full,employmentType:[],publishedAt:o.updated_at||null,url:o.absolute_url,description:o.content,source});out.push(await enrich(j));
       }
     }catch(e){console.warn(`[${source}] ${cfg.board}: ${e.message}`);}
   }
