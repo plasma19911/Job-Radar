@@ -6,20 +6,31 @@ Mobile Jobkarte für genau diesen Suchbereich:
 - **reine 100-%-Homeoffice-Stellen:** Entfernung egal, deutschlandweit
 - **keine Ausbildungsangebote**
 - **keine doppelten Stellenanzeigen**
+- **Senior-Stellen und unpassende körperlich schwere Tätigkeiten werden gefiltert**
 
 ## Quellen
 
-Ohne API-Schlüssel:
+Der Radar kombiniert große Jobportale, öffentliche Quellen und direkte Arbeitgeberseiten. Dazu gehören unter anderem:
 
-- Bundesagentur für Arbeit
+- Bundesagentur für Arbeit + erweiterte Umkreis-Orte
 - Arbeitnow
+- Kimeta
+- HeyJobs
+- JobMESH
+- StepStone
+- XING Jobs
+- LinkedIn Jobs
+- stellenanzeigen.de
+- Talent.com
 - Tagesspiegel Jobs
 - Berliner Morgenpost Jobs
 - MAZ Job
 - bluum Brandenburg
 - Berliner Zeitung Jobmarkt
+- Land Berlin Karriereportal
+- zahlreiche direkte Arbeitgeberquellen aus Spandau, Tegel, Reinickendorf, Falkensee und Hennigsdorf
 
-Optional kann Adzuna über `ADZUNA_APP_ID` und `ADZUNA_APP_KEY` ergänzt werden.
+Weitere API-Portale wie Adzuna, Jooble und Careerjet werden genutzt, wenn die entsprechenden Repository-Secrets hinterlegt sind.
 
 ## Wichtige Filterregel
 
@@ -29,29 +40,35 @@ Eine Stelle außerhalb dieses Radius bleibt nur dann erhalten, wenn sie als **re
 
 ## Keine Ausbildung
 
-Die Arbeitsagentur wird mit `angebotsart=1` abgefragt. Zusätzlich entfernt der Import Treffer mit Titeln/Typen wie `Ausbildung`, `Ausbildungsplatz`, `Azubi`, `Lehrstelle` oder `Duales Studium`. Eine normale Stelle wird nicht nur deshalb entfernt, weil im Beschreibungstext eine abgeschlossene Ausbildung verlangt wird.
+Die Arbeitsagentur wird mit `angebotsart=1` abgefragt. Zusätzlich entfernt der Import Treffer mit Titeln/Typen wie `Ausbildung`, `Ausbildungsplatz`, `Azubi`, `Lehrstelle`, `Duales Studium`, `Werkstudent` oder `Praktikum`. Eine normale Stelle wird nicht nur deshalb entfernt, weil im Beschreibungstext eine abgeschlossene Ausbildung verlangt wird.
 
 ## Automatische Aktualisierung
 
-`.github/workflows/update-jobs.yml` läuft einmal täglich und führt nacheinander aus:
+`.github/workflows/update-jobs-workflow.yml` läuft täglich mit einem Ersatzlauf und kann bei einem verpassten Scan vom Watchdog nachgestartet werden. Der Workflow verwendet Node.js 24 und führt nacheinander aus:
 
 1. Hauptimport aus den Jobquellen
-2. Nachimport Arbeitsagentur / Tagesspiegel
-3. deutschlandweiten Import reiner Homeoffice-Stellen
-4. endgültigen Scope-Filter: **15 km oder 100 % Homeoffice**
-5. Dublettenbereinigung und Speichern in `public/data/jobs.json`
+2. erweiterte Arbeitsagentur-Suche über mehrere Suchmittelpunkte im 15-km-Gebiet
+3. direkte lokale Arbeitgeber und große Jobportale
+4. zusätzliche Portale Kimeta, HeyJobs und JobMESH
+5. deutschlandweiten Import reiner Homeoffice-Stellen
+6. Ausschluss-, Büro/PC- und Dublettenfilter
+7. endgültigen Scope-Filter: **15 km oder 100 % Homeoffice**
+8. Aktualisierung der PWA und der Oberfläche
 
 ## Webseite
 
 - OpenStreetMap + Leaflet
 - Jobmarker für lokale Stellen
 - reine Homeoffice-Stellen erscheinen in der Liste mit **„Entfernung egal“**
+- lokale Treffer stehen im Neue-Jobs-Fenster zuerst
+- nicht-lokales 100-%-Homeoffice ist dort standardmäßig eingeklappt
 - Suchbegriff
 - Vollzeit / Teilzeit / Minijob / 100 % Homeoffice
 - Quellenfilter
 - Favoriten
 - Sortierung nach Entfernung, Datum oder Titel
 - mobile PWA mit eigenem Icon
+- modernisierte Desktop- und Handy-Darstellung
 
 ## GitHub Pages einschalten
 
