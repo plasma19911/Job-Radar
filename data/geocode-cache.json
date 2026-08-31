@@ -1265,5 +1265,290 @@
     "lat": 52.5212845,
     "lon": 13.4097989,
     "display_name": "10178, Mitte, Berlin, Deutschland"
+  },
+  "munich or berlin deutschland": null,
+  "expanded15:velten": {
+    "lat": 52.6882194,
+    "lon": 13.1775867,
+    "display_name": "Velten, Oberhavel, Brandenburg, Deutschland"
+  },
+  "expanded15:12101 berlin": {
+    "lat": 52.4781332,
+    "lon": 13.381726,
+    "display_name": "12101, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "nokey:madrid": {
+    "lat": 51.2260454,
+    "lon": 6.7733683,
+    "address": "Madrid, 23, Bolkerstraße, Altstadt, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40213, Deutschland"
+  },
+  "nokey:berlin deutschland": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "address": "Berlin, Deutschland"
+  },
+  "nokey:barcelona": {
+    "lat": 52.5565569,
+    "lon": 13.3416822,
+    "address": "Barcelona, 67, Müllerstraße, Afrikanisches Viertel, Wedding, Mitte, Berlin, 13349, Deutschland"
+  },
+  "nokey:berlin barcelona deutschland": null,
+  "nokey:paris": {
+    "lat": 51.2043968,
+    "lon": 6.7801621,
+    "address": "Paris, 73, Brunnenstraße, Bilk, Stadtbezirk 3, Düsseldorf, Nordrhein-Westfalen, 40223, Deutschland"
+  },
+  "nokey:berlin barcelona vienna deutschland": null,
+  "nokey:berlin vienna barcelona deutschland": null,
+  "nokey:milan": {
+    "lat": 50.0015361,
+    "lon": 8.2631943,
+    "address": "Milan, Hintere Bleiche, Regierungsviertel, Bleichenviertel, Altstadt, Mainz, Rheinland-Pfalz, 55116, Deutschland"
+  },
+  "nokey:manila manila philippines": null,
+  "nokey:verden niedersachsen germany": {
+    "lat": 52.9759701,
+    "lon": 9.1808391,
+    "address": "Landkreis Verden, Niedersachsen, Deutschland"
+  },
+  "nokey:barleben saxony anhalt germany": {
+    "lat": 52.2007378,
+    "lon": 11.6203578,
+    "address": "Barleben, Börde, Sachsen-Anhalt, 39179, Deutschland"
+  },
+  "nokey:derby england united kingdom": null,
+  "nokey:magdeburg saxony anhalt germany": {
+    "lat": 52.1314783,
+    "lon": 11.6400789,
+    "address": "Magdeburg, Sachsen-Anhalt, Deutschland"
+  },
+  "nokey:amsterdam north holland netherlands berlin berlin germany paris paris france": null,
+  "nokey:germany": {
+    "lat": 51.1638175,
+    "lon": 10.4478313,
+    "address": "Deutschland"
+  },
+  "nokey:berlin berlin germany": {
+    "lat": 52.503379,
+    "lon": 13.3386522,
+    "address": "Berlin, Tauentzienstraße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10789, Deutschland"
+  },
+  "nokey:warszawa masovian voivodeship poland": null,
+  "nokey:toronto ontario canada": null,
+  "nokey:amsterdam north holland netherlands berlin berlin germany london england united kingdom paris paris france": null,
+  "nokey:amsterdam north holland netherlands": null,
+  "nokey:amsterdam north holland netherlands berlin berlin germany london england united kingdom": null,
+  "nokey:bleiswijk south holland netherlands": null,
+  "nokey:saarbrucken germany": {
+    "lat": 49.234362,
+    "lon": 6.996379,
+    "address": "Saarbrücken, Regionalverband Saarbrücken, Saarland, Deutschland"
+  },
+  "nokey:london": {
+    "lat": 49.537175,
+    "lon": 8.3542016,
+    "address": "London, 28, Wormser Straße, Strandbad Quartier, Frankenthal Kernstadt, Frankenthal (Pfalz), Rheinland-Pfalz, 67227, Deutschland"
+  },
+  "nokey:berlin business site deutschland": null,
+  "nokey:munich": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "address": "München, Bayern, Deutschland"
+  },
+  "nokey:seoul south korea": null,
+  "nokey:tokyo": {
+    "lat": 51.5154031,
+    "lon": 7.4629748,
+    "address": "Tokyo, Platz von Amiens, Mitte, Innenstadt West, Dortmund, Nordrhein-Westfalen, 44137, Deutschland"
+  },
+  "nokey:berlin germany": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "address": "Berlin, Deutschland"
+  },
+  "nokey:baku": {
+    "lat": 52.5688355,
+    "lon": 13.4085119,
+    "address": "Baku, Schulstraße, Alt-Pankow, Florakiez, Pankow, Berlin, 13187, Deutschland"
+  },
+  "nokey:kuala lumpur": null,
+  "nokey:munich de": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "address": "München, Bayern, Deutschland"
+  },
+  "nokey:munchen de": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "address": "München, Bayern, Deutschland"
+  },
+  "nokey:berlin de deutschland": {
+    "lat": 52.4880036,
+    "lon": 13.4089223,
+    "address": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "nokey:koln de": {
+    "lat": 50.938361,
+    "lon": 6.959974,
+    "address": "Köln, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:london gb": {
+    "lat": 52.874576,
+    "lon": 10.5936255,
+    "address": "Klein London, Stadensen, Nettelkamp, Wrestedt, Samtgemeinde Aue, Landkreis Uelzen, Niedersachsen, 29559, Deutschland"
+  },
+  "nokey:pforzheim de": {
+    "lat": 48.890934,
+    "lon": 8.7025509,
+    "address": "Pforzheim, Baden-Württemberg, Deutschland"
+  },
+  "nokey:ulm de": {
+    "lat": 48.3984968,
+    "lon": 9.9912458,
+    "address": "Ulm, Baden-Württemberg, Deutschland"
+  },
+  "nokey:stockholm": {
+    "lat": 48.1294826,
+    "lon": 11.6898781,
+    "address": "Stockholmstraße, Messestadt Riem, Trudering-Riem, München, Bayern, 81829, Deutschland"
+  },
+  "nokey:toronto": {
+    "lat": 52.3927861,
+    "lon": 13.2690277,
+    "address": "Toronto-Straße, Mühlendorf, Seehof, Teltow, Potsdam-Mittelmark, Brandenburg, 14513, Deutschland"
+  },
+  "nokey:vienna": {
+    "lat": 52.47532,
+    "lon": 13.3237587,
+    "address": "Mr. Moose, 9, Südwestkorso, Wagnerviertel, Friedenau, Tempelhof-Schöneberg, Berlin, 12161, Deutschland"
+  },
+  "nokey:koln": {
+    "lat": 50.938361,
+    "lon": 6.959974,
+    "address": "Köln, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:hamburg": {
+    "lat": 53.5501721,
+    "lon": 10.0013165,
+    "address": "Hamburg, Deutschland"
+  },
+  "nokey:munchen": {
+    "lat": 48.1371079,
+    "lon": 11.5753822,
+    "address": "München, Bayern, Deutschland"
+  },
+  "nokey:belfast": {
+    "lat": 48.1308518,
+    "lon": 11.685153,
+    "address": "Belfaststraße, Riem, Trudering-Riem, München, Bayern, 81829, Deutschland"
+  },
+  "nokey:amsterdam": {
+    "lat": 52.0649447,
+    "lon": 9.3699539,
+    "address": "Amsterdam, Tündern, Hameln, Landkreis Hameln-Pyrmont, Niedersachsen, 31789, Deutschland"
+  },
+  "nokey:malaga": {
+    "lat": 48.1186297,
+    "lon": 11.5768841,
+    "address": "Malaga, Humboldtstraße, Untergiesing-Harlaching, Giesing, München, Bayern, 81543, Deutschland"
+  },
+  "nokey:frankfurt": {
+    "lat": 50.1106444,
+    "lon": 8.6820917,
+    "address": "Frankfurt am Main, Hessen, Deutschland"
+  },
+  "nokey:cologne": {
+    "lat": 50.938361,
+    "lon": 6.959974,
+    "address": "Köln, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:remote in germany": null,
+  "nokey:ghent": null,
+  "nokey:karlsruhe": {
+    "lat": 49.0068705,
+    "lon": 8.4034195,
+    "address": "Karlsruhe, Baden-Württemberg, Deutschland"
+  },
+  "nokey:aachen": {
+    "lat": 50.776351,
+    "lon": 6.083862,
+    "address": "Aachen, Städteregion Aachen, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:zurich": {
+    "lat": 52.4465937,
+    "lon": 13.3257359,
+    "address": "Zurich, Telramundweg, Steglitz, Steglitz-Zehlendorf, Berlin, 12167, Deutschland"
+  },
+  "nokey:stuttgart": {
+    "lat": 48.7784485,
+    "lon": 9.1800132,
+    "address": "Stuttgart, Baden-Württemberg, Deutschland"
+  },
+  "nokey:san francisco": {
+    "lat": 52.3969909,
+    "lon": 9.6462511,
+    "address": "San Francisco, 2, Koppelweg, Letter, Seelze, Region Hannover, Niedersachsen, 30926, Deutschland"
+  },
+  "nokey:leipzig": {
+    "lat": 51.3406321,
+    "lon": 12.3747329,
+    "address": "Leipzig, Sachsen, Deutschland"
+  },
+  "nokey:remote": {
+    "lat": 49.2186885,
+    "lon": 7.1109673,
+    "address": "Remote Tower EDDR, Balthasar-Goldstein-Straße, Ensheim, Bezirk Halberg, Saarbrücken, Regionalverband Saarbrücken, Saarland, 66131, Deutschland"
+  },
+  "nokey:munster north rhine westphalia germany": {
+    "lat": 51.9625101,
+    "lon": 7.6251879,
+    "address": "Münster, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:barcelona catalonia spain": null,
+  "nokey:wroc aw lower silesian voivodeship poland": null,
+  "nokey:paris ile de france france": null,
+  "nokey:aix en provence provence alpes cote d azur france": null,
+  "nokey:casablanca casablanca settat morocco": null,
+  "nokey:warsaw masovian voivodeship poland": null,
+  "nokey:athens attica greece": null,
+  "nokey:sao paulo state of sao paulo brazil": null,
+  "nokey:city of manila metro manila philippines": null,
+  "nokey:lisbon lisbon portugal": null,
+  "nokey:oeiras lisbon portugal": null,
+  "nokey:carcavelos lisbon portugal": null,
+  "nokey:cascais lisbon portugal": null,
+  "nokey:amadora lisbon portugal": null,
+  "nokey:queluz lisbon portugal": null,
+  "nokey:dublin county dublin ireland": null,
+  "nokey:london england united kingdom": null,
+  "nokey:bengaluru karnataka india": null,
+  "nokey:hyderabad telangana india": null,
+  "nokey:pune maharashtra india": null,
+  "nokey:rio de janeiro state of rio de janeiro brazil": null,
+  "nokey:campinas state of sao paulo brazil": null,
+  "nokey:osasco state of sao paulo brazil": null,
+  "nokey:barueri sao paulo brazil": null,
+  "nokey:sao bernardo do campo state of sao paulo brazil": null,
+  "nokey:tel aviv yafo tel aviv district israel": null,
+  "nokey:madrid community of madrid spain": null,
+  "nokey:sydney new south wales australia": null,
+  "nokey:brasilia brasilia brazil": null,
+  "nokey:curitiba state of parana brazil": null,
+  "nokey:porto alegre state of rio grande do sul brazil": null,
+  "nokey:belo horizonte state of minas gerais brazil": null,
+  "personio:leibnizstraße 49 10629 berlin": {
+    "lat": 52.5020839,
+    "lon": 13.3134531,
+    "address": "Leibniz-Kolonnaden, 49, Leibnizstraße, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10629, Deutschland"
+  },
+  "personio:kurfurstendamm 213 10719 berlin": {
+    "lat": 52.5022582,
+    "lon": 13.325665,
+    "address": "213, Kurfürstendamm, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10719, Deutschland"
+  },
+  "personio:am borsigturm 53 13507 berlin": {
+    "lat": 52.5831929,
+    "lon": 13.2863165,
+    "address": "53, Am Borsigturm, Tegel-Süd, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
   }
 }
