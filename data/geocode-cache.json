@@ -1240,5 +1240,30 @@
     "lat": 52.9945364,
     "lon": 11.7791517,
     "display_name": "19322, Garsedow, Wittenberge, Prignitz, Brandenburg, Deutschland"
+  },
+  "expanded15:10117 berlin": {
+    "lat": 52.5169124,
+    "lon": 13.3873553,
+    "display_name": "10117, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:10587 berlin": {
+    "lat": 52.5184882,
+    "lon": 13.3194602,
+    "display_name": "10587, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "expanded15:12247 berlin": {
+    "lat": 52.4394289,
+    "lon": 13.3463231,
+    "display_name": "12247, Lankwitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "expanded15:10315 berlin": {
+    "lat": 52.5138679,
+    "lon": 13.5149814,
+    "display_name": "10315, Friedrichsfelde, Lichtenberg, Berlin, Deutschland"
+  },
+  "expanded15:10178 berlin": {
+    "lat": 52.5212845,
+    "lon": 13.4097989,
+    "display_name": "10178, Mitte, Berlin, Deutschland"
   }
 }

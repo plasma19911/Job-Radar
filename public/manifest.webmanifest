@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Job Radar – Büro & PC · 10 km + Homeoffice",
+  "name": "Job Radar – Büro & PC · 15 km + Homeoffice",
   "short_name": "Job Radar",
-  "description": "Stellen bis 10 km um Marwitzer Str. 67 oder reine 100-%-Homeoffice-Stellen deutschlandweit. Täglich aktualisiert und ohne doppelte Treffer.",
+  "description": "Stellen bis 15 km um Marwitzer Str. 67 oder reine 100-%-Homeoffice-Stellen deutschlandweit. Täglich aktualisiert und ohne doppelte Treffer.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
