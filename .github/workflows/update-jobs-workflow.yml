@@ -34,6 +34,10 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Neue No-Key-Importer prüfen
+        run: |
+          node --check scripts/no-key-public-sources.mjs
+
       - name: Stellen aus allen Quellen aktualisieren
         run: |
           node scripts/update-jobs.mjs
@@ -53,6 +57,7 @@ jobs:
           node scripts/major-job-portals.mjs
           node scripts/api-portale.mjs
           node scripts/expanded-15km-sources.mjs
+          node scripts/no-key-public-sources.mjs
           node scripts/exclude-unwanted.mjs
           node scripts/office-profile.mjs
           node scripts/scope-jobs.mjs
