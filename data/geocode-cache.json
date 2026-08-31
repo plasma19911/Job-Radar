@@ -1199,5 +1199,20 @@
     "lat": 53.5514245,
     "lon": 10.0003864,
     "display_name": "20095, Altstadt, Hamburg-Mitte, Hamburg, Deutschland"
+  },
+  "17268 templin deutschland": {
+    "lat": 53.1478435,
+    "lon": 13.5877785,
+    "display_name": "17268, Petznick, Templin, Uckermark, Brandenburg, Deutschland"
+  },
+  "hennigsdorf deutschland": {
+    "lat": 52.6375777,
+    "lon": 13.2057511,
+    "display_name": "Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
+  },
+  "13057 berlin deutschland": {
+    "lat": 52.571656,
+    "lon": 13.5417751,
+    "display_name": "13057, Falkenberg, Lichtenberg, Berlin, Deutschland"
   }
 }
