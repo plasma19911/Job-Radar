@@ -2,23 +2,27 @@ import fs from 'node:fs/promises';
 import crypto from 'node:crypto';
 
 // Zusatzquelle: Bundesagentur für Arbeit, aber pro Nachbarort einzeln.
-// Grund: eine einzelne Umkreissuche liefert über die Seitenzahl nur einen
-// Ausschnitt der Treffer. Mehrere kleine Suchmittelpunkte holen deutlich mehr
-// Stellen aus genau dem Bereich, der für die feste Adresse relevant ist.
-
+// Mehrere kleine Suchmittelpunkte liefern deutlich mehr relevante Treffer als
+// eine einzige große Umkreissuche. Der finale 15-km-Filter greift anschließend.
 const OUT = 'public/data/jobs.json';
 const BASE = 'https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs';
 const KEY = 'jobboerse-jobsuche';
 const SOURCE = 'Bundesagentur Umkreis-Orte';
 const DAYS = '28';
 
-// Orte im 15-km-Bereich um Marwitzer Str. 67, 13589 Berlin.
 const PLACES = [
   { wo: '13589 Berlin', umkreis: '7' },
-  { wo: '13593 Berlin', umkreis: '7' },    // Staaken / Wilhelmstadt
-  { wo: '13581 Berlin', umkreis: '7' },    // Spandau Altstadt
-  { wo: '13507 Berlin', umkreis: '7' },    // Tegel
-  { wo: '13629 Berlin', umkreis: '7' },    // Siemensstadt
+  { wo: '13593 Berlin', umkreis: '7' },
+  { wo: '13581 Berlin', umkreis: '7' },
+  { wo: '13597 Berlin', umkreis: '7' },
+  { wo: '13599 Berlin', umkreis: '7' },
+  { wo: '13507 Berlin', umkreis: '7' },
+  { wo: '13629 Berlin', umkreis: '7' },
+  { wo: '13627 Berlin', umkreis: '7' },
+  { wo: '10589 Berlin', umkreis: '7' },
+  { wo: '14059 Berlin', umkreis: '7' },
+  { wo: '13407 Berlin', umkreis: '7' },
+  { wo: '13403 Berlin', umkreis: '7' },
   { wo: '14612 Falkensee', umkreis: '7' },
   { wo: '16761 Hennigsdorf', umkreis: '7' },
   { wo: '16727 Velten', umkreis: '7' },
@@ -29,13 +33,16 @@ const PLACES = [
   { wo: '16540 Hohen Neuendorf', umkreis: '7' }
 ];
 
-// Büro-/PC-nahe Suchbegriffe. Serverseitig gefiltert = weniger Ballast.
 const TERMS = [
   'Sachbearbeiter', 'Bürokauffrau', 'Kaufmännischer Mitarbeiter', 'Assistenz',
   'Sekretariat', 'Kundenservice', 'Buchhaltung', 'Steuerfachangestellte',
   'Verwaltungsfachangestellte', 'Personalsachbearbeiter', 'Datenerfassung',
   'Auftragssachbearbeitung', 'Vertriebsinnendienst', 'Disponent',
-  'Hausverwaltung', 'Backoffice', 'Teamassistenz', 'Empfang', 'IT-Support'
+  'Hausverwaltung', 'Backoffice', 'Teamassistenz', 'Empfang', 'IT-Support',
+  'Projektassistenz', 'Office Manager', 'Datenpflege', 'Rechnungsprüfung',
+  'Forderungsmanagement', 'Einkauf Sachbearbeitung', 'Personalverwaltung',
+  'Lohnbuchhaltung', 'Kundenberater Innendienst', 'Service Center',
+  'Immobilienverwaltung', 'Versicherung Sachbearbeitung'
 ];
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -147,7 +154,7 @@ async function main() {
         const job = toJob(raw);
         if (job && job.title) { collected.push(job); hits++; }
       }
-      await sleep(110);
+      await sleep(90);
     }
     console.log(`[${SOURCE}] ${place.wo}: ${hits} neue Treffer`);
   }
@@ -173,6 +180,9 @@ async function main() {
 
   payload.meta.generatedAt = new Date().toISOString();
   payload.meta.total = payload.jobs.length;
+  payload.meta.baExpanded15km = true;
+  payload.meta.baSearchPlaces = PLACES.length;
+  payload.meta.baSearchTerms = TERMS.length;
   await fs.writeFile(OUT, JSON.stringify(payload, null, 2) + '\n');
   console.log(`${SOURCE}: ${added} neue, ${merged} zusammengeführt. Gesamt ${payload.jobs.length}.`);
 }
