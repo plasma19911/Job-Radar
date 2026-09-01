@@ -1575,5 +1575,56 @@
     "lat": 52.462405,
     "lon": 13.482221,
     "display_name": "12437, Baumschulenweg, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "berlin onsite deutschland": null,
+  "14822 bruck deutschland": {
+    "lat": 52.2003818,
+    "lon": 12.7661201,
+    "display_name": "14822, Brück, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "10439 berlin deutschland": {
+    "lat": 52.5521496,
+    "lon": 13.4121394,
+    "display_name": "10439, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "10709 berlin deutschland": {
+    "lat": 52.4939311,
+    "lon": 13.303047,
+    "display_name": "10709, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "extra:urbanstr 24 10967 berlin": {
+    "lat": 52.4924173,
+    "lon": 13.410038,
+    "display_name": "Haus der Gesundheit, 24, Urbanstraße, Graefekiez, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10967, Deutschland"
+  },
+  "major-portals:12277 berlin": {
+    "lat": 52.413543,
+    "lon": 13.3751312,
+    "display_name": "12277, Marienfelde, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "major-portals:14513 teltow": {
+    "lat": 52.3850035,
+    "lon": 13.2735079,
+    "display_name": "14513, Teltow, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "major-portals:13057 berlin": {
+    "lat": 52.571656,
+    "lon": 13.5417751,
+    "display_name": "13057, Falkenberg, Lichtenberg, Berlin, Deutschland"
+  },
+  "major-portals:argentinische allee 40 14163 berlin": {
+    "lat": 52.4444805,
+    "lon": 13.240098,
+    "display_name": "Krankenhaus Waldfriede, 40, Argentinische Allee, Waldsiedlung Krumme Lanke, Zehlendorf, Steglitz-Zehlendorf, Berlin, 14163, Deutschland"
+  },
+  "expanded15:10707 berlin": {
+    "lat": 52.4965569,
+    "lon": 13.3137211,
+    "display_name": "10707, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "expanded15:13347 berlin": {
+    "lat": 52.5490444,
+    "lon": 13.365515,
+    "display_name": "13347, Wedding, Mitte, Berlin, Deutschland"
   }
 }
