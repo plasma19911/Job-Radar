@@ -1550,5 +1550,30 @@
     "lat": 52.5831929,
     "lon": 13.2863165,
     "address": "53, Am Borsigturm, Tegel-Süd, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "spremberg deutschland": {
+    "lat": 51.5714513,
+    "lon": 14.3804302,
+    "display_name": "Spremberg, Spree-Neiße, Brandenburg, 03130, Deutschland"
+  },
+  "04936 schlieben deutschland": {
+    "lat": 51.7392996,
+    "lon": 13.4146428,
+    "display_name": "04936, Naundorf, Fichtwald, Schlieben, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "16 velten deutschland": {
+    "lat": 51.3304013,
+    "lon": 6.6715299,
+    "display_name": "16, Ernst-Velten-Straße, Gellep-Stratum, Krefeld-Uerdingen, Krefeld, Nordrhein-Westfalen, 47809, Deutschland"
+  },
+  "16 wittstock dosse deutschland": {
+    "lat": 53.1794072,
+    "lon": 12.5046546,
+    "display_name": "16, Sudrowshofer Damm, Wittstock/Dosse, Ostprignitz-Ruppin, Brandenburg, 16909, Deutschland"
+  },
+  "expanded15:12437 berlin": {
+    "lat": 52.462405,
+    "lon": 13.482221,
+    "display_name": "12437, Baumschulenweg, Treptow-Köpenick, Berlin, Deutschland"
   }
 }
