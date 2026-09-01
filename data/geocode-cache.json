@@ -1646,5 +1646,20 @@
     "lat": 54.083515,
     "lon": 12.1659251,
     "display_name": "18055, Brinckmansdorf, Ortsbeirat 15 : Brinckmansdorf, Rostock, Mecklenburg-Vorpommern, Deutschland"
+  },
+  "13355 berlin deutschland": {
+    "lat": 52.5418314,
+    "lon": 13.3905625,
+    "display_name": "13355, Gesundbrunnen, Mitte, Berlin, Deutschland"
+  },
+  "siemensdamm 50 13629 berlin deutschland": {
+    "lat": 52.5350366,
+    "lon": 13.2742541,
+    "display_name": "Siemens Wernerwerk-Hochhaus, 50, Siemensdamm, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland"
+  },
+  "expanded15:15834 rangsdorf": {
+    "lat": 52.2841572,
+    "lon": 13.4528604,
+    "display_name": "15834, Rangsdorf, Teltow-Fläming, Brandenburg, Deutschland"
   }
 }
