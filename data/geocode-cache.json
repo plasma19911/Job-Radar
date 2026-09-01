@@ -1626,5 +1626,25 @@
     "lat": 52.5490444,
     "lon": 13.365515,
     "display_name": "13347, Wedding, Mitte, Berlin, Deutschland"
+  },
+  "essen ruhr deutschland": {
+    "lat": 51.4028153,
+    "lon": 6.9379638,
+    "display_name": "Flughafen Essen-Mülheim, Beykozplatz, Raadt, Menden-Holthausen, Rechtsruhr-Süd, Mülheim an der Ruhr, Nordrhein-Westfalen, 45470, Deutschland"
+  },
+  "falkenhagen mark deutschland": {
+    "lat": 52.4290876,
+    "lon": 14.316869,
+    "display_name": "Falkenhagen (Mark), Seelow-Land, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "eberswalde deutschland": {
+    "lat": 52.8350807,
+    "lon": 13.7996542,
+    "display_name": "Eberswalde, Barnim, Brandenburg, Deutschland"
+  },
+  "expanded15:18055 rostock": {
+    "lat": 54.083515,
+    "lon": 12.1659251,
+    "display_name": "18055, Brinckmansdorf, Ortsbeirat 15 : Brinckmansdorf, Rostock, Mecklenburg-Vorpommern, Deutschland"
   }
 }
