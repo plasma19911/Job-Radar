@@ -1661,5 +1661,31 @@
     "lat": 52.2841572,
     "lon": 13.4528604,
     "display_name": "15834, Rangsdorf, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "berlin frankfurt munich deutschland": null,
+  "16761 hennigsdorf deutschland": {
+    "lat": 52.6303717,
+    "lon": 13.2007941,
+    "display_name": "16761, Hennigsdorf, Oberhavel, Brandenburg, Deutschland"
+  },
+  "expanded15:10115 berlin": {
+    "lat": 52.5321914,
+    "lon": 13.3845571,
+    "display_name": "10115, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:falkensee": {
+    "lat": 52.5606426,
+    "lon": 13.08824,
+    "display_name": "Falkensee, Havelland, Brandenburg, 14612, Deutschland"
+  },
+  "expanded15:12167 berlin": {
+    "lat": 52.4485835,
+    "lon": 13.3337712,
+    "display_name": "12167, Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "nokey:regensburg": {
+    "lat": 49.0195333,
+    "lon": 12.0974869,
+    "address": "Regensburg, Bayern, Deutschland"
   }
 }
