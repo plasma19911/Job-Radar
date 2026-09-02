@@ -1687,5 +1687,35 @@
     "lat": 49.0195333,
     "lon": 12.0974869,
     "address": "Regensburg, Bayern, Deutschland"
+  },
+  "rathenow deutschland": {
+    "lat": 52.6063703,
+    "lon": 12.3382259,
+    "display_name": "Rathenow, Havelland, Brandenburg, Deutschland"
+  },
+  "schwedt oder deutschland": {
+    "lat": 53.0586366,
+    "lon": 14.2840858,
+    "display_name": "Schwedt/Oder, Uckermark, Brandenburg, 16303, Deutschland"
+  },
+  "expanded15:14050 berlin": {
+    "lat": 52.5209723,
+    "lon": 13.2686116,
+    "display_name": "14050, Westend, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "expanded15:12587 berlin": {
+    "lat": 52.4584262,
+    "lon": 13.6355363,
+    "display_name": "12587, Friedrichshagen, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "expanded15:12687 berlin": {
+    "lat": 52.5566368,
+    "lon": 13.5655679,
+    "display_name": "12687, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "expanded15:14193 berlin": {
+    "lat": 52.4831252,
+    "lon": 13.236524,
+    "display_name": "14193, Grunewald, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
