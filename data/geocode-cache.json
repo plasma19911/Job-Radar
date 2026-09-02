@@ -1717,5 +1717,21 @@
     "lat": 52.4831252,
     "lon": 13.236524,
     "display_name": "14193, Grunewald, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
-  }
+  },
+  "calau deutschland": {
+    "lat": 51.7466674,
+    "lon": 13.949307,
+    "display_name": "Calau, Oberspreewald-Lausitz, Brandenburg, 03205, Deutschland"
+  },
+  "10555 berlin deutschland": {
+    "lat": 52.5215243,
+    "lon": 13.3355118,
+    "display_name": "10555, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:50667 koln": {
+    "lat": 50.9386399,
+    "lon": 6.9550296,
+    "display_name": "50667, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:paris paris france": null
 }
