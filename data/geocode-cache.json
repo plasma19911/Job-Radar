@@ -1780,5 +1780,10 @@
     "lat": 52.5016741,
     "lon": 12.8388259,
     "display_name": "14669, Ketzin, Ketzin/Havel, Havelland, Brandenburg, Deutschland"
+  },
+  "konigs wusterhausen deutschland": {
+    "lat": 52.2994511,
+    "lon": 13.6244389,
+    "display_name": "Königs Wusterhausen, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, Deutschland"
   }
 }
