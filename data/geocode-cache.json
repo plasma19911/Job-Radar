@@ -1755,5 +1755,30 @@
     "lon": 13.2049016,
     "display_name": "13585, Spandau, Berlin, Deutschland"
   },
-  "extra:teichstr 65 berufserfahrung arzt vollzeit publizierung bis 25 09 2026 unbefristet 13407 berlin": null
+  "extra:teichstr 65 berufserfahrung arzt vollzeit publizierung bis 25 09 2026 unbefristet 13407 berlin": null,
+  "10719 berlin deutschland": {
+    "lat": 52.4988653,
+    "lon": 13.3256921,
+    "display_name": "10719, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "major-portals:stralauer platz 34 10243 berlin": {
+    "lat": 52.5087608,
+    "lon": 13.4321932,
+    "display_name": "Energieforum Berlin, 34, Stralauer Platz, Andreasviertel, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, 10243, Deutschland"
+  },
+  "major-portals:zimmerstraße 26 27 10969 berlin": {
+    "lat": 52.5074328,
+    "lon": 13.3931895,
+    "display_name": "ADFC Bundesgeschäftsstelle, 26/27, Zimmerstraße, Friedrichstadt, Mitte, Berlin, 10969, Deutschland"
+  },
+  "major-portals:gotzkowskystraße 20 10555 berlin": {
+    "lat": 52.5232817,
+    "lon": 13.3292505,
+    "display_name": "Bildungszentrum Berlin, 20, Gotzkowskystraße, Beusselkiez, Moabit, Mitte, Berlin, 10555, Deutschland"
+  },
+  "major-portals:14669 ketzin havel": {
+    "lat": 52.5016741,
+    "lon": 12.8388259,
+    "display_name": "14669, Ketzin, Ketzin/Havel, Havelland, Brandenburg, Deutschland"
+  }
 }
