@@ -1739,5 +1739,21 @@
     "lat": 52.4009309,
     "lon": 13.0591397,
     "display_name": "Potsdam, Brandenburg, Deutschland"
-  }
+  },
+  "linthe deutschland": {
+    "lat": 52.1550764,
+    "lon": 12.7848089,
+    "display_name": "Linthe, Brück, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "halbe deutschland": {
+    "lat": 52.1072969,
+    "lon": 13.7003105,
+    "display_name": "Halbe, Schenkenländchen, Dahme-Spreewald, Brandenburg, 15757, Deutschland"
+  },
+  "13585 berlin deutschland": {
+    "lat": 52.5477295,
+    "lon": 13.2049016,
+    "display_name": "13585, Spandau, Berlin, Deutschland"
+  },
+  "extra:teichstr 65 berufserfahrung arzt vollzeit publizierung bis 25 09 2026 unbefristet 13407 berlin": null
 }
