@@ -1733,5 +1733,11 @@
     "lon": 6.9550296,
     "display_name": "50667, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, Deutschland"
   },
-  "nokey:paris paris france": null
+  "nokey:paris paris france": null,
+  "berlin bonn essen deutschland": null,
+  "potsdam brandenburg deutschland": {
+    "lat": 52.4009309,
+    "lon": 13.0591397,
+    "display_name": "Potsdam, Brandenburg, Deutschland"
+  }
 }
