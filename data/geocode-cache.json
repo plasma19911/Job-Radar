@@ -1795,5 +1795,12 @@
     "lat": 52.4492125,
     "lon": 13.3712839,
     "display_name": "12105, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "extra:frankfurter allee 35 37 berufserfahrung junior level 10247 berlin": null,
+  "extra:turmstraße 21 lagetsi publizierung bis 18 09 2026 unbefristet 10559 berlin": null,
+  "expanded15:12103 berlin": {
+    "lat": 52.4639958,
+    "lon": 13.3746306,
+    "display_name": "12103, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
   }
 }
