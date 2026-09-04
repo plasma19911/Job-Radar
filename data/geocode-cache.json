@@ -1802,5 +1802,26 @@
     "lat": 52.4639958,
     "lon": 13.3746306,
     "display_name": "12103, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "15926 heideblick deutschland": {
+    "lat": 51.8273571,
+    "lon": 13.6948198,
+    "display_name": "15926, Goßmar, Heideblick, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "extra:platz der luftbrucke 6 it 12101 berlin": null,
+  "expanded15:13595 berlin": {
+    "lat": 52.511632,
+    "lon": 13.1964848,
+    "display_name": "13595, Wilhelmstadt, Spandau, Berlin, Deutschland"
+  },
+  "expanded15:brandenburg": {
+    "lat": 52.8455492,
+    "lon": 13.2461296,
+    "display_name": "Brandenburg, Deutschland"
+  },
+  "expanded15:13355 berlin": {
+    "lat": 52.5418314,
+    "lon": 13.3905625,
+    "display_name": "13355, Gesundbrunnen, Mitte, Berlin, Deutschland"
   }
 }
