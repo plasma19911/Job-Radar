@@ -1785,5 +1785,15 @@
     "lat": 52.2994511,
     "lon": 13.6244389,
     "display_name": "Königs Wusterhausen, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "10965 berlin tempelhof deutschland": {
+    "lat": 52.4650405,
+    "lon": 13.3962241,
+    "display_name": "Vodafone Deutschland GmbH, 14-17, Germaniastraße, Tempelhof, Tempelhof-Schöneberg, Berlin, 12099, Deutschland"
+  },
+  "12105 berlin deutschland": {
+    "lat": 52.4492125,
+    "lon": 13.3712839,
+    "display_name": "12105, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
   }
 }
