@@ -1823,5 +1823,20 @@
     "lat": 52.5418314,
     "lon": 13.3905625,
     "display_name": "13355, Gesundbrunnen, Mitte, Berlin, Deutschland"
+  },
+  "12459 berlin deutschland": {
+    "lat": 52.4652506,
+    "lon": 13.5280941,
+    "display_name": "12459, Oberschöneweide, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "biedenkopfer straße 44 13507 berlin deutschland": {
+    "lat": 52.5795705,
+    "lon": 13.2837485,
+    "display_name": "Biedenkopfer Straße, Tegel-Süd, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "expanded15:10437 berlin": {
+    "lat": 52.5448351,
+    "lon": 13.4125567,
+    "display_name": "10437, Prenzlauer Berg, Pankow, Berlin, Deutschland"
   }
 }
