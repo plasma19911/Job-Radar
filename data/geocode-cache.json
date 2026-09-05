@@ -1860,5 +1860,26 @@
     "lat": 48.1827239,
     "lon": 11.5727786,
     "address": "New York, Knorrstraße, Am Hart, Milbertshofen-Am Hart, München, Bayern, 80807, Deutschland"
+  },
+  "liveeo gmbh berlin onsite deutschland": null,
+  "schwerin deutschland": {
+    "lat": 53.6288297,
+    "lon": 11.4148038,
+    "display_name": "Schwerin, Mecklenburg-Vorpommern, Deutschland"
+  },
+  "lubben spreewald deutschland": {
+    "lat": 51.9418987,
+    "lon": 13.8963805,
+    "display_name": "Lübben (Spreewald), Dahme-Spreewald, Brandenburg, 15907, Deutschland"
+  },
+  "expanded15:13507 berlin": {
+    "lat": 52.5762682,
+    "lon": 13.2733723,
+    "display_name": "13507, Tegel, Reinickendorf, Berlin, Deutschland"
+  },
+  "expanded15:13349 berlin": {
+    "lat": 52.5579871,
+    "lon": 13.347349,
+    "display_name": "13349, Wedding, Mitte, Berlin, Deutschland"
   }
 }
