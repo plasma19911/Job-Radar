@@ -1838,5 +1838,27 @@
     "lat": 52.5448351,
     "lon": 13.4125567,
     "display_name": "10437, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "ltq de berlin deutschland": null,
+  "berlin paris deutschland": null,
+  "vetschau spreewald deutschland": {
+    "lat": 51.778218,
+    "lon": 14.0608289,
+    "display_name": "Vetschau/Spreewald, Oberspreewald-Lausitz, Brandenburg, 03226, Deutschland"
+  },
+  "massen niederlausitz deutschland": {
+    "lat": 51.6406638,
+    "lon": 13.7378215,
+    "display_name": "Massen-Niederlausitz, Kleine Elster (Niederlausitz), Elbe-Elster, Brandenburg, 03246, Deutschland"
+  },
+  "expanded15:93142 maxhutte haidhof": {
+    "lat": 49.182464,
+    "lon": 12.1009437,
+    "display_name": "93142, Maxhütte-Haidhof, Landkreis Schwandorf, Bayern, Deutschland"
+  },
+  "nokey:new york": {
+    "lat": 48.1827239,
+    "lon": 11.5727786,
+    "address": "New York, Knorrstraße, Am Hart, Milbertshofen-Am Hart, München, Bayern, 80807, Deutschland"
   }
 }
