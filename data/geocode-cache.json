@@ -1881,5 +1881,11 @@
     "lat": 52.5579871,
     "lon": 13.347349,
     "display_name": "13349, Wedding, Mitte, Berlin, Deutschland"
-  }
+  },
+  "15834 rangsdorf deutschland": {
+    "lat": 52.2841572,
+    "lon": 13.4528604,
+    "display_name": "15834, Rangsdorf, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "major-portals:metropolregion berlin brandenburg": null
 }
