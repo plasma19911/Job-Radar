@@ -1919,5 +1919,10 @@
     "lat": 52.5027773,
     "lon": 13.3085473,
     "display_name": "10629, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "expanded15:12623 berlin": {
+    "lat": 52.5025905,
+    "lon": 13.616542,
+    "display_name": "12623, Mahlsdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
   }
 }
