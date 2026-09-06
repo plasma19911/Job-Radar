@@ -1904,5 +1904,20 @@
     "lon": 6.9449501,
     "address": "Copenhagen, 25, Apostelnstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland"
   },
-  "nokey:balearic islands": null
+  "nokey:balearic islands": null,
+  "seddiner see deutschland": {
+    "lat": 52.2798016,
+    "lon": 13.0129167,
+    "display_name": "Seddiner See, Potsdam-Mittelmark, Brandenburg, 14554, Deutschland"
+  },
+  "expanded15:14624 dallgow doberitz": {
+    "lat": 52.5122751,
+    "lon": 13.0712154,
+    "display_name": "14624, Dallgow-Döberitz, Havelland, Brandenburg, Deutschland"
+  },
+  "expanded15:10629 berlin": {
+    "lat": 52.5027773,
+    "lon": 13.3085473,
+    "display_name": "10629, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  }
 }
