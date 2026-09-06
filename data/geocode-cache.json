@@ -1887,5 +1887,22 @@
     "lon": 13.4528604,
     "display_name": "15834, Rangsdorf, Teltow-Fläming, Brandenburg, Deutschland"
   },
-  "major-portals:metropolregion berlin brandenburg": null
+  "major-portals:metropolregion berlin brandenburg": null,
+  "berlin standard deutschland": null,
+  "schellendorffstraße 14199 berlin deutschland": {
+    "lat": 52.472865,
+    "lon": 13.2886896,
+    "display_name": "Schellendorffstraße, Schmargendorf, Charlottenburg-Wilmersdorf, Berlin, 14199, Deutschland"
+  },
+  "turmstr 21 10559 berlin deutschland": {
+    "lat": 52.5286483,
+    "lon": 13.3464519,
+    "display_name": "Landesamt für Gesundheit und Soziales Berlin, 21, Turmstraße, Alt-Moabit, Stephankiez, Moabit, Mitte, Berlin, 10559, Deutschland"
+  },
+  "nokey:copenhagen": {
+    "lat": 50.9382694,
+    "lon": 6.9449501,
+    "address": "Copenhagen, 25, Apostelnstraße, Apostelviertel, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, 50667, Deutschland"
+  },
+  "nokey:balearic islands": null
 }
