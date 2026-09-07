@@ -1955,5 +1955,10 @@
     "lat": 52.4683868,
     "lon": 13.4632114,
     "display_name": "12057, Neukölln, Berlin, Deutschland"
+  },
+  "10317 berlin lichtenberg deutschland": {
+    "lat": 52.497936,
+    "lon": 13.4907298,
+    "display_name": "10317, Rummelsburg, Lichtenberg, Berlin, Deutschland"
   }
 }
