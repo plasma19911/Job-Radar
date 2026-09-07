@@ -1935,5 +1935,25 @@
     "lat": 51.3386547,
     "lon": 12.365381,
     "display_name": "04109, Zentrum-West, Mitte, Leipzig, Sachsen, Deutschland"
+  },
+  "17268 milmersdorf deutschland": {
+    "lat": 53.1023927,
+    "lon": 13.6311151,
+    "display_name": "Milmersdorf, Gerswalde, Uckermark, Brandenburg, Deutschland"
+  },
+  "13581 berlin spandau deutschland": {
+    "lat": 52.5310541,
+    "lon": 13.1793679,
+    "display_name": "13581, Spandau, Berlin, Deutschland"
+  },
+  "expanded15:03042 cottbus": {
+    "lat": 51.7625483,
+    "lon": 14.3764462,
+    "display_name": "03042, Sandow, Cottbus, Brandenburg, Deutschland"
+  },
+  "expanded15:12057 berlin": {
+    "lat": 52.4683868,
+    "lon": 13.4632114,
+    "display_name": "12057, Neukölln, Berlin, Deutschland"
   }
 }
