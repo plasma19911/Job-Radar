@@ -1924,5 +1924,16 @@
     "lat": 52.5025905,
     "lon": 13.616542,
     "display_name": "12623, Mahlsdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "reichenwalde deutschland": {
+    "lat": 52.2658593,
+    "lon": 13.9980012,
+    "display_name": "Reichenwalde, Scharmützelsee, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "extra:riesaer straße 94 4 020 5 642 eur publiziert 07 09 2026 publizierung bis 28 09 2026 12627 berlin": null,
+  "expanded15:04109 leipzig": {
+    "lat": 51.3386547,
+    "lon": 12.365381,
+    "display_name": "04109, Zentrum-West, Mitte, Leipzig, Sachsen, Deutschland"
   }
 }
