@@ -1960,5 +1960,10 @@
     "lat": 52.497936,
     "lon": 13.4907298,
     "display_name": "10317, Rummelsburg, Lichtenberg, Berlin, Deutschland"
+  },
+  "extra:nikolaus groß weg 2 13627 berlin": {
+    "lat": 52.5324811,
+    "lon": 13.2838018,
+    "display_name": "Dienstgelände Nikolaus-Groß-Weg, 2, Nikolaus-Groß-Weg, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13627, Deutschland"
   }
 }
