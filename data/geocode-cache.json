@@ -1975,5 +1975,27 @@
     "lat": 52.4850911,
     "lon": 13.3132512,
     "display_name": "10713, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
-  }
+  },
+  "91244 reichenschwand deutschland": {
+    "lat": 49.5192585,
+    "lon": 11.3742115,
+    "display_name": "91244, Reichenschwand, Landkreis Nürnberger Land, Bayern, Deutschland"
+  },
+  "berlin dach team deutschland": null,
+  "genthiner straße 24 28 10785 berlin deutschland": {
+    "lat": 52.5037278,
+    "lon": 13.359197,
+    "display_name": "Pro Seniore Krankenheim, 24-28, Genthiner Straße, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland"
+  },
+  "an der havelspitze 3 13587 berlin deutschland": {
+    "lat": 52.555909,
+    "lon": 13.2181204,
+    "display_name": "3, An der Havelspitze, Quartier Havelspitze, Wasserstadt Spandau, Hakenfelde, Spandau, Berlin, 13587, Deutschland"
+  },
+  "13581 berlin deutschland": {
+    "lat": 52.5310541,
+    "lon": 13.1793679,
+    "display_name": "13581, Spandau, Berlin, Deutschland"
+  },
+  "nokey:amsterdam north holland netherlands berlin berlin germany uk warszawa masovian voivodeship poland": null
 }
