@@ -1965,5 +1965,15 @@
     "lat": 52.5324811,
     "lon": 13.2838018,
     "display_name": "Dienstgelände Nikolaus-Groß-Weg, 2, Nikolaus-Groß-Weg, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13627, Deutschland"
+  },
+  "14532 stahnsdorf deutschland": {
+    "lat": 52.3701278,
+    "lon": 13.2029187,
+    "display_name": "14532, Güterfelde, Stahnsdorf, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "expanded15:10713 berlin": {
+    "lat": 52.4850911,
+    "lon": 13.3132512,
+    "display_name": "10713, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
