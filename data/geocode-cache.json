@@ -2025,5 +2025,15 @@
     "lat": 52.1192029,
     "lon": 12.8009174,
     "display_name": "Mühlenfließ, Niemegk, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "nokey:barcelona berlin deutschland": {
+    "lat": 52.506304,
+    "lon": 13.3903978,
+    "address": "Barcelona, 211, Friedrichstraße, Zeitungsviertel, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10969, Deutschland"
+  },
+  "nokey:heidelberg de": {
+    "lat": 49.4093582,
+    "lon": 8.694724,
+    "address": "Heidelberg, Baden-Württemberg, Deutschland"
   }
 }
