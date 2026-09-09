@@ -2020,5 +2020,10 @@
     "lon": 13.363779,
     "display_name": "Strabag AG Nord-Ost, 42B, Bessemerstraße, Schöneberg, Tempelhof-Schöneberg, Berlin, 12103, Deutschland"
   },
-  "nokey:porto porto district portugal": null
+  "nokey:porto porto district portugal": null,
+  "muhlenfließ deutschland": {
+    "lat": 52.1192029,
+    "lon": 12.8009174,
+    "display_name": "Mühlenfließ, Niemegk, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  }
 }
