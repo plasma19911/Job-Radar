@@ -1997,5 +1997,28 @@
     "lon": 13.1793679,
     "display_name": "13581, Spandau, Berlin, Deutschland"
   },
-  "nokey:amsterdam north holland netherlands berlin berlin germany uk warszawa masovian voivodeship poland": null
+  "nokey:amsterdam north holland netherlands berlin berlin germany uk warszawa masovian voivodeship poland": null,
+  "aachen berlin deutschland": null,
+  "onsite berlin deutschland": null,
+  "27 langerwischer straße 14552 michendorf deutschland": {
+    "lat": 52.3118535,
+    "lon": 13.0354801,
+    "display_name": "Oberlin Norberthausschule, 27, Langerwischer Straße, Apfel-Mitte, Michendorf, Potsdam-Mittelmark, Brandenburg, 14552, Deutschland"
+  },
+  "major-portals:pillkaller allee 1 14055 berlin": {
+    "lat": 52.5088314,
+    "lon": 13.2513846,
+    "display_name": "1, Pillkaller Allee, Ostpreußenviertel, Westend, Charlottenburg-Wilmersdorf, Berlin, 14055, Deutschland"
+  },
+  "major-portals:bessemerstr 42b 12103 berlin": {
+    "lat": 52.4630299,
+    "lon": 13.363779,
+    "display_name": "Strabag AG Nord-Ost, 42B, Bessemerstraße, Schöneberg, Tempelhof-Schöneberg, Berlin, 12103, Deutschland"
+  },
+  "major-portals:bessemerstraße 42b 12103 berlin": {
+    "lat": 52.4630299,
+    "lon": 13.363779,
+    "display_name": "Strabag AG Nord-Ost, 42B, Bessemerstraße, Schöneberg, Tempelhof-Schöneberg, Berlin, 12103, Deutschland"
+  },
+  "nokey:porto porto district portugal": null
 }
