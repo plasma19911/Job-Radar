@@ -2035,5 +2035,37 @@
     "lat": 49.4093582,
     "lon": 8.694724,
     "address": "Heidelberg, Baden-Württemberg, Deutschland"
+  },
+  "berlin scan team deutschland": null,
+  "12163 berlin deutschland": {
+    "lat": 52.4626394,
+    "lon": 13.3184892,
+    "display_name": "12163, Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "12205 berlin deutschland": {
+    "lat": 52.4340332,
+    "lon": 13.2944292,
+    "display_name": "12205, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "extra:tino schwierzina str 32 13089 berlin": {
+    "lat": 52.5600837,
+    "lon": 13.4335759,
+    "display_name": "32, Tino-Schwierzina-Straße, Heinersdorf, Pankow, Berlin, 13089, Deutschland"
+  },
+  "extra:klosterstr 59 senatsverwaltung fur finanzen publizierung bis 07 10 2026 10179 berlin": null,
+  "major-portals:hoppegarten": {
+    "lat": 52.550231,
+    "lon": 13.6411944,
+    "display_name": "Hoppegarten, Märkisch-Oderland, Brandenburg, 15366, Deutschland"
+  },
+  "major-portals:landsberger allee 366 12681 berlin": {
+    "lat": 52.5346103,
+    "lon": 13.518839,
+    "display_name": "Die Pyramide, 366, Landsberger Allee, Marzahn, Marzahn-Hellersdorf, Berlin, 12681, Deutschland"
+  },
+  "nokey:osnabruck de": {
+    "lat": 52.2719595,
+    "lon": 8.047635,
+    "address": "Osnabrück, Niedersachsen, Deutschland"
   }
 }
