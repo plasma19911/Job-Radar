@@ -2067,5 +2067,15 @@
     "lat": 52.2719595,
     "lon": 8.047635,
     "address": "Osnabrück, Niedersachsen, Deutschland"
+  },
+  "schoneiche bei berlin deutschland": {
+    "lat": 52.4782896,
+    "lon": 13.6971638,
+    "display_name": "Schöneiche bei Berlin, Oder-Spree, Brandenburg, 15566, Deutschland"
+  },
+  "expanded15:12524 berlin": {
+    "lat": 52.4127556,
+    "lon": 13.5416271,
+    "display_name": "12524, Altglienicke, Treptow-Köpenick, Berlin, Deutschland"
   }
 }
