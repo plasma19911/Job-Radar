@@ -2116,5 +2116,25 @@
     "lat": 52.3337227,
     "lon": 12.9812815,
     "display_name": "Schwielowsee, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "15370 fredersdorf vogelsdorf deutschland": {
+    "lat": 52.4932704,
+    "lon": 13.7588901,
+    "display_name": "Gewerbe- und Industriepark Fredersdorf-Vogelsdorf, Vogelsdorf, Fredersdorf-Vogelsdorf, Märkisch-Oderland, Brandenburg, 15370, Deutschland"
+  },
+  "40 a buckower straße 14715 nennhausen deutschland": {
+    "lat": 52.6020202,
+    "lon": 12.5298305,
+    "display_name": "40a, Buckower Straße, Nennhausen, Havelland, Brandenburg, 14715, Deutschland"
+  },
+  "10713 berlin deutschland": {
+    "lat": 52.4850911,
+    "lon": 13.3132512,
+    "display_name": "10713, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "14195 berlin deutschland": {
+    "lat": 52.4588979,
+    "lon": 13.2829183,
+    "display_name": "14195, Dahlem, Steglitz-Zehlendorf, Berlin, Deutschland"
   }
 }
