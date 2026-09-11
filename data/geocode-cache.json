@@ -2106,5 +2106,15 @@
     "lat": 52.5601311,
     "lon": 13.4717885,
     "display_name": "13088, Weißensee, Pankow, Berlin, Deutschland"
+  },
+  "15938 golßen deutschland": {
+    "lat": 51.9498075,
+    "lon": 13.5899469,
+    "display_name": "15938, Stadt Golßen, Golßen, Unterspreewald, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "schwielowsee deutschland": {
+    "lat": 52.3337227,
+    "lon": 12.9812815,
+    "display_name": "Schwielowsee, Potsdam-Mittelmark, Brandenburg, Deutschland"
   }
 }
