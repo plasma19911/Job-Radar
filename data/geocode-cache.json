@@ -2083,5 +2083,28 @@
     "lon": 13.5739094,
     "display_name": "Ahrensfelde, Barnim, Brandenburg, Deutschland"
   },
-  "nokey:amsterdam north holland netherlands berlin berlin germany k benhavn capital regiondenmark denmark paris paris france": null
+  "nokey:amsterdam north holland netherlands berlin berlin germany k benhavn capital regiondenmark denmark paris paris france": null,
+  "berlin dusseldorf frankfurt hamburg deutschland": null,
+  "10997 berlin deutschland": {
+    "lat": 52.5009559,
+    "lon": 13.4354965,
+    "display_name": "10997, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "10829 berlin deutschland": {
+    "lat": 52.476394,
+    "lon": 13.3608875,
+    "display_name": "10829, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "extra:ba lichtenberg postanschrift vollzeit publizierung bis 02 10 2026 unbefristet 10360 berlin": null,
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 02 10 2026 unbefristet 10315 berlin": null,
+  "major-portals:14478 potsdam": {
+    "lat": 52.3659105,
+    "lon": 13.0929525,
+    "display_name": "14478, Waldstadt II, Potsdam, Brandenburg, Deutschland"
+  },
+  "expanded15:13088 berlin": {
+    "lat": 52.5601311,
+    "lon": 13.4717885,
+    "display_name": "13088, Weißensee, Pankow, Berlin, Deutschland"
+  }
 }
