@@ -2162,5 +2162,10 @@
     "lat": 52.5147143,
     "lon": 13.1674731,
     "display_name": "13593, Wilhelmstadt, Spandau, Berlin, Deutschland"
+  },
+  "03149 forst lausitz deutschland": {
+    "lat": 51.7260799,
+    "lon": 14.6013408,
+    "display_name": "03149, Forst (Lausitz), Spree-Neiße, Brandenburg, Deutschland"
   }
 }
