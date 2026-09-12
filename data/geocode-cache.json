@@ -2136,5 +2136,26 @@
     "lat": 52.4588979,
     "lon": 13.2829183,
     "display_name": "14195, Dahlem, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "berlin brandenburg chemnitz sachsen dresden sachsen deutschland": null,
+  "03046 cottbus deutschland": {
+    "lat": 51.7588503,
+    "lon": 14.3108889,
+    "display_name": "03046, Ströbitz, Klein Ströbitz, Cottbus, Burg-Kolonie, Brandenburg, Deutschland"
+  },
+  "direct:13597 berlin": {
+    "lat": 52.527257,
+    "lon": 13.2194875,
+    "display_name": "13597, Wilhelmstadt, Spandau, Berlin, Deutschland"
+  },
+  "major-portals:seilerstraße 7 78467 konstanz": {
+    "lat": 47.6703292,
+    "lon": 9.1556675,
+    "display_name": "SEITENBAU GmbH, 7, Seilerstraße, Stromeyersdorf, Industriegebiet, Konstanz, VVG der Stadt Konstanz, Landkreis Konstanz, Baden-Württemberg, 78467, Deutschland"
+  },
+  "expanded15:16321 bernau bei berlin": {
+    "lat": 52.6908773,
+    "lon": 13.5823608,
+    "display_name": "16321, Ladeburg, Bernau, Barnim, Brandenburg, Deutschland"
   }
 }
