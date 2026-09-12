@@ -2157,5 +2157,10 @@
     "lat": 52.6908773,
     "lon": 13.5823608,
     "display_name": "16321, Ladeburg, Bernau, Barnim, Brandenburg, Deutschland"
+  },
+  "major-portals:13593 berlin": {
+    "lat": 52.5147143,
+    "lon": 13.1674731,
+    "display_name": "13593, Wilhelmstadt, Spandau, Berlin, Deutschland"
   }
 }
