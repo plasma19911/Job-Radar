@@ -2172,5 +2172,25 @@
     "lat": 52.1493955,
     "lon": 13.3816174,
     "display_name": "Am Mellensee, Teltow-Fläming, Brandenburg, 15838, Deutschland"
+  },
+  "14823 niemegk deutschland": {
+    "lat": 52.0528355,
+    "lon": 12.6603435,
+    "display_name": "14823, Rädigke, Rabenstein/Fläming, Niemegk, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "karl marx straße 188 12043 berlin deutschland": {
+    "lat": 52.4734058,
+    "lon": 13.4405484,
+    "display_name": "Bären Apotheke, 188, Karl-Marx-Straße, Böhmisches Dorf, Körnerkiez, Neukölln, Berlin, 12043, Deutschland"
+  },
+  "kollwitzstraße 64 10435 berlin deutschland": {
+    "lat": 52.5359795,
+    "lon": 13.4179696,
+    "display_name": "64, Kollwitzstraße, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlin, 10435, Deutschland"
+  },
+  "15711 konigs wusterhausen deutschland": {
+    "lat": 52.2876997,
+    "lon": 13.6211805,
+    "display_name": "15711, Königs Wusterhausen, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, Deutschland"
   }
 }
