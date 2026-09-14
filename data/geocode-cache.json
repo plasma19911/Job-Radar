@@ -2208,5 +2208,15 @@
     "lat": 47.6630292,
     "lon": 9.1697193,
     "display_name": "78462, Altstadt, Konstanz, VVG der Stadt Konstanz, Landkreis Konstanz, Baden-Württemberg, Deutschland"
+  },
+  "major-portals:berlin kreuzberg berlin kreuzberg": {
+    "lat": 52.4860843,
+    "lon": 13.3859508,
+    "display_name": "Platz der Luftbrücke, Mehringdamm, Chamissokiez, Bergmannkiez, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "major-portals:78462 berlin": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
   }
 }
