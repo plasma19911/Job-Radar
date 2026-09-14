@@ -2192,5 +2192,16 @@
     "lat": 52.2876997,
     "lon": 13.6211805,
     "display_name": "15711, Königs Wusterhausen, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "elsterwerda deutschland": {
+    "lat": 51.4614993,
+    "lon": 13.5204883,
+    "display_name": "Elsterwerda, Elbe-Elster, Brandenburg, 04910, Deutschland"
+  },
+  "extra:klosterstr 59 publizierung bis 12 10 2026 10179 berlin": null,
+  "expanded15:10829 berlin": {
+    "lat": 52.476394,
+    "lon": 13.3608875,
+    "display_name": "10829, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
   }
 }
