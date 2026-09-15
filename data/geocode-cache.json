@@ -2218,5 +2218,35 @@
     "lat": 52.5173885,
     "lon": 13.3951309,
     "display_name": "Berlin, Deutschland"
+  },
+  "lubbenau deutschland": {
+    "lat": 51.8680114,
+    "lon": 13.9689477,
+    "display_name": "Lübbenau/Spreewald, Oberspreewald-Lausitz, Brandenburg, 03222, Deutschland"
+  },
+  "bad belzig deutschland": {
+    "lat": 52.1405622,
+    "lon": 12.5865873,
+    "display_name": "Bad Belzig, Potsdam-Mittelmark, Brandenburg, 14806, Deutschland"
+  },
+  "lubben deutschland": {
+    "lat": 51.9418987,
+    "lon": 13.8963805,
+    "display_name": "Lübben (Spreewald), Dahme-Spreewald, Brandenburg, 15907, Deutschland"
+  },
+  "14542 werder havel deutschland": {
+    "lat": 52.3832499,
+    "lon": 12.884653,
+    "display_name": "14542, Werder (Havel), Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "kyritz deutschland": {
+    "lat": 52.9430648,
+    "lon": 12.3966896,
+    "display_name": "Kyritz, Ostprignitz-Ruppin, Brandenburg, 16866, Deutschland"
+  },
+  "major-portals:am diek 50 42277 wuppertal": {
+    "lat": 51.2855484,
+    "lon": 7.2240311,
+    "display_name": "50, Am Diek, Bergisches Plateau, Wichlinghausen, Gemarkung Barmen, Oberbarmen, Wuppertal, Nordrhein-Westfalen, 42277, Deutschland"
   }
 }
