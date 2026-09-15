@@ -2263,5 +2263,40 @@
     "lat": 52.4394289,
     "lon": 13.3463231,
     "display_name": "12247, Lankwitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "erkner deutschland": {
+    "lat": 52.4259804,
+    "lon": 13.7542811,
+    "display_name": "Erkner, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "rehfelde deutschland": {
+    "lat": 52.5089197,
+    "lon": 13.9448525,
+    "display_name": "Rehfelde, Märkische Schweiz, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "premnitz deutschland": {
+    "lat": 52.528092,
+    "lon": 12.3394514,
+    "display_name": "Premnitz, Havelland, Brandenburg, 14727, Deutschland"
+  },
+  "15859 storkow mark deutschland": {
+    "lat": 52.2028401,
+    "lon": 13.9268611,
+    "display_name": "15859, Storkow (Mark), Oder-Spree, Brandenburg, Deutschland"
+  },
+  "major-portals:leipziger straße 51 10117 berlin": {
+    "lat": 52.5107936,
+    "lon": 13.4015951,
+    "display_name": "Seven Coffee, 51, Leipziger Straße, Friedrichswerder, Friedrichstadt, Mitte, Berlin, 10117, Deutschland"
+  },
+  "expanded15:14163 berlin": {
+    "lat": 52.4368831,
+    "lon": 13.2385492,
+    "display_name": "14163, Zehlendorf, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "expanded15:12489 berlin": {
+    "lat": 52.4357512,
+    "lon": 13.5431249,
+    "display_name": "12489, Adlershof, Treptow-Köpenick, Berlin, Deutschland"
   }
 }
