@@ -2248,5 +2248,20 @@
     "lat": 51.2855484,
     "lon": 7.2240311,
     "display_name": "50, Am Diek, Bergisches Plateau, Wichlinghausen, Gemarkung Barmen, Oberbarmen, Wuppertal, Nordrhein-Westfalen, 42277, Deutschland"
+  },
+  "03185 peitz deutschland": {
+    "lat": 51.8768958,
+    "lon": 14.4120328,
+    "display_name": "03185, Turnow, Turnow-Preilack, Amt Peitz, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "15528 spreenhagen deutschland": {
+    "lat": 52.3384327,
+    "lon": 13.8879691,
+    "display_name": "15528, Spreenhagen, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "12247 berlin deutschland": {
+    "lat": 52.4394289,
+    "lon": 13.3463231,
+    "display_name": "12247, Lankwitz, Steglitz-Zehlendorf, Berlin, Deutschland"
   }
 }
