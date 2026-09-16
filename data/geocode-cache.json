@@ -2334,5 +2334,15 @@
     "lat": 52.5088608,
     "lon": 13.3273465,
     "display_name": "10623, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "bestensee deutschland": {
+    "lat": 52.242895,
+    "lon": 13.6279176,
+    "display_name": "Bestensee, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 15741, Deutschland"
+  },
+  "expanded15:reinickendorf": {
+    "lat": 52.6047631,
+    "lon": 13.2952872,
+    "display_name": "Reinickendorf, Berlin, Deutschland"
   }
 }
