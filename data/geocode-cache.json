@@ -2313,5 +2313,26 @@
     "lat": 52.4770984,
     "lon": 13.4324541,
     "display_name": "12053, Neukölln, Berlin, Deutschland"
+  },
+  "gosen neu zittau deutschland": {
+    "lat": 52.378937,
+    "lon": 13.7615014,
+    "display_name": "Gosen-Neu Zittau, Spreenhagen, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "neuenhagen bei berlin deutschland": {
+    "lat": 52.5261884,
+    "lon": 13.6889259,
+    "display_name": "Neuenhagen bei Berlin, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "extra:turmstr 21 haus a fuhrungskraft erste ebene 10559 berlin": null,
+  "extra:bayernring 44 12101 berlin": {
+    "lat": 52.4815245,
+    "lon": 13.3851928,
+    "display_name": "44, Bayernring, Manfred-von-Richthofen-Kiez, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 12101, Deutschland"
+  },
+  "expanded15:10623 berlin": {
+    "lat": 52.5088608,
+    "lon": 13.3273465,
+    "display_name": "10623, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
