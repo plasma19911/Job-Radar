@@ -2298,5 +2298,20 @@
     "lat": 52.4357512,
     "lon": 13.5431249,
     "display_name": "12489, Adlershof, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "15306 vierlinden deutschland": {
+    "lat": 52.511419,
+    "lon": 14.3609625,
+    "display_name": "15306, Friedersdorf, Vierlinden, Seelow-Land, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "12055 berlin deutschland": {
+    "lat": 52.471305,
+    "lon": 13.4485974,
+    "display_name": "12055, Neukölln, Berlin, Deutschland"
+  },
+  "12053 berlin deutschland": {
+    "lat": 52.4770984,
+    "lon": 13.4324541,
+    "display_name": "12053, Neukölln, Berlin, Deutschland"
   }
 }
