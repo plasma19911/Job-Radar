@@ -2344,5 +2344,26 @@
     "lat": 52.6047631,
     "lon": 13.2952872,
     "display_name": "Reinickendorf, Berlin, Deutschland"
+  },
+  "berlin dusseldorf frankfurt hamburg munich deutschland": null,
+  "major-portals:schonefeld": {
+    "lat": 52.388552,
+    "lon": 13.5048276,
+    "display_name": "Schönefeld, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 12529, Deutschland"
+  },
+  "major-portals:lankwitzer str 20 12107 berlin": {
+    "lat": 52.4373186,
+    "lon": 13.3775095,
+    "display_name": "20, Lankwitzer Straße, Mariendorf, Tempelhof-Schöneberg, Berlin, 12107, Deutschland"
+  },
+  "major-portals:sophie charlotten straße 15 14059 berlin": {
+    "lat": 52.5197288,
+    "lon": 13.2849764,
+    "display_name": "Hertling, 15, Sophie-Charlotten-Straße, Danckelmannkiez, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 14059, Deutschland"
+  },
+  "expanded15:10787 berlin": {
+    "lat": 52.5078609,
+    "lon": 13.3438747,
+    "display_name": "10787, Tiergarten, Mitte, Berlin, Deutschland"
   }
 }
