@@ -2370,5 +2370,30 @@
     "lat": 52.4483324,
     "lon": 13.4423401,
     "display_name": "Britz, Neukölln, Berlin, Deutschland"
+  },
+  "03130 tschernitz deutschland": {
+    "lat": 51.5843395,
+    "lon": 14.6119141,
+    "display_name": "Tschernitz, Döbern-Land, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "extra:keithstr 30 10178 berlin": {
+    "lat": 52.5048011,
+    "lon": 13.3468519,
+    "display_name": "30, Keithstraße, Tiergarten, Mitte, Berlin, 10787, Deutschland"
+  },
+  "expanded15:10785 berlin": {
+    "lat": 52.50735,
+    "lon": 13.3642193,
+    "display_name": "10785, Tiergarten, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:12099 berlin": {
+    "lat": 52.4639497,
+    "lon": 13.4029018,
+    "display_name": "12099, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "expanded15:10781 berlin": {
+    "lat": 52.4935621,
+    "lon": 13.3528953,
+    "display_name": "10781, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
   }
 }
