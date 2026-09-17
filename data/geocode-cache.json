@@ -2365,5 +2365,10 @@
     "lat": 52.5078609,
     "lon": 13.3438747,
     "display_name": "10787, Tiergarten, Mitte, Berlin, Deutschland"
+  },
+  "britz deutschland": {
+    "lat": 52.4483324,
+    "lon": 13.4423401,
+    "display_name": "Britz, Neukölln, Berlin, Deutschland"
   }
 }
