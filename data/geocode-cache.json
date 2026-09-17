@@ -2395,5 +2395,15 @@
     "lat": 52.4935621,
     "lon": 13.3528953,
     "display_name": "10781, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "14558 nuthetal deutschland": {
+    "lat": 52.3148063,
+    "lon": 13.1254134,
+    "display_name": "14558, Saarmund, Nuthetal, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "10963 berlin deutschland": {
+    "lat": 52.5001884,
+    "lon": 13.381143,
+    "display_name": "10963, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   }
 }
