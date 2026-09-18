@@ -2446,5 +2446,10 @@
     "lat": 52.5695591,
     "lon": 13.4084463,
     "display_name": "13187, Pankow, Berlin, Deutschland"
+  },
+  "major-portals:12679 berlin marzahn": {
+    "lat": 52.5492521,
+    "lon": 13.5638043,
+    "display_name": "12679, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
   }
 }
