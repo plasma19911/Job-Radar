@@ -2420,5 +2420,20 @@
     "lat": 52.5234056,
     "lon": 13.5884615,
     "display_name": "12619, Hellersdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "major-portals:10179 berlin": {
+    "lat": 52.5121017,
+    "lon": 13.4164365,
+    "display_name": "10179, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:13053 berlin": {
+    "lat": 52.5497674,
+    "lon": 13.5061264,
+    "display_name": "13053, Alt-Hohenschönhausen, Lichtenberg, Berlin, Deutschland"
+  },
+  "expanded15:12043 berlin": {
+    "lat": 52.4799159,
+    "lon": 13.4370709,
+    "display_name": "12043, Neukölln, Berlin, Deutschland"
   }
 }
