@@ -2405,5 +2405,20 @@
     "lat": 52.5001884,
     "lon": 13.381143,
     "display_name": "10963, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "extra:charlottenburger chaussee 67 13597 berlin": {
+    "lat": 52.5277932,
+    "lon": 13.2282788,
+    "display_name": "67, Charlottenburger Chaussee, Spandau, Berlin, 13597, Deutschland"
+  },
+  "major-portals:magazinstraße 15 16 10179 berlin": {
+    "lat": 52.5182969,
+    "lon": 13.4193111,
+    "display_name": "15-16, Magazinstraße, Stralauer Vorstadt, Mitte, Berlin, 10179, Deutschland"
+  },
+  "major-portals:12619 berlin hellersdorf": {
+    "lat": 52.5234056,
+    "lon": 13.5884615,
+    "display_name": "12619, Hellersdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
   }
 }
