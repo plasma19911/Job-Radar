@@ -2435,5 +2435,16 @@
     "lat": 52.4799159,
     "lon": 13.4370709,
     "display_name": "12043, Neukölln, Berlin, Deutschland"
+  },
+  "groß pankow prignitz deutschland": {
+    "lat": 53.108164,
+    "lon": 12.0358836,
+    "display_name": "Groß Pankow (Prignitz), Prignitz, Brandenburg, Deutschland"
+  },
+  "extra:yorckstr 4 11 4 310 6 626 eur publizierung bis 09 10 2026 unbefristet 10965 berlin": null,
+  "expanded15:13187 berlin": {
+    "lat": 52.5695591,
+    "lon": 13.4084463,
+    "display_name": "13187, Pankow, Berlin, Deutschland"
   }
 }
