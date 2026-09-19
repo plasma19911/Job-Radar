@@ -2451,5 +2451,37 @@
     "lat": 52.5492521,
     "lon": 13.5638043,
     "display_name": "12679, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "anywhere in germany berlin germany deutschland": null,
+  "berlin berlin frankfurt am main hesse hannover lower saxony munchen bavaria deutschland": null,
+  "frankfurt an der oder brandenburg deutschland": {
+    "lat": 52.3412273,
+    "lon": 14.549452,
+    "display_name": "Frankfurt (Oder), Brandenburg, Deutschland"
+  },
+  "berlin tegel deutschland": {
+    "lat": 52.5881913,
+    "lon": 13.2896968,
+    "display_name": "Tegel, A 111, Tegel, Reinickendorf, Berlin, 13509, Deutschland"
+  },
+  "14943 luckenwalde deutschland": {
+    "lat": 52.0894429,
+    "lon": 13.1516372,
+    "display_name": "14943, Luckenwalde, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "10589 berlin deutschland": {
+    "lat": 52.5275483,
+    "lon": 13.3057393,
+    "display_name": "10589, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "12057 berlin deutschland": {
+    "lat": 52.4683868,
+    "lon": 13.4632114,
+    "display_name": "12057, Neukölln, Berlin, Deutschland"
+  },
+  "nokey:nuremberg": {
+    "lat": 49.453872,
+    "lon": 11.077298,
+    "address": "Nürnberg, Bayern, Deutschland"
   }
 }
