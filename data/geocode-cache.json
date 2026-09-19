@@ -2483,5 +2483,10 @@
     "lat": 49.453872,
     "lon": 11.077298,
     "address": "Nürnberg, Bayern, Deutschland"
+  },
+  "velten deutschland": {
+    "lat": 52.6882194,
+    "lon": 13.1775867,
+    "display_name": "Velten, Oberhavel, Brandenburg, Deutschland"
   }
 }
