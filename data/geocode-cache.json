@@ -2504,5 +2504,25 @@
     "lat": 52.5208199,
     "lon": 13.495787,
     "display_name": "10365, Lichtenberg, Berlin, Deutschland"
+  },
+  "lowenberger land deutschland": {
+    "lat": 52.8949435,
+    "lon": 13.1722462,
+    "display_name": "Löwenberger Land, Oberhavel, Brandenburg, Deutschland"
+  },
+  "wendisch rietz deutschland": {
+    "lat": 52.21303,
+    "lon": 14.0058861,
+    "display_name": "Wendisch Rietz, Scharmützelsee, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "uebigau wahrenbruck deutschland": {
+    "lat": 51.5743703,
+    "lon": 13.3431138,
+    "display_name": "Uebigau-Wahrenbrück, Liebenwerda, Elbe-Elster, Brandenburg, 04938, Deutschland"
+  },
+  "17291 prenzlau deutschland": {
+    "lat": 53.3056767,
+    "lon": 13.8697124,
+    "display_name": "17291, Prenzlau, Uckerfelde, Uckermark, Brandenburg, Deutschland"
   }
 }
