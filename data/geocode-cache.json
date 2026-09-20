@@ -2524,5 +2524,20 @@
     "lat": 53.3056767,
     "lon": 13.8697124,
     "display_name": "17291, Prenzlau, Uckerfelde, Uckermark, Brandenburg, Deutschland"
+  },
+  "berlin de dusseldorf deutschland": {
+    "lat": 51.2243298,
+    "lon": 6.7767472,
+    "display_name": "LIEBESKIND Berlin, 17, Grabenstraße, Stadtmitte, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40212, Deutschland"
+  },
+  "glienicke nordbahn deutschland": {
+    "lat": 52.63227,
+    "lon": 13.3307308,
+    "display_name": "Glienicke/Nordbahn, Oberhavel, Brandenburg, 16548, Deutschland"
+  },
+  "10407 berlin deutschland": {
+    "lat": 52.5336931,
+    "lon": 13.4489893,
+    "display_name": "10407, Prenzlauer Berg, Pankow, Berlin, Deutschland"
   }
 }
