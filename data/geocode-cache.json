@@ -2488,5 +2488,21 @@
     "lat": 52.6882194,
     "lon": 13.1775867,
     "display_name": "Velten, Oberhavel, Brandenburg, Deutschland"
+  },
+  "berlin brandenburg chemnitz sachsen dresden sachsen koln nordrhein westfalen munchen bayern deutschland": null,
+  "marienwerder deutschland": {
+    "lat": 52.8416198,
+    "lon": 13.59903,
+    "display_name": "Marienwerder, Biesenthal-Barnim, Barnim, Brandenburg, Deutschland"
+  },
+  "fruhlingstraße 8 13158 berlin deutschland": {
+    "lat": 52.573864,
+    "lon": 13.3799999,
+    "display_name": "8, Frühlingstraße, Schönholz, Niederschönhausen, Pankow, Berlin, 13158, Deutschland"
+  },
+  "10365 berlin deutschland": {
+    "lat": 52.5208199,
+    "lon": 13.495787,
+    "display_name": "10365, Lichtenberg, Berlin, Deutschland"
   }
 }
