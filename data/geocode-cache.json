@@ -2544,5 +2544,27 @@
     "lat": 52.515143,
     "lon": 13.3971724,
     "display_name": "Quadriga Forum - Quadriga Media Berlin GmbH, 13und 15, Werderscher Markt, Friedrichswerder, Friedrichstadt, Mitte, Berlin, 10117, Deutschland"
-  }
+  },
+  "new york london berlin deutschland": null,
+  "schipkau deutschland": {
+    "lat": 51.5186554,
+    "lon": 13.9004375,
+    "display_name": "Schipkau, Oberspreewald-Lausitz, Brandenburg, Deutschland"
+  },
+  "seelow deutschland": {
+    "lat": 52.5318238,
+    "lon": 14.380704,
+    "display_name": "Seelow, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "14624 dallgow doberitz deutschland": {
+    "lat": 52.5122751,
+    "lon": 13.0712154,
+    "display_name": "14624, Dallgow-Döberitz, Havelland, Brandenburg, Deutschland"
+  },
+  "expanded15:10553 berlin": {
+    "lat": 52.5305273,
+    "lon": 13.3214751,
+    "display_name": "10553, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "nokey:germany spain austria": null
 }
