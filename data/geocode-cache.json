@@ -2576,5 +2576,10 @@
     "lat": 52.5895373,
     "lon": 13.2875299,
     "display_name": "15, Buddestraße, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  },
+  "15848 beeskow deutschland": {
+    "lat": 52.166127,
+    "lon": 14.2311233,
+    "display_name": "15848, Beeskow, Oder-Spree, Brandenburg, Deutschland"
   }
 }
