@@ -2566,5 +2566,15 @@
     "lon": 13.3214751,
     "display_name": "10553, Moabit, Mitte, Berlin, Deutschland"
   },
-  "nokey:germany spain austria": null
+  "nokey:germany spain austria": null,
+  "hohenstein ernstthal deutschland": {
+    "lat": 50.8011396,
+    "lon": 12.7098566,
+    "display_name": "Hohenstein-Ernstthal, Zwickau, Sachsen, 09337, Deutschland"
+  },
+  "micro-local:buddestraße 15 13507 berlin": {
+    "lat": 52.5895373,
+    "lon": 13.2875299,
+    "display_name": "15, Buddestraße, Tegel, Reinickendorf, Berlin, 13507, Deutschland"
+  }
 }
