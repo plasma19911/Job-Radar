@@ -2607,5 +2607,15 @@
     "lat": 52.1529688,
     "lon": 14.1614171,
     "display_name": "Tauche, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "zossen deutschland": {
+    "lat": 52.2159073,
+    "lon": 13.4488958,
+    "display_name": "Zossen, Teltow-Fläming, Brandenburg, 15806, Deutschland"
+  },
+  "groß koris deutschland": {
+    "lat": 52.1646622,
+    "lon": 13.6588172,
+    "display_name": "Groß Köris, Schenkenländchen, Dahme-Spreewald, Brandenburg, 15746, Deutschland"
   }
 }
