@@ -2597,5 +2597,15 @@
     "lat": 52.413543,
     "lon": 13.3751312,
     "display_name": "12277, Marienfelde, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "dabergotz deutschland": {
+    "lat": 52.9029636,
+    "lon": 12.7261924,
+    "display_name": "Dabergotz, Temnitz, Ostprignitz-Ruppin, Brandenburg, Deutschland"
+  },
+  "15848 tauche deutschland": {
+    "lat": 52.1529688,
+    "lon": 14.1614171,
+    "display_name": "Tauche, Oder-Spree, Brandenburg, Deutschland"
   }
 }
