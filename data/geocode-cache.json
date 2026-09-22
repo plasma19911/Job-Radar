@@ -2581,5 +2581,21 @@
     "lat": 52.166127,
     "lon": 14.2311233,
     "display_name": "15848, Beeskow, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "berlin on site deutschland": null,
+  "erasmus kindergarten berliner straße deutschland": {
+    "lat": 50.1060735,
+    "lon": 8.7544074,
+    "display_name": "Erasmus, 188, Berliner Straße, Zentrum, Offenbach am Main, Hessen, 63067, Deutschland"
+  },
+  "angermunde deutschland": {
+    "lat": 53.017276,
+    "lon": 13.9981503,
+    "display_name": "Angermünde, Mark Landin, Uckermark, Brandenburg, 16278, Deutschland"
+  },
+  "12277 berlin deutschland": {
+    "lat": 52.413543,
+    "lon": 13.3751312,
+    "display_name": "12277, Marienfelde, Tempelhof-Schöneberg, Berlin, Deutschland"
   }
 }
