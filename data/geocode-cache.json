@@ -2617,5 +2617,16 @@
     "lat": 52.1646622,
     "lon": 13.6588172,
     "display_name": "Groß Köris, Schenkenländchen, Dahme-Spreewald, Brandenburg, 15746, Deutschland"
+  },
+  "schonefeld bei berlin germany deutschland": null,
+  "mittenwalde deutschland": {
+    "lat": 52.2642238,
+    "lon": 13.5360563,
+    "display_name": "Mittenwalde, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 15749, Deutschland"
+  },
+  "bayerischer platz 1 10779 berlin deutschland": {
+    "lat": 52.4897885,
+    "lon": 13.3398735,
+    "display_name": "1, Bayerischer Platz, Bayerisches Viertel, Schöneberg, Tempelhof-Schöneberg, Berlin, 10779, Deutschland"
   }
 }
