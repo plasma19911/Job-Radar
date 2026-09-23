@@ -2628,5 +2628,35 @@
     "lat": 52.4897885,
     "lon": 13.3398735,
     "display_name": "1, Bayerischer Platz, Bayerisches Viertel, Schöneberg, Tempelhof-Schöneberg, Berlin, 10779, Deutschland"
+  },
+  "woltersdorf deutschland": {
+    "lat": 53.5776994,
+    "lon": 10.6387716,
+    "display_name": "Woltersdorf, Breitenfelde, Kreis Herzogtum Lauenburg, Schleswig-Holstein, Deutschland"
+  },
+  "gransee deutschland": {
+    "lat": 53.0618235,
+    "lon": 13.166625,
+    "display_name": "Gransee, Gransee und Gemeinden, Oberhavel, Brandenburg, 16775, Deutschland"
+  },
+  "12437 berlin deutschland": {
+    "lat": 52.462405,
+    "lon": 13.482221,
+    "display_name": "12437, Baumschulenweg, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "heidestraße 40 10557 berlin deutschland": {
+    "lat": 52.5327671,
+    "lon": 13.365657,
+    "display_name": "40, Heidestraße, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
+  },
+  "major-portals:heidestraße 40 10557 berlin": {
+    "lat": 52.5327671,
+    "lon": 13.365657,
+    "display_name": "40, Heidestraße, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
+  },
+  "expanded15:14089 berlin": {
+    "lat": 52.470783,
+    "lon": 13.1516457,
+    "display_name": "14089, Kladow, Spandau, Berlin, Deutschland"
   }
 }
