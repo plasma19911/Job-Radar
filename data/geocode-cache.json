@@ -2673,5 +2673,15 @@
     "lat": 52.5066312,
     "lon": 13.3917104,
     "display_name": "Friede sei mit Dir, 23, Rudi-Dutschke-Straße, Zeitungsviertel, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10969, Deutschland"
+  },
+  "burg spreewald deutschland": {
+    "lat": 51.8317244,
+    "lon": 14.1481268,
+    "display_name": "Burg (Spreewald), Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "03058 neuhausen spree deutschland": {
+    "lat": 51.6879967,
+    "lon": 14.4314695,
+    "display_name": "03058, Koppatz, Neuhausen/Spree, Spree-Neiße, Brandenburg, Deutschland"
   }
 }
