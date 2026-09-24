@@ -2683,5 +2683,20 @@
     "lat": 51.6879967,
     "lon": 14.4314695,
     "display_name": "03058, Koppatz, Neuhausen/Spree, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "knesebeckstrasse 62 63 10719 berlin deutschland": {
+    "lat": 52.5014027,
+    "lon": 13.321754,
+    "display_name": "Knesebeckstraße, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10719, Deutschland"
+  },
+  "14669 ketzin deutschland": {
+    "lat": 52.5016741,
+    "lon": 12.8388259,
+    "display_name": "14669, Ketzin, Ketzin/Havel, Havelland, Brandenburg, Deutschland"
+  },
+  "gartz oder deutschland": {
+    "lat": 53.208577,
+    "lon": 14.3914352,
+    "display_name": "Gartz (Oder), Uckermark, Brandenburg, 16307, Deutschland"
   }
 }
