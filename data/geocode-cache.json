@@ -2658,5 +2658,20 @@
     "lat": 52.470783,
     "lon": 13.1516457,
     "display_name": "14089, Kladow, Spandau, Berlin, Deutschland"
+  },
+  "potsdam office deutschland": {
+    "lat": 52.4045733,
+    "lon": 13.0707205,
+    "display_name": "ecos office center potsdam, 3A, Behlertstraße, Berliner Vorstadt, Potsdam, Brandenburg, 14467, Deutschland"
+  },
+  "anklamer straße 17 10115 berlin deutschland": {
+    "lat": 52.5349746,
+    "lon": 13.3990861,
+    "display_name": "Körperformen, 17, Anklamer Straße, Arkonakiez, Mitte, Berlin, 10115, Deutschland"
+  },
+  "major-portals:rudi dutschke straße 23 10969 berlin": {
+    "lat": 52.5066312,
+    "lon": 13.3917104,
+    "display_name": "Friede sei mit Dir, 23, Rudi-Dutschke-Straße, Zeitungsviertel, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10969, Deutschland"
   }
 }
