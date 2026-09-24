@@ -2698,5 +2698,25 @@
     "lat": 53.208577,
     "lon": 14.3914352,
     "display_name": "Gartz (Oder), Uckermark, Brandenburg, 16307, Deutschland"
+  },
+  "15868 lieberose deutschland": {
+    "lat": 52.006591,
+    "lon": 14.332675,
+    "display_name": "15868, Mochlitz, Jamlitz, Lieberose/Oberspreewald, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "wittstock dosse deutschland": {
+    "lat": 53.162999,
+    "lon": 12.4868962,
+    "display_name": "Wittstock/Dosse, Ostprignitz-Ruppin, Brandenburg, 16909, Deutschland"
+  },
+  "15518 steinhofel deutschland": {
+    "lat": 52.3865253,
+    "lon": 14.1838007,
+    "display_name": "15518, Demnitz, Steinhöfel, Odervorland, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "rheinsberg deutschland": {
+    "lat": 53.0983176,
+    "lon": 12.8910116,
+    "display_name": "Rheinsberg, Ostprignitz-Ruppin, Brandenburg, Deutschland"
   }
 }
