@@ -2718,5 +2718,17 @@
     "lat": 53.0983176,
     "lon": 12.8910116,
     "display_name": "Rheinsberg, Ostprignitz-Ruppin, Brandenburg, Deutschland"
-  }
+  },
+  "illerstr 71522 backnang deutschland": {
+    "lat": 48.9134692,
+    "lon": 9.4273542,
+    "display_name": "Illerstraße, Waldrems, Backnang, VVG der Stadt Backnang, Rems-Murr-Kreis, Baden-Württemberg, 71522, Deutschland"
+  },
+  "15295 brieskow finkenheerd deutschland": {
+    "lat": 52.2382551,
+    "lon": 14.6049543,
+    "display_name": "15295, Wiesenau, Brieskow-Finkenheerd, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "extra:fehrbelliner platz 4 publizierung bis 22 10 2026 unbefristet 10707 berlin": null,
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 23 10 2026 unbefristet 10315 berlin": null
 }
