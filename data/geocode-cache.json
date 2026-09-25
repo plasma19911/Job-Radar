@@ -2730,5 +2730,10 @@
     "display_name": "15295, Wiesenau, Brieskow-Finkenheerd, Oder-Spree, Brandenburg, Deutschland"
   },
   "extra:fehrbelliner platz 4 publizierung bis 22 10 2026 unbefristet 10707 berlin": null,
-  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 23 10 2026 unbefristet 10315 berlin": null
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 23 10 2026 unbefristet 10315 berlin": null,
+  "15754 heidesee deutschland": {
+    "lat": 52.2470299,
+    "lon": 13.7697069,
+    "display_name": "15754, Dolgenbrodt, Heidesee, Dahme-Spreewald, Brandenburg, Deutschland"
+  }
 }
