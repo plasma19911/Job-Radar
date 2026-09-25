@@ -2735,5 +2735,25 @@
     "lat": 52.2470299,
     "lon": 13.7697069,
     "display_name": "15754, Dolgenbrodt, Heidesee, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "17291 schonfeld deutschland": {
+    "lat": 53.852541,
+    "lon": 12.95783,
+    "display_name": "Schönfeld, Demmin-Land, Mecklenburgische Seenplatte, Mecklenburg-Vorpommern, Deutschland"
+  },
+  "14513 teltow deutschland": {
+    "lat": 52.3850035,
+    "lon": 13.2735079,
+    "display_name": "14513, Teltow, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "juterbog deutschland": {
+    "lat": 51.9916493,
+    "lon": 13.0801128,
+    "display_name": "Jüterbog, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "extra:brunnenstraße 175 10119 berlin": {
+    "lat": 52.5322283,
+    "lon": 13.3984594,
+    "display_name": "Polizei Abschnitt 56, 175, Brunnenstraße, Rosenthaler Vorstadt, Mitte, Berlin, 10119, Deutschland"
   }
 }
