@@ -2755,5 +2755,36 @@
     "lat": 52.5322283,
     "lon": 13.3984594,
     "display_name": "Polizei Abschnitt 56, 175, Brunnenstraße, Rosenthaler Vorstadt, Mitte, Berlin, 10119, Deutschland"
+  },
+  "potsdam hybrid deutschland": null,
+  "schonewalde deutschland": {
+    "lat": 51.8142338,
+    "lon": 13.2279131,
+    "display_name": "Schönewalde, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "unter den eichen 87 12205 berlin deutschland": {
+    "lat": 52.4415175,
+    "lon": 13.2875677,
+    "display_name": "Haus 60 - Labor- und Bürogebäude, 87, Unter den Eichen, Lichterfelde West, Lichterfelde, Steglitz-Zehlendorf, Berlin, 12205, Deutschland"
+  },
+  "bahnhofstraße 32 13129 berlin deutschland": {
+    "lat": 52.5909884,
+    "lon": 13.4464923,
+    "display_name": "32, Bahnhofstraße, Anlage Blankenburg, Blankenburg, Pankow, Berlin, 13129, Deutschland"
+  },
+  "major-portals:50667 koln": {
+    "lat": 50.9386399,
+    "lon": 6.9550296,
+    "display_name": "50667, Altstadt-Nord, Innenstadt, Köln, Nordrhein-Westfalen, Deutschland"
+  },
+  "major-portals:14473 potsdam": {
+    "lat": 52.3703407,
+    "lon": 13.0501702,
+    "display_name": "14473, Templiner Vorstadt, Potsdam, Brandenburg, Deutschland"
+  },
+  "expanded15:13407 berlin": {
+    "lat": 52.5726,
+    "lon": 13.3509039,
+    "display_name": "13407, Reinickendorf, Berlin, Deutschland"
   }
 }
