@@ -2792,5 +2792,15 @@
     "lat": 47.659216,
     "lon": 9.1750718,
     "display_name": "Konstanz, VVG der Stadt Konstanz, Landkreis Konstanz, Baden-Württemberg, Deutschland"
+  },
+  "pirow deutschland": {
+    "lat": 53.2180941,
+    "lon": 11.8995923,
+    "display_name": "Pirow, Putlitz-Berge, Prignitz, Brandenburg, Deutschland"
+  },
+  "expanded15:13589 berlin": {
+    "lat": 52.5575314,
+    "lon": 13.1679136,
+    "display_name": "13589, Falkenhagener Feld, Spandau, Berlin, Deutschland"
   }
 }
