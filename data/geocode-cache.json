@@ -2786,5 +2786,11 @@
     "lat": 52.5726,
     "lon": 13.3509039,
     "display_name": "13407, Reinickendorf, Berlin, Deutschland"
+  },
+  "berlin oder mainz deutschland": null,
+  "major-portals:50667 konstanz": {
+    "lat": 47.659216,
+    "lon": 9.1750718,
+    "display_name": "Konstanz, VVG der Stadt Konstanz, Landkreis Konstanz, Baden-Württemberg, Deutschland"
   }
 }
