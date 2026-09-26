@@ -2802,5 +2802,10 @@
     "lat": 52.5575314,
     "lon": 13.1679136,
     "display_name": "13589, Falkenhagener Feld, Spandau, Berlin, Deutschland"
+  },
+  "expanded15:12681 berlin": {
+    "lat": 52.5372044,
+    "lon": 13.5368175,
+    "display_name": "12681, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
   }
 }
