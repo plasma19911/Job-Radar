@@ -2827,5 +2827,15 @@
     "lat": 52.4743752,
     "lon": 13.2785873,
     "display_name": "Clayallee, Grunewald, Charlottenburg-Wilmersdorf, Berlin, 14195, Deutschland"
+  },
+  "markisch linden deutschland": {
+    "lat": 52.9332931,
+    "lon": 12.7182449,
+    "display_name": "Märkisch Linden, Temnitz, Ostprignitz-Ruppin, Brandenburg, 16818, Deutschland"
+  },
+  "12165 berlin deutschland": {
+    "lat": 52.4556623,
+    "lon": 13.314822,
+    "display_name": "12165, Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland"
   }
 }
