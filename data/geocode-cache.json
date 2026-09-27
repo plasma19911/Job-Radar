@@ -2807,5 +2807,25 @@
     "lat": 52.5372044,
     "lon": 13.5368175,
     "display_name": "12681, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "berlin schleswig holstein deutschland": {
+    "lat": 54.0363605,
+    "lon": 10.4461313,
+    "display_name": "Berlin, Seedorf, Trave-Land, Kreis Segeberg, Schleswig-Holstein, 23823, Deutschland"
+  },
+  "kloster lehnin deutschland": {
+    "lat": 52.3189713,
+    "lon": 12.7451673,
+    "display_name": "Kloster Lehnin, Potsdam-Mittelmark, Brandenburg, 14797, Deutschland"
+  },
+  "13627 berlin deutschland": {
+    "lat": 52.5399025,
+    "lon": 13.2994065,
+    "display_name": "13627, Charlottenburg-Nord, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "clayallee 10115 berlin deutschland": {
+    "lat": 52.4743752,
+    "lon": 13.2785873,
+    "display_name": "Clayallee, Grunewald, Charlottenburg-Wilmersdorf, Berlin, 14195, Deutschland"
   }
 }
