@@ -2837,5 +2837,20 @@
     "lat": 52.4556623,
     "lon": 13.314822,
     "display_name": "12165, Steglitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "janschwalde deutschland": {
+    "lat": 51.8616812,
+    "lon": 14.4984867,
+    "display_name": "Jänschwalde, Amt Peitz, Spree-Neiße, Brandenburg, 03197, Deutschland"
+  },
+  "14552 michendorf deutschland": {
+    "lat": 52.293656,
+    "lon": 13.0576098,
+    "display_name": "14552, Wildenbruch, Michendorf, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "16259 falkenberg deutschland": {
+    "lat": 52.5692998,
+    "lon": 13.5400296,
+    "display_name": "Falkenberg, Lichtenberg, Berlin, 13057, Deutschland"
   }
 }
