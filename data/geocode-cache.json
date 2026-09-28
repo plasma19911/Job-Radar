@@ -2877,5 +2877,10 @@
     "lat": 52.4514102,
     "lon": 13.3785486,
     "display_name": "Rathausstraße, Mariendorf, Tempelhof-Schöneberg, Berlin, 12105, Deutschland"
+  },
+  "expanded15:40213 dusseldorf": {
+    "lat": 51.2244597,
+    "lon": 6.7725465,
+    "display_name": "40213, Altstadt, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, Deutschland"
   }
 }
