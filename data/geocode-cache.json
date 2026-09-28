@@ -2852,5 +2852,15 @@
     "lat": 52.5692998,
     "lon": 13.5400296,
     "display_name": "Falkenberg, Lichtenberg, Berlin, 13057, Deutschland"
+  },
+  "14913 niedergorsdorf deutschland": {
+    "lat": 51.9641236,
+    "lon": 13.0874859,
+    "display_name": "14913, Bochow, Niedergörsdorf, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "16356 werneuchen deutschland": {
+    "lat": 52.6304895,
+    "lon": 13.6900463,
+    "display_name": "16356, Löhme, Werneuchen, Barnim, Brandenburg, Deutschland"
   }
 }
