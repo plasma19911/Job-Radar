@@ -2872,5 +2872,10 @@
     "lat": 52.2468189,
     "lon": 14.4181081,
     "display_name": "Müllrose, Schlaubetal, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "extra:rathausstr 70 72 12105 berlin": {
+    "lat": 52.4514102,
+    "lon": 13.3785486,
+    "display_name": "Rathausstraße, Mariendorf, Tempelhof-Schöneberg, Berlin, 12105, Deutschland"
   }
 }
