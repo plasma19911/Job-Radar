@@ -2862,5 +2862,15 @@
     "lat": 52.6304895,
     "lon": 13.6900463,
     "display_name": "16356, Löhme, Werneuchen, Barnim, Brandenburg, Deutschland"
+  },
+  "17291 schenkenberg deutschland": {
+    "lat": 53.3639263,
+    "lon": 13.9492666,
+    "display_name": "Schenkenberg, Brüssow (Uckermark), Uckermark, Brandenburg, Deutschland"
+  },
+  "mullrose deutschland": {
+    "lat": 52.2468189,
+    "lon": 14.4181081,
+    "display_name": "Müllrose, Schlaubetal, Oder-Spree, Brandenburg, Deutschland"
   }
 }
