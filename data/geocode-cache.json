@@ -2882,5 +2882,25 @@
     "lat": 51.2244597,
     "lon": 6.7725465,
     "display_name": "40213, Altstadt, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, Deutschland"
+  },
+  "berlin tempelhof alboinstr deutschland": {
+    "lat": 52.4644512,
+    "lon": 13.3692477,
+    "display_name": "TÜV Rheinland-Prüfstelle Berlin-Schöneberg, 56, Alboinstraße, Schöneberg, Tempelhof-Schöneberg, Berlin, 12103, Deutschland"
+  },
+  "großthiemig deutschland": {
+    "lat": 51.384124,
+    "lon": 13.6767086,
+    "display_name": "Großthiemig, Schradenland, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "wriezen deutschland": {
+    "lat": 52.7167845,
+    "lon": 14.1365723,
+    "display_name": "Wriezen, Oderaue, Märkisch-Oderland, Brandenburg, 16269, Deutschland"
+  },
+  "expanded15:12277 berlin": {
+    "lat": 52.413543,
+    "lon": 13.3751312,
+    "display_name": "12277, Marienfelde, Tempelhof-Schöneberg, Berlin, Deutschland"
   }
 }
