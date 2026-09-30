@@ -2928,5 +2928,26 @@
     "lat": 52.4690904,
     "lon": 13.3105017,
     "display_name": "34, Johannisberger Straße, Gartenstadt, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, 14197, Deutschland"
+  },
+  "berlin schicklerstrasse 5 beam deutschland": null,
+  "roderland deutschland": {
+    "lat": 51.4545282,
+    "lon": 13.4477863,
+    "display_name": "Röderland, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "albertinenstraße 20 13086 berlin deutschland": {
+    "lat": 52.5517029,
+    "lon": 13.4589338,
+    "display_name": "Stephanus-Seniorenzentrum, 20, Albertinenstraße, Munizipalviertel, Weißensee, Pankow, Berlin, 13086, Deutschland"
+  },
+  "berlin moabit deutschland": {
+    "lat": 52.5346789,
+    "lon": 13.3344781,
+    "display_name": "Berlin-Moabit, Erna-Samuel-Straße, Arminiuskiez, Moabit, Mitte, Berlin, 10551, Deutschland"
+  },
+  "expanded15:10969 berlin": {
+    "lat": 52.5024859,
+    "lon": 13.401114,
+    "display_name": "10969, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   }
 }
