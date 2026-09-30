@@ -2908,5 +2908,15 @@
     "lon": 13.3712839,
     "display_name": "12105, Tempelhof, Tempelhof-Schöneberg, Berlin, Deutschland"
   },
-  "extra:luisenstr 16 publiziert 29 09 2026 befristet 12557 berlin": null
+  "extra:luisenstr 16 publiziert 29 09 2026 befristet 12557 berlin": null,
+  "birkenwerder deutschland": {
+    "lat": 52.6884408,
+    "lon": 13.2831336,
+    "display_name": "Birkenwerder, Oberhavel, Brandenburg, 16547, Deutschland"
+  },
+  "pfleidererstraße 12205 berlin deutschland": {
+    "lat": 52.4369535,
+    "lon": 13.2922889,
+    "display_name": "Pfleidererstraße, Lichterfelde West, Lichterfelde, Steglitz-Zehlendorf, Berlin, 12205, Deutschland"
+  }
 }
