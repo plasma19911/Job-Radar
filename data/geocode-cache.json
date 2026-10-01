@@ -2957,5 +2957,23 @@
   },
   "major-portals:munchen berlin frankfurt am main hamburg und dusseldorf munchen": null,
   "berlin außendienst deutschland": null,
-  "hybrid berlin germany deutschland": null
+  "hybrid berlin germany deutschland": null,
+  "15936 dahme mark deutschland": {
+    "lat": 51.881357,
+    "lon": 13.427377,
+    "display_name": "15936, Dahme/Mark, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "tempelhofer ufer 31 10963 berlin deutschland": {
+    "lat": 52.499532,
+    "lon": 13.3773472,
+    "display_name": "Urbanis Berlin, 31, Tempelhofer Ufer, Möckernkiez, Tempelhofer Vorstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10963, Deutschland"
+  },
+  "cicerostraße 37 10709 berlin deutschland": {
+    "lat": 52.4916588,
+    "lon": 13.3013105,
+    "display_name": "Trattoria Taormina, 37, Cicerostraße, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, 10709, Deutschland"
+  },
+  "extra:rathaus pankow breite straße 24a 26 13187 berlin": null,
+  "nokey:sao paulo sao paulo brazil": null,
+  "nokey:rio de janeiro rio de janeiro brazil": null
 }
