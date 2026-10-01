@@ -2975,5 +2975,15 @@
   },
   "extra:rathaus pankow breite straße 24a 26 13187 berlin": null,
   "nokey:sao paulo sao paulo brazil": null,
-  "nokey:rio de janeiro rio de janeiro brazil": null
+  "nokey:rio de janeiro rio de janeiro brazil": null,
+  "kremmen deutschland": {
+    "lat": 52.7604941,
+    "lon": 13.0294822,
+    "display_name": "Kremmen, Oberhavel, Brandenburg, 16766, Deutschland"
+  },
+  "major-portals:37520 thyrow": {
+    "lat": 52.2514309,
+    "lon": 13.2396499,
+    "display_name": "Thyrow, Trebbin, Teltow-Fläming, Brandenburg, Deutschland"
+  }
 }
