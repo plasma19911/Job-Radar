@@ -2990,5 +2990,36 @@
     "lat": 51.72784,
     "lon": 10.2508204,
     "display_name": "Osterode am Harz, Landkreis Göttingen, Niedersachsen, 37520, Deutschland"
+  },
+  "berlin germany london deutschland": null,
+  "03159 dobern deutschland": {
+    "lat": 51.6321164,
+    "lon": 14.6564511,
+    "display_name": "03159, Preschen, Neiße-Malxetal, Döbern-Land, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "berlin pankow deutschland": {
+    "lat": 52.5889313,
+    "lon": 13.3519947,
+    "display_name": "Stadler Deutschland, Heinz-Brandt-Straße, Wilhelmsruh, Pankow, Berlin, 13158, Deutschland"
+  },
+  "extra:mullerstr 146 vollzeit publizierung bis 23 10 2026 unbefristet 13353 berlin": null,
+  "extra:voltairestraße 2 dg mitte publizierung bis 16 10 2026 befristet 10179 berlin": null,
+  "extra:ba lichtenberg kowalke 24 vollzeit publizierung bis 23 10 2026 unbefristet 10315 berlin": null,
+  "extra:egon erwin kisch bibliothek vollzeit publizierung bis 23 10 2026 unbefristet 10365 berlin": null,
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 30 10 2026 unbefristet 10315 berlin": null,
+  "major-portals:10249 berlin": {
+    "lat": 52.5238116,
+    "lon": 13.4429595,
+    "display_name": "10249, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "major-portals:37520 osterode": {
+    "lat": 51.7307149,
+    "lon": 10.3065389,
+    "display_name": "37520, Osterode am Harz, Landkreis Göttingen, Niedersachsen, Deutschland"
+  },
+  "expanded15:10365 berlin": {
+    "lat": 52.5208199,
+    "lon": 13.495787,
+    "display_name": "10365, Lichtenberg, Berlin, Deutschland"
   }
 }
