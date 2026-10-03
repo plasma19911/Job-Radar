@@ -3064,5 +3064,36 @@
     "lat": 52.5492521,
     "lon": 13.5638043,
     "display_name": "12679, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "berlin ca or zurich switzerland deutschland": null,
+  "fehrbellin deutschland": {
+    "lat": 52.8142217,
+    "lon": 12.7652143,
+    "display_name": "Fehrbellin, Ostprignitz-Ruppin, Brandenburg, 16833, Deutschland"
+  },
+  "luckaitztal deutschland": {
+    "lat": 51.6773336,
+    "lon": 13.9864909,
+    "display_name": "Luckaitztal, Altdöbern, Oberspreewald-Lausitz, Brandenburg, 03229, Deutschland"
+  },
+  "major-portals:14959 thyrow": {
+    "lat": 52.2470759,
+    "lon": 13.2599028,
+    "display_name": "Thyrow, Thyrower Bahnhofstraße, Thyrow, Trebbin, Teltow-Fläming, Brandenburg, 14959, Deutschland"
+  },
+  "major-portals:10829 berlin": {
+    "lat": 52.476394,
+    "lon": 13.3608875,
+    "display_name": "10829, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "major-portals:12055 berlin": {
+    "lat": 52.471305,
+    "lon": 13.4485974,
+    "display_name": "12055, Neukölln, Berlin, Deutschland"
+  },
+  "major-portals:10719 berlin": {
+    "lat": 52.4988653,
+    "lon": 13.3256921,
+    "display_name": "10719, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
