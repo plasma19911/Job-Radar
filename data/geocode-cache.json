@@ -3049,5 +3049,20 @@
     "lat": 48.1218949,
     "lon": 11.6182129,
     "display_name": "81671, Berg am Laim, München, Bayern, Deutschland"
+  },
+  "15537 erkner deutschland": {
+    "lat": 52.4259804,
+    "lon": 13.7542811,
+    "display_name": "Erkner, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "eichborndamm 176 13403 berlin deutschland": {
+    "lat": 52.5838328,
+    "lon": 13.3215082,
+    "display_name": "176, Eichborndamm, Wittenau, Reinickendorf, Berlin, 13403, Deutschland"
+  },
+  "12679 berlin marzahn deutschland": {
+    "lat": 52.5492521,
+    "lon": 13.5638043,
+    "display_name": "12679, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
   }
 }
