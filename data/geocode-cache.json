@@ -3021,5 +3021,33 @@
     "lat": 52.5208199,
     "lon": 13.495787,
     "display_name": "10365, Lichtenberg, Berlin, Deutschland"
+  },
+  "berlin germany or palo alto ca or zurich deutschland": null,
+  "berlin london uk deutschland": null,
+  "hamburg or berlin or london deutschland": null,
+  "lindow mark deutschland": {
+    "lat": 52.9744071,
+    "lon": 12.9872378,
+    "display_name": "Lindow (Mark), Ostprignitz-Ruppin, Brandenburg, 16835, Deutschland"
+  },
+  "32469 petershagen deutschland": {
+    "lat": 52.3999651,
+    "lon": 8.9971387,
+    "display_name": "32469, Jössen, Petershagen, Kreis Minden-Lübbecke, Nordrhein-Westfalen, Deutschland"
+  },
+  "major-portals:70173 stuttgart": {
+    "lat": 48.7814058,
+    "lon": 9.1818299,
+    "display_name": "70173, Stuttgart-Mitte, Stuttgart, Baden-Württemberg, Deutschland"
+  },
+  "expanded15:13351 berlin": {
+    "lat": 52.5506395,
+    "lon": 13.3328478,
+    "display_name": "13351, Wedding, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:81671 munchen": {
+    "lat": 48.1218949,
+    "lon": 11.6182129,
+    "display_name": "81671, Berg am Laim, München, Bayern, Deutschland"
   }
 }
