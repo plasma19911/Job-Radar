@@ -3095,5 +3095,11 @@
     "lat": 52.4988653,
     "lon": 13.3256921,
     "display_name": "10719, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "berlin caroline michaelis str 5 11 10115 deutschland": null,
+  "10249 berlin deutschland": {
+    "lat": 52.5238116,
+    "lon": 13.4429595,
+    "display_name": "10249, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   }
 }
