@@ -3101,5 +3101,15 @@
     "lat": 52.5238116,
     "lon": 13.4429595,
     "display_name": "10249, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "13086 berlin deutschland": {
+    "lat": 52.5564384,
+    "lon": 13.4485781,
+    "display_name": "13086, Weißensee, Pankow, Berlin, Deutschland"
+  },
+  "schwanebecker chaussee 50 13125 berlin deutschland": {
+    "lat": 52.63056,
+    "lon": 13.5095237,
+    "display_name": "Hauptgebäude - HELIOS Klinikum Berlin Buch, 50, Schwanebecker Chaussee, Buch, Pankow, Berlin, 13125, Deutschland"
   }
 }
