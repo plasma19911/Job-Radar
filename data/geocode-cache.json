@@ -3111,5 +3111,15 @@
     "lat": 52.63056,
     "lon": 13.5095237,
     "display_name": "Hauptgebäude - HELIOS Klinikum Berlin Buch, 50, Schwanebecker Chaussee, Buch, Pankow, Berlin, 13125, Deutschland"
+  },
+  "rhinow deutschland": {
+    "lat": 52.7508589,
+    "lon": 12.3410614,
+    "display_name": "Rhinow, Havelland, Brandenburg, 14728, Deutschland"
+  },
+  "expanded15:39104 magdeburg": {
+    "lat": 52.1187251,
+    "lon": 11.6365142,
+    "display_name": "39104, Werder, Magdeburg, Sachsen-Anhalt, Deutschland"
   }
 }
