@@ -3131,5 +3131,16 @@
     "lat": 52.5014562,
     "lon": 14.5827835,
     "display_name": "Reitwein, Lebus, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "15 zum rosenhof 16835 lindow mark deutschland": {
+    "lat": 52.9880258,
+    "lon": 12.9589509,
+    "display_name": "15, Zum Rosenhof, Rosenhof, Klosterheide, Lindow (Mark), Ostprignitz-Ruppin, Brandenburg, 16835, Deutschland"
+  },
+  "extra:turmstr 21 10707 berlin sachsische str 28 buro verwaltung sachbearbeitung befristet 10559 berlin": null,
+  "expanded15:10627 berlin": {
+    "lat": 52.5079939,
+    "lon": 13.3030058,
+    "display_name": "10627, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
