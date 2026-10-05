@@ -3121,5 +3121,15 @@
     "lat": 52.1187251,
     "lon": 11.6365142,
     "display_name": "39104, Werder, Magdeburg, Sachsen-Anhalt, Deutschland"
+  },
+  "treuenbrietzen deutschland": {
+    "lat": 52.0966552,
+    "lon": 12.8734896,
+    "display_name": "Treuenbrietzen, Potsdam-Mittelmark, Brandenburg, 14929, Deutschland"
+  },
+  "15328 reitwein deutschland": {
+    "lat": 52.5014562,
+    "lon": 14.5827835,
+    "display_name": "Reitwein, Lebus, Märkisch-Oderland, Brandenburg, Deutschland"
   }
 }
