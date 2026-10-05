@@ -3142,5 +3142,15 @@
     "lat": 52.5079939,
     "lon": 13.3030058,
     "display_name": "10627, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "01987 ruhland deutschland": {
+    "lat": 51.4590647,
+    "lon": 13.8656245,
+    "display_name": "Ruhland, Oberspreewald-Lausitz, Brandenburg, 01945, Deutschland"
+  },
+  "major-portals:14532 kleinmachnow": {
+    "lat": 52.4020169,
+    "lon": 13.1868249,
+    "display_name": "Kleinmachnow, A 115, Dreilinden, Kleinmachnow, Potsdam-Mittelmark, Brandenburg, 14532, Deutschland"
   }
 }
