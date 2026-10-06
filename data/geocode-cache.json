@@ -3157,5 +3157,20 @@
     "lat": 53.3140131,
     "lon": 12.2426273,
     "display_name": "Meyenburg, Halenbeck-Rohlsdorf, Prignitz, Brandenburg, 16945, Deutschland"
+  },
+  "kollwitzstraße 62 10435 berlin deutschland": {
+    "lat": 52.5358091,
+    "lon": 13.4177799,
+    "display_name": "62, Kollwitzstraße, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlin, 10435, Deutschland"
+  },
+  "major-portals:10407 berlin": {
+    "lat": 52.5336931,
+    "lon": 13.4489893,
+    "display_name": "10407, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "nokey:luxembourg": {
+    "lat": 52.506983,
+    "lon": 13.3510996,
+    "address": "Luxemburgische Botschaft, 7, Klingelhöferstraße, Botschaftsviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland"
   }
 }
