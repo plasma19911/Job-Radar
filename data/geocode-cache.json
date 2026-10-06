@@ -3172,5 +3172,36 @@
     "lat": 52.506983,
     "lon": 13.3510996,
     "address": "Luxemburgische Botschaft, 7, Klingelhöferstraße, Botschaftsviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland"
+  },
+  "14197 berlin deutschland": {
+    "lat": 52.4733609,
+    "lon": 13.311789,
+    "display_name": "14197, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "12207 berlin deutschland": {
+    "lat": 52.4198622,
+    "lon": 13.3133462,
+    "display_name": "12207, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "extra:sachsische str 28 10559 berlin turmstr 21 buro verwaltung sachbearbeitung befristet 10707 berlin": null,
+  "expanded15:12435 berlin": {
+    "lat": 52.4869643,
+    "lon": 13.4662697,
+    "display_name": "12435, Alt-Treptow, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "expanded15:13409 berlin": {
+    "lat": 52.5681011,
+    "lon": 13.3716797,
+    "display_name": "13409, Reinickendorf, Berlin, Deutschland"
+  },
+  "expanded15:10179 berlin": {
+    "lat": 52.5121017,
+    "lon": 13.4164365,
+    "display_name": "10179, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:13086 berlin": {
+    "lat": 52.5564384,
+    "lon": 13.4485781,
+    "display_name": "13086, Weißensee, Pankow, Berlin, Deutschland"
   }
 }
