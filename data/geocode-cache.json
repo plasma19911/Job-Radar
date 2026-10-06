@@ -3203,5 +3203,25 @@
     "lat": 52.5564384,
     "lon": 13.4485781,
     "display_name": "13086, Weißensee, Pankow, Berlin, Deutschland"
+  },
+  "panketal deutschland": {
+    "lat": 52.6480137,
+    "lon": 13.5412361,
+    "display_name": "Panketal, Barnim, Brandenburg, 16341, Deutschland"
+  },
+  "wandlitz deutschland": {
+    "lat": 52.7537935,
+    "lon": 13.4519809,
+    "display_name": "Wandlitz, Barnim, Brandenburg, 16348, Deutschland"
+  },
+  "gradestraße 92 12347 berlin deutschland": {
+    "lat": 52.4544491,
+    "lon": 13.4247571,
+    "display_name": "92, Gradestraße, Siedlung der Düfte, Britz, Neukölln, Berlin, 12347, Deutschland"
+  },
+  "expanded15:10711 berlin": {
+    "lat": 52.4981198,
+    "lon": 13.2904702,
+    "display_name": "10711, Halensee, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
