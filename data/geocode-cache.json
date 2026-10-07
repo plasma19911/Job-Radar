@@ -3252,5 +3252,10 @@
     "lon": 10.2997078,
     "display_name": "Baumeisterstraße, Gewerbepark Dietmannsried, Kusters, Dietmannsried, Landkreis Oberallgäu, Bayern, 87463, Deutschland"
   },
-  "extra:oranienstraße 106 publizierung bis 16 10 2026 10969 berlin": null
+  "extra:oranienstraße 106 publizierung bis 16 10 2026 10969 berlin": null,
+  "17291 randowtal deutschland": {
+    "lat": 53.3056767,
+    "lon": 13.8697124,
+    "display_name": "17291, Prenzlau, Uckerfelde, Uckermark, Brandenburg, Deutschland"
+  }
 }
