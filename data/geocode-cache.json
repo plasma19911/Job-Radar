@@ -3223,5 +3223,17 @@
     "lat": 52.4981198,
     "lon": 13.2904702,
     "display_name": "10711, Halensee, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
-  }
+  },
+  "berlin dusseldorf frankfurt deutschland": null,
+  "ruhstadt deutschland": {
+    "lat": 52.9196998,
+    "lon": 11.8686251,
+    "display_name": "Rühstädt, Bad Wilsnack/Weisen, Prignitz, Brandenburg, Deutschland"
+  },
+  "12279 berlin deutschland": {
+    "lat": 52.4106112,
+    "lon": 13.3530656,
+    "display_name": "12279, Marienfelde, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "extra:teichstr 65 berufserfahrung architektur bauwesen publizierung bis 30 10 2026 befristet 13407 berlin": null
 }
