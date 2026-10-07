@@ -3235,5 +3235,16 @@
     "lon": 13.3530656,
     "display_name": "12279, Marienfelde, Tempelhof-Schöneberg, Berlin, Deutschland"
   },
-  "extra:teichstr 65 berufserfahrung architektur bauwesen publizierung bis 30 10 2026 befristet 13407 berlin": null
+  "extra:teichstr 65 berufserfahrung architektur bauwesen publizierung bis 30 10 2026 befristet 13407 berlin": null,
+  "werder deutschland": {
+    "lat": 53.4997082,
+    "lon": 12.0094433,
+    "display_name": "Werder, Eldenburg Lübz, Ludwigslust-Parchim, Mecklenburg-Vorpommern, Deutschland"
+  },
+  "laucha an der unstrut deutschland": {
+    "lat": 51.2233104,
+    "lon": 11.682231,
+    "display_name": "Laucha an der Unstrut, Unstruttal, Burgenlandkreis, Sachsen-Anhalt, 06636, Deutschland"
+  },
+  "extra:luisenstr 16 befristet 12557 berlin": null
 }
