@@ -3246,5 +3246,11 @@
     "lon": 11.682231,
     "display_name": "Laucha an der Unstrut, Unstruttal, Burgenlandkreis, Sachsen-Anhalt, 06636, Deutschland"
   },
-  "extra:luisenstr 16 befristet 12557 berlin": null
+  "extra:luisenstr 16 befristet 12557 berlin": null,
+  "baumeisterstr 87463 dietmannsried deutschland": {
+    "lat": 47.8164235,
+    "lon": 10.2997078,
+    "display_name": "Baumeisterstraße, Gewerbepark Dietmannsried, Kusters, Dietmannsried, Landkreis Oberallgäu, Bayern, 87463, Deutschland"
+  },
+  "extra:oranienstraße 106 publizierung bis 16 10 2026 10969 berlin": null
 }
