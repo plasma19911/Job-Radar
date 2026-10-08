@@ -3257,5 +3257,21 @@
     "lat": 53.3056767,
     "lon": 13.8697124,
     "display_name": "17291, Prenzlau, Uckerfelde, Uckermark, Brandenburg, Deutschland"
+  },
+  "frankfurt berlin and zurich offices deutschland": null,
+  "buckow markische schweiz deutschland": {
+    "lat": 52.5672167,
+    "lon": 14.0761529,
+    "display_name": "Buckow, Märkische Schweiz, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "ibsenstraße 13 10439 berlin deutschland": {
+    "lat": 52.5556252,
+    "lon": 13.4102414,
+    "display_name": "Scheidt & Bachmann GmbH Branch Office Berlin, 13, Ibsenstraße, Nordisches Viertel, Prenzlauer Berg, Pankow, Berlin, 10439, Deutschland"
+  },
+  "13467 berlin deutschland": {
+    "lat": 52.6171017,
+    "lon": 13.307504,
+    "display_name": "13467, Hermsdorf, Reinickendorf, Berlin, Deutschland"
   }
 }
