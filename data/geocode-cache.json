@@ -3311,5 +3311,15 @@
     "lat": 52.4156269,
     "lon": 13.6619117,
     "display_name": "12559, Müggelheim, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "major-portals:schellendorffstraße 14199 berlin": {
+    "lat": 52.4758026,
+    "lon": 13.2847192,
+    "display_name": "Schellendorffstraße, Schmargendorf, Charlottenburg-Wilmersdorf, Berlin, 14199, Deutschland"
+  },
+  "expanded15:12555 berlin": {
+    "lat": 52.4628393,
+    "lon": 13.578872,
+    "display_name": "12555, Köpenick, Treptow-Köpenick, Berlin, Deutschland"
   }
 }
