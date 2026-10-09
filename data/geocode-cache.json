@@ -3279,5 +3279,26 @@
     "lat": 52.5497674,
     "lon": 13.5061264,
     "display_name": "13053, Alt-Hohenschönhausen, Lichtenberg, Berlin, Deutschland"
+  },
+  "europe berlin deutschland": {
+    "lat": 52.5138731,
+    "lon": 13.3787346,
+    "display_name": "Denkmal für die ermordeten Juden Europas, 1, Cora-Berliner-Straße, Friedrich-Wilhelm-Stadt, Mitte, Berlin, 10117, Deutschland"
+  },
+  "12059 berlin deutschland": {
+    "lat": 52.4809088,
+    "lon": 13.4512643,
+    "display_name": "12059, Neukölln, Berlin, Deutschland"
+  },
+  "12209 berlin deutschland": {
+    "lat": 52.4174403,
+    "lon": 13.3291882,
+    "display_name": "12209, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "extra:mullerstr 146 vollzeit publizierung bis 30 10 2026 unbefristet 13353 berlin": null,
+  "major-portals:12489 berlin": {
+    "lat": 52.4357512,
+    "lon": 13.5431249,
+    "display_name": "12489, Adlershof, Treptow-Köpenick, Berlin, Deutschland"
   }
 }
