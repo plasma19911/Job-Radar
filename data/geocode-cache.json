@@ -3300,5 +3300,11 @@
     "lat": 52.4357512,
     "lon": 13.5431249,
     "display_name": "12489, Adlershof, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "extra:klosterstraße 59 publizierung bis 30 10 2026 10179 berlin": null,
+  "expanded15:80331 munchen": {
+    "lat": 48.1359146,
+    "lon": 11.5730984,
+    "display_name": "80331, Altstadt-Lehel, München, Bayern, Deutschland"
   }
 }
