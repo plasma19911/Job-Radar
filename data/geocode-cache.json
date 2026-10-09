@@ -3306,5 +3306,10 @@
     "lat": 48.1359146,
     "lon": 11.5730984,
     "display_name": "80331, Altstadt-Lehel, München, Bayern, Deutschland"
+  },
+  "expanded15:12559 berlin": {
+    "lat": 52.4156269,
+    "lon": 13.6619117,
+    "display_name": "12559, Müggelheim, Treptow-Köpenick, Berlin, Deutschland"
   }
 }
