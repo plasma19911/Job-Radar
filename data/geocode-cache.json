@@ -3342,5 +3342,10 @@
     "lat": 52.3976702,
     "lon": 13.5643398,
     "display_name": "12526, Bohnsdorf, Treptow-Köpenick, Berlin, Schenkendorf-Krummensee, Deutschland"
+  },
+  "berlin friedrichshain deutschland": {
+    "lat": 52.4880036,
+    "lon": 13.4089223,
+    "display_name": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
   }
 }
