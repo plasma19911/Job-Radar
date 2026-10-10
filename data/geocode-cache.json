@@ -3327,5 +3327,20 @@
     "lon": 14.364282,
     "display_name": "15324, Letschin, Altbarnim, Märkisch-Oderland, Brandenburg, Deutschland"
   },
-  "extra:yorckstr 4 11 4 310 6 626 eur publizierung bis 23 10 2026 unbefristet 10965 berlin": null
+  "extra:yorckstr 4 11 4 310 6 626 eur publizierung bis 23 10 2026 unbefristet 10965 berlin": null,
+  "fresh-local:stadtrandstraße 555 561 13589 berlin": {
+    "lat": 52.5553162,
+    "lon": 13.1544365,
+    "display_name": "Stadtrandstraße, Stadtrandsiedlung im Falkenhagener Feld, Falkenhagener Feld, Spandau, Berlin, 13589, Deutschland"
+  },
+  "expanded15:13437 berlin": {
+    "lat": 52.5905818,
+    "lon": 13.3284629,
+    "display_name": "13437, Wittenau, Reinickendorf, Berlin, Deutschland"
+  },
+  "expanded15:12526 berlin": {
+    "lat": 52.3976702,
+    "lon": 13.5643398,
+    "display_name": "12526, Bohnsdorf, Treptow-Köpenick, Berlin, Schenkendorf-Krummensee, Deutschland"
+  }
 }
