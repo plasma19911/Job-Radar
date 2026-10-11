@@ -3347,5 +3347,11 @@
     "lat": 52.4880036,
     "lon": 13.4089223,
     "display_name": "Apostolische Nuntiatur in Deutschland, 3a, Lilienthalstraße, Graefekiez, Neukölln, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "berlin cologne frankfurt am main hamburg munich deutschland": null,
+  "major-portals:chausseestr 103 10115 berlin": {
+    "lat": 52.532073,
+    "lon": 13.3809433,
+    "display_name": "103, Chausseestraße, Charitéviertel, Mitte, Berlin, 10115, Deutschland"
   }
 }
