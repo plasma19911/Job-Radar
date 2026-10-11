@@ -3353,5 +3353,15 @@
     "lat": 52.532073,
     "lon": 13.3809433,
     "display_name": "103, Chausseestraße, Charitéviertel, Mitte, Berlin, 10115, Deutschland"
+  },
+  "expanded15:15370 fredersdorf vogelsdorf": {
+    "lat": 52.524107,
+    "lon": 13.7530411,
+    "display_name": "Fredersdorf-Vogelsdorf, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "expanded15:20095 hamburg": {
+    "lat": 53.5514245,
+    "lon": 10.0003864,
+    "display_name": "20095, Altstadt, Hamburg-Mitte, Hamburg, Deutschland"
   }
 }
