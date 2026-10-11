@@ -3363,5 +3363,10 @@
     "lat": 53.5514245,
     "lon": 10.0003864,
     "display_name": "20095, Altstadt, Hamburg-Mitte, Hamburg, Deutschland"
+  },
+  "berlin munich bavaria deutschland": {
+    "lat": 48.1323609,
+    "lon": 11.5648878,
+    "display_name": "Berlin Döner Express, 7, Lindwurmstraße, Am Alten Südlichen Friedhof, Klinikviertel, Ludwigsvorstadt, Ludwigsvorstadt-Isarvorstadt, München, Bayern, 80337, Deutschland"
   }
 }
