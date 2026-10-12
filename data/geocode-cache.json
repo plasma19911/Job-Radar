@@ -3368,5 +3368,21 @@
     "lat": 48.1323609,
     "lon": 11.5648878,
     "display_name": "Berlin Döner Express, 7, Lindwurmstraße, Am Alten Südlichen Friedhof, Klinikviertel, Ludwigsvorstadt, Ludwigsvorstadt-Isarvorstadt, München, Bayern, 80337, Deutschland"
+  },
+  "de brandenburg berlin deutschland": {
+    "lat": 52.6845573,
+    "lon": 13.605759,
+    "display_name": "CEMEX Deutschland AG, Gieses Plan, Bernau, Barnim, Brandenburg, Deutschland"
+  },
+  "berlin kurfurstendamm deutschland": {
+    "lat": 52.5037701,
+    "lon": 13.3299412,
+    "display_name": "Berlin, 21, Kurfürstendamm, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10719, Deutschland"
+  },
+  "extra:mullerstr 146 vollzeit publizierung bis 02 11 2026 unbefristet 13353 berlin": null,
+  "major-portals:marburger str 10 10789 berlin": {
+    "lat": 52.5017657,
+    "lon": 13.3359692,
+    "display_name": "10, Marburger Straße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10789, Deutschland"
   }
 }
