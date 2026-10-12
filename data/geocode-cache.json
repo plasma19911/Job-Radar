@@ -3389,5 +3389,10 @@
     "lat": 51.5699304,
     "lon": 14.3726436,
     "display_name": "2, Gartenstraße, Cantdorf, Kochsdorf, Spremberg, Spree-Neiße, Brandenburg, 03130, Deutschland"
+  },
+  "major-portals:3 hannover": {
+    "lat": 48.1844263,
+    "lon": 11.5038406,
+    "display_name": "3, Hannoverstraße, Alt-Moosach, Moosach, München, Bayern, 80997, Deutschland"
   }
 }
