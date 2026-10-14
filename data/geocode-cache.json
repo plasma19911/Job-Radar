@@ -3396,5 +3396,15 @@
     "display_name": "3, Hannoverstraße, Alt-Moosach, Moosach, München, Bayern, 80997, Deutschland"
   },
   "major-portals:seilerstr 7 78467 konstanz koln konstanz berlin": null,
-  "nokey:new york ny united states": null
+  "nokey:new york ny united states": null,
+  "13158 berlin deutschland": {
+    "lat": 52.5931548,
+    "lon": 13.3834312,
+    "display_name": "13158, Rosenthal, Pankow, Berlin, Deutschland"
+  },
+  "expanded15:13469 berlin": {
+    "lat": 52.6119228,
+    "lon": 13.3416419,
+    "display_name": "13469, Lübars, Reinickendorf, Berlin, Deutschland"
+  }
 }
