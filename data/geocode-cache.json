@@ -3406,5 +3406,11 @@
     "lat": 52.6119228,
     "lon": 13.3416419,
     "display_name": "13469, Lübars, Reinickendorf, Berlin, Deutschland"
+  },
+  "berlin or amsterdam deutschland": null,
+  "12351 berlin deutschland": {
+    "lat": 52.4327469,
+    "lon": 13.4555054,
+    "display_name": "12351, Buckow, Neukölln, Berlin, Deutschland"
   }
 }
