@@ -3457,5 +3457,10 @@
   },
   "nokey:curitiba parana brazil": null,
   "nokey:porto alegre rio grande do sul brazil": null,
-  "nokey:belo horizonte minas gerais brazil": null
+  "nokey:belo horizonte minas gerais brazil": null,
+  "extra:columbiadamm 4 10965 berlin": {
+    "lat": 52.4840193,
+    "lon": 13.3894667,
+    "display_name": "4, Columbiadamm, Manfred-von-Richthofen-Kiez, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 10965, Deutschland"
+  }
 }
