@@ -3414,5 +3414,10 @@
     "display_name": "12351, Buckow, Neukölln, Berlin, Deutschland"
   },
   "berlin dusseldorf munich deutschland": null,
-  "extra:waldschulallee 29 31 unbefristet 14055 berlin": null
+  "extra:waldschulallee 29 31 unbefristet 14055 berlin": null,
+  "major-portals:13055 berlin": {
+    "lat": 52.5402317,
+    "lon": 13.4955793,
+    "display_name": "13055, Alt-Hohenschönhausen, Lichtenberg, Berlin, Deutschland"
+  }
 }
