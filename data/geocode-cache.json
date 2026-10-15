@@ -3439,5 +3439,23 @@
     "lat": 52.4462811,
     "lon": 13.2026019,
     "display_name": "14129, Nikolassee, Steglitz-Zehlendorf, Berlin, Deutschland"
-  }
+  },
+  "13 14 wittenberger straße 19348 perleberg deutschland": {
+    "lat": 53.069115,
+    "lon": 11.8508066,
+    "display_name": "Wittenberger Straße, Perleberg, Prignitz, Brandenburg, 19348, Deutschland"
+  },
+  "major-portals:hennigsdorf": {
+    "lat": 52.6375777,
+    "lon": 13.2057511,
+    "display_name": "Hennigsdorf, Oberhavel, Brandenburg, 16761, Deutschland"
+  },
+  "expanded15:14195 berlin": {
+    "lat": 52.4588979,
+    "lon": 13.2829183,
+    "display_name": "14195, Dahlem, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "nokey:curitiba parana brazil": null,
+  "nokey:porto alegre rio grande do sul brazil": null,
+  "nokey:belo horizonte minas gerais brazil": null
 }
