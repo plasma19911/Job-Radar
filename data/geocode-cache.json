@@ -3419,5 +3419,25 @@
     "lat": 52.5402317,
     "lon": 13.4955793,
     "display_name": "13055, Alt-Hohenschönhausen, Lichtenberg, Berlin, Deutschland"
+  },
+  "major-portals:amthorstraße 12 07545 gera": {
+    "lat": 50.8826495,
+    "lon": 12.0801058,
+    "display_name": "12, Amthorstraße, Untermhaus, Gera, Thüringen, 07545, Deutschland"
+  },
+  "major-portals:16356 ahrensfelde": {
+    "lat": 52.5713397,
+    "lon": 13.5656581,
+    "display_name": "Ahrensfelde, Märkische Allee, Berlin-Ahrensfelde, Marzahn, Marzahn-Hellersdorf, Berlin, 12689, Deutschland"
+  },
+  "expanded15:10405 berlin": {
+    "lat": 52.5351707,
+    "lon": 13.4255542,
+    "display_name": "10405, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "expanded15:14129 berlin": {
+    "lat": 52.4462811,
+    "lon": 13.2026019,
+    "display_name": "14129, Nikolassee, Steglitz-Zehlendorf, Berlin, Deutschland"
   }
 }
