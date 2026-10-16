@@ -3482,5 +3482,10 @@
   "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 06 11 2026 unbefristet 10315 berlin": null,
   "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 06 11 2026 unbefristet 13055 berlin": null,
   "extra:stauffenbergstraße 13 publizierung bis 13 11 2026 unbefristet 10785 berlin": null,
-  "extra:fehrbelliner platz 4 vollzeit publizierung bis 13 11 2026 unbefristet 10707 berlin": null
+  "extra:fehrbelliner platz 4 vollzeit publizierung bis 13 11 2026 unbefristet 10707 berlin": null,
+  "expanded15:14167 berlin": {
+    "lat": 52.421164,
+    "lon": 13.2765595,
+    "display_name": "14167, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  }
 }
