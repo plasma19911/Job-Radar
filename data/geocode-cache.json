@@ -3462,5 +3462,23 @@
     "lat": 52.4840193,
     "lon": 13.3894667,
     "display_name": "4, Columbiadamm, Manfred-von-Richthofen-Kiez, Gartenstadt Neu-Tempelhof, Tempelhof, Tempelhof-Schöneberg, Berlin, 10965, Deutschland"
-  }
+  },
+  "berlin office hq deutschland": {
+    "lat": 52.4397381,
+    "lon": 13.2857854,
+    "display_name": "U. S. Embassy Office Berlin General Services Facility, 54-66, Lichterfelde West, Lichterfelde, Steglitz-Zehlendorf, Berlin, 12205, Deutschland"
+  },
+  "sydower fließ deutschland": {
+    "lat": 52.7317754,
+    "lon": 13.7090393,
+    "display_name": "Sydower Fließ, Biesenthal-Barnim, Sydow, Barnim, Brandenburg, Deutschland"
+  },
+  "extra:konigstr 5 14163 berlin": {
+    "lat": 52.4343345,
+    "lon": 13.2541955,
+    "display_name": "5, Königstraße, Zehlendorf, Steglitz-Zehlendorf, Berlin, 14163, Deutschland"
+  },
+  "extra:puttkamerstr 16 18 publiziert 16 10 2026 publizierung bis 30 10 2026 10969 berlin": null,
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 06 11 2026 unbefristet 10315 berlin": null,
+  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 06 11 2026 unbefristet 13055 berlin": null
 }
