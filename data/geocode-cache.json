@@ -3487,5 +3487,26 @@
     "lat": 52.421164,
     "lon": 13.2765595,
     "display_name": "14167, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
-  }
+  },
+  "berlin dusseldorf deutschland": {
+    "lat": 51.2243298,
+    "lon": 6.7767472,
+    "display_name": "LIEBESKIND Berlin, 17, Grabenstraße, Stadtmitte, Stadtbezirk 1, Düsseldorf, Nordrhein-Westfalen, 40212, Deutschland"
+  },
+  "direct:13593 berlin": {
+    "lat": 52.5147143,
+    "lon": 13.1674731,
+    "display_name": "13593, Wilhelmstadt, Spandau, Berlin, Deutschland"
+  },
+  "nokey:munster de": {
+    "lat": 51.9625101,
+    "lon": 7.6251879,
+    "address": "Münster, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:bonn de": {
+    "lat": 50.7352621,
+    "lon": 7.1024635,
+    "address": "Bonn, Nordrhein-Westfalen, Deutschland"
+  },
+  "nokey:braga braga portugal": null
 }
