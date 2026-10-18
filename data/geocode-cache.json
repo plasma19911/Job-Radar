@@ -3508,5 +3508,10 @@
     "lon": 7.1024635,
     "address": "Bonn, Nordrhein-Westfalen, Deutschland"
   },
-  "nokey:braga braga portugal": null
+  "nokey:braga braga portugal": null,
+  "13509 berlin deutschland": {
+    "lat": 52.5891435,
+    "lon": 13.3007094,
+    "display_name": "13509, Borsigwalde, Reinickendorf, Berlin, Deutschland"
+  }
 }
