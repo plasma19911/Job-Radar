@@ -3529,5 +3529,16 @@
     "lat": 52.4293034,
     "lon": 13.4905237,
     "display_name": "12357, Rudow, Neukölln, Berlin, Deutschland"
+  },
+  "extra:fehrbelliner platz 4 publizierung bis 02 11 2026 unbefristet 10707 berlin": null,
+  "extra:alt moabit 59 61 10555 berlin": {
+    "lat": 52.5240971,
+    "lon": 13.3277743,
+    "display_name": "Berliner Beauftragte für Datenschutz und Informationsfreiheit, 59-61, Alt-Moabit, Beusselkiez, Moabit, Mitte, Berlin, 10555, Deutschland"
+  },
+  "expanded15:14197 berlin": {
+    "lat": 52.4733609,
+    "lon": 13.311789,
+    "display_name": "14197, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
