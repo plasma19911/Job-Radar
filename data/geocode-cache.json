@@ -3540,5 +3540,10 @@
     "lat": 52.4733609,
     "lon": 13.311789,
     "display_name": "14197, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "extra:frobelstraße 17 10405 berlin": {
+    "lat": 52.5413185,
+    "lon": 13.4274087,
+    "display_name": "Bezirksamt Pankow, 17, Fröbelstraße, Göhrener Ei, Winsviertel, Prenzlauer Berg, Pankow, Berlin, 10405, Deutschland"
   }
 }
