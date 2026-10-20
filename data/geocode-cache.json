@@ -3546,5 +3546,10 @@
     "lon": 13.4274087,
     "display_name": "Bezirksamt Pankow, 17, Fröbelstraße, Göhrener Ei, Winsviertel, Prenzlauer Berg, Pankow, Berlin, 10405, Deutschland"
   },
-  "berlin chemnitz sachsen dresden sachsen deutschland": null
+  "berlin chemnitz sachsen dresden sachsen deutschland": null,
+  "expanded15:10555 berlin": {
+    "lat": 52.5215243,
+    "lon": 13.3355118,
+    "display_name": "10555, Moabit, Mitte, Berlin, Deutschland"
+  }
 }
