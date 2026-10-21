@@ -3556,5 +3556,26 @@
     "lat": 52.5716442,
     "lon": 13.3922019,
     "display_name": "10, Leonhard-Frank-Straße, Schönholz, Niederschönhausen, Pankow, Berlin, 13156, Deutschland"
+  },
+  "extra:voltairestraße 2 dg mitte publizierung bis 04 11 2026 befristet 10179 berlin": null,
+  "major-portals:13407 berlin": {
+    "lat": 52.5726,
+    "lon": 13.3509039,
+    "display_name": "13407, Reinickendorf, Berlin, Deutschland"
+  },
+  "expanded15:12627 berlin": {
+    "lat": 52.5371592,
+    "lon": 13.613388,
+    "display_name": "12627, Hellersdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "expanded15:10585 berlin": {
+    "lat": 52.5152076,
+    "lon": 13.3056792,
+    "display_name": "10585, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "expanded15:12347 berlin": {
+    "lat": 52.4508767,
+    "lon": 13.428155,
+    "display_name": "12347, Britz, Neukölln, Berlin, Deutschland"
   }
 }
