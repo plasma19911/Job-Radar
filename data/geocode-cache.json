@@ -3577,5 +3577,11 @@
     "lat": 52.4508767,
     "lon": 13.428155,
     "display_name": "12347, Britz, Neukölln, Berlin, Deutschland"
+  },
+  "potsdam germany deutschland": null,
+  "großraschen deutschland": {
+    "lat": 51.5883265,
+    "lon": 14.0123136,
+    "display_name": "Großräschen, Oberspreewald-Lausitz, Brandenburg, 01983, Deutschland"
   }
 }
