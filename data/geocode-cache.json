@@ -3590,5 +3590,27 @@
     "display_name": "10559, Moabit, Mitte, Berlin, Deutschland"
   },
   "extra:turmstr 21 haus a berufserfahrung junior level 10559 berlin": null,
-  "extra:frankfurter allee 35 37 publiziert 22 10 2026 publizierung bis 12 11 2026 befristet 10247 berlin": null
+  "extra:frankfurter allee 35 37 publiziert 22 10 2026 publizierung bis 12 11 2026 befristet 10247 berlin": null,
+  "15913 markische heide deutschland": {
+    "lat": 51.9911416,
+    "lon": 14.0940042,
+    "display_name": "15913, Glietz, Märkische Heide, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "10115 berlin wedding deutschland": {
+    "lat": 52.5446417,
+    "lon": 13.3668828,
+    "display_name": "Apotheker ohne Grenzen Deutschland e.V., 50, Gerichtstraße, Antonkiez, Wedding, Mitte, Berlin, 13347, Deutschland"
+  },
+  "10119 berlin deutschland": {
+    "lat": 52.5304785,
+    "lon": 13.4053272,
+    "display_name": "10119, Mitte, Berlin, Deutschland"
+  },
+  "12157 berlin steglitz deutschland": {
+    "lat": 52.4520281,
+    "lon": 13.3151191,
+    "display_name": "TotalEnergies Marketing Deutschland GmbH, 68, Hindenburgdamm, Steglitz, Steglitz-Zehlendorf, Berlin, 12203, Deutschland"
+  },
+  "extra:bernhard weiß straße 6 publiziert 22 10 2026 unbefristet 10178 berlin": null,
+  "extra:fehrbelliner platz 4 publiziert 22 10 2026 10717 berlin": null
 }
