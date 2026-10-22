@@ -3583,5 +3583,12 @@
     "lat": 51.5883265,
     "lon": 14.0123136,
     "display_name": "Großräschen, Oberspreewald-Lausitz, Brandenburg, 01983, Deutschland"
-  }
+  },
+  "10559 berlin deutschland": {
+    "lat": 52.5300992,
+    "lon": 13.3498858,
+    "display_name": "10559, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "extra:turmstr 21 haus a berufserfahrung junior level 10559 berlin": null,
+  "extra:frankfurter allee 35 37 publiziert 22 10 2026 publizierung bis 12 11 2026 befristet 10247 berlin": null
 }
