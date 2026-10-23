@@ -3646,5 +3646,10 @@
     "lat": 51.457406,
     "lon": 7.0105847,
     "display_name": "45127, Stadtkern, Stadtbezirk I, Essen, Nordrhein-Westfalen, Deutschland"
+  },
+  "major-portals:14467 potsdam": {
+    "lat": 52.4030431,
+    "lon": 13.0670995,
+    "display_name": "14467, Historische Innenstadt, Potsdam, Brandenburg, Deutschland"
   }
 }
