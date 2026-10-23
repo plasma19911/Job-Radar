@@ -3639,5 +3639,12 @@
     "lat": 52.5173885,
     "lon": 13.3951309,
     "display_name": "Berlin, Deutschland"
+  },
+  "berlin chemnitz sachsen dresden sachsen koln nordrhein westfalen munchen bayern deutschland": null,
+  "extra:turmstr 21 teilzeit 10559 berlin": null,
+  "expanded15:45127 essen nordrhein westfalen": {
+    "lat": 51.457406,
+    "lon": 7.0105847,
+    "display_name": "45127, Stadtkern, Stadtbezirk I, Essen, Nordrhein-Westfalen, Deutschland"
   }
 }
