@@ -3612,5 +3612,15 @@
     "display_name": "TotalEnergies Marketing Deutschland GmbH, 68, Hindenburgdamm, Steglitz, Steglitz-Zehlendorf, Berlin, 12203, Deutschland"
   },
   "extra:bernhard weiß straße 6 publiziert 22 10 2026 unbefristet 10178 berlin": null,
-  "extra:fehrbelliner platz 4 publiziert 22 10 2026 10717 berlin": null
+  "extra:fehrbelliner platz 4 publiziert 22 10 2026 10717 berlin": null,
+  "hauptstr 78333 stockach baden deutschland": {
+    "lat": 47.8528217,
+    "lon": 9.0131276,
+    "display_name": "Hauptstraße, Kernstadt, Stockach, VVG der Stadt Stockach, Landkreis Konstanz, Baden-Württemberg, 78333, Deutschland"
+  },
+  "major-portals:15936 oder": {
+    "lat": 49.2883033,
+    "lon": 12.1552913,
+    "display_name": "Oder, Steinberg am See, Wackersdorf (VGem), Landkreis Schwandorf, Bayern, 92449, Deutschland"
+  }
 }
