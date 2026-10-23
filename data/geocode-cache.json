@@ -3622,5 +3622,22 @@
     "lat": 49.2883033,
     "lon": 12.1552913,
     "display_name": "Oder, Steinberg am See, Wackersdorf (VGem), Landkreis Schwandorf, Bayern, 92449, Deutschland"
+  },
+  "prenzlau deutschland": {
+    "lat": 53.3167,
+    "lon": 13.866575,
+    "display_name": "Prenzlau, Uckerfelde, Uckermark, Brandenburg, 17291, Deutschland"
+  },
+  "extra:ba lichtenberg große leege str 103 vollzeit publizierung bis 13 11 2026 unbefristet 13055 berlin": null,
+  "extra:kruppstraße 2 4 10557 berlin": {
+    "lat": 52.5330783,
+    "lon": 13.3551617,
+    "display_name": "1. Bereitschaftspolizeiabteilung, 2-4, Kruppstraße, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland"
+  },
+  "extra:turmstraße 21 lagetsi publizierung bis 06 11 2026 unbefristet 10559 berlin": null,
+  "major-portals:14513 berlin": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
   }
 }
