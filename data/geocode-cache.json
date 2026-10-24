@@ -3692,5 +3692,10 @@
     "lat": 52.5300992,
     "lon": 13.3498858,
     "display_name": "10559, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:14057 berlin": {
+    "lat": 52.507254,
+    "lon": 13.2879423,
+    "display_name": "14057, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
