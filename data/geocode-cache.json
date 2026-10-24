@@ -3651,5 +3651,16 @@
     "lat": 52.4030431,
     "lon": 13.0670995,
     "display_name": "14467, Historische Innenstadt, Potsdam, Brandenburg, Deutschland"
-  }
+  },
+  "major-portals:munzstraße 19 10115 berlin": {
+    "lat": 52.5244103,
+    "lon": 13.4069079,
+    "display_name": "19, Münzstraße, Scheunenviertel, Spandauer Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  },
+  "expanded15:13129 berlin": {
+    "lat": 52.5906704,
+    "lon": 13.4595237,
+    "display_name": "13129, Blankenburg, Pankow, Berlin, Deutschland"
+  },
+  "nokey:amsterdam north holland netherlands berlin berlin germany paris paris france warszawa masovian voivodeship poland": null
 }
