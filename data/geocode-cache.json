@@ -3662,5 +3662,35 @@
     "lon": 13.4595237,
     "display_name": "13129, Blankenburg, Pankow, Berlin, Deutschland"
   },
-  "nokey:amsterdam north holland netherlands berlin berlin germany paris paris france warszawa masovian voivodeship poland": null
+  "nokey:amsterdam north holland netherlands berlin berlin germany paris paris france warszawa masovian voivodeship poland": null,
+  "villingen schwenningen deutschland": {
+    "lat": 48.063152,
+    "lon": 8.4929618,
+    "display_name": "Villingen-Schwenningen, VVG der Stadt Villingen-Schwenningen, Schwarzwald-Baar-Kreis, Baden-Württemberg, Deutschland"
+  },
+  "alexanderplatz 2 10178 berlin deutschland": {
+    "lat": 52.5236774,
+    "lon": 13.412996,
+    "display_name": "2, Alexanderstraße, Rosenthaler Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  },
+  "expanded15:10719 berlin": {
+    "lat": 52.4988653,
+    "lon": 13.3256921,
+    "display_name": "10719, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "expanded15:10825 berlin": {
+    "lat": 52.4838019,
+    "lon": 13.3412765,
+    "display_name": "10825, Schöneberg, Tempelhof-Schöneberg, Berlin, Deutschland"
+  },
+  "expanded15:10557 berlin": {
+    "lat": 52.52324,
+    "lon": 13.359503,
+    "display_name": "10557, Moabit, Mitte, Berlin, Deutschland"
+  },
+  "expanded15:10559 berlin": {
+    "lat": 52.5300992,
+    "lon": 13.3498858,
+    "display_name": "10559, Moabit, Mitte, Berlin, Deutschland"
+  }
 }
