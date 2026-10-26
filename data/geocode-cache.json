@@ -3698,5 +3698,10 @@
     "lon": 13.2879423,
     "display_name": "14057, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   },
-  "berlin brandenburg germany deutschland": null
+  "berlin brandenburg germany deutschland": null,
+  "extra:buschkrugallee 95 12359 berlin": {
+    "lat": 52.4553037,
+    "lon": 13.4508458,
+    "display_name": "Soziale Dienste der Justiz, 95, Buschkrugallee, Greenpark, Britz, Neukölln, Berlin, 12359, Deutschland"
+  }
 }
