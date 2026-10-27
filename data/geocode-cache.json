@@ -3723,5 +3723,16 @@
     "lat": 52.5402317,
     "lon": 13.4955793,
     "display_name": "13055, Alt-Hohenschönhausen, Lichtenberg, Berlin, Deutschland"
+  },
+  "lindendorf deutschland": {
+    "lat": 52.4948224,
+    "lon": 14.4361769,
+    "display_name": "Lindendorf, Seelow-Land, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "extra:ba lichtenberg alt friedrichsfelde 60 vollzeit publizierung bis 27 11 2026 unbefristet 10315 berlin": null,
+  "expanded15:13465 berlin": {
+    "lat": 52.6399012,
+    "lon": 13.2895647,
+    "display_name": "13465, Frohnau, Reinickendorf, Berlin, Deutschland"
   }
 }
