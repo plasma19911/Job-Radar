@@ -3734,5 +3734,10 @@
     "lat": 52.6399012,
     "lon": 13.2895647,
     "display_name": "13465, Frohnau, Reinickendorf, Berlin, Deutschland"
+  },
+  "expanded15:10717 berlin": {
+    "lat": 52.490807,
+    "lon": 13.3275252,
+    "display_name": "10717, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
