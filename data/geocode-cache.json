@@ -3750,5 +3750,27 @@
     "display_name": "12351, Buckow, Neukölln, Berlin, Deutschland"
   },
   "nokey:irving tx united states newark nj united states phoenix az united states": null,
-  "extra:fehrbelliner platz 1 fehrbelliner platz publizierung bis 11 11 2026 unbefristet 10707 berlin": null
+  "extra:fehrbelliner platz 1 fehrbelliner platz publizierung bis 11 11 2026 unbefristet 10707 berlin": null,
+  "berlin kopenicker straße 154 10997 berlin deutschland": null,
+  "berlin zimmerstraße 79 80 10117 berlin deutschland": {
+    "lat": 52.5078413,
+    "lon": 13.3909542,
+    "display_name": "World Food Programme Berlin, 79-80, Zimmerstraße, Friedrichstadt, Mitte, Berlin, 10117, Deutschland"
+  },
+  "bonn berlin munchen deutschland": null,
+  "13156 berlin deutschland": {
+    "lat": 52.5824656,
+    "lon": 13.3999104,
+    "display_name": "13156, Niederschönhausen, Pankow, Berlin, Deutschland"
+  },
+  "lutzowstraße 106 10785 berlin deutschland": {
+    "lat": 52.5013011,
+    "lon": 13.3686369,
+    "display_name": "106, Lützowstraße, Tiergarten, Mitte, Berlin, 10785, Deutschland"
+  },
+  "nokey:orlando": {
+    "lat": 52.5242253,
+    "lon": 13.4093448,
+    "address": "Orlando, 2, Münzstraße, Scheunenviertel, Spandauer Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  }
 }
