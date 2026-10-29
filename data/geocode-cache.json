@@ -3772,5 +3772,13 @@
     "lat": 52.5242253,
     "lon": 13.4093448,
     "address": "Orlando, 2, Münzstraße, Scheunenviertel, Spandauer Vorstadt, Mitte, Berlin, 10178, Deutschland"
-  }
+  },
+  "rudersdorf bei berlin deutschland": {
+    "lat": 52.4837112,
+    "lon": 13.8288504,
+    "display_name": "Rüdersdorf bei Berlin, Märkisch-Oderland, Brandenburg, Deutschland"
+  },
+  "extra:fehrbelliner platz 4 publizierung bis 26 11 2026 befristet 10707 berlin": null,
+  "extra:mullerstr 146 kaufmannische berufe sonstige vollzeit publizierung bis 12 11 2026 13353 berlin": null,
+  "extra:mullerstr 146 vollzeit publizierung bis 12 11 2026 unbefristet 13353 berlin": null
 }
