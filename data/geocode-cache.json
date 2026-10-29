@@ -3780,5 +3780,11 @@
   },
   "extra:fehrbelliner platz 4 publizierung bis 26 11 2026 befristet 10707 berlin": null,
   "extra:mullerstr 146 kaufmannische berufe sonstige vollzeit publizierung bis 12 11 2026 13353 berlin": null,
-  "extra:mullerstr 146 vollzeit publizierung bis 12 11 2026 unbefristet 13353 berlin": null
+  "extra:mullerstr 146 vollzeit publizierung bis 12 11 2026 unbefristet 13353 berlin": null,
+  "12623 berlin mahlsdorf deutschland": {
+    "lat": 52.5025905,
+    "lon": 13.616542,
+    "display_name": "12623, Mahlsdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "extra:mullerstr 146 vollzeit publizierung bis 19 11 2026 unbefristet 13353 berlin": null
 }
