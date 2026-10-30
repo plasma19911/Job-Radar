@@ -3823,5 +3823,10 @@
     "lon": 13.4648062,
     "display_name": "10245, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   },
-  "nokey:amsterdam north holland netherlands berlin berlin germany uk": null
+  "nokey:amsterdam north holland netherlands berlin berlin germany uk": null,
+  "15848 rietz neuendorf deutschland": {
+    "lat": 52.2442346,
+    "lon": 14.1825284,
+    "display_name": "Rietz-Neuendorf, Oder-Spree, Brandenburg, Deutschland"
+  }
 }
