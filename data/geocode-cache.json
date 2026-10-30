@@ -3812,5 +3812,16 @@
     "lat": 52.4473406,
     "lon": 13.4531702,
     "display_name": "12359, Britz, Neukölln, Berlin, Deutschland"
-  }
+  },
+  "14055 berlin deutschland": {
+    "lat": 52.501928,
+    "lon": 13.2447413,
+    "display_name": "14055, Grunewald, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "10245 berlin deutschland": {
+    "lat": 52.5006167,
+    "lon": 13.4648062,
+    "display_name": "10245, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "nokey:amsterdam north holland netherlands berlin berlin germany uk": null
 }
