@@ -3791,5 +3791,26 @@
     "lat": 52.5132257,
     "lon": 13.2834596,
     "display_name": "1, Epiphanienweg, Villenkolonie Westend, Westend, Charlottenburg-Wilmersdorf, Berlin, 14059, Deutschland"
+  },
+  "luckau deutschland": {
+    "lat": 51.8524163,
+    "lon": 13.7150055,
+    "display_name": "Luckau, Pitschen-Pickel, Dahme-Spreewald, Brandenburg, Deutschland"
+  },
+  "extra:mariannenplatz 2 10997 berlin": {
+    "lat": 52.504544,
+    "lon": 13.4233799,
+    "display_name": "2, Mariannenplatz, Reichenberger kiez, Luisenstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10997, Deutschland"
+  },
+  "extra:yorckstr 4 11 10965 berlin": {
+    "lat": 52.493864,
+    "lon": 13.3863961,
+    "display_name": "Rathaus Friedrichshain-Kreuzberg, 4-11, Yorckstraße, Möckernkiez, Tempelhofer Vorstadt, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  },
+  "extra:frankfurter allee 35 37 publizierung bis 13 11 2026 unbefristet 10247 berlin": null,
+  "expanded15:12359 berlin": {
+    "lat": 52.4473406,
+    "lon": 13.4531702,
+    "display_name": "12359, Britz, Neukölln, Berlin, Deutschland"
   }
 }
