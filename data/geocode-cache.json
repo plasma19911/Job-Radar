@@ -3786,5 +3786,10 @@
     "lon": 13.616542,
     "display_name": "12623, Mahlsdorf, Marzahn-Hellersdorf, Berlin, Deutschland"
   },
-  "extra:mullerstr 146 vollzeit publizierung bis 19 11 2026 unbefristet 13353 berlin": null
+  "extra:mullerstr 146 vollzeit publizierung bis 19 11 2026 unbefristet 13353 berlin": null,
+  "epiphanienweg 1 14059 berlin deutschland": {
+    "lat": 52.5132257,
+    "lon": 13.2834596,
+    "display_name": "1, Epiphanienweg, Villenkolonie Westend, Westend, Charlottenburg-Wilmersdorf, Berlin, 14059, Deutschland"
+  }
 }
