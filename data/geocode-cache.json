@@ -3828,5 +3828,15 @@
     "lat": 52.2442346,
     "lon": 14.1825284,
     "display_name": "Rietz-Neuendorf, Oder-Spree, Brandenburg, Deutschland"
+  },
+  "10969 berlin deutschland": {
+    "lat": 52.5024859,
+    "lon": 13.401114,
+    "display_name": "10969, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "berlin bohnsdorf deutschland": {
+    "lat": 52.3922927,
+    "lon": 13.5439609,
+    "display_name": "JFC Deutschland, 72, Alexander-Meißner-Straße, Die Hufen im Seefelde, Bohnsdorf, Treptow-Köpenick, Berlin, Schenkendorf-Krummensee, 12526, Deutschland"
   }
 }
