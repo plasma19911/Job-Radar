@@ -3848,5 +3848,10 @@
     "lat": 52.0462945,
     "lon": 13.5019022,
     "display_name": "Baruth/Mark, Teltow-Fläming, Brandenburg, 15837, Deutschland"
+  },
+  "expanded15:12205 berlin": {
+    "lat": 52.4340332,
+    "lon": 13.2944292,
+    "display_name": "12205, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
   }
 }
