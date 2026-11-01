@@ -3853,5 +3853,10 @@
     "lat": 52.4340332,
     "lon": 13.2944292,
     "display_name": "12205, Lichterfelde, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "12049 berlin deutschland": {
+    "lat": 52.4762368,
+    "lon": 13.422639,
+    "display_name": "12049, Neukölln, Berlin, Deutschland"
   }
 }
