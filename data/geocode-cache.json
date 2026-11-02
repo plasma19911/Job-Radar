@@ -3868,5 +3868,15 @@
     "lat": 51.8211201,
     "lon": 14.5083412,
     "display_name": "Heinersbrück, Amt Peitz, Spree-Neiße, Brandenburg, Deutschland"
+  },
+  "keibelstraße 36 10178 berlin deutschland": {
+    "lat": 52.5247324,
+    "lon": 13.4160442,
+    "display_name": "36, Keibelstraße, Rosenthaler Vorstadt, Mitte, Berlin, 10178, Deutschland"
+  },
+  "expanded15:10249 berlin": {
+    "lat": 52.5238116,
+    "lon": 13.4429595,
+    "display_name": "10249, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   }
 }
