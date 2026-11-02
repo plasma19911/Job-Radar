@@ -3858,5 +3858,10 @@
     "lat": 52.4762368,
     "lon": 13.422639,
     "display_name": "12049, Neukölln, Berlin, Deutschland"
+  },
+  "extra:friesenstraße 16 10965 berlin": {
+    "lat": 52.4862913,
+    "lon": 13.3953388,
+    "display_name": "Polizeiabschnitt 52, 16, Friesenstraße, Chamissokiez, Bergmannkiez, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
   }
 }
