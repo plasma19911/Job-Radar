@@ -3889,5 +3889,26 @@
     "lat": 52.3249014,
     "lon": 13.4104905,
     "display_name": "15827, Blankenfelde, Blankenfelde-Mahlow, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "12249 berlin deutschland": {
+    "lat": 52.4263392,
+    "lon": 13.351697,
+    "display_name": "12249, Lankwitz, Steglitz-Zehlendorf, Berlin, Deutschland"
+  },
+  "10315 berlin deutschland": {
+    "lat": 52.5138679,
+    "lon": 13.5149814,
+    "display_name": "10315, Friedrichsfelde, Lichtenberg, Berlin, Deutschland"
+  },
+  "extra:klosterstraße 59 publizierung bis 13 11 2026 10179 berlin": null,
+  "expanded15:10965 berlin": {
+    "lat": 52.4857603,
+    "lon": 13.3943882,
+    "display_name": "10965, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "expanded15:13627 berlin": {
+    "lat": 52.5399025,
+    "lon": 13.2994065,
+    "display_name": "13627, Charlottenburg-Nord, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   }
 }
