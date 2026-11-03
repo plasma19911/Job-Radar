@@ -3910,5 +3910,15 @@
     "lat": 52.5399025,
     "lon": 13.2994065,
     "display_name": "13627, Charlottenburg-Nord, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "10715 berlin deutschland": {
+    "lat": 52.4824617,
+    "lon": 13.3288885,
+    "display_name": "10715, Wilmersdorf, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "10179 berlin deutschland": {
+    "lat": 52.5121017,
+    "lon": 13.4164365,
+    "display_name": "10179, Mitte, Berlin, Deutschland"
   }
 }
