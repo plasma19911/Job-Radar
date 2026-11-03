@@ -3878,5 +3878,16 @@
     "lat": 52.5238116,
     "lon": 13.4429595,
     "display_name": "10249, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "charlottenburg berlin germany deutschland": null,
+  "10629 berlin deutschland": {
+    "lat": 52.5027773,
+    "lon": 13.3085473,
+    "display_name": "10629, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "15827 blankenfelde mahlow deutschland": {
+    "lat": 52.3249014,
+    "lon": 13.4104905,
+    "display_name": "15827, Blankenfelde, Blankenfelde-Mahlow, Teltow-Fläming, Brandenburg, Deutschland"
   }
 }
