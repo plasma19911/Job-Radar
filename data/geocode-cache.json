@@ -3925,5 +3925,10 @@
     "lat": 50.836529,
     "lon": 12.9289653,
     "display_name": "Sparda-Bank Berlin, Bahnhofstraße, Zentrum, Chemnitz, Lichtenau, Sachsen, 09111, Deutschland"
+  },
+  "nokey:bonn": {
+    "lat": 50.7352621,
+    "lon": 7.1024635,
+    "address": "Bonn, Nordrhein-Westfalen, Deutschland"
   }
 }
