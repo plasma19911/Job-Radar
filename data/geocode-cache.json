@@ -3930,5 +3930,10 @@
     "lat": 50.7352621,
     "lon": 7.1024635,
     "address": "Bonn, Nordrhein-Westfalen, Deutschland"
+  },
+  "major-portals:89073 ulm": {
+    "lat": 48.4039741,
+    "lon": 10.000012,
+    "display_name": "89073, Oststadt, Ulm, Baden-Württemberg, Deutschland"
   }
 }
