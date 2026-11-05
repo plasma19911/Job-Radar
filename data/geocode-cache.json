@@ -3935,5 +3935,10 @@
     "lat": 48.4039741,
     "lon": 10.000012,
     "display_name": "89073, Oststadt, Ulm, Baden-Württemberg, Deutschland"
+  },
+  "joachimsthaler straße 1 10623 berlin deutschland": {
+    "lat": 52.505971,
+    "lon": 13.3317982,
+    "display_name": "1, Joachimsthaler Straße, City West, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 10623, Deutschland"
   }
 }
