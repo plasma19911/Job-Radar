@@ -3959,5 +3959,15 @@
     "lat": 53.2042952,
     "lon": 13.9944072,
     "display_name": "Gramzow, Uckerfelde, Uckermark, Brandenburg, Deutschland"
+  },
+  "biesenthal deutschland": {
+    "lat": 52.7664978,
+    "lon": 13.6289589,
+    "display_name": "Biesenthal, Biesenthal-Barnim, Barnim, Brandenburg, 16359, Deutschland"
+  },
+  "major-portals:14513 oder": {
+    "lat": 49.2883033,
+    "lon": 12.1552913,
+    "display_name": "Oder, Steinberg am See, Wackersdorf (VGem), Landkreis Schwandorf, Bayern, 92449, Deutschland"
   }
 }
