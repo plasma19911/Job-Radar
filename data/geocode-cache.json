@@ -3995,5 +3995,10 @@
     "lat": 54.2213817,
     "lon": 11.0852528,
     "display_name": "Dahme, Kreis Ostholstein, Schleswig-Holstein, 23747, Deutschland"
+  },
+  "major-portals:14467 berlin": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
   }
 }
