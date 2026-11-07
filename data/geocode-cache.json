@@ -3990,5 +3990,10 @@
     "lat": 52.3805562,
     "lon": 13.2685278,
     "display_name": "Teltow, Potsdam-Mittelmark, Brandenburg, 14513, Deutschland"
+  },
+  "major-portals:10115 dahme": {
+    "lat": 54.2213817,
+    "lon": 11.0852528,
+    "display_name": "Dahme, Kreis Ostholstein, Schleswig-Holstein, 23747, Deutschland"
   }
 }
