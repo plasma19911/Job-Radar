@@ -3969,5 +3969,21 @@
     "lat": 49.2883033,
     "lon": 12.1552913,
     "display_name": "Oder, Steinberg am See, Wackersdorf (VGem), Landkreis Schwandorf, Bayern, 92449, Deutschland"
+  },
+  "berlin with travel across dach deutschland": null,
+  "8 henning von tresckow straße 14467 potsdam deutschland": {
+    "lat": 52.3947494,
+    "lon": 13.0536618,
+    "display_name": "Ministerium für Infrastruktur und Landesplanung, 2-8, Henning-von-Tresckow-Straße, Nikolaigärten, Historische Innenstadt, Potsdam, Brandenburg, 14467, Deutschland"
+  },
+  "anklamer straße 26 10115 berlin deutschland": {
+    "lat": 52.5362679,
+    "lon": 13.401058,
+    "display_name": "26, Anklamer Straße, Arkonakiez, Mitte, Berlin, 10115, Deutschland"
+  },
+  "major-portals:15936 potsdam": {
+    "lat": 52.4009309,
+    "lon": 13.0591397,
+    "display_name": "Potsdam, Brandenburg, Deutschland"
   }
 }
