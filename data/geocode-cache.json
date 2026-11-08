@@ -4015,5 +4015,10 @@
     "lat": 52.3850035,
     "lon": 13.2735079,
     "display_name": "14513, Teltow, Potsdam-Mittelmark, Brandenburg, Deutschland"
+  },
+  "major-portals:10115 potsdam": {
+    "lat": 52.4009309,
+    "lon": 13.0591397,
+    "display_name": "Potsdam, Brandenburg, Deutschland"
   }
 }
