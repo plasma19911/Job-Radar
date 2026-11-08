@@ -4020,5 +4020,10 @@
     "lat": 52.4009309,
     "lon": 13.0591397,
     "display_name": "Potsdam, Brandenburg, Deutschland"
+  },
+  "plessa deutschland": {
+    "lat": 51.4639674,
+    "lon": 13.6197111,
+    "display_name": "Plessa, Elbe-Elster, Brandenburg, 04928, Deutschland"
   }
 }
