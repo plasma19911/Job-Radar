@@ -4000,5 +4000,15 @@
     "lat": 52.5173885,
     "lon": 13.3951309,
     "display_name": "Berlin, Deutschland"
+  },
+  "14193 berlin deutschland": {
+    "lat": 52.4831252,
+    "lon": 13.236524,
+    "display_name": "14193, Grunewald, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
+  },
+  "major-portals:schildhornstraße 92 12163 berlin": {
+    "lat": 52.4622858,
+    "lon": 13.3216193,
+    "display_name": "92, Schildhornstraße, Steglitz, Steglitz-Zehlendorf, Berlin, 12163, Deutschland"
   }
 }
