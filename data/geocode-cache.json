@@ -4026,5 +4026,16 @@
     "lon": 13.6197111,
     "display_name": "Plessa, Elbe-Elster, Brandenburg, 04928, Deutschland"
   },
-  "berlin berlin halle saxony anhalt deutschland": null
+  "berlin berlin halle saxony anhalt deutschland": null,
+  "nuthe urstromtal deutschland": {
+    "lat": 52.1311888,
+    "lon": 13.210377,
+    "display_name": "Nuthe-Urstromtal, Teltow-Fläming, Brandenburg, 14947, Deutschland"
+  },
+  "extra:friesenstraße 16 ingenieur 4 178 6 050 eur unbefristet 10965 berlin": null,
+  "major-portals:14770 brandenburg": {
+    "lat": 52.4062539,
+    "lon": 12.5131811,
+    "display_name": "14770, Brandenburg an der Havel, Brandenburg, Deutschland"
+  }
 }
