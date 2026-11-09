@@ -4037,5 +4037,20 @@
     "lat": 52.4062539,
     "lon": 12.5131811,
     "display_name": "14770, Brandenburg an der Havel, Brandenburg, Deutschland"
+  },
+  "13187 berlin deutschland": {
+    "lat": 52.5695591,
+    "lon": 13.4084463,
+    "display_name": "13187, Pankow, Berlin, Deutschland"
+  },
+  "extra:riedemannweg 13627 berlin": {
+    "lat": 52.5451304,
+    "lon": 13.3163159,
+    "display_name": "Riedemannweg, Charlottenburg-Nord, Charlottenburg-Wilmersdorf, Berlin, 13627, Deutschland"
+  },
+  "major-portals:10178 brandenburg": {
+    "lat": 52.522536,
+    "lon": 13.4005319,
+    "display_name": "Medienanstalt Berlin Brandenburg, 1, Kleine Präsidentenstraße, Spandauer Vorstadt, Mitte, Berlin, 10178, Deutschland"
   }
 }
