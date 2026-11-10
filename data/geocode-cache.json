@@ -4057,5 +4057,10 @@
     "lat": 52.5173885,
     "lon": 13.3951309,
     "display_name": "Berlin, Deutschland"
+  },
+  "13059 berlin deutschland": {
+    "lat": 52.5808567,
+    "lon": 13.5216889,
+    "display_name": "13059, Wartenberg, Lichtenberg, Berlin, Deutschland"
   }
 }
