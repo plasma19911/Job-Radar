@@ -4086,5 +4086,16 @@
     "lon": 13.4309511,
     "display_name": "Theater unterm Dach, 101, Danziger Straße, Winsviertel, Prenzlauer Berg, Pankow, Berlin, 10405, Deutschland"
   },
-  "nokey:phoenix az united states": null
+  "nokey:phoenix az united states": null,
+  "10785 berlin deutschland": {
+    "lat": 52.50735,
+    "lon": 13.3642193,
+    "display_name": "10785, Tiergarten, Mitte, Berlin, Deutschland"
+  },
+  "extra:oranienstraße 106 publizierung bis 02 12 2026 befristet 10969 berlin": null,
+  "expanded15:12159 berlin": {
+    "lat": 52.4737042,
+    "lon": 13.3369737,
+    "display_name": "12159, Friedenau, Tempelhof-Schöneberg, Berlin, Deutschland"
+  }
 }
