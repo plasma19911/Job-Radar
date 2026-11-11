@@ -4075,5 +4075,16 @@
     "lon": 13.2663686,
     "display_name": "13629, Siemensstadt, Spandau, Berlin, Deutschland"
   },
-  "nokey:amsterdam north holland netherlands berlin berlin germany london england united kingdom new york ny united states toronto ontario canada warszawa masovian voivodeship poland": null
+  "nokey:amsterdam north holland netherlands berlin berlin germany london england united kingdom new york ny united states toronto ontario canada warszawa masovian voivodeship poland": null,
+  "landsberger allee 366 12681 berlin deutschland": {
+    "lat": 52.5346103,
+    "lon": 13.518839,
+    "display_name": "Die Pyramide, 366, Landsberger Allee, Marzahn, Marzahn-Hellersdorf, Berlin, 12681, Deutschland"
+  },
+  "extra:danziger str 101 10405 berlin": {
+    "lat": 52.5375067,
+    "lon": 13.4309511,
+    "display_name": "Theater unterm Dach, 101, Danziger Straße, Winsviertel, Prenzlauer Berg, Pankow, Berlin, 10405, Deutschland"
+  },
+  "nokey:phoenix az united states": null
 }
