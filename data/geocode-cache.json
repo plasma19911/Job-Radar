@@ -4124,5 +4124,12 @@
     "lat": 52.5502808,
     "lon": 13.3825818,
     "display_name": "13357, Gesundbrunnen, Mitte, Berlin, Deutschland"
+  },
+  "extra:fehrbelliner platz 4 vollzeit publizierung bis 10 12 2026 befristet 10707 berlin": null,
+  "extra:fehrbelliner platz 4 publizierung bis 10 12 2026 unbefristet 10707 berlin": null,
+  "expanded15:13467 berlin": {
+    "lat": 52.6171017,
+    "lon": 13.307504,
+    "display_name": "13467, Hermsdorf, Reinickendorf, Berlin, Deutschland"
   }
 }
