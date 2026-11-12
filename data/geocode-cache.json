@@ -4109,5 +4109,20 @@
     "lon": 13.4265584,
     "display_name": "10999, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   },
-  "extra:keithstraße 30 vollzeit 10787 berlin": null
+  "extra:keithstraße 30 vollzeit 10787 berlin": null,
+  "12685 berlin deutschland": {
+    "lat": 52.5390849,
+    "lon": 13.5653647,
+    "display_name": "12685, Marzahn, Marzahn-Hellersdorf, Berlin, Deutschland"
+  },
+  "major-portals:10405 berlin": {
+    "lat": 52.5351707,
+    "lon": 13.4255542,
+    "display_name": "10405, Prenzlauer Berg, Pankow, Berlin, Deutschland"
+  },
+  "expanded15:13357 berlin": {
+    "lat": 52.5502808,
+    "lon": 13.3825818,
+    "display_name": "13357, Gesundbrunnen, Mitte, Berlin, Deutschland"
+  }
 }
