@@ -4098,5 +4098,16 @@
     "lon": 13.3369737,
     "display_name": "12159, Friedenau, Tempelhof-Schöneberg, Berlin, Deutschland"
   },
-  "nokey:newark nj united states phoenix az united states": null
+  "nokey:newark nj united states phoenix az united states": null,
+  "wiesenburg mark deutschland": {
+    "lat": 52.1146266,
+    "lon": 12.4531798,
+    "display_name": "Wiesenburg/Mark, Potsdam-Mittelmark, Brandenburg, 14827, Deutschland"
+  },
+  "10999 berlin deutschland": {
+    "lat": 52.4969288,
+    "lon": 13.4265584,
+    "display_name": "10999, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "extra:keithstraße 30 vollzeit 10787 berlin": null
 }
