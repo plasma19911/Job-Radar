@@ -4146,5 +4146,10 @@
     "lon": 13.3194602,
     "display_name": "10587, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, Deutschland"
   },
-  "nokey:barcelona berlin or madrid deutschland": null
+  "nokey:barcelona berlin or madrid deutschland": null,
+  "nokey:tbilisi": {
+    "lat": 52.5518188,
+    "lon": 13.4080779,
+    "address": "Restorani Tbilisi, 15, Schönfließer Straße, Nordisches Viertel, Prenzlauer Berg, Pankow, Berlin, 10439, Deutschland"
+  }
 }
