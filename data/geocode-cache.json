@@ -4151,5 +4151,10 @@
     "lat": 52.5518188,
     "lon": 13.4080779,
     "address": "Restorani Tbilisi, 15, Schönfließer Straße, Nordisches Viertel, Prenzlauer Berg, Pankow, Berlin, 10439, Deutschland"
+  },
+  "expanded15:14979 großbeeren": {
+    "lat": 52.3621617,
+    "lon": 13.3282555,
+    "display_name": "14979, Kleinbeeren, Großbeeren, Teltow-Fläming, Brandenburg, Deutschland"
   }
 }
