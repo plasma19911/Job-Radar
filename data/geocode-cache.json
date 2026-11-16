@@ -4172,5 +4172,10 @@
     "lon": 13.0400039,
     "display_name": "14621, Pausin, Schönwalde-Glien, Havelland, Brandenburg, Deutschland"
   },
-  "extra:anton saefkow bibliothek vollzeit publizierung bis 04 12 2026 10369 berlin": null
+  "extra:anton saefkow bibliothek vollzeit publizierung bis 04 12 2026 10369 berlin": null,
+  "15 am muhlenberg 14550 groß kreutz havel deutschland": {
+    "lat": 52.4056745,
+    "lon": 12.7284928,
+    "display_name": "Bildungs- und Innovationscampus Handwerk (BIH), 15, Am Mühlenberg, Götz, Groß Kreutz (Havel), Potsdam-Mittelmark, Brandenburg, 14550, Deutschland"
+  }
 }
