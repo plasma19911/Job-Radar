@@ -4182,5 +4182,16 @@
     "lat": 53.0586366,
     "lon": 14.2840858,
     "display_name": "Schwedt/Oder, Uckermark, Brandenburg, 16303, Deutschland"
-  }
+  },
+  "muhlenberge deutschland": {
+    "lat": 52.6643638,
+    "lon": 12.6109572,
+    "display_name": "Mühlenberge, Friesack, Havelland, Brandenburg, Deutschland"
+  },
+  "12555 berlin kopenick deutschland": {
+    "lat": 52.4628393,
+    "lon": 13.578872,
+    "display_name": "12555, Köpenick, Treptow-Köpenick, Berlin, Deutschland"
+  },
+  "nokey:barleben saxony anhalt germany magdeburg saxony anhalt germany": null
 }
