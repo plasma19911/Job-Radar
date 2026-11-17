@@ -4193,5 +4193,21 @@
     "lon": 13.578872,
     "display_name": "12555, Köpenick, Treptow-Köpenick, Berlin, Deutschland"
   },
-  "nokey:barleben saxony anhalt germany magdeburg saxony anhalt germany": null
+  "nokey:barleben saxony anhalt germany magdeburg saxony anhalt germany": null,
+  "berlin sud deutschland": {
+    "lat": 52.4307798,
+    "lon": 13.5403339,
+    "display_name": "MeteoGroup Deutschland GmbH, 20a, Am Studio, WISTA, Adlershof, Treptow-Köpenick, Berlin, 12489, Deutschland"
+  },
+  "14469 potsdam deutschland": {
+    "lat": 52.4271931,
+    "lon": 13.0265212,
+    "display_name": "14469, Bornim, Potsdam, Brandenburg, Deutschland"
+  },
+  "extra:eichborndamm 115 landesarchiv berlin vollzeit publizierung bis 15 12 2026 befristet 13403 berlin": null,
+  "expanded15:13509 berlin": {
+    "lat": 52.5891435,
+    "lon": 13.3007094,
+    "display_name": "13509, Borsigwalde, Reinickendorf, Berlin, Deutschland"
+  }
 }
