@@ -4217,5 +4217,10 @@
   },
   "extra:klosterstr 59 senatsverwaltung fur finanzen publizierung bis 02 12 2026 10179 berlin": null,
   "extra:klosterstr 59 senatsverwaltung fur finanzen 10179 berlin": null,
-  "extra:frobelstr 17 haus 9 in 10405 berlin": null
+  "extra:frobelstr 17 haus 9 in 10405 berlin": null,
+  "berlin spandau deutschland": {
+    "lat": 52.5347694,
+    "lon": 13.1956287,
+    "display_name": "Berlin-Spandau, Seegefelder Straße, Georg-Ramin-Siedlung, Altstadt, Spandau, Berlin, 13597, Deutschland"
+  }
 }
