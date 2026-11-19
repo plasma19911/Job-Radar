@@ -4223,5 +4223,11 @@
     "lon": 13.1956287,
     "display_name": "Berlin-Spandau, Seegefelder Straße, Georg-Ramin-Siedlung, Altstadt, Spandau, Berlin, 13597, Deutschland"
   },
-  "extra:seidelstr 39 publizierung bis 17 12 2026 unbefristet 13507 berlin": null
+  "extra:seidelstr 39 publizierung bis 17 12 2026 unbefristet 13507 berlin": null,
+  "schulzendorf deutschland": {
+    "lat": 52.3643159,
+    "lon": 13.5960911,
+    "display_name": "Schulzendorf, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 15732, Deutschland"
+  },
+  "extra:seidelstr 39 publiziert 19 11 2026 publizierung bis 17 12 2026 unbefristet 13507 berlin": null
 }
