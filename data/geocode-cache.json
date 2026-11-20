@@ -4249,5 +4249,10 @@
     "lat": 52.5006172,
     "lon": 13.4648071,
     "display_name": "10245, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
+  },
+  "berlin adlershof deutschland": {
+    "lat": 52.434735,
+    "lon": 13.5415575,
+    "display_name": "Adlershof, 254-256, Adlergestell, Siedlung am Adlergestell, Adlershof-Nord, Adlershof, Treptow-Köpenick, Berlin, 12489, Deutschland"
   }
 }
