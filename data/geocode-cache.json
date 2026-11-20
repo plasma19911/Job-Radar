@@ -4229,5 +4229,15 @@
     "lon": 13.5960911,
     "display_name": "Schulzendorf, Schenkendorf-Krummensee, Dahme-Spreewald, Brandenburg, 15732, Deutschland"
   },
-  "extra:seidelstr 39 publiziert 19 11 2026 publizierung bis 17 12 2026 unbefristet 13507 berlin": null
+  "extra:seidelstr 39 publiziert 19 11 2026 publizierung bis 17 12 2026 unbefristet 13507 berlin": null,
+  "liebenwalde deutschland": {
+    "lat": 52.866517,
+    "lon": 13.3902046,
+    "display_name": "Liebenwalde, Oberhavel, Brandenburg, 16559, Deutschland"
+  },
+  "charlottenstraße 35 10117 berlin deutschland": {
+    "lat": 52.5161382,
+    "lon": 13.3910029,
+    "display_name": "35, Charlottenstraße, Friedrichswerder, Dorotheenstadt, Mitte, Berlin, 10117, Deutschland"
+  }
 }
