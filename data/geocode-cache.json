@@ -4239,5 +4239,15 @@
     "lat": 52.5161382,
     "lon": 13.3910029,
     "display_name": "35, Charlottenstraße, Friedrichswerder, Dorotheenstadt, Mitte, Berlin, 10117, Deutschland"
+  },
+  "groden deutschland": {
+    "lat": 51.4042122,
+    "lon": 13.5727815,
+    "display_name": "Gröden, Schradenland, Elbe-Elster, Brandenburg, Deutschland"
+  },
+  "expanded15:10245 berlin": {
+    "lat": 52.5006172,
+    "lon": 13.4648071,
+    "display_name": "10245, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, Deutschland"
   }
 }
