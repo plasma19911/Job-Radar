@@ -4264,5 +4264,15 @@
     "lat": 52.7266297,
     "lon": 11.9483258,
     "display_name": "Hohenberg-Krusemark, Arneburg-Goldbeck, Stendal, Sachsen-Anhalt, 39596, Deutschland"
+  },
+  "major-portals:15936 berlin": {
+    "lat": 52.5173885,
+    "lon": 13.3951309,
+    "display_name": "Berlin, Deutschland"
+  },
+  "expanded15:13353 berlin": {
+    "lat": 52.5415792,
+    "lon": 13.3495465,
+    "display_name": "13353, Wedding, Mitte, Berlin, Deutschland"
   }
 }
