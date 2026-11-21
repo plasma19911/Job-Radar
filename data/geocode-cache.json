@@ -4254,5 +4254,10 @@
     "lat": 52.434735,
     "lon": 13.5415575,
     "display_name": "Adlershof, 254-256, Adlergestell, Siedlung am Adlergestell, Adlershof-Nord, Adlershof, Treptow-Köpenick, Berlin, 12489, Deutschland"
+  },
+  "expanded15:10551 berlin": {
+    "lat": 52.5307826,
+    "lon": 13.3370456,
+    "display_name": "10551, Moabit, Mitte, Berlin, Deutschland"
   }
 }
