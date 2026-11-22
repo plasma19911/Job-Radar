@@ -4289,5 +4289,10 @@
     "lat": 51.2254018,
     "lon": 6.7763137,
     "address": "Düsseldorf, Nordrhein-Westfalen, Deutschland"
+  },
+  "major-portals:15936 dahme": {
+    "lat": 51.881357,
+    "lon": 13.427377,
+    "display_name": "15936, Dahme/Mark, Teltow-Fläming, Brandenburg, Deutschland"
   }
 }
