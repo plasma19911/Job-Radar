@@ -4279,5 +4279,15 @@
     "lat": 52.5738358,
     "lon": 13.0817506,
     "display_name": "14612, Falkensee, Havelland, Brandenburg, Deutschland"
+  },
+  "major-portals:10115 teltow": {
+    "lat": 52.3805562,
+    "lon": 13.2685278,
+    "display_name": "Teltow, Potsdam-Mittelmark, Brandenburg, 14513, Deutschland"
+  },
+  "nokey:dusseldorf": {
+    "lat": 51.2254018,
+    "lon": 6.7763137,
+    "address": "Düsseldorf, Nordrhein-Westfalen, Deutschland"
   }
 }
