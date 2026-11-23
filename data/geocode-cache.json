@@ -4299,5 +4299,15 @@
     "lat": 51.881357,
     "lon": 13.427377,
     "display_name": "15936, Dahme/Mark, Teltow-Fläming, Brandenburg, Deutschland"
+  },
+  "major-portals:14513 dahme": {
+    "lat": 54.2213817,
+    "lon": 11.0852528,
+    "display_name": "Dahme, Kreis Ostholstein, Schleswig-Holstein, 23747, Deutschland"
+  },
+  "expanded15:13405 berlin": {
+    "lat": 52.5589025,
+    "lon": 13.2978794,
+    "display_name": "13405, Tegel, Reinickendorf, Berlin, Deutschland"
   }
 }
