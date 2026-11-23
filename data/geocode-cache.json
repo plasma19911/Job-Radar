@@ -4309,5 +4309,10 @@
     "lat": 52.5589025,
     "lon": 13.2978794,
     "display_name": "13405, Tegel, Reinickendorf, Berlin, Deutschland"
+  },
+  "extra:frankfurter allee 35 37 10247 berlin": {
+    "lat": 52.515615,
+    "lon": 13.4623106,
+    "display_name": "EDEKA, 35-37, Frankfurter Allee, Samariterviertel, Friedrichshain, Friedrichshain-Kreuzberg, Berlin, 10247, Deutschland"
   }
 }
