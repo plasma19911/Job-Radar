@@ -4317,5 +4317,10 @@
   },
   "berlin bessemerstraße 42a deutschland": null,
   "berlin dusseldorf hamburg deutschland": null,
-  "extra:frankfurter allee 35 37 teilzeit 10247 berlin": null
+  "extra:frankfurter allee 35 37 teilzeit 10247 berlin": null,
+  "nokey:estonia": {
+    "lat": 52.5084562,
+    "lon": 13.3591819,
+    "address": "Botschaft der Republik Estland, 5, Hildebrandstraße, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland"
+  }
 }
