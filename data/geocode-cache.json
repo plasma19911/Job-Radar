@@ -4322,5 +4322,15 @@
     "lat": 52.5084562,
     "lon": 13.3591819,
     "address": "Botschaft der Republik Estland, 5, Hildebrandstraße, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland"
+  },
+  "extra:keithstraße 30 10787 berlin": {
+    "lat": 52.5048011,
+    "lon": 13.3468519,
+    "display_name": "30, Keithstraße, Tiergarten, Mitte, Berlin, 10787, Deutschland"
+  },
+  "expanded15:39576 stendal": {
+    "lat": 52.5851648,
+    "lon": 11.7838787,
+    "display_name": "39576, Tornau, Döbbelin-Tornau, Stendal, Sachsen-Anhalt, Deutschland"
   }
 }
