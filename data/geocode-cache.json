@@ -4332,5 +4332,15 @@
     "lat": 52.5851648,
     "lon": 11.7838787,
     "display_name": "39576, Tornau, Döbbelin-Tornau, Stendal, Sachsen-Anhalt, Deutschland"
+  },
+  "72250 freudenstadt deutschland": {
+    "lat": 48.4797782,
+    "lon": 8.4144506,
+    "display_name": "72250, Wittlensweiler, Freudenstadt, VVG der Stadt Freudenstadt, Landkreis Freudenstadt, Baden-Württemberg, Deutschland"
+  },
+  "13088 berlin deutschland": {
+    "lat": 52.5601311,
+    "lon": 13.4717885,
+    "display_name": "13088, Weißensee, Pankow, Berlin, Deutschland"
   }
 }
