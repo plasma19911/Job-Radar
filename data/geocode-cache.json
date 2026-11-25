@@ -4342,5 +4342,15 @@
     "lat": 52.5601311,
     "lon": 13.4717885,
     "display_name": "13088, Weißensee, Pankow, Berlin, Deutschland"
+  },
+  "26759 hinte deutschland": {
+    "lat": 53.4201868,
+    "lon": 7.2104139,
+    "display_name": "26759, Osterhusen, Hinte, Landkreis Aurich, Niedersachsen, Deutschland"
+  },
+  "15898 neuzelle deutschland": {
+    "lat": 52.0630953,
+    "lon": 14.6140246,
+    "display_name": "15898, Schwerzko, Neuzelle, Oder-Spree, Brandenburg, Deutschland"
   }
 }
