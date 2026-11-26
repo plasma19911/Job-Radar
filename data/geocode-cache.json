@@ -4353,5 +4353,15 @@
     "lon": 14.6140246,
     "display_name": "15898, Schwerzko, Neuzelle, Oder-Spree, Brandenburg, Deutschland"
   },
-  "munich berlin kiel cologne deutschland": null
+  "munich berlin kiel cologne deutschland": null,
+  "jaczostraße 2 13595 berlin deutschland": {
+    "lat": 52.5138952,
+    "lon": 13.190726,
+    "display_name": "2, Jaczostraße, Bocksfelde, Wilhelmstadt, Spandau, Berlin, 13595, Deutschland"
+  },
+  "extra:friesenstr 16 10965 berlin": {
+    "lat": 52.4862913,
+    "lon": 13.3953388,
+    "display_name": "Polizeiabschnitt 52, 16, Friesenstraße, Chamissokiez, Bergmannkiez, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
+  }
 }
