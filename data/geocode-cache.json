@@ -4363,5 +4363,28 @@
     "lat": 52.4862913,
     "lon": 13.3953388,
     "display_name": "Polizeiabschnitt 52, 16, Friesenstraße, Chamissokiez, Bergmannkiez, Kreuzberg, Friedrichshain-Kreuzberg, Berlin, 10965, Deutschland"
-  }
+  },
+  "kurfurstenstraße 38 10785 berlin deutschland": {
+    "lat": 52.500447,
+    "lon": 13.3606978,
+    "display_name": "38, Kurfürstenstraße, Lützowviertel, Tiergarten, Mitte, Berlin, 10785, Deutschland"
+  },
+  "berlin marzahn deutschland": {
+    "lat": 52.5511184,
+    "lon": 13.676873,
+    "display_name": "Berlin-Marzahn, A 10, Seeberg Dorf, Seeberg, Altlandsberg, Märkisch-Oderland, Brandenburg, 15345, Deutschland"
+  },
+  "extra:stauffenbergstraße 13 publizierung bis 04 01 2027 unbefristet 10785 berlin": null,
+  "extra:fehrbelliner platz 1 fehrbelliner platz publizierung bis 10 12 2026 unbefristet 10707 berlin": null,
+  "extra:frobelstr 17 10405 berlin": {
+    "lat": 52.5413185,
+    "lon": 13.4274087,
+    "display_name": "Bezirksamt Pankow, 17, Fröbelstraße, Göhrener Ei, Winsviertel, Prenzlauer Berg, Pankow, Berlin, 10405, Deutschland"
+  },
+  "expanded15:97084 wurzburg": {
+    "lat": 49.7404005,
+    "lon": 9.9557916,
+    "display_name": "97084, Heuchelhof, Würzburg, Bayern, Deutschland"
+  },
+  "nokey:auderghem": null
 }
