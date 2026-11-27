@@ -4386,5 +4386,11 @@
     "lon": 9.9557916,
     "display_name": "97084, Heuchelhof, Würzburg, Bayern, Deutschland"
   },
-  "nokey:auderghem": null
+  "nokey:auderghem": null,
+  "munich berlin deutschland": null,
+  "10119 berlin prenzlauer berg deutschland": {
+    "lat": 52.5329959,
+    "lon": 13.4117973,
+    "display_name": "Volt Deutschland, 1, Schwedter Straße, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlin, 10435, Deutschland"
+  }
 }
