@@ -4392,5 +4392,10 @@
     "lat": 52.5329959,
     "lon": 13.4117973,
     "display_name": "Volt Deutschland, 1, Schwedter Straße, Kollwitzkiez, Prenzlauer Berg, Pankow, Berlin, 10435, Deutschland"
+  },
+  "ortrand deutschland": {
+    "lat": 51.3761283,
+    "lon": 13.7576971,
+    "display_name": "Ortrand, Oberspreewald-Lausitz, Brandenburg, Deutschland"
   }
 }
